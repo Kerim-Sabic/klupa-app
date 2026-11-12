@@ -1,0 +1,156 @@
+{
+  "matches": {
+    "title": "Utakmice",
+    "subtitle": "Bilježite utakmicu s ivice terena, pa je pročitajte pošteno.",
+    "new": "Nova utakmica",
+    "loading": "Učitavam utakmice",
+    "loadError": "Vaše utakmice nije bilo moguće učitati.",
+    "empty": {
+      "title": "Još nema utakmica",
+      "body": "Dodajte sljedeću utakmicu. Na dan utakmice ovdje je bilježite jednim palcem."
+    },
+    "status": {
+      "scheduled": "Zakazana",
+      "live": "U toku",
+      "finished": "Završena"
+    },
+    "listScore": "Rezultat: mi {{home}}, oni {{away}}",
+    "openLive": "Bilježi utakmicu: {{opponent}}",
+    "openReview": "Pregled: {{opponent}}",
+    "form": {
+      "title": "Nova utakmica",
+      "opponent": "Protivnik",
+      "opponentHint": "Najviše 60 znakova.",
+      "date": "Datum",
+      "periods": "Dijelovi igre",
+      "periodsOption": "{{number}} dijela",
+      "periodsOptionOne": "1 dio",
+      "minutes": "Minuta po dijelu",
+      "minutesHint": "Od 5 do 60. Upisano je uobičajeno trajanje za uzrast vaše ekipe.",
+      "create": "Dodaj utakmicu",
+      "cancel": "Odustani",
+      "created": "Utakmica je dodana. Možete je bilježiti kad počne.",
+      "errors": {
+        "opponentRequired": "Upišite ime protivnika.",
+        "opponentTooLong": "Ime može imati najviše 60 znakova.",
+        "dateRequired": "Izaberite datum utakmice.",
+        "periodsRange": "Izaberite od 1 do 4 dijela.",
+        "minutesRange": "Upišite cijeli broj od 5 do 60."
+      }
+    },
+    "tagger": {
+      "back": "Utakmice",
+      "title": "Protiv: {{opponent}}",
+      "loading": "Učitavam utakmicu",
+      "loadError": "Ovu utakmicu nije bilo moguće učitati.",
+      "notFound": "Ova utakmica ne postoji ili nije u vašem klubu.",
+      "us": "Mi",
+      "score": "Rezultat",
+      "scoreValue": "Mi {{home}}, {{opponent}} {{away}}",
+      "periodHalf": "{{number}}. poluvrijeme",
+      "periodPart": "{{number}}. dio",
+      "beforeKickOff": "Prije početka",
+      "clockLabel": "Vrijeme utakmice",
+      "finishedTitle": "Utakmica je završena.",
+      "openReview": "Otvori pregled"
+    },
+    "clock": {
+      "controls": "Štoperica",
+      "start": "Počni utakmicu",
+      "pause": "Pauza",
+      "resume": "Nastavi",
+      "end": "Kraj dijela",
+      "next": "Počni {{number}}. dio",
+      "finish": "Završi utakmicu"
+    },
+    "sync": {
+      "saved": "Sve sačuvano",
+      "waiting": "Čeka slanje: {{n}}",
+      "offline": "Van mreže",
+      "offlineWaiting": "Van mreže, čeka slanje: {{n}}",
+      "savedLocally": "Sačuvano na ovom telefonu. Poslat će se kad se veza vrati."
+    },
+    "side": {
+      "label": "Ko je to uradio",
+      "home": "Mi",
+      "away": "Oni"
+    },
+    "kinds": {
+      "goal": "Gol",
+      "shot_on_target": "Udarac u okvir",
+      "shot_off_target": "Udarac van okvira",
+      "big_chance": "Velika šansa",
+      "box_entry": "Ulazak u šesnaesterac",
+      "corner": "Korner",
+      "high_recovery": "Osvojena lopta visoko",
+      "lost_ball_own_half": "Izgubljena lopta na svojoj polovini"
+    },
+    "pad": {
+      "label": "Zabilježi događaj",
+      "saved": "Sačuvano",
+      "ready": "Kad se nešto desi, dodirnite dugme.",
+      "recorded": "{{kind}}: {{side}}, {{clock}}. Zabilježeno.",
+      "disabled": {
+        "before": "Počnite utakmicu da biste bilježili događaje.",
+        "break": "Pauza između dijelova. Počnite sljedeći dio da biste bilježili događaje.",
+        "over": "Svi dijelovi su odigrani. Završite utakmicu kad budete spremni.",
+        "finished": "Utakmica je završena. Ništa se više ne može zabilježiti."
+      }
+    },
+    "feed": {
+      "title": "Posljednji događaji",
+      "empty": "Još ništa nije zabilježeno.",
+      "period": "{{number}}. dio",
+      "chance": "Kvalitet šanse {{value}}",
+      "noLocation": "Bez lokacije",
+      "pending": "Čeka slanje",
+      "failed": "Nije sačuvano",
+      "undo": "Poništi",
+      "undoLabel": "Poništi: {{kind}}, {{clock}}",
+      "undone": "Poništeno.",
+      "undoLast": "Poništi posljednji događaj"
+    },
+    "failed": {
+      "title": "Ovo nije sačuvano",
+      "body": "Server je ovo odbio. Ostaje ovdje dok ne pokušate ponovo ili ga ne uklonite.",
+      "retry": "Pokušajte ponovo",
+      "dismiss": "Ukloni",
+      "status": "Promjena statusa utakmice",
+      "undo": "Poništavanje"
+    },
+    "shot": {
+      "title": "{{kind}}: odakle je upućen udarac?",
+      "pitchLabel": "Napadačka polovina, gol je na vrhu. Dodirnite mjesto odakle je bio udarac. Strelice pomjeraju oznaku, Shift sa strelicom je pomjera dalje.",
+      "noMarker": "Lokacija još nije izabrana.",
+      "marker": "Oko {{metres}} m od gola.",
+      "chance": "Kvalitet šanse {{value}}",
+      "estimate": "Procjena modela treniranog na profesionalnim utakmicama. Koristite je za poređenje šansi, ne kao vjerovatnoću u omladinskom fudbalu.",
+      "header": "Glavom",
+      "freeKick": "Direktni slobodni udarac",
+      "save": "Sačuvaj",
+      "saveWithout": "Sačuvaj bez lokacije"
+    },
+    "lineup": {
+      "open": "Sastav",
+      "title": "Ko je na terenu",
+      "onCount": "Na terenu: {{n}}",
+      "before": "Izaberite ko počinje. Ulaze u 00:00 prvog dijela.",
+      "closed": "Pauza između dijelova. Isti igrači se vraćaju kad počne sljedeći dio; izmjene napravite nakon toga.",
+      "minutes": "{{minutes}} min",
+      "notPlayed": "Još bez minuta",
+      "on": "Na terenu",
+      "toggle": "{{label}}, broj {{number}}",
+      "emptyTitle": "U ekipi nema igrača",
+      "emptyBody": "Dodajte igrače u ekipu da biste pratili minute.",
+      "loadError": "Ekipu nije bilo moguće učitati.",
+      "saveError": "Izmjena sastava nije sačuvana. Provjerite vezu i dodirnite ponovo."
+    },
+    "finish": {
+      "title": "Završiti utakmicu?",
+      "body": "Vrijeme staje, svi igrači izlaze s terena i utakmica ide na pregled. Događaji koji još čekaju na ovom telefonu šalju se prvo.",
+      "confirm": "Završi utakmicu",
+      "cancel": "Nastavi bilježiti"
+    },
+    "showEarlier": "Prikaži ranije utakmice"
+  }
+}

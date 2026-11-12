@@ -1,0 +1,79 @@
+name: Smoke
+
+# Proves that the live site serves the commit that was pushed, with its security
+# headers, and that the database answers and refuses signed-out visitors.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: smoke-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  live:
+    name: Live site serves this commit
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      SITE_URL: ${{ vars.SITE_URL }}
+      SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+      SUPABASE_PUBLISHABLE_KEY: ${{ vars.SUPABASE_PUBLISHABLE_KEY }}
+    steps:
+      - name: Wait until the live origin serves this commit
+        run: |
+          for attempt in $(seq 1 40); do
+            commit=$(curl -fsS "$SITE_URL/healthz.json" | jq -r '.commit' || true)
+            if [ "$commit" = "$GITHUB_SHA" ]; then
+              echo "Live site serves $GITHUB_SHA"
+              exit 0
+            fi
+            echo "Attempt $attempt: live site serves '$commit'; waiting"
+            sleep 15
+          done
+          echo "::error::The live site never served $GITHUB_SHA"
+          exit 1
+
+      - name: Security headers are present
+        run: |
+          headers=$(curl -fsSI "$SITE_URL/")
+          for name in content-security-policy strict-transport-security x-content-type-options \
+            x-frame-options referrer-policy permissions-policy; do
+            echo "$headers" | grep -qi "^$name:" || { echo "::error::Missing header: $name"; exit 1; }
+          done
+
+      - name: The app and its deep links answer
+        run: |
+          for path in / /sign-in /evidence /matches /club/privacy; do
+            curl -fsS -o /dev/null "$SITE_URL$path" || { echo "::error::$path failed"; exit 1; }
+          done
+
+      - name: The health endpoint reaches the database and the sign-in service
+        run: |
+          body=$(curl -fsS "$SITE_URL/api/health")
+          echo "$body" | jq .
+          test "$(echo "$body" | jq -r '.status')" = "ok"
+          test "$(echo "$body" | jq -r '.checks.database.ok')" = "true"
+          test "$(echo "$body" | jq -r '.checks.auth.ok')" = "true"
+          test "$(echo "$body" | jq -r '.commit')" = "$GITHUB_SHA"
+
+      - name: The database health probe answers
+        run: |
+          status=$(curl -fsS -X POST "$SUPABASE_URL/rest/v1/rpc/health" \
+            -H "apikey: $SUPABASE_PUBLISHABLE_KEY" -H "Content-Type: application/json" -d '{}' \
+            | jq -r '.status')
+          test "$status" = "ok"
+
+      - name: A signed-out visitor cannot read any club
+        run: |
+          code=$(curl -s -o /dev/null -w "%{http_code}" "$SUPABASE_URL/rest/v1/clubs?select=id" \
+            -H "apikey: $SUPABASE_PUBLISHABLE_KEY")
+          if [ "$code" != "401" ] && [ "$code" != "403" ]; then
+            echo "::error::Expected the API to refuse a signed-out read, got HTTP $code"
+            exit 1
+          fi

@@ -1,0 +1,194 @@
+{
+  "sessions": {
+    "title": "Trening",
+    "subtitle": "Isplanirajte trening koji odgovara večerašnjim uslovima, a zatim zabilježite ko je došao i kako je prošlo.",
+    "back": "Trening",
+    "list": {
+      "plan": "Planiraj trening",
+      "emptyTitle": "Još nema treninga",
+      "emptyBody": "Isplanirajte prvi: odaberite fokus i vidite šta odgovara igračima, terenu i vremenu kojim raspolažete.",
+      "showEarlier": "Prikaži ranije treninge"
+    },
+    "focus": {
+      "receiving_under_pressure": "Prijem lopte pod pritiskom",
+      "finishing": "Završnica",
+      "one_v_one_attacking": "Jedan na jedan u napadu",
+      "one_v_one_defending": "Jedan na jedan u odbrani",
+      "build_up": "Izgradnja igre iz odbrane",
+      "pressing": "Presing",
+      "transition": "Tranzicija",
+      "passing_combinations": "Kombinacije dodavanja"
+    },
+    "area": {
+      "quarter": "Četvrtina",
+      "half": "Pola",
+      "full": "Cijeli"
+    },
+    "areaFull": {
+      "quarter": "četvrtina terena",
+      "half": "pola terena",
+      "full": "cijeli teren"
+    },
+    "equipment": {
+      "balls": "Lopte",
+      "cones": "Čunjevi",
+      "bibs": "Markeri",
+      "small_goals": "Mali golovi",
+      "full_goals": "Veliki golovi"
+    },
+    "phase": {
+      "warmup": "Zagrijavanje",
+      "main": "Glavna vježba",
+      "game": "Igra"
+    },
+    "status": {
+      "planned": "Planiran",
+      "completed": "Završen",
+      "cancelled": "Otkazan",
+      "saved": {
+        "completed": "Trening je označen kao završen.",
+        "cancelled": "Trening je otkazan."
+      }
+    },
+    "reason": {
+      "MATCHES_FOCUS": "Odgovara fokusu",
+      "OTHER_FOCUS": "Preuzeto iz drugog fokusa",
+      "FITS_PLAYERS": "Odgovara broju igrača",
+      "FITS_SPACE": "Odgovara prostoru",
+      "MOST_REPS": "Najviše pokušaja"
+    },
+    "rejection": {
+      "TOO_FEW_PLAYERS": "Treba najmanje {{players}} igrača",
+      "TOO_MANY_PLAYERS": "Radi najviše za {{players}} igrača",
+      "NOT_ENOUGH_SPACE": "Treba više prostora: najmanje {{area}}",
+      "AGE_GROUP": "Nije prilagođeno ovom uzrastu",
+      "MISSING_EQUIPMENT": "Treba: {{items}}"
+    },
+    "formError": {
+      "UNKNOWN_FOCUS": "Odaberite jedan od ponuđenih fokusa.",
+      "INVALID_DATE": "Unesite ispravan datum.",
+      "INVALID_PLAYERS": "Odaberite između 4 i 30 igrača.",
+      "INVALID_MINUTES": "Odaberite 45, 60, 75 ili 90 minuta.",
+      "UNKNOWN_AREA": "Odaberite veličinu terena.",
+      "UNKNOWN_EQUIPMENT": "Odaberite opremu s liste."
+    },
+    "planner": {
+      "title": "Planiraj trening",
+      "subtitle": "Unesite večerašnje uslove. Plan se mijenja kako ih mijenjate.",
+      "setup": "Večeras",
+      "focus": "Fokus",
+      "date": "Datum",
+      "players": "Očekivani igrači",
+      "playersLess": "Manje očekivanih igrača",
+      "playersMore": "Više očekivanih igrača",
+      "duration": "Trajanje",
+      "minutesShort": "{{minutes}} min",
+      "area": "Veličina terena",
+      "equipment": "Oprema koju imate",
+      "floodlit": "Reflektori",
+      "planTitle": "Vaš trening",
+      "total": "{{minutes}} minuta · oko {{reps}} pokušaja po igraču (procjena)",
+      "range": "{{from}}–{{to}} min",
+      "attempts": "Oko {{reps}} pokušaja po igraču (procjena)",
+      "openBlock": "{{phase}}: {{name}}, {{minutes}} min. Otvori detalje",
+      "fromMatch": "Planirano na osnovu utakmice protiv {{opponent}}."
+    },
+    "drill": {
+      "setup": "Postavka",
+      "coachingPoints": "Na šta obratiti pažnju",
+      "easier": "Lakša verzija",
+      "harder": "Teža verzija"
+    },
+    "fewer": {
+      "title": "Ako dođe manje igrača",
+      "same": "Ista glavna vježba radi sve do {{players}} igrača.",
+      "change": "S {{players}} ili manje igrača, glavna vježba se mijenja u: {{drill}}.",
+      "none": "S {{players}} ili manje igrača, nijedna glavna vježba ne odgovara.",
+      "appears": "S {{players}} ili manje igrača, glavna vježba odgovara: {{drill}}."
+    },
+    "noPlan": {
+      "title": "Večeras nijedna glavna vježba ne odgovara",
+      "body": "Za fokus „{{focus}}“ postavke iznad isključuju sve vježbe koje imamo. Evo zašto je svaka odbačena."
+    },
+    "rotation": {
+      "title": "Pravedna rotacija",
+      "intro": "U svakom krugu ključnu ulogu ima {{slots}} igrača, a svi dolaze na red jednako često.",
+      "noSquad": "Dodajte igrače u ekipu da vidite ko je na redu.",
+      "caption": "Ko ima ključnu ulogu u kojem krugu",
+      "round": "Krug",
+      "players": "Igrači",
+      "roundN": "Krug {{round}}",
+      "turns": "Svaki igrač na red dolazi {{low}} ili {{high}} puta.",
+      "turnsEqual": "Svaki igrač na red dolazi {{turns}} puta."
+    },
+    "save": {
+      "action": "Sačuvaj trening",
+      "ready": "Čuva trening, njegove vježbe i spisak igrača.",
+      "saved": "Trening je sačuvan.",
+      "blockedNoPlan": "Večeras nijedna glavna vježba ne odgovara, pa nema šta da se sačuva. Promijenite postavke iznad.",
+      "blockedDate": "Unesite ispravan datum da biste sačuvali."
+    },
+    "card": {
+      "facts": "{{date}} · {{minutes}} min · {{area}} · {{players}} igrača",
+      "bring": "Ponesite:",
+      "drillMissing": "Ova vježba više nije u biblioteci, pa njeni detalji nisu dostupni."
+    },
+    "notFound": {
+      "title": "Trening nije pronađen",
+      "body": "Možda je obrisan, ili je veza pogrešna.",
+      "action": "Nazad na trening"
+    },
+    "actions": {
+      "print": "Odštampaj",
+      "complete": "Označi kao završen",
+      "cancel": "Označi kao otkazan"
+    },
+    "cancelledNote": "Ovaj trening je otkazan, pa nema prisustva za bilježenje.",
+    "cancelSheet": {
+      "title": "Otkazati ovaj trening?",
+      "body": "Ostaje na vašoj listi kao otkazan. Za otkazan trening se ne bilježi prisustvo.",
+      "keep": "Zadrži",
+      "confirm": "Otkaži trening"
+    },
+    "attendance": {
+      "title": "Prisustvo i zapažanja",
+      "present": "Prisutan",
+      "absent": "Odsutan",
+      "shirt": "Dres",
+      "minutes": "Odigrane minute",
+      "minutesUnit": "min",
+      "minutesLess": "Pet minuta manje za igrača {{player}}",
+      "minutesMore": "Pet minuta više za igrača {{player}}",
+      "noSquadTitle": "U ekipi još nema igrača",
+      "noSquadBody": "Prvo dodajte igrače, pa možete bilježiti ko je došao.",
+      "noSquadAction": "Idi na stranicu kluba"
+    },
+    "effort": {
+      "group": "Napor za igrača {{player}}",
+      "label": "Napor (od 1 do 10)",
+      "rate": "Napor {{rating}} za igrača {{player}}",
+      "easy": "1 · lako",
+      "maximal": "10 · maksimalno",
+      "helper": "Koliko je bilo teško? Pitajte igrača."
+    },
+    "counters": {
+      "attempts": "Pokušaji",
+      "successes": "Uspješni",
+      "attemptsLess": "Ukloni pokušaj za igrača {{player}}",
+      "attemptsMore": "Dodaj pokušaj za igrača {{player}}",
+      "successesLess": "Ukloni uspješan pokušaj za igrača {{player}}",
+      "successesMore": "Dodaj uspješan pokušaj za igrača {{player}}",
+      "rule": "Brojite ono što vidite u fokusu ovog treninga. Uspješnih ne može biti više nego pokušaja."
+    },
+    "summary": {
+      "title": "Sažetak treninga",
+      "present": "Prisutni",
+      "ofExpected": "od {{expected}} očekivanih",
+      "effort": "Prosječan napor",
+      "rated": "ocjena: {{rated}}",
+      "attempts": "Viđeni pokušaji",
+      "notObserved": "Još nisu praćeni",
+      "notObservedHint": "Prisutni, bez ijednog pokušaja"
+    }
+  }
+}

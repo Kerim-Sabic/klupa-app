@@ -1,0 +1,55 @@
+name: Database migrations
+
+# Applies the migrations the project has not seen yet when they reach main, so the schema
+# is changed by the pipeline and not by hand.
+#
+# It needs the repository secret SUPABASE_DB_URL (the project's connection string). Until it
+# is set this workflow reports that and applies nothing; migrations are then applied by hand
+# before the merge, as docs/RUNBOOK.md describes.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'supabase/migrations/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: database-migrations
+  cancel-in-progress: false
+
+jobs:
+  push:
+    name: Apply pending migrations
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+
+      # A run without the secret ends green, so it says on the run's own page that it did
+      # nothing: a green tick alone must not read as "the migrations are applied".
+      - name: Say so when the secret is missing
+        if: env.SUPABASE_DB_URL == ''
+        run: |
+          echo "::warning::SUPABASE_DB_URL is not set, so this run applied no migrations."
+          echo "skipped: secret not set (SUPABASE_DB_URL). No migration was applied." >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: supabase/setup-cli@1dedf2c611547ede7232d26866dd3c56ab903bbb # v1
+        if: env.SUPABASE_DB_URL != ''
+        with:
+          version: 3.1.0
+
+      - name: Show what would be applied
+        if: env.SUPABASE_DB_URL != ''
+        run: supabase db push --db-url "$SUPABASE_DB_URL" --dry-run
+
+      - name: Apply
+        if: env.SUPABASE_DB_URL != ''
+        run: supabase db push --db-url "$SUPABASE_DB_URL"

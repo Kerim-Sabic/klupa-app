@@ -1,0 +1,164 @@
+{
+  "review": {
+    "pageTitle": "Pregled utakmice",
+    "back": "Sve utakmice",
+    "loading": "Učitavam utakmicu",
+    "loadFailed": "Utakmicu nije moguće učitati.",
+    "notFound": {
+      "title": "Ova utakmica nije pronađena",
+      "body": "Možda je obrisana ili pripada drugom klubu."
+    },
+    "title": "Protiv: {{opponent}}",
+    "subtitle": "{{date}} · {{status}}",
+    "status": {
+      "scheduled": "Zakazana",
+      "live": "U toku",
+      "finished": "Završena"
+    },
+    "openTagger": "Otvori unos događaja",
+    "planTraining": "Planiraj trening na osnovu ove utakmice",
+    "scoreText": "Rezultat: {{home}} {{homeGoals}}, {{away}} {{awayGoals}}",
+    "empty": {
+      "title": "Na ovoj utakmici nije zabilježen nijedan događaj",
+      "body": "Bilježite šanse, ulaske u šesnaesterac i osvojene lopte tokom utakmice i pregled će se popuniti ovdje."
+    },
+    "evidenceItem": "{{time}} · {{actor}} · {{kind}} · {{value}}",
+    "kind": {
+      "goal": "Gol",
+      "shot_on_target": "Udarac u okvir gola",
+      "shot_off_target": "Udarac pored gola",
+      "big_chance": "Velika šansa",
+      "box_entry": "Ulazak u šesnaesterac",
+      "corner": "Korner",
+      "high_recovery": "Lopta osvojena visoko",
+      "lost_ball_own_half": "Lopta izgubljena na svojoj polovini"
+    },
+    "top": {
+      "title": "Ko je imao inicijativu",
+      "intro": "Odnos šansi kroz utakmicu i koliko mu možete vjerovati. Povucite prstom preko grafikona da pročitate bilo koji trenutak.",
+      "period": "Period",
+      "periodOption": "{{number}}. period"
+    },
+    "shots": {
+      "title": "Odakle su dolazile šanse",
+      "mapLabel": "Mapa udaraca na napadačkoj polovini, gol je gore. Udarci ekipe {{home}}: {{homeShots}}, prikazani kao krugovi. Udarci ekipe {{away}}: {{awayShots}}, prikazani kao rombovi. Veća oznaka znači bolju šansu; golovi su zaokruženi. Ukupni brojevi slijede ispod.",
+      "goalKey": "Gol",
+      "sizeKey": "Veća oznaka = bolja šansa",
+      "notDrawn": "Nije prikazano: bez označene pozicije {{unplaced}}, s vlastite polovine {{ownHalf}}.",
+      "totals": "Udarci {{shots}} · golovi {{goals}} · kvalitet šansi {{quality}}",
+      "estimateNote": "Kvalitet šansi je procjena kalibrirana na profesionalcima: naš model je istreniran na udarcima iz profesionalnog muškog fudbala, pa za omladinsku ekipu rangira šanse, a ne daje vjerovatnoću gola."
+    },
+    "focus": {
+      "title": "Na čemu raditi",
+      "disclaimer": "Prijedlog na osnovu brojeva, a ne dijagnoza. Uporedite ga s onim što ste vidjeli.",
+      "countsTitle": "Brojevi",
+      "limitTitle": "Šta brojevi ne mogu reći",
+      "plan": "Planiraj trening: {{focus}}",
+      "insufficient": "Još nema dovoljno zabilježenih događaja za prijedlog: zabilježeno {{events}}, potrebno najmanje {{minimum}}.",
+      "none": "U brojevima ove utakmice ništa se ne izdvaja.",
+      "build_up": {
+        "name": "Izgradnja napada",
+        "limit": "Da li su lopte izgubljene zbog rizičnih dodavanja, lošeg prvog dodira ili jednostavno jakog presinga."
+      },
+      "finishing": {
+        "name": "Završnica",
+        "limit": "Da li su ulasci bili prave šanse ili široke, zatrpane pozicije iz kojih udarac nije bio moguć."
+      },
+      "receiving_under_pressure": {
+        "name": "Primanje lopte pod pritiskom",
+        "limit": "Koji su igrači gubili loptu pod pritiskom, ili su im dodavanja stizala presporo."
+      },
+      "pressing": {
+        "name": "Presing",
+        "limit": "Da li je ekipa namjerno branila duboko ili osvojene lopte jednostavno nisu zabilježene."
+      },
+      "one_v_one_defending": {
+        "name": "Odbrana jedan na jedan",
+        "limit": "Da li su šanse došle iz izgubljenih duela, iz prekida ili iz grešaka na drugim mjestima."
+      }
+    },
+    "reason": {
+      "lostOwnHalf": "Lopta izgubljena na našoj polovini: {{lost}}",
+      "entriesWithoutShots": "Ulasci u šesnaesterac: {{entries}}, udarci: {{shots}}",
+      "opponentHighRecoveries": "Protivnik je osvojio loptu visoko na terenu: {{recoveries}}",
+      "fewHighRecoveries": "Naše lopte osvojene visoko: {{ours}} (protivnik: {{theirs}})",
+      "chanceQualityGap": "Kvalitet šansi: mi {{ours}}, protivnik {{theirs}}"
+    },
+    "live": {
+      "connecting": {
+        "label": "Povezujem se.",
+        "body": "Utakmica je još otvorena; stranica će je pratiti kako se događaji bilježe."
+      },
+      "live": {
+        "label": "Uživo.",
+        "body": "Stranica se sama osvježava kako se događaji bilježe, na bilo kojem telefonu."
+      },
+      "offline": {
+        "label": "Praćenje uživo je pauzirano.",
+        "body": "Prikazani su posljednji primljeni događaji. Nastavlja se kad se veza vrati."
+      }
+    },
+    "origins": {
+      "title": "Kako su šanse nastale",
+      "intro": "Šta je zabilježeno u 30 sekundi prije svakog udarca, za vas i za protivnika. Obrazac se vidi samo tamo gdje je uvod u šansu zabilježen.",
+      "caption": "{{team}} · šanse: {{chances}}",
+      "col": {
+        "origin": "Uvod u šansu",
+        "chances": "Šanse",
+        "goals": "Golovi",
+        "quality": "Kvalitet šansi"
+      },
+      "origin": {
+        "pressing": "Nakon osvojene lopte visoko na terenu",
+        "turnover": "Nakon što je druga ekipa izgubila loptu na svojoj polovini",
+        "corner": "Nakon kornera",
+        "other": "Ništa nije zabilježeno prije"
+      },
+      "pattern": "Najčešći uvod: {{origin}} ({{count}} od {{total}} šansi).",
+      "noPattern": "Nijedan uvod se ne izdvaja.",
+      "none": "Nema zabilježenih šansi."
+    },
+    "centre": {
+      "title": "Utakmica uživo",
+      "badge": {
+        "live": "Uživo",
+        "connecting": "Povezujem se",
+        "offline": "Praćenje pauzirano",
+        "open": "U toku"
+      },
+      "half": "{{number}}. poluvrijeme",
+      "part": "{{number}}. dio",
+      "asOf": "{{period}} · posljednji događaj {{clock}}",
+      "noEvents": "Još ništa nije zabilježeno",
+      "now": {
+        "title": "Stanje kod posljednjeg događaja",
+        "favoured": "Inicijativu ima: {{side}}",
+        "level": "Ravnopravno",
+        "unclear": "Nije jasno ko je bolji",
+        "insufficient": "Prerano za zaključak",
+        "detail": {
+          "stable": "Svi periodi se slažu i nijedna šansa to ne bi promijenila.",
+          "event-sensitive": "Počiva na jednoj šansi. Uzmite to kao nagovještaj, ne kao presudu.",
+          "window-sensitive": "Zavisi od toga koliko daleko unazad gledate.",
+          "level": "Šanse na obje strane i nijedan period ne daje prednost.",
+          "insufficient": "U deset minuta prije toga nije zabilježena nijedna šansa."
+        }
+      },
+      "numbers": {
+        "title": "Do sada",
+        "measure": "Mjera",
+        "shots": "Udarci",
+        "onTarget": "U okvir gola",
+        "units": "Kvalitet šansi",
+        "bigChances": "Velike šanse",
+        "boxEntries": "Ulasci u šesnaesterac",
+        "corners": "Korneri",
+        "highRecoveries": "Lopte osvojene visoko"
+      },
+      "latest": {
+        "title": "Posljednje",
+        "empty": "Još ništa nije zabilježeno."
+      }
+    }
+  }
+}

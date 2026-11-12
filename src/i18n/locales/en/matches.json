@@ -1,0 +1,156 @@
+{
+  "matches": {
+    "title": "Matches",
+    "subtitle": "Record a match from the touchline, then read it honestly.",
+    "new": "New match",
+    "loading": "Loading matches",
+    "loadError": "Your matches could not be loaded.",
+    "empty": {
+      "title": "No matches yet",
+      "body": "Add your next match. On match day you record it here with one thumb."
+    },
+    "status": {
+      "scheduled": "Scheduled",
+      "live": "Live",
+      "finished": "Finished"
+    },
+    "listScore": "Score: us {{home}}, them {{away}}",
+    "openLive": "Record {{opponent}}",
+    "openReview": "Review {{opponent}}",
+    "form": {
+      "title": "New match",
+      "opponent": "Opponent",
+      "opponentHint": "Up to 60 characters.",
+      "date": "Date",
+      "periods": "Periods",
+      "periodsOption": "{{number}} periods",
+      "periodsOptionOne": "1 period",
+      "minutes": "Minutes per period",
+      "minutesHint": "5 to 60. The usual length for your age group is filled in.",
+      "create": "Create match",
+      "cancel": "Cancel",
+      "created": "Match added. You can record it when it kicks off.",
+      "errors": {
+        "opponentRequired": "Enter the opponent's name.",
+        "opponentTooLong": "Keep the name to 60 characters or fewer.",
+        "dateRequired": "Choose the match date.",
+        "periodsRange": "Choose 1 to 4 periods.",
+        "minutesRange": "Enter a whole number from 5 to 60."
+      }
+    },
+    "tagger": {
+      "back": "Matches",
+      "title": "vs {{opponent}}",
+      "loading": "Loading the match",
+      "loadError": "This match could not be loaded.",
+      "notFound": "This match does not exist or is not in your club.",
+      "us": "Us",
+      "score": "Score",
+      "scoreValue": "Us {{home}}, {{opponent}} {{away}}",
+      "periodHalf": "Half {{number}}",
+      "periodPart": "Period {{number}}",
+      "beforeKickOff": "Before kick-off",
+      "clockLabel": "Match clock",
+      "finishedTitle": "This match is finished.",
+      "openReview": "Open the review"
+    },
+    "clock": {
+      "controls": "Clock",
+      "start": "Start match",
+      "pause": "Pause",
+      "resume": "Resume",
+      "end": "End period",
+      "next": "Start period {{number}}",
+      "finish": "Finish match"
+    },
+    "sync": {
+      "saved": "All saved",
+      "waiting": "Waiting to send: {{n}}",
+      "offline": "Offline",
+      "offlineWaiting": "Offline, waiting to send: {{n}}",
+      "savedLocally": "Saved on this phone. It will be sent when you are back online."
+    },
+    "side": {
+      "label": "Who did it",
+      "home": "Us",
+      "away": "Them"
+    },
+    "kinds": {
+      "goal": "Goal",
+      "shot_on_target": "Shot on target",
+      "shot_off_target": "Shot off target",
+      "big_chance": "Big chance",
+      "box_entry": "Into the box",
+      "corner": "Corner",
+      "high_recovery": "Won the ball high",
+      "lost_ball_own_half": "Lost the ball in own half"
+    },
+    "pad": {
+      "label": "Record an event",
+      "saved": "Saved",
+      "ready": "Tap a button when something happens.",
+      "recorded": "{{kind}} recorded for {{side}} at {{clock}}.",
+      "disabled": {
+        "before": "Start the match to record events.",
+        "break": "Between periods. Start the next period to record events.",
+        "over": "Every period is over. Finish the match when you are ready.",
+        "finished": "The match is finished. Nothing more can be recorded."
+      }
+    },
+    "feed": {
+      "title": "Last events",
+      "empty": "Nothing recorded yet.",
+      "period": "P{{number}}",
+      "chance": "Chance quality {{value}}",
+      "noLocation": "No location",
+      "pending": "Waiting to send",
+      "failed": "Not saved",
+      "undo": "Undo",
+      "undoLabel": "Undo {{kind}} at {{clock}}",
+      "undone": "Undone.",
+      "undoLast": "Undo the last event"
+    },
+    "failed": {
+      "title": "Could not be saved",
+      "body": "The server refused these. They stay here until you try again or remove them.",
+      "retry": "Try again",
+      "dismiss": "Remove",
+      "status": "Match status change",
+      "undo": "Undo"
+    },
+    "shot": {
+      "title": "{{kind}}: where was it taken from?",
+      "pitchLabel": "Attacking half with the goal at the top. Tap where the shot was taken. Arrow keys move the marker, Shift with an arrow moves it further.",
+      "noMarker": "No location yet.",
+      "marker": "About {{metres}} m from goal.",
+      "chance": "Chance quality {{value}}",
+      "estimate": "An estimate from a model trained on professional matches. Use it to compare chances, not as a probability for youth football.",
+      "header": "Header",
+      "freeKick": "Direct free kick",
+      "save": "Save",
+      "saveWithout": "Save without location"
+    },
+    "lineup": {
+      "open": "Lineup",
+      "title": "Who is on the pitch",
+      "onCount": "On the pitch: {{n}}",
+      "before": "Pick who starts. They go on at 00:00 of the first period.",
+      "closed": "Between periods. The same players go back on when the next period starts; make changes after that.",
+      "minutes": "{{minutes}} min",
+      "notPlayed": "Not played yet",
+      "on": "On the pitch",
+      "toggle": "{{label}}, number {{number}}",
+      "emptyTitle": "No players in the squad",
+      "emptyBody": "Add players to your team to track minutes.",
+      "loadError": "The squad could not be loaded.",
+      "saveError": "The lineup change was not saved. Check your connection and tap again."
+    },
+    "finish": {
+      "title": "Finish the match?",
+      "body": "The clock stops, everyone on the pitch comes off, and the match moves to review. Events still waiting on this phone are sent first.",
+      "confirm": "Finish match",
+      "cancel": "Keep recording"
+    },
+    "showEarlier": "Show earlier matches"
+  }
+}

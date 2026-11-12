@@ -1,0 +1,24 @@
+node_modules
+dist
+coverage
+.env
+.env.*
+*.local
+.DS_Store
+.next
+*.log
+playwright-report
+test-results
+.vercel
+supabase/.temp
+
+# Research workspace
+research/.venv/
+research/data/raw/
+__pycache__/
+
+# Temporary local test session (never committed)
+public/__it_session.json
+
+# Copied from node_modules on install (scripts/vision/copy-assets.mjs)
+public/vision/

@@ -1,0 +1,255 @@
+{
+  "events.zip": {
+    "bytes": 77323413,
+    "sha256": "877e015b716ffdeea18f04418e3f24fed307ed03c37ff305cabe1f47c4822a45"
+  },
+  "matches.zip": {
+    "bytes": 645097,
+    "sha256": "c8f92bb7533e5c127e043cee764c991b5c25b4f5e70a65be931baae0b1765ce9"
+  },
+  "tags2name.csv": {
+    "bytes": 1754,
+    "sha256": "e0bc1bd8ff6ea5339586fdfc3e8e9b285a4a18f1ae2f5868ccc9ec9cecc8a922"
+  },
+  "players.json": {
+    "bytes": 1737347,
+    "sha256": "877a111cb1005b73df5645e9338bd74fb4b496bace2fbc545a72abb3b73efa2e",
+    "figshareMd5Verified": "f28ddf6326281efeda6488b2169f5609"
+  },
+  "teams.json": {
+    "bytes": 27404,
+    "sha256": "9f7a4a3b3d92c0be33f40613ad6e6eb4316c3b9771ec74c61a22c9b8ece23a4d",
+    "figshareMd5Verified": "1381ff9449f21105090729cf0e086b5b"
+  },
+  "_sources": {
+    "events.zip": "https://ndownloader.figshare.com/files/14464685",
+    "matches.zip": "https://ndownloader.figshare.com/files/14464622",
+    "tags2name.csv": "https://ndownloader.figshare.com/files/21385239",
+    "DFL_02_01_matchinformation_DFL-COM-000001_DFL-MAT-J03WN1.xml": "https://ndownloader.figshare.com/files/51643472",
+    "DFL_03_02_events_raw_DFL-COM-000001_DFL-MAT-J03WN1.xml": "https://ndownloader.figshare.com/files/51643496",
+    "DFL_04_03_positions_raw_observed_DFL-COM-000001_DFL-MAT-J03WN1.xml": "https://ndownloader.figshare.com/files/51643517",
+    "players.json": "https://ndownloader.figshare.com/files/15073721",
+    "teams.json": "https://ndownloader.figshare.com/files/15073697",
+    "DFL_02_01_matchinformation_DFL-COM-000001_DFL-MAT-J03WMX.xml": "https://ndownloader.figshare.com/files/51643475",
+    "DFL_03_02_events_raw_DFL-COM-000001_DFL-MAT-J03WMX.xml": "https://ndownloader.figshare.com/files/51643493",
+    "DFL_04_03_positions_raw_observed_DFL-COM-000001_DFL-MAT-J03WMX.xml": "https://ndownloader.figshare.com/files/51643514",
+    "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WOH.xml": "https://ndownloader.figshare.com/files/51643478",
+    "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WOH.xml": "https://ndownloader.figshare.com/files/51643499",
+    "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WOH.xml": "https://ndownloader.figshare.com/files/51643520",
+    "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WOY.xml": "https://ndownloader.figshare.com/files/51643481",
+    "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WOY.xml": "https://ndownloader.figshare.com/files/51643502",
+    "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WOY.xml": "https://ndownloader.figshare.com/files/51643523",
+    "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WPY.xml": "https://ndownloader.figshare.com/files/51643487",
+    "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WPY.xml": "https://ndownloader.figshare.com/files/51643505",
+    "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WPY.xml": "https://ndownloader.figshare.com/files/51643526",
+    "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WQQ.xml": "https://ndownloader.figshare.com/files/51643484",
+    "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WQQ.xml": "https://ndownloader.figshare.com/files/51643508",
+    "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WQQ.xml": "https://ndownloader.figshare.com/files/51643529",
+    "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WR9.xml": "https://ndownloader.figshare.com/files/51643490",
+    "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WR9.xml": "https://ndownloader.figshare.com/files/51643511",
+    "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WR9.xml": "https://ndownloader.figshare.com/files/51643532",
+    "efficientdet_lite0.tflite": "https://storage.googleapis.com/mediapipe-models/object_detector/efficientdet_lite0/float16/latest/efficientdet_lite0.tflite",
+    "pexels-3195366-uhd_3840_2160_25fps.mp4": "https://www.pexels.com/download/video/3195366/"
+  },
+  "_downloaded": "2026-11-11",
+  "_collection": {
+    "title": "Soccer match event dataset",
+    "doi": "10.6084/m9.figshare.c.4415000.v5",
+    "licence": "CC BY 4.0 (checked via the figshare API on 2026-11-11)",
+    "figshareArticles": {
+      "events.zip": 7770599,
+      "matches.zip": 7770422,
+      "players.json": 7765196,
+      "teams.json": 7765310
+    },
+    "licenceNote": "players.json (article 7765196) and teams.json (article 7765310) also state CC BY 4.0 in the figshare API, checked 2026-11-12"
+  },
+  "_dfl_tracking": {
+    "title": "An integrated dataset of spatiotemporal and event data in elite soccer",
+    "doi": "10.6084/m9.figshare.28196177.v1",
+    "licence": "CC BY (https://creativecommons.org/licenses/by/4.0/), read from the figshare API",
+    "figshareArticle": 28196177,
+    "figshareFileIds": {
+      "DFL_02_01_matchinformation_DFL-COM-000001_DFL-MAT-J03WN1.xml": 51643472,
+      "DFL_03_02_events_raw_DFL-COM-000001_DFL-MAT-J03WN1.xml": 51643496,
+      "DFL_04_03_positions_raw_observed_DFL-COM-000001_DFL-MAT-J03WN1.xml": 51643517,
+      "DFL_02_01_matchinformation_DFL-COM-000001_DFL-MAT-J03WMX.xml": 51643475,
+      "DFL_03_02_events_raw_DFL-COM-000001_DFL-MAT-J03WMX.xml": 51643493,
+      "DFL_04_03_positions_raw_observed_DFL-COM-000001_DFL-MAT-J03WMX.xml": 51643514,
+      "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WOH.xml": 51643478,
+      "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WOH.xml": 51643499,
+      "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WOH.xml": 51643520,
+      "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WOY.xml": 51643481,
+      "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WOY.xml": 51643502,
+      "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WOY.xml": 51643523,
+      "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WPY.xml": 51643487,
+      "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WPY.xml": 51643505,
+      "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WPY.xml": 51643526,
+      "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WQQ.xml": 51643484,
+      "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WQQ.xml": 51643508,
+      "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WQQ.xml": 51643529,
+      "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WR9.xml": 51643490,
+      "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WR9.xml": 51643511,
+      "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WR9.xml": 51643532
+    },
+    "matches": [
+      "DFL-MAT-J03WMX",
+      "DFL-MAT-J03WN1",
+      "DFL-MAT-J03WOH",
+      "DFL-MAT-J03WOY",
+      "DFL-MAT-J03WPY",
+      "DFL-MAT-J03WQQ",
+      "DFL-MAT-J03WR9"
+    ],
+    "downloaded": {
+      "J03WN1": "2026-11-11",
+      "J03WMX": "2026-11-12",
+      "J03WOH": "2026-11-12",
+      "J03WOY": "2026-11-12",
+      "J03WPY": "2026-11-12",
+      "J03WQQ": "2026-11-12",
+      "J03WR9": "2026-11-12"
+    },
+    "totals": {
+      "files": 21,
+      "bytes": 2627505889,
+      "positionsBytes": 2622603272,
+      "note": "Size and MD5 of every file equal the figshare API listing; SHA-256 below was computed by research/tracking/download.py."
+    }
+  },
+  "DFL_02_01_matchinformation_DFL-COM-000001_DFL-MAT-J03WN1.xml": {
+    "bytes": 11722,
+    "sha256": "5490286436c86e6f80a538d2b1b379d0efd016e0defcaf594bc59d9ef5079f4c",
+    "figshareMd5Verified": "37b0f85588c0acfb995fe633c7ac2e0d"
+  },
+  "DFL_03_02_events_raw_DFL-COM-000001_DFL-MAT-J03WN1.xml": {
+    "bytes": 612114,
+    "sha256": "d7fa1d4445e3215eb79ec62fabefa4779b4974e496195c2fdc25624c375a9b9b",
+    "figshareMd5Verified": "83e8ed7ea8e8ebbbdc61f61ac3534008"
+  },
+  "DFL_04_03_positions_raw_observed_DFL-COM-000001_DFL-MAT-J03WN1.xml": {
+    "bytes": 391722803,
+    "sha256": "56ef948961a18e150dba0b7b16869d0008ff66f3050a0c355d31fa5b8ec2fcec",
+    "figshareMd5Verified": "bacb2f609c1d1b0bfc906f6b9d4109f2"
+  },
+  "DFL_02_01_matchinformation_DFL-COM-000001_DFL-MAT-J03WMX.xml": {
+    "bytes": 11930,
+    "sha256": "a884728647a564cf8b20e5223a1d04a5da6f6725e1e506c8651505327c197ba9",
+    "figshareMd5Verified": "bc5d5b21dbcf36aa30f4cd0428309f6b"
+  },
+  "DFL_03_02_events_raw_DFL-COM-000001_DFL-MAT-J03WMX.xml": {
+    "bytes": 776578,
+    "sha256": "6f9741ea62e9dee35b604942e1dad2ac0a4dc3fce14ef2f3858aa12b74dafe00",
+    "figshareMd5Verified": "2d88e180a1f63c7e4157feb980fc7255"
+  },
+  "DFL_04_03_positions_raw_observed_DFL-COM-000001_DFL-MAT-J03WMX.xml": {
+    "bytes": 418524833,
+    "sha256": "d3dd92e509421a6466acb0a083c009035f1751bc5fd9ef42ffa8f20d01cf7d49",
+    "figshareMd5Verified": "e4273a2adf5dbd9d4ec42def2f01905c"
+  },
+  "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WOH.xml": {
+    "bytes": 11745,
+    "sha256": "f23b3ee13b988b1ff9a0bce438c416dac47e71355bbc7ee1dab21aaf3e33c18c",
+    "figshareMd5Verified": "b9710781d400dd812f62b0a6e3d7bce8"
+  },
+  "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WOH.xml": {
+    "bytes": 635747,
+    "sha256": "abc27e3268e6126fb3e6e90bff5cca8d4586a5e0cefe9bd59bf32871e89d8544",
+    "figshareMd5Verified": "ab66e51512f39d06f49f27dd3b4c2f40"
+  },
+  "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WOH.xml": {
+    "bytes": 348945715,
+    "sha256": "ec4dcf30200aad694dea263d5289485fcd0ca42badddaeb7c81f5cd5a4229d4f",
+    "figshareMd5Verified": "3efff25a86a61768e7d253b4bba137a3"
+  },
+  "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WOY.xml": {
+    "bytes": 11952,
+    "sha256": "4c497fac683eee8292901c18ca02c0be1d9609d0b9d4bd8aa092c61f9e0b19e9",
+    "figshareMd5Verified": "7b021e577fca917a63111d55cc29ae5b"
+  },
+  "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WOY.xml": {
+    "bytes": 683018,
+    "sha256": "dbb014df1b80d5c99b7fb806a278432c445a5fdd99f59d379d601f20eaf7e142",
+    "figshareMd5Verified": "64b1be01d6ff6848168efebd56f344b9"
+  },
+  "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WOY.xml": {
+    "bytes": 362567859,
+    "sha256": "a228ef0e676d009cefff1580fcb721b53f598454eb120ec347e0a628a3a4646b",
+    "figshareMd5Verified": "4e1063e0a0ae499920cf68ac1aa3ab4e"
+  },
+  "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WPY.xml": {
+    "bytes": 11922,
+    "sha256": "566dd5e4c86e124ab90fcdba51100881f0436e22afa71832945a451a2d95a420",
+    "figshareMd5Verified": "65a4568e4f374af94d3c1015cbc7c4f5"
+  },
+  "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WPY.xml": {
+    "bytes": 698898,
+    "sha256": "e440a3adf9a38d3e4ce4289343a59a3b5f76018a78e97c765114f7817591fb3c",
+    "figshareMd5Verified": "f68482441d38723d69f244f896482803"
+  },
+  "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WPY.xml": {
+    "bytes": 371688499,
+    "sha256": "845202c29ad93d696653436da426a7cdaefb848298e07b7343de6529581671e1",
+    "figshareMd5Verified": "e56ff1336a334f8da51110fbe7cab764"
+  },
+  "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WQQ.xml": {
+    "bytes": 11932,
+    "sha256": "e976aa0c5dba862cfa898ea57ec226efce9d1bc04b23b8d775908db86aa6fa41",
+    "figshareMd5Verified": "5979209af316a914ce57347d0633df6c"
+  },
+  "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WQQ.xml": {
+    "bytes": 732186,
+    "sha256": "b79ccc1ee3de5ba662546a9a21304784642d00a791ccc1175550eaa463ea0074",
+    "figshareMd5Verified": "b7e9d82af4034539d802319be6c57776"
+  },
+  "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WQQ.xml": {
+    "bytes": 356219423,
+    "sha256": "cbefcb0bd7f39f3b94ee69a7bc97aac0f936425062c1cc1b144733df36804d6f",
+    "figshareMd5Verified": "9105bad987191d3c3c362c1fce9a4fcd"
+  },
+  "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WR9.xml": {
+    "bytes": 11823,
+    "sha256": "429b584e89df3e3e8b81f4bd0d004b38bd0b4298bb390b8fb43efccb60963e01",
+    "figshareMd5Verified": "5e2d580d3d8ed97e32959de90d04992b"
+  },
+  "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WR9.xml": {
+    "bytes": 681050,
+    "sha256": "31735a2d7b9008c44cae9b6ac43ab38ddeaa435d0416265ec0ebfebf53b3c982",
+    "figshareMd5Verified": "c13bc5efa5eca4a022cc678210b87d5f"
+  },
+  "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WR9.xml": {
+    "bytes": 372934140,
+    "sha256": "70b63069189019066fb7e3d9db891122edfe787f3a43ba522ebe45ed89ea0269",
+    "figshareMd5Verified": "e060bb7d7a5a3bfbd15bbf9bc631024d"
+  },
+  "efficientdet_lite0.tflite": {
+    "bytes": 7254339,
+    "sha256": "4b59100025bea1235a84c1038879a6cccc9f6c49f5e41144e91e74d99e780993",
+    "storageMd5Verified": "8df894b732bb95a58e0271b93dc65896",
+    "licence": "Apache-2.0",
+    "publisher": "Google MediaPipe (EfficientDet-Lite0, float16)",
+    "servedAs": {
+      "path": "public/models/efficientdet_lite0.tflite",
+      "bytes": 7254339,
+      "sha256": "4b59100025bea1235a84c1038879a6cccc9f6c49f5e41144e91e74d99e780993",
+      "change": "none: served exactly as downloaded"
+    }
+  },
+  "pexels-3195366-uhd_3840_2160_25fps.mp4": {
+    "bytes": 40291237,
+    "sha256": "7407951874f728b11ea0c3175f12b8fca1c69d45fc75319fd2933eb565cef86e",
+    "title": "Group Of Elderly Men Playing A Game Of Soccer",
+    "author": "Pressmaster",
+    "page": "https://www.pexels.com/video/group-of-elderly-men-playing-a-game-of-soccer-3195366/",
+    "licence": "Pexels License",
+    "licenceUrl": "https://www.pexels.com/license/",
+    "downloaded": "2026-11-12",
+    "shows": "Adults in an amateur game on an outdoor pitch. No broadcast footage, no club or tournament marks.",
+    "servedAs": {
+      "path": "public/data/overlay/sample.mp4",
+      "bytes": 574024,
+      "sha256": "cfcb31e994cbdf002d06682784f52fa578b53a2e72f65f034ab5777af8aeb37e",
+      "change": "ffmpeg -ss 0.5 -t 9 -i <source> -an -vf scale=854:480,fps=25 -c:v libx264 -profile:v main -pix_fmt yuv420p -crf 27 -preset slow -movflags +faststart (nine seconds, smaller, no sound)"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "overlay": {
+    "title": "Player overlay",
+    "subtitle": "Pick a video of a match, or point the camera at one. Klupa finds the players in the picture, follows each of them and tells the two teams apart by their shirts, all on this device.",
+    "start": {
+      "title": "Start with a video or the camera",
+      "choose": "Choose a video",
+      "camera": "Use the camera",
+      "tips": "It works best from high up and to the side, with a good part of the pitch in the picture.",
+      "privacy": "Nothing is uploaded. The picture goes from your file or your camera to a model that runs in this browser. No frame, clip or number read from it leaves the device.",
+      "model": "The first time, a 7 MB model is downloaded from this site and then kept on the device.",
+      "sample": "Try it on a sample clip",
+      "sampleCredit": "Sample clip: \"Group of elderly men playing a game of soccer\" by Pressmaster on Pexels, used under the Pexels licence and shortened to nine seconds."
+    },
+    "how": {
+      "title": "What it does",
+      "find": {
+        "title": "Finds the people",
+        "body": "A small open model, EfficientDet-Lite0, looks at each frame and marks every person it sees."
+      },
+      "follow": {
+        "title": "Follows each one",
+        "body": "Boxes that overlap from one frame to the next are the same player, so each keeps one number while in view."
+      },
+      "teams": {
+        "title": "Tells the teams apart",
+        "body": "The colour of each upper body is measured and the colours are split into two groups. Anyone far from both, such as a referee, is drawn white."
+      }
+    },
+    "limits": {
+      "title": "What it cannot do",
+      "position": "Without calibrating the pitch it shows where players are in the picture, not where they are on the pitch. It measures no distance and no speed.",
+      "small": "Players who are small in the picture, such as those on the far side of a full-size pitch, are often missed. The closer and higher the camera, the more it finds.",
+      "numbers": "The numbers are given in the order players are found. They are not shirt numbers, and a player who leaves the picture comes back with a new one.",
+      "crowd": "Players standing behind one another can be merged or swapped. Substitutes, coaches and spectators in the picture are people too, and are counted.",
+      "kits": "Kits of a similar colour cannot be split. The screen then says so and draws everyone white instead of guessing. With only one team in the picture, a referee or a goalkeeper can be taken for the other team.",
+      "tested": "Checked in tests on generated cases, with a test camera and on the sample clip, not yet on a real match filmed from the touchline with a phone."
+    },
+    "live": {
+      "title": "The picture with the overlay",
+      "cameraOn": "Camera is on",
+      "playing": "Video is playing",
+      "paused": "Paused",
+      "fps_one": "{{count}} frame a second analysed",
+      "fps_few": "{{count}} frames a second analysed",
+      "fps_other": "{{count}} frames a second analysed",
+      "starting": "Loading the model: {{loaded}} of {{total}} MB",
+      "stopped": "Nothing is being analysed.",
+      "hidden": "The camera was switched off because this page was hidden.",
+      "videoLabel": "The picture being analysed",
+      "stop": "Stop",
+      "pause": "Pause",
+      "play": "Play",
+      "startAgain": "Switch the camera on again",
+      "back": "Back to the start",
+      "privacy": "Still nothing uploaded: the model, the picture and the drawing all stay in this browser. Only boxes and colours are remembered between frames, and Stop forgets them."
+    },
+    "readout": {
+      "title": "In the picture now",
+      "teamA": "Team 1",
+      "teamB": "Team 2",
+      "other": "Neither team",
+      "everyone": "People found",
+      "ringA": "solid ring",
+      "ringB": "dashed ring",
+      "ringOther": "dotted white ring",
+      "waiting": "Nobody found yet. Players get a ring once they have been seen in three frames.",
+      "cannotSplit": "The shirt colours are too alike to tell the teams apart, so everyone is drawn white."
+    },
+    "layers": {
+      "title": "Layers",
+      "rings": "Rings",
+      "ringsDetail": "A ring at each player's feet, in the colour of their team's shirts.",
+      "numbers": "Numbers",
+      "numbersDetail": "The number each player keeps while in the picture.",
+      "trails": "Trails",
+      "trailsDetail": "Where each player's feet were over the last few frames.",
+      "on": "On",
+      "off": "Off"
+    },
+    "error": {
+      "denied": {
+        "title": "Permission for the camera was refused",
+        "body": "Allow the camera for this site in the browser's settings and try again, or choose a video instead."
+      },
+      "no-camera": {
+        "title": "No camera was found",
+        "body": "The browser finds no camera on this device. Choose a video instead."
+      },
+      "in-use": {
+        "title": "The camera is busy",
+        "body": "Another app or tab is using the camera. Close it and try again."
+      },
+      "model": {
+        "title": "The model could not be loaded",
+        "body": "Check the connection and try again."
+      },
+      "video": {
+        "title": "This video could not be played",
+        "body": "The browser cannot read this file. Try a clip filmed on a phone (MP4 or MOV)."
+      },
+      "unknown": {
+        "title": "The camera could not be started",
+        "body": "Try again, or choose a video instead."
+      }
+    },
+    "related": "See a whole match from tracking data in the 3D replay"
+  }
+}

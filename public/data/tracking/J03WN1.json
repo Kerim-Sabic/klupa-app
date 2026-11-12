@@ -1,0 +1,298 @@
+{
+  "formatVersion": 1,
+  "match": "DFL-MAT-J03WN1",
+  "source": {
+    "dataset": "An integrated dataset of spatiotemporal and event data in elite soccer",
+    "authors": "Bassek, Manuel; Rein, Robert; Weber, Hendrik; Memmert, Daniel (2025)",
+    "paper": "https://doi.org/10.1038/s41597-025-04505-y",
+    "doi": "10.6084/m9.figshare.28196177.v1",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "notice": "Positions resampled and reduced to side and shirt number; no names or personal ids.",
+    "sourceFiles": {
+      "DFL_02_01_matchinformation_DFL-COM-000001_DFL-MAT-J03WN1.xml": "5490286436c86e6f80a538d2b1b379d0efd016e0defcaf594bc59d9ef5079f4c",
+      "DFL_03_02_events_raw_DFL-COM-000001_DFL-MAT-J03WN1.xml": "d7fa1d4445e3215eb79ec62fabefa4779b4974e496195c2fdc25624c375a9b9b",
+      "DFL_04_03_positions_raw_observed_DFL-COM-000001_DFL-MAT-J03WN1.xml": "56ef948961a18e150dba0b7b16869d0008ff66f3050a0c355d31fa5b8ec2fcec"
+    }
+  },
+  "pitch": {
+    "lengthMetres": 105.0,
+    "widthMetres": 68.0
+  },
+  "sampleRateHz": 4,
+  "coordinateUnit": "centimetre",
+  "sentinel": -32768,
+  "columns": 30,
+  "ballColumn": 29,
+  "roster": [
+    {
+      "slot": 0,
+      "side": "home",
+      "shirt": 1
+    },
+    {
+      "slot": 1,
+      "side": "home",
+      "shirt": 4
+    },
+    {
+      "slot": 2,
+      "side": "home",
+      "shirt": 5
+    },
+    {
+      "slot": 3,
+      "side": "home",
+      "shirt": 9
+    },
+    {
+      "slot": 4,
+      "side": "home",
+      "shirt": 11
+    },
+    {
+      "slot": 5,
+      "side": "home",
+      "shirt": 12
+    },
+    {
+      "slot": 6,
+      "side": "home",
+      "shirt": 18
+    },
+    {
+      "slot": 7,
+      "side": "home",
+      "shirt": 19
+    },
+    {
+      "slot": 8,
+      "side": "home",
+      "shirt": 21
+    },
+    {
+      "slot": 9,
+      "side": "home",
+      "shirt": 23
+    },
+    {
+      "slot": 10,
+      "side": "home",
+      "shirt": 25
+    },
+    {
+      "slot": 11,
+      "side": "home",
+      "shirt": 27
+    },
+    {
+      "slot": 12,
+      "side": "home",
+      "shirt": 30
+    },
+    {
+      "slot": 13,
+      "side": "away",
+      "shirt": 1
+    },
+    {
+      "slot": 14,
+      "side": "away",
+      "shirt": 4
+    },
+    {
+      "slot": 15,
+      "side": "away",
+      "shirt": 6
+    },
+    {
+      "slot": 16,
+      "side": "away",
+      "shirt": 7
+    },
+    {
+      "slot": 17,
+      "side": "away",
+      "shirt": 8
+    },
+    {
+      "slot": 18,
+      "side": "away",
+      "shirt": 9
+    },
+    {
+      "slot": 19,
+      "side": "away",
+      "shirt": 10
+    },
+    {
+      "slot": 20,
+      "side": "away",
+      "shirt": 11
+    },
+    {
+      "slot": 21,
+      "side": "away",
+      "shirt": 20
+    },
+    {
+      "slot": 22,
+      "side": "away",
+      "shirt": 22
+    },
+    {
+      "slot": 23,
+      "side": "away",
+      "shirt": 23
+    },
+    {
+      "slot": 24,
+      "side": "away",
+      "shirt": 24
+    },
+    {
+      "slot": 25,
+      "side": "away",
+      "shirt": 29
+    },
+    {
+      "slot": 26,
+      "side": "away",
+      "shirt": 30
+    },
+    {
+      "slot": 27,
+      "side": "away",
+      "shirt": 31
+    },
+    {
+      "slot": 28,
+      "side": "away",
+      "shirt": 33
+    }
+  ],
+  "periods": [
+    {
+      "period": 1,
+      "startFrame": 0,
+      "frameCount": 11077,
+      "durationSeconds": 2769.0,
+      "ballAliveRuns": [
+        [0, 29],
+        [116, 220],
+        [419, 466],
+        [605, 656],
+        [708, 892],
+        [974, 990],
+        [1055, 1112],
+        [1173, 1370],
+        [1889, 1927],
+        [1980, 2186],
+        [2225, 2238],
+        [2272, 2296],
+        [2375, 2408],
+        [2503, 2623],
+        [2783, 2855],
+        [2914, 3267],
+        [3392, 3468],
+        [3603, 3721],
+        [3818, 4122],
+        [4245, 4326],
+        [4616, 4695],
+        [4765, 4900],
+        [5127, 5293],
+        [5360, 5442],
+        [5571, 5749],
+        [5929, 6040],
+        [6138, 6189],
+        [6221, 6523],
+        [6671, 6782],
+        [6794, 6984],
+        [7006, 7155],
+        [7250, 7266],
+        [7309, 7379],
+        [7469, 7504],
+        [7627, 7686],
+        [7781, 7927],
+        [8052, 8062],
+        [8381, 8555],
+        [8693, 9061],
+        [9117, 9847],
+        [9888, 10180],
+        [10318, 10379],
+        [10491, 10639],
+        [10669, 11077]
+      ]
+    },
+    {
+      "period": 2,
+      "startFrame": 11077,
+      "frameCount": 11556,
+      "durationSeconds": 2888.75,
+      "ballAliveRuns": [
+        [0, 15],
+        [94, 139],
+        [263, 336],
+        [396, 519],
+        [630, 641],
+        [786, 890],
+        [937, 1073],
+        [1105, 1127],
+        [1268, 1346],
+        [1386, 1485],
+        [1591, 1929],
+        [2050, 2163],
+        [2182, 2205],
+        [2647, 2673],
+        [2713, 2739],
+        [2880, 2922],
+        [3029, 3094],
+        [3132, 3148],
+        [3162, 3172],
+        [3245, 3338],
+        [3391, 3432],
+        [3710, 3718],
+        [3789, 4021],
+        [4170, 4226],
+        [4378, 4482],
+        [4519, 4528],
+        [4565, 4642],
+        [4652, 4687],
+        [4803, 4845],
+        [4862, 4921],
+        [4954, 4975],
+        [5170, 5213],
+        [5373, 5393],
+        [5477, 5509],
+        [5699, 5810],
+        [5915, 5929],
+        [5946, 5987],
+        [6006, 6087],
+        [6216, 6440],
+        [6560, 6627],
+        [6787, 6938],
+        [7052, 7278],
+        [7446, 7573],
+        [7742, 7785],
+        [7893, 7974],
+        [8073, 8285],
+        [8518, 8572],
+        [8627, 8901],
+        [8963, 9065],
+        [9157, 9180],
+        [9253, 9296],
+        [9420, 9430],
+        [9481, 9591],
+        [9637, 9673],
+        [9976, 10003],
+        [10520, 10681],
+        [10775, 10910],
+        [10930, 10946],
+        [11261, 11361],
+        [11520, 11548]
+      ]
+    }
+  ],
+  "bytes": 2715960,
+  "sha256": "8585c0c4ed54ef6c8b5aad909ee94238eab209755b6d5a29728e170b79d22c06"
+}

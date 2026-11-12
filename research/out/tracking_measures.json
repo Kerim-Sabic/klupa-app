@@ -1,0 +1,2196 @@
+{
+  "match": "DFL-MAT-J03WN1",
+  "note": "Home = event fixture label (Leverkusen, the DFL guest team). One match, one description.",
+  "definitions": {
+    "hsrThresholdMps": 5.5,
+    "sprint": "smoothed speed >= 7.0 m/s for >= 1.0 s",
+    "speedWindowSeconds": 0.4
+  },
+  "players": {
+    "home": {
+      "1": {
+        "minutes": 94.3,
+        "distanceM": 4738.6,
+        "distanceRawStepsM": 4841.7,
+        "highSpeedRunningM": 12.8,
+        "topSpeedP95Mps": 2.46,
+        "topSpeedMaxMps": 6.38,
+        "sprints": 0
+      },
+      "4": {
+        "minutes": 94.3,
+        "distanceM": 9252.0,
+        "distanceRawStepsM": 9349.1,
+        "highSpeedRunningM": 473.2,
+        "topSpeedP95Mps": 4.29,
+        "topSpeedMaxMps": 8.55,
+        "sprints": 3
+      },
+      "5": {
+        "minutes": 94.3,
+        "distanceM": 8903.4,
+        "distanceRawStepsM": 8985.9,
+        "highSpeedRunningM": 670.0,
+        "topSpeedP95Mps": 4.28,
+        "topSpeedMaxMps": 9.02,
+        "sprints": 10
+      },
+      "9": {
+        "minutes": 94.3,
+        "distanceM": 9069.1,
+        "distanceRawStepsM": 9158.3,
+        "highSpeedRunningM": 629.4,
+        "topSpeedP95Mps": 4.29,
+        "topSpeedMaxMps": 8.96,
+        "sprints": 7
+      },
+      "11": {
+        "minutes": 78.88,
+        "distanceM": 8727.2,
+        "distanceRawStepsM": 8802.9,
+        "highSpeedRunningM": 574.7,
+        "topSpeedP95Mps": 4.72,
+        "topSpeedMaxMps": 8.05,
+        "sprints": 4
+      },
+      "12": {
+        "minutes": 94.3,
+        "distanceM": 8975.9,
+        "distanceRawStepsM": 9065.9,
+        "highSpeedRunningM": 600.9,
+        "topSpeedP95Mps": 4.34,
+        "topSpeedMaxMps": 9.31,
+        "sprints": 8
+      },
+      "18": {
+        "minutes": 1.57,
+        "distanceM": 192.3,
+        "distanceRawStepsM": 193.7,
+        "highSpeedRunningM": 2.0,
+        "topSpeedP95Mps": 4.52,
+        "topSpeedMaxMps": 5.62,
+        "sprints": 0
+      },
+      "19": {
+        "minutes": 92.74,
+        "distanceM": 8948.5,
+        "distanceRawStepsM": 9030.8,
+        "highSpeedRunningM": 819.5,
+        "topSpeedP95Mps": 4.42,
+        "topSpeedMaxMps": 9.7,
+        "sprints": 11
+      },
+      "21": {
+        "minutes": 7.04,
+        "distanceM": 774.3,
+        "distanceRawStepsM": 781.7,
+        "highSpeedRunningM": 96.0,
+        "topSpeedP95Mps": 5.02,
+        "topSpeedMaxMps": 8.02,
+        "sprints": 2
+      },
+      "23": {
+        "minutes": 15.43,
+        "distanceM": 1819.1,
+        "distanceRawStepsM": 1832.4,
+        "highSpeedRunningM": 191.2,
+        "topSpeedP95Mps": 5.04,
+        "topSpeedMaxMps": 8.31,
+        "sprints": 4
+      },
+      "25": {
+        "minutes": 94.3,
+        "distanceM": 10307.4,
+        "distanceRawStepsM": 10404.0,
+        "highSpeedRunningM": 748.9,
+        "topSpeedP95Mps": 4.62,
+        "topSpeedMaxMps": 7.69,
+        "sprints": 4
+      },
+      "27": {
+        "minutes": 94.3,
+        "distanceM": 10502.1,
+        "distanceRawStepsM": 10596.7,
+        "highSpeedRunningM": 937.6,
+        "topSpeedP95Mps": 4.72,
+        "topSpeedMaxMps": 8.65,
+        "sprints": 14
+      },
+      "30": {
+        "minutes": 94.3,
+        "distanceM": 8895.4,
+        "distanceRawStepsM": 8984.7,
+        "highSpeedRunningM": 1350.7,
+        "topSpeedP95Mps": 4.88,
+        "topSpeedMaxMps": 9.3,
+        "sprints": 24
+      }
+    },
+    "away": {
+      "1": {
+        "minutes": 94.3,
+        "distanceM": 6042.3,
+        "distanceRawStepsM": 6136.9,
+        "highSpeedRunningM": 51.3,
+        "topSpeedP95Mps": 2.75,
+        "topSpeedMaxMps": 6.11,
+        "sprints": 0
+      },
+      "4": {
+        "minutes": 94.3,
+        "distanceM": 8657.9,
+        "distanceRawStepsM": 8755.2,
+        "highSpeedRunningM": 484.6,
+        "topSpeedP95Mps": 4.08,
+        "topSpeedMaxMps": 9.34,
+        "sprints": 3
+      },
+      "6": {
+        "minutes": 37.45,
+        "distanceM": 4020.0,
+        "distanceRawStepsM": 4060.5,
+        "highSpeedRunningM": 360.3,
+        "topSpeedP95Mps": 4.7,
+        "topSpeedMaxMps": 8.58,
+        "sprints": 5
+      },
+      "7": {
+        "minutes": 89.82,
+        "distanceM": 10212.9,
+        "distanceRawStepsM": 10300.9,
+        "highSpeedRunningM": 698.9,
+        "topSpeedP95Mps": 4.72,
+        "topSpeedMaxMps": 8.49,
+        "sprints": 3
+      },
+      "8": {
+        "minutes": 94.3,
+        "distanceM": 10893.0,
+        "distanceRawStepsM": 10988.4,
+        "highSpeedRunningM": 883.0,
+        "topSpeedP95Mps": 4.79,
+        "topSpeedMaxMps": 7.98,
+        "sprints": 5
+      },
+      "9": {
+        "minutes": 12.94,
+        "distanceM": 1375.3,
+        "distanceRawStepsM": 1391.8,
+        "highSpeedRunningM": 154.2,
+        "topSpeedP95Mps": 5.06,
+        "topSpeedMaxMps": 7.92,
+        "sprints": 3
+      },
+      "10": {
+        "minutes": 56.85,
+        "distanceM": 6661.6,
+        "distanceRawStepsM": 6715.4,
+        "highSpeedRunningM": 597.2,
+        "topSpeedP95Mps": 4.91,
+        "topSpeedMaxMps": 8.94,
+        "sprints": 6
+      },
+      "11": {
+        "minutes": 81.37,
+        "distanceM": 9656.2,
+        "distanceRawStepsM": 9734.5,
+        "highSpeedRunningM": 1091.6,
+        "topSpeedP95Mps": 5.02,
+        "topSpeedMaxMps": 9.01,
+        "sprints": 17
+      },
+      "20": {
+        "minutes": 94.3,
+        "distanceM": 9614.4,
+        "distanceRawStepsM": 9714.9,
+        "highSpeedRunningM": 614.9,
+        "topSpeedP95Mps": 4.34,
+        "topSpeedMaxMps": 8.32,
+        "sprints": 7
+      },
+      "22": {
+        "minutes": 94.3,
+        "distanceM": 9344.4,
+        "distanceRawStepsM": 9434.0,
+        "highSpeedRunningM": 963.4,
+        "topSpeedP95Mps": 4.54,
+        "topSpeedMaxMps": 9.31,
+        "sprints": 16
+      },
+      "23": {
+        "minutes": 94.3,
+        "distanceM": 9651.3,
+        "distanceRawStepsM": 9735.9,
+        "highSpeedRunningM": 669.6,
+        "topSpeedP95Mps": 4.25,
+        "topSpeedMaxMps": 9.83,
+        "sprints": 10
+      },
+      "24": {
+        "minutes": 4.49,
+        "distanceM": 492.3,
+        "distanceRawStepsM": 496.4,
+        "highSpeedRunningM": 29.4,
+        "topSpeedP95Mps": 4.4,
+        "topSpeedMaxMps": 6.44,
+        "sprints": 0
+      },
+      "29": {
+        "minutes": 13.11,
+        "distanceM": 1319.2,
+        "distanceRawStepsM": 1335.4,
+        "highSpeedRunningM": 204.3,
+        "topSpeedP95Mps": 5.27,
+        "topSpeedMaxMps": 8.14,
+        "sprints": 1
+      },
+      "30": {
+        "minutes": 56.85,
+        "distanceM": 6210.1,
+        "distanceRawStepsM": 6265.6,
+        "highSpeedRunningM": 400.7,
+        "topSpeedP95Mps": 4.28,
+        "topSpeedMaxMps": 8.21,
+        "sprints": 4
+      },
+      "31": {
+        "minutes": 37.45,
+        "distanceM": 3230.1,
+        "distanceRawStepsM": 3266.7,
+        "highSpeedRunningM": 195.7,
+        "topSpeedP95Mps": 4.16,
+        "topSpeedMaxMps": 8.25,
+        "sprints": 2
+      },
+      "33": {
+        "minutes": 81.2,
+        "distanceM": 7690.2,
+        "distanceRawStepsM": 7773.6,
+        "highSpeedRunningM": 271.8,
+        "topSpeedP95Mps": 3.88,
+        "topSpeedMaxMps": 8.19,
+        "sprints": 2
+      }
+    },
+    "_providerSpeedRatio": {
+      "note": "provider field S divided by our smoothed speed where ours > 1 m/s, every 25th frame",
+      "median": 3.61,
+      "p05": 3.525,
+      "p95": 3.708
+    }
+  },
+  "teamMinutes": {
+    "1": {
+      "home": [
+        {
+          "minute": 0,
+          "inPlaySeconds": 34,
+          "centroidAttackX": -11.01,
+          "centroidY": -9.16,
+          "width": 30.67,
+          "length": 32.4,
+          "area": 645.04
+        },
+        {
+          "minute": 1,
+          "inPlaySeconds": 12,
+          "centroidAttackX": 32.23,
+          "centroidY": -6.63,
+          "width": 33.46,
+          "length": 30.2,
+          "area": 635.48
+        },
+        {
+          "minute": 2,
+          "inPlaySeconds": 15,
+          "centroidAttackX": -13.61,
+          "centroidY": 18.5,
+          "width": 25.03,
+          "length": 24.14,
+          "area": 435.53
+        },
+        {
+          "minute": 3,
+          "inPlaySeconds": 43,
+          "centroidAttackX": -14.41,
+          "centroidY": -2.95,
+          "width": 39.81,
+          "length": 32.5,
+          "area": 882.26
+        },
+        {
+          "minute": 4,
+          "inPlaySeconds": 24,
+          "centroidAttackX": -13.45,
+          "centroidY": 6.91,
+          "width": 39.24,
+          "length": 35.84,
+          "area": 1189.5
+        },
+        {
+          "minute": 5,
+          "inPlaySeconds": 43,
+          "centroidAttackX": -11.87,
+          "centroidY": 4.95,
+          "width": 43.96,
+          "length": 37.27,
+          "area": 1167.21
+        },
+        {
+          "minute": 7,
+          "inPlaySeconds": 7,
+          "centroidAttackX": -35.71,
+          "centroidY": 7.39,
+          "width": 22.27,
+          "length": 14.47,
+          "area": 228.55
+        },
+        {
+          "minute": 8,
+          "inPlaySeconds": 47,
+          "centroidAttackX": -17.86,
+          "centroidY": 4.59,
+          "width": 35.42,
+          "length": 30.8,
+          "area": 800.8
+        },
+        {
+          "minute": 9,
+          "inPlaySeconds": 22,
+          "centroidAttackX": -12.71,
+          "centroidY": -16.24,
+          "width": 36.16,
+          "length": 25.47,
+          "area": 676.55
+        },
+        {
+          "minute": 10,
+          "inPlaySeconds": 32,
+          "centroidAttackX": -0.59,
+          "centroidY": -2.69,
+          "width": 47.59,
+          "length": 31.79,
+          "area": 987.19
+        },
+        {
+          "minute": 11,
+          "inPlaySeconds": 18,
+          "centroidAttackX": -15.71,
+          "centroidY": -10.6,
+          "width": 27.69,
+          "length": 25.18,
+          "area": 465.18
+        },
+        {
+          "minute": 12,
+          "inPlaySeconds": 51,
+          "centroidAttackX": -23.44,
+          "centroidY": -1.61,
+          "width": 38.78,
+          "length": 22.66,
+          "area": 671.71
+        },
+        {
+          "minute": 13,
+          "inPlaySeconds": 37,
+          "centroidAttackX": -13.56,
+          "centroidY": -6.57,
+          "width": 33.02,
+          "length": 24.2,
+          "area": 561.46
+        },
+        {
+          "minute": 14,
+          "inPlaySeconds": 19,
+          "centroidAttackX": -15.03,
+          "centroidY": 8.5,
+          "width": 23.26,
+          "length": 33.37,
+          "area": 556.97
+        },
+        {
+          "minute": 15,
+          "inPlaySeconds": 35,
+          "centroidAttackX": 14.84,
+          "centroidY": -0.16,
+          "width": 45.01,
+          "length": 32.4,
+          "area": 788.05
+        },
+        {
+          "minute": 16,
+          "inPlaySeconds": 60,
+          "centroidAttackX": -12.64,
+          "centroidY": 1.27,
+          "width": 43.84,
+          "length": 28.19,
+          "area": 783.94
+        },
+        {
+          "minute": 17,
+          "inPlaySeconds": 29,
+          "centroidAttackX": -17.17,
+          "centroidY": 9.31,
+          "width": 32.44,
+          "length": 27.87,
+          "area": 563.37
+        },
+        {
+          "minute": 18,
+          "inPlaySeconds": 2,
+          "centroidAttackX": -34.4,
+          "centroidY": 8.71,
+          "width": 36.15,
+          "length": 37.05,
+          "area": 806.74
+        },
+        {
+          "minute": 19,
+          "inPlaySeconds": 28,
+          "centroidAttackX": -15.06,
+          "centroidY": 1.48,
+          "width": 51.66,
+          "length": 36.51,
+          "area": 1253.99
+        },
+        {
+          "minute": 20,
+          "inPlaySeconds": 25,
+          "centroidAttackX": 15.56,
+          "centroidY": 2.14,
+          "width": 40.75,
+          "length": 36.5,
+          "area": 907.35
+        },
+        {
+          "minute": 21,
+          "inPlaySeconds": 38,
+          "centroidAttackX": -14.88,
+          "centroidY": 3.11,
+          "width": 35.6,
+          "length": 19.99,
+          "area": 501.96
+        },
+        {
+          "minute": 22,
+          "inPlaySeconds": 25,
+          "centroidAttackX": 10.48,
+          "centroidY": 5.44,
+          "width": 45.92,
+          "length": 30.22,
+          "area": 871.5
+        },
+        {
+          "minute": 23,
+          "inPlaySeconds": 45,
+          "centroidAttackX": -0.74,
+          "centroidY": -7.5,
+          "width": 34.38,
+          "length": 31.04,
+          "area": 758.0
+        },
+        {
+          "minute": 24,
+          "inPlaySeconds": 17,
+          "centroidAttackX": -6.07,
+          "centroidY": -6.95,
+          "width": 30.62,
+          "length": 18.44,
+          "area": 462.79
+        },
+        {
+          "minute": 25,
+          "inPlaySeconds": 27,
+          "centroidAttackX": -10.78,
+          "centroidY": 3.98,
+          "width": 35.2,
+          "length": 31.14,
+          "area": 715.61
+        },
+        {
+          "minute": 26,
+          "inPlaySeconds": 60,
+          "centroidAttackX": 5.26,
+          "centroidY": -1.78,
+          "width": 41.64,
+          "length": 30.71,
+          "area": 796.24
+        },
+        {
+          "minute": 27,
+          "inPlaySeconds": 23,
+          "centroidAttackX": -1.28,
+          "centroidY": -5.22,
+          "width": 45.06,
+          "length": 35.51,
+          "area": 1033.43
+        },
+        {
+          "minute": 28,
+          "inPlaySeconds": 57,
+          "centroidAttackX": 6.18,
+          "centroidY": -9.97,
+          "width": 37.75,
+          "length": 37.16,
+          "area": 942.76
+        },
+        {
+          "minute": 29,
+          "inPlaySeconds": 43,
+          "centroidAttackX": -20.37,
+          "centroidY": -3.18,
+          "width": 36.79,
+          "length": 33.28,
+          "area": 803.77
+        },
+        {
+          "minute": 30,
+          "inPlaySeconds": 21,
+          "centroidAttackX": -22.85,
+          "centroidY": -2.49,
+          "width": 40.8,
+          "length": 38.35,
+          "area": 1136.81
+        },
+        {
+          "minute": 31,
+          "inPlaySeconds": 21,
+          "centroidAttackX": -0.59,
+          "centroidY": -14.57,
+          "width": 30.34,
+          "length": 31.94,
+          "area": 622.5
+        },
+        {
+          "minute": 32,
+          "inPlaySeconds": 36,
+          "centroidAttackX": -6.37,
+          "centroidY": -9.43,
+          "width": 31.2,
+          "length": 37.38,
+          "area": 762.54
+        },
+        {
+          "minute": 33,
+          "inPlaySeconds": 5,
+          "centroidAttackX": -40.16,
+          "centroidY": -3.04,
+          "width": 16.91,
+          "length": 23.0,
+          "area": 281.48
+        },
+        {
+          "minute": 34,
+          "inPlaySeconds": 4,
+          "centroidAttackX": -3.87,
+          "centroidY": -1.25,
+          "width": 45.19,
+          "length": 21.9,
+          "area": 558.46
+        },
+        {
+          "minute": 35,
+          "inPlaySeconds": 39,
+          "centroidAttackX": -10.76,
+          "centroidY": -4.13,
+          "width": 31.94,
+          "length": 28.92,
+          "area": 623.62
+        },
+        {
+          "minute": 36,
+          "inPlaySeconds": 46,
+          "centroidAttackX": 10.8,
+          "centroidY": -3.79,
+          "width": 41.57,
+          "length": 37.15,
+          "area": 897.53
+        },
+        {
+          "minute": 37,
+          "inPlaySeconds": 46,
+          "centroidAttackX": -21.78,
+          "centroidY": 6.54,
+          "width": 32.75,
+          "length": 26.09,
+          "area": 618.87
+        },
+        {
+          "minute": 38,
+          "inPlaySeconds": 60,
+          "centroidAttackX": -15.88,
+          "centroidY": 7.42,
+          "width": 33.26,
+          "length": 23.84,
+          "area": 528.37
+        },
+        {
+          "minute": 39,
+          "inPlaySeconds": 60,
+          "centroidAttackX": -18.64,
+          "centroidY": 8.61,
+          "width": 31.77,
+          "length": 21.76,
+          "area": 505.07
+        },
+        {
+          "minute": 40,
+          "inPlaySeconds": 60,
+          "centroidAttackX": -13.59,
+          "centroidY": 0.91,
+          "width": 37.56,
+          "length": 34.87,
+          "area": 822.84
+        },
+        {
+          "minute": 41,
+          "inPlaySeconds": 50,
+          "centroidAttackX": -3.79,
+          "centroidY": 3.13,
+          "width": 42.33,
+          "length": 29.78,
+          "area": 841.08
+        },
+        {
+          "minute": 42,
+          "inPlaySeconds": 25,
+          "centroidAttackX": -16.4,
+          "centroidY": -2.98,
+          "width": 35.82,
+          "length": 27.42,
+          "area": 672.98
+        },
+        {
+          "minute": 43,
+          "inPlaySeconds": 32,
+          "centroidAttackX": -2.84,
+          "centroidY": -3.93,
+          "width": 28.4,
+          "length": 30.8,
+          "area": 597.19
+        },
+        {
+          "minute": 44,
+          "inPlaySeconds": 52,
+          "centroidAttackX": -17.45,
+          "centroidY": -2.49,
+          "width": 43.66,
+          "length": 36.75,
+          "area": 954.94
+        },
+        {
+          "minute": 45,
+          "inPlaySeconds": 60,
+          "centroidAttackX": -6.53,
+          "centroidY": 0.42,
+          "width": 38.91,
+          "length": 33.6,
+          "area": 884.47
+        },
+        {
+          "minute": 46,
+          "inPlaySeconds": 10,
+          "centroidAttackX": -30.95,
+          "centroidY": 0.88,
+          "width": 31.84,
+          "length": 31.47,
+          "area": 579.52
+        }
+      ],
+      "away": [
+        {
+          "minute": 0,
+          "inPlaySeconds": 34,
+          "centroidAttackX": 7.85,
+          "centroidY": -11.79,
+          "width": 28.15,
+          "length": 33.93,
+          "area": 486.37
+        },
+        {
+          "minute": 1,
+          "inPlaySeconds": 12,
+          "centroidAttackX": -39.36,
+          "centroidY": -4.66,
+          "width": 18.44,
+          "length": 13.84,
+          "area": 173.17
+        },
+        {
+          "minute": 2,
+          "inPlaySeconds": 15,
+          "centroidAttackX": 8.34,
+          "centroidY": 18.49,
+          "width": 27.31,
+          "length": 26.77,
+          "area": 460.78
+        },
+        {
+          "minute": 3,
+          "inPlaySeconds": 43,
+          "centroidAttackX": 8.92,
+          "centroidY": -4.21,
+          "width": 41.38,
+          "length": 33.96,
+          "area": 874.01
+        },
+        {
+          "minute": 4,
+          "inPlaySeconds": 24,
+          "centroidAttackX": 7.54,
+          "centroidY": 7.15,
+          "width": 34.33,
+          "length": 35.62,
+          "area": 927.21
+        },
+        {
+          "minute": 5,
+          "inPlaySeconds": 43,
+          "centroidAttackX": 7.88,
+          "centroidY": 4.7,
+          "width": 35.18,
+          "length": 36.99,
+          "area": 973.26
+        },
+        {
+          "minute": 7,
+          "inPlaySeconds": 7,
+          "centroidAttackX": 32.6,
+          "centroidY": 4.53,
+          "width": 28.86,
+          "length": 23.54,
+          "area": 435.59
+        },
+        {
+          "minute": 8,
+          "inPlaySeconds": 47,
+          "centroidAttackX": 13.26,
+          "centroidY": 4.28,
+          "width": 36.33,
+          "length": 34.24,
+          "area": 787.25
+        },
+        {
+          "minute": 9,
+          "inPlaySeconds": 22,
+          "centroidAttackX": 7.24,
+          "centroidY": -18.41,
+          "width": 30.51,
+          "length": 27.96,
+          "area": 556.01
+        },
+        {
+          "minute": 10,
+          "inPlaySeconds": 32,
+          "centroidAttackX": -4.3,
+          "centroidY": -4.66,
+          "width": 35.09,
+          "length": 31.23,
+          "area": 720.9
+        },
+        {
+          "minute": 11,
+          "inPlaySeconds": 18,
+          "centroidAttackX": 9.92,
+          "centroidY": -12.04,
+          "width": 30.09,
+          "length": 31.4,
+          "area": 602.17
+        },
+        {
+          "minute": 12,
+          "inPlaySeconds": 51,
+          "centroidAttackX": 16.66,
+          "centroidY": -3.28,
+          "width": 47.11,
+          "length": 33.56,
+          "area": 1052.1
+        },
+        {
+          "minute": 13,
+          "inPlaySeconds": 37,
+          "centroidAttackX": 8.84,
+          "centroidY": -8.79,
+          "width": 38.49,
+          "length": 31.61,
+          "area": 842.98
+        },
+        {
+          "minute": 14,
+          "inPlaySeconds": 19,
+          "centroidAttackX": 11.33,
+          "centroidY": 7.68,
+          "width": 24.08,
+          "length": 38.39,
+          "area": 563.56
+        },
+        {
+          "minute": 15,
+          "inPlaySeconds": 35,
+          "centroidAttackX": -21.43,
+          "centroidY": 0.57,
+          "width": 32.79,
+          "length": 24.09,
+          "area": 501.38
+        },
+        {
+          "minute": 16,
+          "inPlaySeconds": 60,
+          "centroidAttackX": 7.31,
+          "centroidY": 0.4,
+          "width": 43.11,
+          "length": 32.92,
+          "area": 929.78
+        },
+        {
+          "minute": 17,
+          "inPlaySeconds": 29,
+          "centroidAttackX": 10.14,
+          "centroidY": 8.9,
+          "width": 35.33,
+          "length": 35.02,
+          "area": 786.01
+        },
+        {
+          "minute": 18,
+          "inPlaySeconds": 2,
+          "centroidAttackX": 26.62,
+          "centroidY": 8.37,
+          "width": 37.87,
+          "length": 44.56,
+          "area": 1215.18
+        },
+        {
+          "minute": 19,
+          "inPlaySeconds": 28,
+          "centroidAttackX": 6.98,
+          "centroidY": 1.15,
+          "width": 40.67,
+          "length": 35.12,
+          "area": 937.41
+        },
+        {
+          "minute": 20,
+          "inPlaySeconds": 25,
+          "centroidAttackX": -23.7,
+          "centroidY": 1.88,
+          "width": 34.46,
+          "length": 36.5,
+          "area": 737.01
+        },
+        {
+          "minute": 21,
+          "inPlaySeconds": 38,
+          "centroidAttackX": 6.97,
+          "centroidY": 3.12,
+          "width": 51.13,
+          "length": 33.46,
+          "area": 1066.1
+        },
+        {
+          "minute": 22,
+          "inPlaySeconds": 25,
+          "centroidAttackX": -16.33,
+          "centroidY": 6.05,
+          "width": 33.69,
+          "length": 31.76,
+          "area": 606.29
+        },
+        {
+          "minute": 23,
+          "inPlaySeconds": 45,
+          "centroidAttackX": -3.69,
+          "centroidY": -10.17,
+          "width": 44.47,
+          "length": 31.98,
+          "area": 919.18
+        },
+        {
+          "minute": 24,
+          "inPlaySeconds": 17,
+          "centroidAttackX": -0.69,
+          "centroidY": -9.0,
+          "width": 50.26,
+          "length": 32.32,
+          "area": 1053.29
+        },
+        {
+          "minute": 25,
+          "inPlaySeconds": 27,
+          "centroidAttackX": 4.7,
+          "centroidY": 3.5,
+          "width": 39.87,
+          "length": 34.6,
+          "area": 865.1
+        },
+        {
+          "minute": 26,
+          "inPlaySeconds": 60,
+          "centroidAttackX": -10.95,
+          "centroidY": -1.85,
+          "width": 31.74,
+          "length": 31.47,
+          "area": 638.25
+        },
+        {
+          "minute": 27,
+          "inPlaySeconds": 23,
+          "centroidAttackX": -3.4,
+          "centroidY": -6.74,
+          "width": 36.86,
+          "length": 30.17,
+          "area": 711.69
+        },
+        {
+          "minute": 28,
+          "inPlaySeconds": 57,
+          "centroidAttackX": -11.39,
+          "centroidY": -12.76,
+          "width": 34.61,
+          "length": 31.78,
+          "area": 717.89
+        },
+        {
+          "minute": 29,
+          "inPlaySeconds": 43,
+          "centroidAttackX": 15.2,
+          "centroidY": -2.6,
+          "width": 33.79,
+          "length": 35.35,
+          "area": 753.45
+        },
+        {
+          "minute": 30,
+          "inPlaySeconds": 21,
+          "centroidAttackX": 17.22,
+          "centroidY": -2.82,
+          "width": 40.48,
+          "length": 42.1,
+          "area": 1181.48
+        },
+        {
+          "minute": 31,
+          "inPlaySeconds": 21,
+          "centroidAttackX": -6.55,
+          "centroidY": -15.02,
+          "width": 26.88,
+          "length": 33.36,
+          "area": 617.81
+        },
+        {
+          "minute": 32,
+          "inPlaySeconds": 36,
+          "centroidAttackX": 1.41,
+          "centroidY": -12.11,
+          "width": 37.18,
+          "length": 33.59,
+          "area": 870.61
+        },
+        {
+          "minute": 33,
+          "inPlaySeconds": 5,
+          "centroidAttackX": 34.02,
+          "centroidY": -4.98,
+          "width": 37.9,
+          "length": 35.53,
+          "area": 762.34
+        },
+        {
+          "minute": 34,
+          "inPlaySeconds": 4,
+          "centroidAttackX": -6.86,
+          "centroidY": -1.39,
+          "width": 34.27,
+          "length": 26.03,
+          "area": 595.78
+        },
+        {
+          "minute": 35,
+          "inPlaySeconds": 39,
+          "centroidAttackX": 2.85,
+          "centroidY": -4.99,
+          "width": 34.84,
+          "length": 37.27,
+          "area": 883.23
+        },
+        {
+          "minute": 36,
+          "inPlaySeconds": 46,
+          "centroidAttackX": -16.67,
+          "centroidY": -0.77,
+          "width": 31.7,
+          "length": 27.6,
+          "area": 589.21
+        },
+        {
+          "minute": 37,
+          "inPlaySeconds": 46,
+          "centroidAttackX": 15.38,
+          "centroidY": 7.53,
+          "width": 51.56,
+          "length": 32.55,
+          "area": 1058.04
+        },
+        {
+          "minute": 38,
+          "inPlaySeconds": 60,
+          "centroidAttackX": 8.95,
+          "centroidY": 8.39,
+          "width": 38.74,
+          "length": 34.59,
+          "area": 815.18
+        },
+        {
+          "minute": 39,
+          "inPlaySeconds": 60,
+          "centroidAttackX": 13.47,
+          "centroidY": 9.71,
+          "width": 43.73,
+          "length": 32.73,
+          "area": 884.18
+        },
+        {
+          "minute": 40,
+          "inPlaySeconds": 60,
+          "centroidAttackX": 8.06,
+          "centroidY": 2.21,
+          "width": 38.15,
+          "length": 36.34,
+          "area": 949.67
+        },
+        {
+          "minute": 41,
+          "inPlaySeconds": 50,
+          "centroidAttackX": -3.46,
+          "centroidY": 3.37,
+          "width": 43.04,
+          "length": 30.8,
+          "area": 810.02
+        },
+        {
+          "minute": 42,
+          "inPlaySeconds": 25,
+          "centroidAttackX": 11.62,
+          "centroidY": -5.53,
+          "width": 50.82,
+          "length": 33.02,
+          "area": 1039.78
+        },
+        {
+          "minute": 43,
+          "inPlaySeconds": 32,
+          "centroidAttackX": -3.75,
+          "centroidY": -4.51,
+          "width": 28.22,
+          "length": 33.62,
+          "area": 584.62
+        },
+        {
+          "minute": 44,
+          "inPlaySeconds": 52,
+          "centroidAttackX": 10.63,
+          "centroidY": -2.26,
+          "width": 36.16,
+          "length": 34.48,
+          "area": 817.22
+        },
+        {
+          "minute": 45,
+          "inPlaySeconds": 60,
+          "centroidAttackX": 0.11,
+          "centroidY": -3.21,
+          "width": 42.11,
+          "length": 35.98,
+          "area": 1059.78
+        },
+        {
+          "minute": 46,
+          "inPlaySeconds": 10,
+          "centroidAttackX": 20.83,
+          "centroidY": -0.56,
+          "width": 35.38,
+          "length": 34.55,
+          "area": 851.1
+        }
+      ]
+    },
+    "2": {
+      "home": [
+        {
+          "minute": 0,
+          "inPlaySeconds": 15,
+          "centroidAttackX": 5.34,
+          "centroidY": 14.16,
+          "width": 32.05,
+          "length": 29.76,
+          "area": 658.02
+        },
+        {
+          "minute": 1,
+          "inPlaySeconds": 39,
+          "centroidAttackX": -6.56,
+          "centroidY": 11.44,
+          "width": 24.22,
+          "length": 34.12,
+          "area": 639.89
+        },
+        {
+          "minute": 2,
+          "inPlaySeconds": 13,
+          "centroidAttackX": 10.49,
+          "centroidY": 19.65,
+          "width": 26.18,
+          "length": 36.26,
+          "area": 733.82
+        },
+        {
+          "minute": 3,
+          "inPlaySeconds": 31,
+          "centroidAttackX": -2.43,
+          "centroidY": 11.46,
+          "width": 25.84,
+          "length": 31.33,
+          "area": 597.59
+        },
+        {
+          "minute": 4,
+          "inPlaySeconds": 34,
+          "centroidAttackX": 12.7,
+          "centroidY": -8.96,
+          "width": 31.04,
+          "length": 44.33,
+          "area": 959.02
+        },
+        {
+          "minute": 5,
+          "inPlaySeconds": 33,
+          "centroidAttackX": 24.68,
+          "centroidY": -4.46,
+          "width": 40.55,
+          "length": 28.72,
+          "area": 696.64
+        },
+        {
+          "minute": 6,
+          "inPlaySeconds": 34,
+          "centroidAttackX": 7.39,
+          "centroidY": 8.87,
+          "width": 30.43,
+          "length": 28.16,
+          "area": 623.66
+        },
+        {
+          "minute": 7,
+          "inPlaySeconds": 60,
+          "centroidAttackX": 22.48,
+          "centroidY": 6.28,
+          "width": 32.5,
+          "length": 32.2,
+          "area": 718.37
+        },
+        {
+          "minute": 8,
+          "inPlaySeconds": 30,
+          "centroidAttackX": 24.47,
+          "centroidY": -4.31,
+          "width": 38.44,
+          "length": 29.56,
+          "area": 745.54
+        },
+        {
+          "minute": 9,
+          "inPlaySeconds": 7,
+          "centroidAttackX": 24.29,
+          "centroidY": -13.34,
+          "width": 40.2,
+          "length": 30.12,
+          "area": 798.91
+        },
+        {
+          "minute": 11,
+          "inPlaySeconds": 13,
+          "centroidAttackX": 4.71,
+          "centroidY": -20.72,
+          "width": 28.83,
+          "length": 26.72,
+          "area": 505.4
+        },
+        {
+          "minute": 12,
+          "inPlaySeconds": 27,
+          "centroidAttackX": -31.74,
+          "centroidY": 5.19,
+          "width": 29.48,
+          "length": 34.03,
+          "area": 565.84
+        },
+        {
+          "minute": 13,
+          "inPlaySeconds": 29,
+          "centroidAttackX": -0.22,
+          "centroidY": 5.71,
+          "width": 39.95,
+          "length": 37.64,
+          "area": 1052.61
+        },
+        {
+          "minute": 14,
+          "inPlaySeconds": 10,
+          "centroidAttackX": 20.32,
+          "centroidY": 4.07,
+          "width": 27.87,
+          "length": 33.43,
+          "area": 731.81
+        },
+        {
+          "minute": 15,
+          "inPlaySeconds": 14,
+          "centroidAttackX": 31.21,
+          "centroidY": -3.3,
+          "width": 43.86,
+          "length": 30.03,
+          "area": 775.88
+        },
+        {
+          "minute": 16,
+          "inPlaySeconds": 46,
+          "centroidAttackX": 14.4,
+          "centroidY": 1.99,
+          "width": 43.15,
+          "length": 32.95,
+          "area": 948.12
+        },
+        {
+          "minute": 17,
+          "inPlaySeconds": 14,
+          "centroidAttackX": -3.35,
+          "centroidY": -15.12,
+          "width": 26.2,
+          "length": 27.84,
+          "area": 490.86
+        },
+        {
+          "minute": 18,
+          "inPlaySeconds": 28,
+          "centroidAttackX": -10.92,
+          "centroidY": -3.45,
+          "width": 28.69,
+          "length": 30.27,
+          "area": 638.47
+        },
+        {
+          "minute": 19,
+          "inPlaySeconds": 28,
+          "centroidAttackX": 16.26,
+          "centroidY": -16.64,
+          "width": 43.87,
+          "length": 34.37,
+          "area": 974.35
+        },
+        {
+          "minute": 20,
+          "inPlaySeconds": 31,
+          "centroidAttackX": 33.35,
+          "centroidY": -10.6,
+          "width": 37.97,
+          "length": 34.12,
+          "area": 695.74
+        },
+        {
+          "minute": 21,
+          "inPlaySeconds": 11,
+          "centroidAttackX": -8.0,
+          "centroidY": -19.83,
+          "width": 21.32,
+          "length": 27.83,
+          "area": 425.95
+        },
+        {
+          "minute": 22,
+          "inPlaySeconds": 13,
+          "centroidAttackX": -36.19,
+          "centroidY": -11.57,
+          "width": 30.29,
+          "length": 31.22,
+          "area": 526.64
+        },
+        {
+          "minute": 23,
+          "inPlaySeconds": 15,
+          "centroidAttackX": -28.47,
+          "centroidY": -9.14,
+          "width": 25.15,
+          "length": 37.95,
+          "area": 499.84
+        },
+        {
+          "minute": 24,
+          "inPlaySeconds": 27,
+          "centroidAttackX": -20.1,
+          "centroidY": -8.05,
+          "width": 33.22,
+          "length": 37.13,
+          "area": 898.15
+        },
+        {
+          "minute": 25,
+          "inPlaySeconds": 26,
+          "centroidAttackX": -3.99,
+          "centroidY": 10.65,
+          "width": 34.23,
+          "length": 29.15,
+          "area": 765.4
+        },
+        {
+          "minute": 26,
+          "inPlaySeconds": 50,
+          "centroidAttackX": -6.85,
+          "centroidY": 10.92,
+          "width": 37.86,
+          "length": 34.46,
+          "area": 953.12
+        },
+        {
+          "minute": 27,
+          "inPlaySeconds": 17,
+          "centroidAttackX": 26.74,
+          "centroidY": -2.63,
+          "width": 43.27,
+          "length": 30.0,
+          "area": 752.97
+        },
+        {
+          "minute": 28,
+          "inPlaySeconds": 38,
+          "centroidAttackX": 1.46,
+          "centroidY": -8.79,
+          "width": 29.47,
+          "length": 42.24,
+          "area": 905.94
+        },
+        {
+          "minute": 29,
+          "inPlaySeconds": 37,
+          "centroidAttackX": -11.35,
+          "centroidY": 1.83,
+          "width": 32.21,
+          "length": 36.01,
+          "area": 831.54
+        },
+        {
+          "minute": 30,
+          "inPlaySeconds": 20,
+          "centroidAttackX": -4.74,
+          "centroidY": 5.96,
+          "width": 27.03,
+          "length": 49.6,
+          "area": 834.91
+        },
+        {
+          "minute": 31,
+          "inPlaySeconds": 32,
+          "centroidAttackX": -28.5,
+          "centroidY": 5.73,
+          "width": 38.87,
+          "length": 40.1,
+          "area": 982.47
+        },
+        {
+          "minute": 32,
+          "inPlaySeconds": 17,
+          "centroidAttackX": -21.26,
+          "centroidY": -10.81,
+          "width": 25.95,
+          "length": 37.49,
+          "area": 567.04
+        },
+        {
+          "minute": 33,
+          "inPlaySeconds": 35,
+          "centroidAttackX": -8.82,
+          "centroidY": -15.58,
+          "width": 29.57,
+          "length": 36.2,
+          "area": 724.93
+        },
+        {
+          "minute": 34,
+          "inPlaySeconds": 32,
+          "centroidAttackX": -19.8,
+          "centroidY": 2.63,
+          "width": 33.87,
+          "length": 47.0,
+          "area": 1078.29
+        },
+        {
+          "minute": 35,
+          "inPlaySeconds": 16,
+          "centroidAttackX": 18.87,
+          "centroidY": 15.4,
+          "width": 38.18,
+          "length": 29.33,
+          "area": 838.78
+        },
+        {
+          "minute": 36,
+          "inPlaySeconds": 60,
+          "centroidAttackX": 12.14,
+          "centroidY": 7.35,
+          "width": 33.79,
+          "length": 35.27,
+          "area": 887.45
+        },
+        {
+          "minute": 37,
+          "inPlaySeconds": 32,
+          "centroidAttackX": -10.51,
+          "centroidY": -6.85,
+          "width": 42.39,
+          "length": 37.88,
+          "area": 1127.14
+        },
+        {
+          "minute": 38,
+          "inPlaySeconds": 15,
+          "centroidAttackX": -15.74,
+          "centroidY": -18.42,
+          "width": 26.88,
+          "length": 35.03,
+          "area": 711.16
+        },
+        {
+          "minute": 39,
+          "inPlaySeconds": 30,
+          "centroidAttackX": -10.23,
+          "centroidY": 10.24,
+          "width": 32.26,
+          "length": 37.56,
+          "area": 725.01
+        },
+        {
+          "minute": 40,
+          "inPlaySeconds": 9,
+          "centroidAttackX": -14.97,
+          "centroidY": 12.61,
+          "width": 35.41,
+          "length": 36.18,
+          "area": 897.48
+        },
+        {
+          "minute": 41,
+          "inPlaySeconds": 7,
+          "centroidAttackX": -3.03,
+          "centroidY": -0.81,
+          "width": 47.8,
+          "length": 27.7,
+          "area": 829.25
+        },
+        {
+          "minute": 43,
+          "inPlaySeconds": 10,
+          "centroidAttackX": 21.79,
+          "centroidY": 0.94,
+          "width": 31.33,
+          "length": 31.8,
+          "area": 819.77
+        },
+        {
+          "minute": 44,
+          "inPlaySeconds": 37,
+          "centroidAttackX": -7.25,
+          "centroidY": -4.06,
+          "width": 40.96,
+          "length": 38.94,
+          "area": 1022.81
+        },
+        {
+          "minute": 45,
+          "inPlaySeconds": 32,
+          "centroidAttackX": -20.94,
+          "centroidY": -16.39,
+          "width": 28.25,
+          "length": 38.93,
+          "area": 677.29
+        },
+        {
+          "minute": 46,
+          "inPlaySeconds": 4,
+          "centroidAttackX": 1.58,
+          "centroidY": -3.66,
+          "width": 41.68,
+          "length": 37.13,
+          "area": 1081.15
+        },
+        {
+          "minute": 47,
+          "inPlaySeconds": 21,
+          "centroidAttackX": 10.4,
+          "centroidY": 1.73,
+          "width": 28.64,
+          "length": 34.97,
+          "area": 650.49
+        },
+        {
+          "minute": 48,
+          "inPlaySeconds": 7,
+          "centroidAttackX": -16.71,
+          "centroidY": 16.66,
+          "width": 25.92,
+          "length": 34.74,
+          "area": 472.52
+        }
+      ],
+      "away": [
+        {
+          "minute": 0,
+          "inPlaySeconds": 15,
+          "centroidAttackX": -12.12,
+          "centroidY": 16.23,
+          "width": 29.27,
+          "length": 31.07,
+          "area": 659.01
+        },
+        {
+          "minute": 1,
+          "inPlaySeconds": 39,
+          "centroidAttackX": 2.17,
+          "centroidY": 12.37,
+          "width": 29.25,
+          "length": 35.99,
+          "area": 703.91
+        },
+        {
+          "minute": 2,
+          "inPlaySeconds": 13,
+          "centroidAttackX": -13.81,
+          "centroidY": 19.27,
+          "width": 26.63,
+          "length": 34.28,
+          "area": 616.33
+        },
+        {
+          "minute": 3,
+          "inPlaySeconds": 31,
+          "centroidAttackX": -0.25,
+          "centroidY": 12.99,
+          "width": 25.6,
+          "length": 30.47,
+          "area": 527.57
+        },
+        {
+          "minute": 4,
+          "inPlaySeconds": 34,
+          "centroidAttackX": -15.59,
+          "centroidY": -7.9,
+          "width": 29.8,
+          "length": 39.3,
+          "area": 696.26
+        },
+        {
+          "minute": 5,
+          "inPlaySeconds": 33,
+          "centroidAttackX": -29.9,
+          "centroidY": -3.23,
+          "width": 30.13,
+          "length": 22.86,
+          "area": 403.48
+        },
+        {
+          "minute": 6,
+          "inPlaySeconds": 34,
+          "centroidAttackX": -11.51,
+          "centroidY": 11.27,
+          "width": 28.78,
+          "length": 28.78,
+          "area": 541.89
+        },
+        {
+          "minute": 7,
+          "inPlaySeconds": 60,
+          "centroidAttackX": -26.71,
+          "centroidY": 7.1,
+          "width": 33.33,
+          "length": 32.33,
+          "area": 607.94
+        },
+        {
+          "minute": 8,
+          "inPlaySeconds": 30,
+          "centroidAttackX": -29.95,
+          "centroidY": -2.99,
+          "width": 32.5,
+          "length": 24.46,
+          "area": 415.16
+        },
+        {
+          "minute": 9,
+          "inPlaySeconds": 7,
+          "centroidAttackX": -29.9,
+          "centroidY": -13.88,
+          "width": 34.9,
+          "length": 23.39,
+          "area": 465.28
+        },
+        {
+          "minute": 11,
+          "inPlaySeconds": 13,
+          "centroidAttackX": -9.33,
+          "centroidY": -19.77,
+          "width": 28.86,
+          "length": 27.88,
+          "area": 522.31
+        },
+        {
+          "minute": 12,
+          "inPlaySeconds": 27,
+          "centroidAttackX": 26.84,
+          "centroidY": 7.08,
+          "width": 33.47,
+          "length": 39.55,
+          "area": 764.1
+        },
+        {
+          "minute": 13,
+          "inPlaySeconds": 29,
+          "centroidAttackX": -4.87,
+          "centroidY": 8.38,
+          "width": 33.66,
+          "length": 33.1,
+          "area": 793.33
+        },
+        {
+          "minute": 14,
+          "inPlaySeconds": 10,
+          "centroidAttackX": -25.98,
+          "centroidY": 5.12,
+          "width": 27.44,
+          "length": 32.67,
+          "area": 601.33
+        },
+        {
+          "minute": 15,
+          "inPlaySeconds": 14,
+          "centroidAttackX": -36.19,
+          "centroidY": -1.97,
+          "width": 26.43,
+          "length": 17.31,
+          "area": 310.09
+        },
+        {
+          "minute": 16,
+          "inPlaySeconds": 46,
+          "centroidAttackX": -18.76,
+          "centroidY": 1.13,
+          "width": 32.77,
+          "length": 27.38,
+          "area": 581.39
+        },
+        {
+          "minute": 17,
+          "inPlaySeconds": 14,
+          "centroidAttackX": -0.41,
+          "centroidY": -15.45,
+          "width": 25.41,
+          "length": 27.19,
+          "area": 493.95
+        },
+        {
+          "minute": 18,
+          "inPlaySeconds": 28,
+          "centroidAttackX": 5.65,
+          "centroidY": -2.58,
+          "width": 25.08,
+          "length": 32.1,
+          "area": 520.87
+        },
+        {
+          "minute": 19,
+          "inPlaySeconds": 28,
+          "centroidAttackX": -19.96,
+          "centroidY": -16.12,
+          "width": 37.06,
+          "length": 32.61,
+          "area": 699.86
+        },
+        {
+          "minute": 20,
+          "inPlaySeconds": 31,
+          "centroidAttackX": -39.28,
+          "centroidY": -8.86,
+          "width": 25.25,
+          "length": 17.58,
+          "area": 290.25
+        },
+        {
+          "minute": 21,
+          "inPlaySeconds": 11,
+          "centroidAttackX": 3.6,
+          "centroidY": -17.99,
+          "width": 22.56,
+          "length": 28.66,
+          "area": 396.46
+        },
+        {
+          "minute": 22,
+          "inPlaySeconds": 13,
+          "centroidAttackX": 31.53,
+          "centroidY": -10.74,
+          "width": 32.62,
+          "length": 35.63,
+          "area": 667.68
+        },
+        {
+          "minute": 23,
+          "inPlaySeconds": 15,
+          "centroidAttackX": 23.11,
+          "centroidY": -10.92,
+          "width": 33.48,
+          "length": 38.99,
+          "area": 833.24
+        },
+        {
+          "minute": 24,
+          "inPlaySeconds": 27,
+          "centroidAttackX": 12.61,
+          "centroidY": -6.9,
+          "width": 37.14,
+          "length": 36.68,
+          "area": 927.01
+        },
+        {
+          "minute": 25,
+          "inPlaySeconds": 26,
+          "centroidAttackX": -1.0,
+          "centroidY": 11.89,
+          "width": 32.98,
+          "length": 30.39,
+          "area": 658.02
+        },
+        {
+          "minute": 26,
+          "inPlaySeconds": 50,
+          "centroidAttackX": 1.56,
+          "centroidY": 11.68,
+          "width": 36.32,
+          "length": 32.78,
+          "area": 806.47
+        },
+        {
+          "minute": 27,
+          "inPlaySeconds": 17,
+          "centroidAttackX": -32.81,
+          "centroidY": -1.4,
+          "width": 23.58,
+          "length": 22.62,
+          "area": 322.57
+        },
+        {
+          "minute": 28,
+          "inPlaySeconds": 38,
+          "centroidAttackX": -4.27,
+          "centroidY": -8.8,
+          "width": 32.11,
+          "length": 36.2,
+          "area": 797.65
+        },
+        {
+          "minute": 29,
+          "inPlaySeconds": 37,
+          "centroidAttackX": 8.87,
+          "centroidY": 1.14,
+          "width": 33.53,
+          "length": 36.5,
+          "area": 843.7
+        },
+        {
+          "minute": 30,
+          "inPlaySeconds": 20,
+          "centroidAttackX": 4.39,
+          "centroidY": 6.96,
+          "width": 29.37,
+          "length": 29.84,
+          "area": 554.08
+        },
+        {
+          "minute": 31,
+          "inPlaySeconds": 32,
+          "centroidAttackX": 22.56,
+          "centroidY": 5.62,
+          "width": 35.18,
+          "length": 41.54,
+          "area": 981.08
+        },
+        {
+          "minute": 32,
+          "inPlaySeconds": 17,
+          "centroidAttackX": 16.24,
+          "centroidY": -10.6,
+          "width": 30.94,
+          "length": 39.3,
+          "area": 782.51
+        },
+        {
+          "minute": 33,
+          "inPlaySeconds": 35,
+          "centroidAttackX": 5.21,
+          "centroidY": -15.33,
+          "width": 31.02,
+          "length": 34.42,
+          "area": 698.29
+        },
+        {
+          "minute": 34,
+          "inPlaySeconds": 32,
+          "centroidAttackX": 15.83,
+          "centroidY": 2.74,
+          "width": 32.89,
+          "length": 51.36,
+          "area": 1266.27
+        },
+        {
+          "minute": 35,
+          "inPlaySeconds": 16,
+          "centroidAttackX": -23.65,
+          "centroidY": 15.9,
+          "width": 31.26,
+          "length": 24.78,
+          "area": 480.84
+        },
+        {
+          "minute": 36,
+          "inPlaySeconds": 60,
+          "centroidAttackX": -18.31,
+          "centroidY": 7.67,
+          "width": 32.8,
+          "length": 28.65,
+          "area": 585.05
+        },
+        {
+          "minute": 37,
+          "inPlaySeconds": 32,
+          "centroidAttackX": 3.94,
+          "centroidY": -5.18,
+          "width": 38.94,
+          "length": 33.36,
+          "area": 906.94
+        },
+        {
+          "minute": 38,
+          "inPlaySeconds": 15,
+          "centroidAttackX": 11.26,
+          "centroidY": -17.98,
+          "width": 25.71,
+          "length": 35.69,
+          "area": 681.68
+        },
+        {
+          "minute": 39,
+          "inPlaySeconds": 30,
+          "centroidAttackX": 3.01,
+          "centroidY": 9.84,
+          "width": 35.55,
+          "length": 32.86,
+          "area": 862.52
+        },
+        {
+          "minute": 40,
+          "inPlaySeconds": 9,
+          "centroidAttackX": 10.31,
+          "centroidY": 11.17,
+          "width": 34.47,
+          "length": 34.7,
+          "area": 776.39
+        },
+        {
+          "minute": 41,
+          "inPlaySeconds": 7,
+          "centroidAttackX": -10.05,
+          "centroidY": -1.22,
+          "width": 37.04,
+          "length": 20.19,
+          "area": 566.47
+        },
+        {
+          "minute": 43,
+          "inPlaySeconds": 10,
+          "centroidAttackX": -28.58,
+          "centroidY": 1.93,
+          "width": 26.41,
+          "length": 26.09,
+          "area": 396.46
+        },
+        {
+          "minute": 44,
+          "inPlaySeconds": 37,
+          "centroidAttackX": -0.71,
+          "centroidY": -5.49,
+          "width": 36.11,
+          "length": 35.29,
+          "area": 804.28
+        },
+        {
+          "minute": 45,
+          "inPlaySeconds": 32,
+          "centroidAttackX": 15.89,
+          "centroidY": -16.95,
+          "width": 27.75,
+          "length": 36.01,
+          "area": 621.0
+        },
+        {
+          "minute": 46,
+          "inPlaySeconds": 4,
+          "centroidAttackX": -8.41,
+          "centroidY": -2.8,
+          "width": 35.75,
+          "length": 31.09,
+          "area": 757.03
+        },
+        {
+          "minute": 47,
+          "inPlaySeconds": 21,
+          "centroidAttackX": -17.23,
+          "centroidY": 1.99,
+          "width": 27.39,
+          "length": 34.0,
+          "area": 602.61
+        },
+        {
+          "minute": 48,
+          "inPlaySeconds": 7,
+          "centroidAttackX": 9.2,
+          "centroidY": 16.53,
+          "width": 25.53,
+          "length": 33.18,
+          "area": 481.33
+        }
+      ]
+    }
+  },
+  "teamMeans": {
+    "home": {
+      "centroidAttackX": -5.01,
+      "centroidY": -0.37,
+      "width": 35.74,
+      "length": 32.48,
+      "area": 779.16,
+      "inPlaySeconds": 2731
+    },
+    "away": {
+      "centroidAttackX": -0.47,
+      "centroidY": -0.45,
+      "width": 35.14,
+      "length": 32.8,
+      "area": 753.18,
+      "inPlaySeconds": 2731
+    }
+  },
+  "spaceControl": {
+    "name": "space control (nearest player)",
+    "grid": {
+      "cols": 32,
+      "rows": 21,
+      "cells": 672
+    },
+    "stepSeconds": 5,
+    "points": 1132,
+    "gridPointsDroppedAfterTrackingEnds": 1,
+    "meanHomeShare": 0.5093,
+    "meanHomeShareBallInPlay": 0.4891,
+    "maxCellDifferenceVsShippedBinary": 2,
+    "periods": [
+      {
+        "period": 1,
+        "t": [
+          0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105,
+          110, 115, 120, 125, 130, 135, 140, 145, 150, 155, 160, 165, 170, 175, 180, 185, 190, 195,
+          200, 205, 210, 215, 220, 225, 230, 235, 240, 245, 250, 255, 260, 265, 270, 275, 280, 285,
+          290, 295, 300, 305, 310, 315, 320, 325, 330, 335, 340, 345, 350, 355, 360, 365, 370, 375,
+          380, 385, 390, 395, 400, 405, 410, 415, 420, 425, 430, 435, 440, 445, 450, 455, 460, 465,
+          470, 475, 480, 485, 490, 495, 500, 505, 510, 515, 520, 525, 530, 535, 540, 545, 550, 555,
+          560, 565, 570, 575, 580, 585, 590, 595, 600, 605, 610, 615, 620, 625, 630, 635, 640, 645,
+          650, 655, 660, 665, 670, 675, 680, 685, 690, 695, 700, 705, 710, 715, 720, 725, 730, 735,
+          740, 745, 750, 755, 760, 765, 770, 775, 780, 785, 790, 795, 800, 805, 810, 815, 820, 825,
+          830, 835, 840, 845, 850, 855, 860, 865, 870, 875, 880, 885, 890, 895, 900, 905, 910, 915,
+          920, 925, 930, 935, 940, 945, 950, 955, 960, 965, 970, 975, 980, 985, 990, 995, 1000,
+          1005, 1010, 1015, 1020, 1025, 1030, 1035, 1040, 1045, 1050, 1055, 1060, 1065, 1070, 1075,
+          1080, 1085, 1090, 1095, 1100, 1105, 1110, 1115, 1120, 1125, 1130, 1135, 1140, 1145, 1150,
+          1155, 1160, 1165, 1170, 1175, 1180, 1185, 1190, 1195, 1200, 1205, 1210, 1215, 1220, 1225,
+          1230, 1235, 1240, 1245, 1250, 1255, 1260, 1265, 1270, 1275, 1280, 1285, 1290, 1295, 1300,
+          1305, 1310, 1315, 1320, 1325, 1330, 1335, 1340, 1345, 1350, 1355, 1360, 1365, 1370, 1375,
+          1380, 1385, 1390, 1395, 1400, 1405, 1410, 1415, 1420, 1425, 1430, 1435, 1440, 1445, 1450,
+          1455, 1460, 1465, 1470, 1475, 1480, 1485, 1490, 1495, 1500, 1505, 1510, 1515, 1520, 1525,
+          1530, 1535, 1540, 1545, 1550, 1555, 1560, 1565, 1570, 1575, 1580, 1585, 1590, 1595, 1600,
+          1605, 1610, 1615, 1620, 1625, 1630, 1635, 1640, 1645, 1650, 1655, 1660, 1665, 1670, 1675,
+          1680, 1685, 1690, 1695, 1700, 1705, 1710, 1715, 1720, 1725, 1730, 1735, 1740, 1745, 1750,
+          1755, 1760, 1765, 1770, 1775, 1780, 1785, 1790, 1795, 1800, 1805, 1810, 1815, 1820, 1825,
+          1830, 1835, 1840, 1845, 1850, 1855, 1860, 1865, 1870, 1875, 1880, 1885, 1890, 1895, 1900,
+          1905, 1910, 1915, 1920, 1925, 1930, 1935, 1940, 1945, 1950, 1955, 1960, 1965, 1970, 1975,
+          1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025, 2030, 2035, 2040, 2045, 2050,
+          2055, 2060, 2065, 2070, 2075, 2080, 2085, 2090, 2095, 2100, 2105, 2110, 2115, 2120, 2125,
+          2130, 2135, 2140, 2145, 2150, 2155, 2160, 2165, 2170, 2175, 2180, 2185, 2190, 2195, 2200,
+          2205, 2210, 2215, 2220, 2225, 2230, 2235, 2240, 2245, 2250, 2255, 2260, 2265, 2270, 2275,
+          2280, 2285, 2290, 2295, 2300, 2305, 2310, 2315, 2320, 2325, 2330, 2335, 2340, 2345, 2350,
+          2355, 2360, 2365, 2370, 2375, 2380, 2385, 2390, 2395, 2400, 2405, 2410, 2415, 2420, 2425,
+          2430, 2435, 2440, 2445, 2450, 2455, 2460, 2465, 2470, 2475, 2480, 2485, 2490, 2495, 2500,
+          2505, 2510, 2515, 2520, 2525, 2530, 2535, 2540, 2545, 2550, 2555, 2560, 2565, 2570, 2575,
+          2580, 2585, 2590, 2595, 2600, 2605, 2610, 2615, 2620, 2625, 2630, 2635, 2640, 2645, 2650,
+          2655, 2660, 2665, 2670, 2675, 2680, 2685, 2690, 2695, 2700, 2705, 2710, 2715, 2720, 2725,
+          2730, 2735, 2740, 2745, 2750, 2755, 2760, 2765
+        ],
+        "homeCells": [
+          289, 177, 178, 131, 91, 106, 122, 214, 341, 421, 515, 570, 612, 586, 605, 605, 606, 605,
+          616, 622, 610, 627, 633, 600, 568, 499, 479, 460, 403, 336, 317, 265, 188, 314, 320, 338,
+          364, 183, 184, 302, 358, 380, 324, 250, 251, 229, 188, 85, 84, 89, 179, 246, 223, 211,
+          307, 307, 363, 398, 425, 391, 329, 426, 421, 368, 274, 237, 203, 212, 267, 363, 362, 338,
+          323, 365, 355, 383, 416, 463, 492, 441, 429, 440, 438, 445, 356, 300, 232, 216, 214, 248,
+          264, 259, 245, 163, 83, 62, 90, 114, 157, 191, 217, 134, 85, 193, 229, 279, 324, 359, 274,
+          217, 297, 360, 359, 379, 380, 359, 342, 301, 302, 297, 295, 301, 339, 331, 320, 327, 375,
+          325, 260, 357, 482, 527, 526, 498, 496, 397, 376, 350, 353, 341, 277, 273, 254, 191, 218,
+          198, 187, 270, 237, 246, 258, 184, 112, 136, 139, 174, 230, 230, 173, 114, 337, 344, 343,
+          328, 269, 220, 161, 116, 86, 103, 144, 175, 326, 497, 561, 579, 584, 612, 596, 602, 601,
+          598, 578, 541, 481, 330, 285, 343, 326, 304, 296, 305, 355, 422, 441, 373, 277, 265, 163,
+          164, 250, 275, 261, 178, 172, 138, 116, 182, 206, 216, 238, 286, 289, 366, 328, 244, 166,
+          221, 343, 421, 459, 468, 431, 409, 375, 366, 297, 267, 288, 322, 331, 335, 305, 280, 232,
+          144, 221, 219, 197, 228, 296, 362, 455, 449, 531, 498, 429, 403, 383, 337, 329, 351, 333,
+          332, 318, 295, 316, 329, 316, 304, 253, 231, 198, 169, 250, 415, 413, 381, 372, 363, 484,
+          551, 579, 555, 568, 490, 433, 430, 387, 347, 321, 310, 341, 336, 375, 354, 395, 425, 388,
+          354, 331, 366, 374, 402, 377, 352, 337, 276, 305, 305, 290, 244, 177, 223, 207, 213, 282,
+          337, 366, 258, 250, 258, 251, 262, 233, 356, 391, 450, 433, 411, 447, 527, 520, 416, 391,
+          383, 351, 304, 328, 347, 359, 411, 407, 404, 418, 322, 390, 308, 431, 538, 548, 534, 472,
+          493, 431, 397, 427, 400, 310, 202, 173, 180, 264, 237, 271, 250, 161, 144, 167, 212, 136,
+          88, 65, 91, 123, 193, 182, 165, 211, 367, 382, 399, 432, 424, 399, 261, 228, 220, 222,
+          209, 230, 291, 376, 423, 371, 334, 305, 267, 209, 252, 247, 241, 449, 470, 441, 262, 110,
+          88, 94, 56, 55, 79, 58, 56, 115, 234, 321, 375, 411, 415, 394, 380, 367, 358, 367, 355,
+          318, 360, 366, 351, 334, 337, 222, 186, 115, 169, 368, 471, 496, 522, 592, 598, 611, 599,
+          593, 581, 543, 495, 419, 321, 331, 352, 476, 362, 200, 109, 165, 130, 168, 220, 235, 266,
+          314, 201, 194, 218, 253, 311, 367, 437, 452, 367, 271, 220, 106, 78, 90, 88, 114, 97, 156,
+          201, 229, 200, 236, 302, 315, 251, 206, 209, 223, 229, 251, 284, 403, 400, 204, 150, 192,
+          251, 298, 316, 416, 486, 507, 523, 527, 504, 476, 277, 187, 148, 187, 208, 189, 226, 267,
+          261, 218, 150, 191, 223, 225, 227, 258, 309, 352, 375, 292, 197, 216, 226, 239, 261, 305,
+          364, 383, 347, 345, 303, 190, 176, 206, 249, 268, 268, 298, 279, 287, 136, 150, 272, 400,
+          394, 410, 412, 371, 437, 377, 253, 142, 82, 89, 139
+        ],
+        "ballInPlay": [
+          1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0,
+          0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,
+          1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0,
+          0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0,
+          0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1,
+          1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1,
+          1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1,
+          1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0,
+          0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0,
+          0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0,
+          1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0,
+          0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+        ]
+      },
+      {
+        "period": 2,
+        "t": [
+          0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105,
+          110, 115, 120, 125, 130, 135, 140, 145, 150, 155, 160, 165, 170, 175, 180, 185, 190, 195,
+          200, 205, 210, 215, 220, 225, 230, 235, 240, 245, 250, 255, 260, 265, 270, 275, 280, 285,
+          290, 295, 300, 305, 310, 315, 320, 325, 330, 335, 340, 345, 350, 355, 360, 365, 370, 375,
+          380, 385, 390, 395, 400, 405, 410, 415, 420, 425, 430, 435, 440, 445, 450, 455, 460, 465,
+          470, 475, 480, 485, 490, 495, 500, 505, 510, 515, 520, 525, 530, 535, 540, 545, 550, 555,
+          560, 565, 570, 575, 580, 585, 590, 595, 600, 605, 610, 615, 620, 625, 630, 635, 640, 645,
+          650, 655, 660, 665, 670, 675, 680, 685, 690, 695, 700, 705, 710, 715, 720, 725, 730, 735,
+          740, 745, 750, 755, 760, 765, 770, 775, 780, 785, 790, 795, 800, 805, 810, 815, 820, 825,
+          830, 835, 840, 845, 850, 855, 860, 865, 870, 875, 880, 885, 890, 895, 900, 905, 910, 915,
+          920, 925, 930, 935, 940, 945, 950, 955, 960, 965, 970, 975, 980, 985, 990, 995, 1000,
+          1005, 1010, 1015, 1020, 1025, 1030, 1035, 1040, 1045, 1050, 1055, 1060, 1065, 1070, 1075,
+          1080, 1085, 1090, 1095, 1100, 1105, 1110, 1115, 1120, 1125, 1130, 1135, 1140, 1145, 1150,
+          1155, 1160, 1165, 1170, 1175, 1180, 1185, 1190, 1195, 1200, 1205, 1210, 1215, 1220, 1225,
+          1230, 1235, 1240, 1245, 1250, 1255, 1260, 1265, 1270, 1275, 1280, 1285, 1290, 1295, 1300,
+          1305, 1310, 1315, 1320, 1325, 1330, 1335, 1340, 1345, 1350, 1355, 1360, 1365, 1370, 1375,
+          1380, 1385, 1390, 1395, 1400, 1405, 1410, 1415, 1420, 1425, 1430, 1435, 1440, 1445, 1450,
+          1455, 1460, 1465, 1470, 1475, 1480, 1485, 1490, 1495, 1500, 1505, 1510, 1515, 1520, 1525,
+          1530, 1535, 1540, 1545, 1550, 1555, 1560, 1565, 1570, 1575, 1580, 1585, 1590, 1595, 1600,
+          1605, 1610, 1615, 1620, 1625, 1630, 1635, 1640, 1645, 1650, 1655, 1660, 1665, 1670, 1675,
+          1680, 1685, 1690, 1695, 1700, 1705, 1710, 1715, 1720, 1725, 1730, 1735, 1740, 1745, 1750,
+          1755, 1760, 1765, 1770, 1775, 1780, 1785, 1790, 1795, 1800, 1805, 1810, 1815, 1820, 1825,
+          1830, 1835, 1840, 1845, 1850, 1855, 1860, 1865, 1870, 1875, 1880, 1885, 1890, 1895, 1900,
+          1905, 1910, 1915, 1920, 1925, 1930, 1935, 1940, 1945, 1950, 1955, 1960, 1965, 1970, 1975,
+          1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025, 2030, 2035, 2040, 2045, 2050,
+          2055, 2060, 2065, 2070, 2075, 2080, 2085, 2090, 2095, 2100, 2105, 2110, 2115, 2120, 2125,
+          2130, 2135, 2140, 2145, 2150, 2155, 2160, 2165, 2170, 2175, 2180, 2185, 2190, 2195, 2200,
+          2205, 2210, 2215, 2220, 2225, 2230, 2235, 2240, 2245, 2250, 2255, 2260, 2265, 2270, 2275,
+          2280, 2285, 2290, 2295, 2300, 2305, 2310, 2315, 2320, 2325, 2330, 2335, 2340, 2345, 2350,
+          2355, 2360, 2365, 2370, 2375, 2380, 2385, 2390, 2395, 2400, 2405, 2410, 2415, 2420, 2425,
+          2430, 2435, 2440, 2445, 2450, 2455, 2460, 2465, 2470, 2475, 2480, 2485, 2490, 2495, 2500,
+          2505, 2510, 2515, 2520, 2525, 2530, 2535, 2540, 2545, 2550, 2555, 2560, 2565, 2570, 2575,
+          2580, 2585, 2590, 2595, 2600, 2605, 2610, 2615, 2620, 2625, 2630, 2635, 2640, 2645, 2650,
+          2655, 2660, 2665, 2670, 2675, 2680, 2685, 2690, 2695, 2700, 2705, 2710, 2715, 2720, 2725,
+          2730, 2735, 2740, 2745, 2750, 2755, 2760, 2765, 2770, 2775, 2780, 2785, 2790, 2795, 2800,
+          2805, 2810, 2815, 2820, 2825, 2830, 2835, 2840, 2845, 2850, 2855, 2860, 2865, 2870, 2875,
+          2880, 2885
+        ],
+        "homeCells": [
+          368, 449, 417, 338, 323, 382, 428, 515, 445, 420, 427, 406, 424, 377, 273, 222, 228, 199,
+          205, 224, 272, 340, 379, 325, 434, 453, 362, 330, 348, 325, 352, 337, 320, 259, 251, 242,
+          225, 194, 156, 153, 201, 273, 412, 491, 515, 458, 411, 444, 498, 508, 509, 496, 461, 499,
+          414, 368, 379, 378, 420, 480, 522, 564, 564, 511, 536, 486, 504, 525, 549, 566, 541, 499,
+          516, 507, 537, 522, 494, 452, 479, 451, 388, 294, 265, 445, 524, 548, 561, 595, 538, 448,
+          364, 412, 507, 565, 540, 531, 526, 531, 561, 569, 559, 568, 559, 583, 573, 481, 479, 564,
+          558, 532, 545, 529, 481, 457, 435, 417, 433, 461, 459, 462, 453, 447, 442, 432, 458, 462,
+          471, 450, 470, 462, 472, 439, 408, 340, 411, 419, 363, 346, 253, 232, 229, 206, 214, 190,
+          183, 106, 103, 159, 132, 90, 43, 114, 98, 136, 246, 361, 388, 360, 291, 462, 455, 447,
+          458, 380, 357, 438, 361, 381, 382, 434, 437, 521, 496, 505, 540, 620, 629, 613, 616, 615,
+          620, 649, 657, 654, 653, 655, 616, 644, 615, 627, 624, 540, 526, 570, 528, 474, 399, 357,
+          442, 452, 500, 537, 556, 578, 561, 557, 531, 448, 404, 354, 248, 252, 276, 245, 250, 195,
+          146, 101, 113, 98, 168, 291, 387, 319, 430, 513, 522, 530, 529, 488, 435, 412, 449, 535,
+          567, 606, 609, 608, 612, 613, 629, 632, 600, 567, 569, 600, 560, 586, 586, 538, 530, 558,
+          511, 532, 525, 427, 384, 386, 372, 297, 249, 191, 206, 221, 188, 187, 179, 177, 160, 130,
+          159, 120, 89, 73, 105, 73, 205, 218, 123, 139, 151, 111, 119, 115, 84, 129, 145, 171, 110,
+          114, 169, 157, 180, 191, 194, 198, 162, 185, 238, 269, 277, 283, 350, 497, 476, 441, 440,
+          408, 380, 322, 267, 157, 159, 138, 91, 306, 358, 488, 481, 367, 378, 417, 442, 488, 484,
+          522, 550, 583, 570, 621, 508, 499, 478, 479, 506, 510, 503, 491, 476, 444, 465, 437, 461,
+          464, 413, 280, 192, 232, 240, 238, 201, 142, 101, 105, 142, 279, 318, 349, 301, 352, 350,
+          406, 363, 351, 265, 265, 249, 211, 167, 117, 171, 190, 151, 175, 253, 268, 280, 193, 171,
+          171, 120, 89, 64, 67, 84, 87, 100, 89, 104, 136, 167, 160, 208, 234, 281, 345, 361, 319,
+          290, 318, 334, 328, 324, 325, 345, 336, 332, 288, 141, 116, 203, 243, 276, 192, 202, 340,
+          393, 420, 454, 354, 324, 369, 357, 378, 461, 539, 539, 511, 457, 511, 529, 558, 548, 529,
+          377, 328, 344, 337, 368, 422, 419, 568, 508, 540, 499, 390, 333, 288, 259, 233, 297, 297,
+          323, 183, 167, 179, 192, 192, 175, 149, 213, 217, 246, 228, 247, 400, 460, 517, 519, 527,
+          551, 523, 555, 490, 415, 297, 188, 140, 175, 242, 271, 293, 327, 252, 253, 387, 455, 454,
+          390, 381, 375, 364, 344, 332, 355, 351, 340, 352, 358, 356, 345, 378, 416, 466, 457, 457,
+          467, 473, 470, 451, 447, 453, 453, 456, 460, 466, 470, 459, 462, 464, 486, 453, 445, 472,
+          478, 487, 519, 573, 502, 501, 415, 460, 342, 233, 189, 210, 232, 192, 179, 151, 132, 162,
+          237, 283, 289, 275, 268, 330, 370, 392, 381, 354, 348, 339, 392, 357, 352, 361, 358, 364,
+          378, 363, 363, 390, 338, 365, 340, 453, 502, 455, 460, 415, 389, 361, 325, 275, 254, 252
+        ],
+        "ballInPlay": [
+          1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0,
+          0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0,
+          0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0,
+          0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1,
+          1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0,
+          0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1,
+          0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1,
+          0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1,
+          1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1,
+          0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1,
+          1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1,
+          0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1,
+          1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0,
+          0, 0, 0, 0, 0, 0, 1, 1
+        ]
+      }
+    ]
+  }
+}

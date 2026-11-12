@@ -1,0 +1,138 @@
+{
+  "app": {
+    "name": "Klupa",
+    "language": "Language",
+    "skip": "Skip to content"
+  },
+  "lang": {
+    "bs": "Bosanski",
+    "en": "English"
+  },
+  "side": {
+    "home": "Team A",
+    "away": "Team B"
+  },
+  "lab": {
+    "title": "Who is on top, and can you trust it?",
+    "intro": "Every momentum chart hides a choice: how far back to look. Klupa shows three windows at once and tells you when the answer depends on that choice, or on a single chance.",
+    "match": "Match",
+    "matchOption": "Demo match {{number}} ({{id}})",
+    "period": "Half",
+    "periodOption": "Half {{number}}",
+    "window": "Chart window",
+    "windowOption": "{{minutes}} min",
+    "cursor": "Moment in the half",
+    "cursorValue": "{{time}}, {{state}}",
+    "chartLabel": "Chance balance over the last {{minutes}} minutes of half {{period}}. Above the line favours {{home}}, below favours {{away}}. Shots are marked above for {{home}} and below for {{away}}, sized by chance quality. The strip underneath shows what a coach may conclude at each moment; the table after the chart lists the time spent in each conclusion.",
+    "stripLabel": "Strip under the chart: what a coach may conclude at each moment. Drag across the chart to read any moment.",
+    "summaryTitle": "This half at a glance",
+    "tableCaption": "Time spent in each conclusion this half",
+    "tableState": "Conclusion",
+    "tableTime": "Time (min:s)",
+    "tableShare": "Share of the half",
+    "explorerTitle": "Try it on a professional match",
+    "explorerIntro": "Drag across the chart or use the slider. Each moment shows all three windows, the chances behind them and the one chance that carries the result.",
+    "dataNote": "Demo matches: DFL open event data with the provider's xG (CC BY 4.0). These are professional matches used to check the engine, not grassroots results.",
+    "competition": {
+      "England": "England",
+      "European_Championship": "European Championship",
+      "France": "France",
+      "Germany": "Germany",
+      "Italy": "Italy",
+      "Spain": "Spain",
+      "World_Cup": "World Cup"
+    },
+    "research": {
+      "title": "What the research found",
+      "intro": "Before you trust a momentum chart, see how often its windows disagree. Every number in this section is read straight from the research result files.",
+      "matchesLabel": "Matches analysed",
+      "matchesHint": "{{moments}} moments, read every {{step}} seconds",
+      "opposedLabel": "3- and 10-minute windows point at opposite teams",
+      "opposedHint": "of the {{moments}} moments where both windows leaned one way",
+      "robustLabel": "Agreed by every window and safe from one chance",
+      "robustHint": "of all moments. Every window agreed at {{agreed}} of moments, but most of those agreements hang on a single chance.",
+      "byCompetitionTitle": "Opposed windows by competition",
+      "byCompetitionNote": "Share of moments where the 3- and 10-minute windows both lean and point at opposite teams.",
+      "byCompetitionLabel": "Horizontal bar chart of the share of moments where the 3- and 10-minute windows point at opposite teams, by competition. All matches pooled: {{pooled}}. Earlier pilot: {{pilot}}. The table that follows lists every competition.",
+      "pooledMark": "All matches {{value}}",
+      "pilotMark": "Pilot {{value}}",
+      "matchCount": "matches: {{matches}}",
+      "competitionHeader": "Competition",
+      "matchesHeader": "Matches",
+      "opposedHeader": "Opposed windows",
+      "pilotNote": "Our first pilot, on {{matches}} matches, found {{pilot}}: higher than the {{pooled}} across all matches. A handful of matches swings a lot. In {{draws}} random draws of {{matches}} matches from the large data, the pooled share fell between {{low}} and {{high}} in 95% of draws, and reached the pilot's value or more in {{tail}} of them. The pilot also used the provider's xG instead of our model, and we did not separate the two causes.",
+      "xgTitle": "Our expected-goals model",
+      "xgIntro": "A logistic regression on shot distance, goal-mouth angle, header and free kick, trained on {{shots}} non-penalty shots ({{goals}} goals) from {{matches}} men's professional matches. The scores below come from {{folds}}-fold cross-validation grouped by match, so no match is in training and testing at once.",
+      "metricsCaption": "Our expected-goals model against the base rate, cross-validated by match",
+      "modelHeader": "Model",
+      "logLoss": "Log loss",
+      "brier": "Brier",
+      "auc": "ROC AUC",
+      "model": "Our model",
+      "baseline": "Base rate",
+      "metricsNote": "Log loss and Brier: lower is better. AUC: 0.5 is guessing, 1 is perfect. The base rate gives every shot the same chance.",
+      "reliabilityTitle": "Predicted against observed",
+      "reliabilityLabel": "Reliability chart: the mean predicted chance against the observed goal rate in {{bins}} bins with an equal number of shots. Points on the dashed diagonal are perfectly calibrated. Expected calibration error {{ece}}. The table that follows lists every bin.",
+      "diagonal": "perfect calibration",
+      "predicted": "Predicted",
+      "observed": "Observed",
+      "binHeader": "Bin",
+      "shotsHeader": "Shots",
+      "limits": "Limits. The model was trained on men's professional shots. No published study tests whether such a model transfers to youth football, and we have not tested it either: pitch, goals, ball and goalkeepers all differ. For youth teams, read it as a chance-quality index that ranks chances, not as a probability of scoring.",
+      "rejectedTitle": "What we tested and rejected",
+      "rejected": "A momentum forecaster: does knowing which team leads on chance quality help predict the next shot? It did not. In a leave-one-match-out test, a simple recency baseline scored a log loss of {{recency}}; adding the chance-quality leader made it worse, {{withLeader}} (lower is better). We did not ship it, and Klupa makes no predictions.",
+      "sourcesTitle": "Data and sources",
+      "source": {
+        "dfl": "DFL open event data: Bassek et al. 2025, CC BY 4.0 (demo matches)",
+        "wyscout": "Wyscout open data: Pappalardo et al. 2019, CC BY 4.0 (large-scale study and xG training)"
+      }
+    }
+  },
+  "state": {
+    "insufficient": {
+      "label": "Not enough evidence",
+      "explain": "No chances were recorded in the last 10 minutes. There is nothing to conclude."
+    },
+    "level": {
+      "label": "Level",
+      "explain": "Chances were recorded, but no window favours either team."
+    },
+    "window-sensitive": {
+      "label": "Depends on the window",
+      "explain": "Not every window sees an advantage. Whether anyone is on top depends on how far back you look.",
+      "explainOpposed": "The windows favour opposite teams. Who is on top depends on how far back you look."
+    },
+    "event-sensitive": {
+      "label": "Depends on one chance",
+      "explain": "All three windows favour {{side}}, but take away a single chance and that changes."
+    },
+    "stable": {
+      "label": "Stable",
+      "explain": "All three windows favour {{side}}, and no single chance can change that."
+    }
+  },
+  "reading": {
+    "title": "At {{time}}",
+    "windowTitle": "Last {{minutes}} min",
+    "favours": "Favours {{side}} by {{value}} xG",
+    "noLean": "No lean",
+    "noEvents": "No chances in this window",
+    "robust": "Holds if any one chance is removed",
+    "canTie": "One chance fewer and it is level",
+    "canReverse": "One chance fewer and it flips",
+    "evidenceTitle": "Evidence in the last 10 minutes",
+    "evidenceEmpty": "No chances recorded.",
+    "evidenceItem": "{{time}} · {{side}} · {{value}} xG",
+    "decisive": "carries the result"
+  },
+  "crash": {
+    "title": "This screen stopped working",
+    "body": "Nothing you recorded is lost: events wait on this phone until they are sent. The problem has been reported to us without any of your data.",
+    "reload": "Reload",
+    "home": "Back to Today",
+    "updated": {
+      "title": "Klupa was updated",
+      "body": "A new version is ready. Reload to get it."
+    }
+  }
+}

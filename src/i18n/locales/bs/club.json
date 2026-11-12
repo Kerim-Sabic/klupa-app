@@ -1,0 +1,281 @@
+{
+  "club": {
+    "back": "Klub",
+    "overview": {
+      "title": "Klub",
+      "subtitle": "{{team}} · {{club}}",
+      "roleLine": "Vaša uloga: {{role}}",
+      "role": {
+        "owner": "Vlasnik",
+        "coach": "Trener",
+        "assistant": "Asistent",
+        "viewer": "Posmatrač"
+      },
+      "squad": {
+        "title": "Ekipa",
+        "body": "Vaši igrači: brojevi dresova, saglasnost staratelja i tromjesečje rođenja."
+      },
+      "settings": {
+        "title": "Postavke kluba",
+        "body": "Naziv kluba i podaci o reflektorima za procjene troškova."
+      },
+      "privacy": {
+        "title": "Privatnost i podaci",
+        "body": "Šta Klupa čuva, kopija svega toga i brisanje kluba."
+      },
+      "activity": {
+        "title": "Dnevnik aktivnosti",
+        "body": "Koji su zapisi promijenjeni i kada. Nikad same vrijednosti."
+      },
+      "evidence": {
+        "title": "Dokazi",
+        "body": "Istraživanje iza brojeva u Klupi."
+      },
+      "account": {
+        "title": "Vaš račun",
+        "signOut": "Odjava",
+        "demoNote": "Ovo je demo račun. Kad se odjavite, ne možete se vratiti u ovaj demo klub."
+      }
+    },
+    "sample": {
+      "title": "Učitaj probnu sezonu",
+      "body": "Napunite ovaj demo klub izmišljenom sezonom U13: 14 igrača s nadimcima, 3 utakmice i 5 treninga. Tako svaki ekran ima šta pokazati. Sezona se briše zajedno s demo klubom nakon sedam dana.",
+      "button": "Učitaj probnu sezonu",
+      "failed": "Probna sezona se nije mogla učitati, pa ništa nije dodano. Pokušajte ponovo.",
+      "notEmpty": "Ekipa već ima igrače, pa ništa nije dodano.",
+      "done": "Probna sezona je učitana. Igrači: {{players}}, utakmice: {{matches}}, treninzi: {{sessions}}.",
+      "writing": "Dodajem igrače, tri utakmice i pet treninga…"
+    },
+    "squad": {
+      "title": "Ekipa",
+      "subtitle": "Igrač je samo nadimak i broj dresa.",
+      "caption": "Ekipa: {{team}}",
+      "add": "Dodaj igrača",
+      "edit": "Uredi",
+      "editFor": "Uredi: {{label}}",
+      "archiveFor": "Arhiviraj: {{label}}",
+      "eraseFor": "Trajno izbriši: {{label}}",
+      "readOnly": "Samo vlasnik i treneri kluba mogu mijenjati ekipu. Ovdje je možete pogledati.",
+      "quarterShort": "T{{n}}",
+      "columns": {
+        "shirt": "Br.",
+        "label": "Igrač",
+        "consent": "Saglasnost staratelja",
+        "quarter": "Tromjesečje rođenja",
+        "actions": "Radnje"
+      },
+      "consent": {
+        "not_recorded": "Nije evidentirana",
+        "granted": "Dobijena",
+        "withdrawn": "Povučena"
+      },
+      "quarter": {
+        "none": "Nije navedeno",
+        "q1": "1. tromjesečje (jan–mar)",
+        "q2": "2. tromjesečje (apr–jun)",
+        "q3": "3. tromjesečje (jul–sep)",
+        "q4": "4. tromjesečje (okt–dec)"
+      },
+      "empty": {
+        "title": "Još nema igrača",
+        "body": "Dodajte prvog igrača. Dovoljni su nadimak i broj dresa.",
+        "bodyReadOnly": "Još nema dodanih igrača. Mogu ih dodati vlasnik kluba ili trener."
+      },
+      "form": {
+        "addTitle": "Dodaj igrača",
+        "editTitle": "Uredi igrača",
+        "label": "Oznaka",
+        "labelHint": "Ne unosite ime i prezime.",
+        "shirt": "Broj dresa",
+        "shirtHint": "Od 1 do 99. Svaki aktivni igrač treba imati drugi broj.",
+        "consent": "Saglasnost staratelja",
+        "consentHint": "Evidentirajte da li su roditelj ili staratelj pristali da dijete bude u Klupi. Ne čuva se nikakav dokument, samo status i datum kad ste ga postavili.",
+        "quarter": "Tromjesečje rođenja (nije obavezno)",
+        "quarterHint": "Čuva se samo tromjesečje, nikad datum rođenja. Služi za provjeru da li mlađi igrači dobijaju pravedan udio.",
+        "cancel": "Odustani",
+        "add": "Dodaj igrača",
+        "save": "Sačuvaj"
+      },
+      "errors": {
+        "labelLength": "Unesite između 1 i 40 znakova.",
+        "shirtInvalid": "Unesite cijeli broj od 1 do 99.",
+        "shirtTaken": "Dres {{number}} već nosi {{label}}.",
+        "shirtConflict": "Taj broj dresa je upravo zauzet. Odaberite drugi."
+      },
+      "toast": {
+        "added": "Igrač dodan: {{label}}.",
+        "saved": "Sačuvano: {{label}}.",
+        "archived": "Arhivirano: {{label}}.",
+        "erased": "Trajno izbrisano: {{label}}."
+      },
+      "archive": {
+        "action": "Arhiviraj",
+        "title": "Arhivirati: {{label}}?",
+        "body": "{{label}} nestaje s popisa ekipe, a broj dresa {{number}} ponovo postaje slobodan. Odigrane minute, događaji, prisustva i zapažanja ostaju u historiji.",
+        "confirm": "Arhiviraj"
+      },
+      "erase": {
+        "action": "Izbriši",
+        "title": "Trajno izbrisati: {{label}}?",
+        "intro": "Ovo trajno uklanja igrača {{label}} iz Klupe.",
+        "removedTitle": "Šta se briše",
+        "removed": {
+          "identity": "Oznaka, broj dresa, status saglasnosti i tromjesečje rođenja",
+          "minutes": "Odigrane minute na utakmicama",
+          "attendance": "Prisustvo treninzima i ocjene napora",
+          "observations": "Brojevi zapažanja"
+        },
+        "keptTitle": "Šta ostaje",
+        "kept": "Događaji utakmica (udarci, prilike, osvojene lopte). Gube vezu s ovim igračem, pa se rezultati ekipe i grafikoni ne mijenjaju.",
+        "final": "Ovo se ne može poništiti.",
+        "confirm": "Trajno izbriši"
+      }
+    },
+    "settings": {
+      "title": "Postavke kluba",
+      "subtitle": "Naziv vašeg kluba i podaci iza procjena o terenu.",
+      "ownerOnly": "Samo vlasnik kluba može mijenjati ove postavke. Ovdje ih možete pogledati.",
+      "nameTitle": "Naziv",
+      "name": "Naziv kluba",
+      "facilityTitle": "Podaci o terenu",
+      "facilityIntro": "Nije obavezno. Svaki trošak i svaka emisija ugljika za teren u Klupi je procjena izračunata iz ova tri broja. To nije mjerenje.",
+      "useReference": "Koristi referentne vrijednosti za Bosnu i Hercegovinu",
+      "referenceNote": "Popunjava cijenu i ugljičnu intenzivnost. Snaga reflektora zavisi od vaših reflektora, pa je unesite sami.",
+      "floodlightKw": "Snaga reflektora (kW)",
+      "floodlightKwHint": "Ukupna snaga reflektora koje palite na treningu.",
+      "tariff": "Cijena struje (KM po kWh)",
+      "sourcePrice": "Izvor referentne vrijednosti: BHAS, cijene električne energije za male nedomaćinske korisnike, drugo polugodište 2025.",
+      "carbon": "Ugljična intenzivnost mreže (kg CO₂ po kWh)",
+      "sourceCarbon": "Izvor referentne vrijednosti: Ember preko Our World in Data, 2025.",
+      "save": "Sačuvaj postavke",
+      "saved": "Postavke su sačuvane.",
+      "errors": {
+        "nameLength": "Unesite između 2 i 80 znakova.",
+        "decimalInvalid": "Unesite broj 0 ili veći, na primjer 0,30.",
+        "decimalTooLarge": "Unesite vrijednost do {{max}}.",
+        "decimalTooPrecise": "Unesite najviše {{places}} decimalnih mjesta."
+      }
+    },
+    "privacy": {
+      "title": "Privatnost i podaci",
+      "subtitle": "Klupa je napravljena tako da o djeci čuva što je manje moguće.",
+      "stored": {
+        "title": "Šta Klupa čuva",
+        "players": "Za svakog igrača: oznaku koju vi odaberete i broj dresa.",
+        "quarter": "Po želji, tromjesečje u godini u kojem je igrač rođen.",
+        "consent": "Da li je staratelj dao saglasnost i datum kad ste je postavili.",
+        "activity": "Šta se dešava na utakmicama i treninzima: događaji utakmica, minute na terenu, prisustvo, ocjene napora i brojevi zapažanja.",
+        "never": "Klupa ne čuva imena, datume rođenja, fotografije, kontakt podatke niti zdravstvene kartone."
+      },
+      "where": {
+        "title": "Gdje se čuva",
+        "body": "Podaci se nalaze u Evropskoj uniji, u Frankfurtu. Pravila baze podataka dozvoljavaju samo članovima ovog kluba da ih vide ili mijenjaju."
+      },
+      "kept": {
+        "title": "Koliko se dugo čuva",
+        "events": "Događaji utakmica koje poništite trajno se brišu nakon 30 dana.",
+        "log": "Dnevnik aktivnosti briše se nakon godinu dana.",
+        "demo": "Demo klubovi se brišu nakon sedam dana."
+      },
+      "ownerOnly": "Samo vlasnik kluba može preuzeti ili obrisati podatke kluba.",
+      "export": {
+        "title": "Preuzmite kopiju",
+        "body": "Sve što klub ima, u jednoj JSON datoteci koju možete sačuvati ili prenijeti drugdje. Svako preuzimanje se bilježi ispod.",
+        "button": "Preuzmi izvoz",
+        "done": "Izvoz preuzet: {{file}}"
+      },
+      "delete": {
+        "title": "Obriši ovaj klub",
+        "body": "Ovo briše klub i sve u njemu: igrače, utakmice, treninge i dnevnik aktivnosti. Ne može se poništiti. Prvo preuzmite kopiju ako vam može zatrebati.",
+        "button": "Obriši ovaj klub",
+        "sheetTitle": "Obrisati {{club}}?",
+        "sheetBody": "Sve u ovom klubu bit će trajno obrisano: igrači, utakmice, događaji, treninzi, prisustva, zapažanja i dnevnik aktivnosti. Ovo se ne može poništiti.",
+        "typeLabel": "Upišite naziv kluba za potvrdu",
+        "typeHint": "Upišite {{club}} tačno kako je napisano.",
+        "mismatch": "To se ne poklapa s nazivom kluba.",
+        "confirm": "Trajno obriši klub",
+        "done": "Klub je obrisan."
+      },
+      "requests": {
+        "title": "Raniji zahtjevi",
+        "caption": "Zahtjevi za podatke",
+        "kind": "Zahtjev",
+        "date": "Datum",
+        "status": "Status",
+        "kinds": {
+          "export": "Izvoz",
+          "erasure": "Brisanje"
+        },
+        "statuses": {
+          "open": "Otvoren",
+          "completed": "Završen",
+          "rejected": "Odbijen"
+        },
+        "empty": "Još nema zahtjeva."
+      }
+    },
+    "activity": {
+      "title": "Dnevnik aktivnosti",
+      "subtitle": "Posljednjih 100 promjena u ovom klubu.",
+      "note": "Dnevnik bilježi koja su polja promijenjena, a nikad njihove vrijednosti, pa ne sadrži lične podatke.",
+      "caption": "Promjene, najnovije prvo",
+      "columns": {
+        "when": "Kada",
+        "what": "Šta se desilo",
+        "where": "Gdje",
+        "fields": "Promijenjena polja"
+      },
+      "actions": {
+        "insert": "Dodano",
+        "update": "Promijenjeno",
+        "delete": "Obrisano"
+      },
+      "tables": {
+        "clubs": "Klub",
+        "club_members": "Član kluba",
+        "teams": "Tim",
+        "players": "Igrač",
+        "matches": "Utakmica",
+        "match_events": "Događaj utakmice",
+        "stints": "Vrijeme na terenu",
+        "sessions": "Trening",
+        "session_drills": "Vježba na treningu",
+        "session_attendance": "Prisustvo",
+        "observations": "Zapažanje",
+        "data_requests": "Zahtjev za podatke"
+      },
+      "fields": {
+        "name": "naziv",
+        "label": "oznaka",
+        "shirt_number": "broj dresa",
+        "consent": "saglasnost",
+        "consent_recorded_at": "datum saglasnosti",
+        "birth_quarter": "tromjesečje rođenja",
+        "archived_at": "arhivirano",
+        "floodlight_kw": "snaga reflektora",
+        "tariff_per_kwh": "cijena struje",
+        "grid_kg_co2_per_kwh": "ugljična intenzivnost",
+        "status": "status",
+        "deleted_at": "poništeno",
+        "role": "uloga",
+        "off_seconds": "izlazak s terena",
+        "resolved_at": "riješeno",
+        "opponent": "protivnik",
+        "played_on": "datum utakmice",
+        "held_on": "datum treninga",
+        "focus": "fokus",
+        "area": "dio terena",
+        "minutes": "minute",
+        "rpe": "ocjena napora",
+        "attempts": "pokušaji",
+        "successes": "uspjesi"
+      },
+      "wholeRecord": "Cijeli zapis",
+      "restricted": "Samo vlasnik i treneri kluba mogu vidjeti dnevnik aktivnosti.",
+      "empty": {
+        "title": "Još ništa nije zabilježeno",
+        "body": "Promjene u ekipi, utakmicama i treninzima pojavit će se ovdje."
+      }
+    }
+  }
+}

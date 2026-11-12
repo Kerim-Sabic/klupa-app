@@ -1,0 +1,251 @@
+{
+  "pro": {
+    "title": "Pro matches",
+    "subtitle": "The engine that reads a coach's taps, reading every match of the 2018 World Cup and Euro 2016 from open event data. It is here to show what the engine can do; a coach's own matches are read the same way.",
+    "competition": {
+      "wc2018": "World Cup 2018",
+      "euro2016": "Euro 2016"
+    },
+    "stage": {
+      "final": "Final",
+      "thirdPlace": "Third place",
+      "semi": "Semi-finals",
+      "quarter": "Quarter-finals",
+      "r16": "Round of 16",
+      "group": "Group {{letter}}"
+    },
+    "result": {
+      "penalties": "{{home}}–{{away}} on penalties",
+      "extraTime": "After extra time"
+    },
+    "list": {
+      "finals": "The two finals",
+      "all": "Every match",
+      "tournament": "Tournament",
+      "search": "Find a team",
+      "searchPlaceholder": "France, Croatia…",
+      "count": "Matches shown: {{count}}",
+      "empty": "No team by that name here",
+      "emptyBody": "Try another spelling, or the other tournament.",
+      "loading": "Loading the matches",
+      "error": {
+        "title": "The match list did not load",
+        "body": "Check the connection and try again."
+      }
+    },
+    "evidenceLink": {
+      "label": "Professional matches",
+      "title": "Pro matches, read by the same engine",
+      "body": "Every match of the 2018 World Cup and Euro 2016: chance quality, who was on top, passing and the goals, from open event data."
+    },
+    "goal": {
+      "pen": "(pen)",
+      "og": "(og)",
+      "unknown": "unnamed player",
+      "penalty": "penalty",
+      "ownGoal": "own goal",
+      "announce": "{{minute}}' Goal, {{team}}: {{scorer}}{{detail}}",
+      "flash": "Goal"
+    },
+    "score": {
+      "title": "Score",
+      "text": "{{home}} {{homeGoals}}, {{away}} {{awayGoals}}"
+    },
+    "live": {
+      "label": "Watch as live",
+      "status": {
+        "live": "As live",
+        "paused": "Paused",
+        "fullTime": "Full time"
+      },
+      "speed": "Speed: {{speed}} times real time. Change speed",
+      "play": "Play",
+      "pause": "Pause",
+      "watch": "Watch as live",
+      "fromKickOff": "From kick-off",
+      "full": "Full match",
+      "scrub": "Match time",
+      "at": "Minute {{minute}}"
+    },
+    "match": {
+      "title": "{{home}} v {{away}}",
+      "back": "Pro matches",
+      "loading": "Loading the match",
+      "notFound": {
+        "title": "Match not found",
+        "body": "There is no match with that number in the World Cup 2018 or Euro 2016 data.",
+        "action": "See every match"
+      },
+      "error": {
+        "heading": "Match",
+        "title": "The match did not load",
+        "body": "Check the connection and try again."
+      }
+    },
+    "numbers": {
+      "title": "Match in numbers",
+      "caption": "{{home}} and {{away}} compared",
+      "measure": "Measure",
+      "note": "Share of passes is each team's part of all passes, not time on the ball: the data has events, not possession time.",
+      "row": {
+        "chanceQuality": "Chance quality",
+        "shots": "Shots",
+        "onTarget": "On target",
+        "passShare": "Share of passes",
+        "passAccuracy": "Pass accuracy",
+        "corners": "Corners",
+        "crosses": "Crosses",
+        "duelsWon": "Duels won",
+        "fouls": "Fouls",
+        "offsides": "Offsides"
+      }
+    },
+    "race": {
+      "title": "Chance quality, as it piled up",
+      "intro": "Each step is a shot, as big as the chance it was. Dots are goals.",
+      "label": "Chance quality over the match up to minute {{minute}}: {{home}} {{homeValue}}, {{away}} {{awayValue}}.",
+      "cursor": "Read the race at",
+      "cursorValue": "Minute {{minute}}: {{home}} {{homeValue}}, {{away}} {{awayValue}}",
+      "table": "Every shot as a table",
+      "col": {
+        "minute": "Minute",
+        "team": "Team",
+        "chance": "Chance"
+      }
+    },
+    "top": {
+      "title": "Who was on top",
+      "intro": "The same reading a coach gets after a match, from shots, corners, entries into the box and the ball won or lost, with the same honesty strip.",
+      "period": "Period",
+      "periodName": {
+        "1": "First half",
+        "2": "Second half",
+        "3": "Extra time 1",
+        "4": "Extra time 2"
+      }
+    },
+    "shots": {
+      "title": "Where the chances came from",
+      "intro": "Both teams attack the goal at the top. A penalty is drawn on the spot.",
+      "note": "Chance quality is our model's estimate, trained on men's professional shots like these. It ranks chances; it does not say what any one shot deserved."
+    },
+    "players": {
+      "title": "Players",
+      "intro": "Key passes, duels and interceptions are the data provider's own tags.",
+      "caption": "{{team}} players",
+      "sub": "sub",
+      "minutes": "{{minutes}}'",
+      "compact": "{{passes}} passes · {{accuracy}} · {{shots}} shots · {{chance}} chance quality · duels {{duels}} · {{interceptions}} interceptions",
+      "col": {
+        "name": "Player",
+        "minutes": "Minutes",
+        "passes": "Passes",
+        "accuracy": "Accuracy",
+        "keyPasses": "Key passes",
+        "shots": "Shots",
+        "chance": "Chance quality",
+        "duels": "Duels won",
+        "interceptions": "Interceptions"
+      }
+    },
+    "source": {
+      "title": "Source and limits",
+      "data": "Data: {{name}}, collected by Wyscout, licensed {{licence}}.",
+      "changes": "Klupa reduced the events to a compact form and computed every number on this page itself.",
+      "limitPositions": "Event data records where the ball was played, not where every player stood, so nothing here can show off-the-ball positions or pressing shape.",
+      "limitModel": "Chance quality comes from a model fitted to professional shots; it estimates how good a chance was, not how good the finish was."
+    },
+    "network": {
+      "title": "Passing network",
+      "intro": "Starters at the average spot of their passes, sized by how many they made; lines by how often the ball went between two players. Tap a player to see only theirs.",
+      "team": "Team",
+      "label": "{{team}} passing network: {{players}} starters on a pitch, attacking left to right.",
+      "player": "{{name}}, {{passes}} passes. Show only this player’s links",
+      "note": "The data names no receiver: a pass is read as received by the next player of the same team to touch the ball within ten seconds.",
+      "table": "Pairs with three or more passes, as a table",
+      "caption": "{{team}}: passes between pairs of players",
+      "col": {
+        "from": "From",
+        "to": "To",
+        "passes": "Passes"
+      }
+    },
+    "territory": {
+      "title": "Territory",
+      "intro": "Every touch with a position, on one pitch. A cell takes the colour of the team with more touches there, stronger the more it had.",
+      "label": "Touches by zone, {{home}} attacking left to right and {{away}} right to left.",
+      "finalThird": "Passes into the final third",
+      "third": {
+        "defensive": "Own third",
+        "middle": "Middle",
+        "attacking": "Final third"
+      },
+      "table": "Touches by zone, as a table",
+      "caption": "Touches by zone",
+      "col": {
+        "zone": "Zone"
+      },
+      "zone": "Column {{column}} of 6, row {{row}} of 4"
+    },
+    "replay": {
+      "title": "Goals, replayed",
+      "intro": "The scoring team’s own actions before each goal, as the ball’s route: back to when the other team last had the ball, at most ten actions or forty seconds.",
+      "label": "Build-up of {{steps}} actions: {{chain}}",
+      "play": "Play the build-up to the {{minute}}' goal",
+      "pause": "Pause the build-up to the {{minute}}' goal",
+      "again": "Replay the build-up to the {{minute}}' goal",
+      "noChain": "No build-up recorded before this goal.",
+      "none": "No goals in this match.",
+      "noneYet": "No goals yet.",
+      "view": "View",
+      "flat": "From above",
+      "threeD": "3D"
+    },
+    "team": {
+      "Albania": "Albania",
+      "Argentina": "Argentina",
+      "Australia": "Australia",
+      "Austria": "Austria",
+      "Belgium": "Belgium",
+      "Brazil": "Brazil",
+      "Colombia": "Colombia",
+      "Costa Rica": "Costa Rica",
+      "Croatia": "Croatia",
+      "Czech Republic": "Czech Republic",
+      "Denmark": "Denmark",
+      "Egypt": "Egypt",
+      "England": "England",
+      "France": "France",
+      "Germany": "Germany",
+      "Hungary": "Hungary",
+      "Iceland": "Iceland",
+      "Iran": "Iran",
+      "Italy": "Italy",
+      "Japan": "Japan",
+      "Korea Republic": "Korea Republic",
+      "Mexico": "Mexico",
+      "Morocco": "Morocco",
+      "Nigeria": "Nigeria",
+      "Northern Ireland": "Northern Ireland",
+      "Panama": "Panama",
+      "Peru": "Peru",
+      "Poland": "Poland",
+      "Portugal": "Portugal",
+      "Republic of Ireland": "Republic of Ireland",
+      "Romania": "Romania",
+      "Russia": "Russia",
+      "Saudi Arabia": "Saudi Arabia",
+      "Senegal": "Senegal",
+      "Serbia": "Serbia",
+      "Slovakia": "Slovakia",
+      "Spain": "Spain",
+      "Sweden": "Sweden",
+      "Switzerland": "Switzerland",
+      "Tunisia": "Tunisia",
+      "Turkey": "Turkey",
+      "Ukraine": "Ukraine",
+      "Uruguay": "Uruguay",
+      "Wales": "Wales"
+    }
+  }
+}

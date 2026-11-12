@@ -1,0 +1,254 @@
+{
+  "shotlab": {
+    "title": "Shot lab",
+    "subtitle": "Film one strike of the ball. See the kicker's movement as a skeleton, find the moment of the strike, and talk through a few honest measurements.",
+    "again": "New clip",
+    "start": {
+      "title": "Start with one strike",
+      "film": "Film a shot",
+      "choose": "Choose a video",
+      "example": "See an example",
+      "tips": "Film side-on, whole body in frame, one player, good light.",
+      "privacy": "The video is analysed on this device. It is never uploaded or saved.",
+      "live": "Use the camera live",
+      "liveNote": "The camera picture stays on this phone: nothing is recorded or sent."
+    },
+    "how": {
+      "title": "How it works",
+      "film": {
+        "title": "Film one kick",
+        "body": "A few seconds is enough: the run-up, the strike and the follow-through. Only the first 6 seconds are read."
+      },
+      "device": {
+        "title": "Analysed here, on this device",
+        "body": "A body model runs in your browser and finds 33 points on the player in every frame. Nothing is sent anywhere."
+      },
+      "talk": {
+        "title": "Look at it together",
+        "body": "Scrub to the strike, turn the skeleton in 3D and read the numbers. They are things to look at, not a verdict."
+      }
+    },
+    "progress": {
+      "modelTitle": "Getting the body model ready",
+      "modelDetail": "{{loaded}} of {{total}} MB",
+      "modelOnce": "Downloaded the first time only; after that your browser reuses it.",
+      "framesTitle": "Reading the movement",
+      "framesDetail": "Frame {{done}} of {{total}} (at most the first {{seconds}} seconds)",
+      "cancel": "Cancel"
+    },
+    "stage": {
+      "videoLabel": "Your clip, analysed on this device",
+      "overlayLabel": "Skeleton drawn over the current frame. The kicking leg is green, the foot's path amber.",
+      "exampleLabel": "Side view of the skeleton at the current frame, without video. The kicking leg is green, the foot's path amber.",
+      "titles": {
+        "video": "The clip",
+        "example": "The example kick",
+        "live": "The caught strike"
+      }
+    },
+    "scrub": {
+      "label": "Frame",
+      "valueText": "Frame {{frame}} of {{total}}, {{time}} s",
+      "position": "Frame {{frame}} / {{total}} · {{time}} s",
+      "previous": "Previous frame",
+      "next": "Next frame",
+      "play": "Play slowly",
+      "pause": "Pause",
+      "jumpLabel": "Jump to a moment",
+      "backswing": "Backswing",
+      "strike": "Strike",
+      "follow": "Follow-through"
+    },
+    "view3d": {
+      "title": "In 3D",
+      "turnLeft": "Turn left",
+      "turnRight": "Turn right",
+      "label": "Skeleton in 3D. Drag to turn, pinch or Ctrl and scroll to zoom, or use the buttons below.",
+      "loading": "Loading the 3D view",
+      "unavailable": "The 3D view needs WebGL, which this browser does not offer. Everything else on this page still works.",
+      "reset": "Reset view",
+      "zoomIn": "Zoom in",
+      "zoomOut": "Zoom out",
+      "hint": "Drag to turn. Pinch, or hold Ctrl and scroll, to zoom.",
+      "summary": "At the strike: the {{foot}} foot is kicking, kicking knee at {{knee}}°, trunk leaning {{lean}}° forward (negative is back), standing foot {{plantBack}} m along the kick from the kicking foot (negative is behind) and {{plantSide}} m to the side.",
+      "noStrikeSummary": "The skeleton for each frame of the clip. No strike was found, so no moment is singled out."
+    },
+    "foot": {
+      "left": "left",
+      "right": "right"
+    },
+    "verdict": {
+      "example": "Example: a generated kick, not a real player",
+      "truncated": "Only the first 6 seconds were read",
+      "foundLeft": "Left-foot strike at {{time}} s",
+      "foundRight": "Right-foot strike at {{time}} s",
+      "nothingStandsOut": "Nothing stands out against our simple thresholds. The numbers are below.",
+      "prompts": "Things worth a look: {{count}}. Each sits with its measurement below.",
+      "live": "From the live camera: skeleton only, no video was kept"
+    },
+    "notSeen": {
+      "title": "The body was not seen well enough to measure",
+      "too-few-frames": "The clip is too short. Film at least a second around the strike.",
+      "body-not-found": "In many frames no body was found. The player may be too far away, cut off or in the dark.",
+      "legs-not-visible": "The legs were hard to see: probably cut off at the bottom of the frame or hidden.",
+      "more-than-one-person": "More than one person was in the frame for a good part of the clip.",
+      "low-visibility": "The model was unsure where the body was: too far, too dark or partly hidden."
+    },
+    "noStrike": {
+      "title": "No clear strike found",
+      "too-slow": "Neither foot moved fast enough to be a strike. Was the kick in the first 6 seconds?",
+      "no-clear-peak": "There was no single fastest swing: two moments looked alike, or the swing was cut off at the edge of the clip.",
+      "no-backswing": "The fastest swing had no clear backswing before it, so it is not read as a strike."
+    },
+    "m": {
+      "title": "Measurements around the strike",
+      "intro": "Read from the skeleton the model saw ({{confidence}}% average visibility of hips, knees, ankles and shoulders). Tap a card's button to see the frame it came from.",
+      "depth": "Uses estimated depth",
+      "lookAt": "Worth a look:",
+      "showFrame": "Show frame {{frame}}",
+      "showFrameLabel": "Show frame {{frame}} for {{name}}",
+      "kneeAtBackswing": {
+        "title": "Kicking knee at the top of the backswing",
+        "what": "Angle at the knee when it was most bent before the strike. 180° is a straight leg."
+      },
+      "kneeAtStrike": {
+        "title": "Kicking knee at the strike",
+        "what": "Angle at the knee when the foot was fastest. 180° is a straight leg."
+      },
+      "hipShoulderSeparation": {
+        "title": "Hip-to-shoulder turn",
+        "what": "Largest angle between the line of the hips and the line of the shoulders during the swing, seen from above."
+      },
+      "trunkLeanForward": {
+        "title": "Trunk lean, forward or back",
+        "what": "Lean of the hips-to-shoulders line at the strike along the direction of the kick. Positive is forward over the ball, negative is leaning back."
+      },
+      "trunkLeanSideways": {
+        "title": "Trunk lean, sideways",
+        "what": "Lean at the strike across the kick. Positive is towards the standing-foot side."
+      },
+      "plantFrontBack": {
+        "title": "Standing foot, ahead or behind",
+        "what": "Distance from the kicking ankle to the standing ankle at the strike, along the kick. Negative means the standing foot is behind."
+      },
+      "plantSideways": {
+        "title": "Standing foot, to the side",
+        "what": "Sideways distance between the two ankles at the strike."
+      },
+      "peakFootSpeed": {
+        "title": "Peak foot speed",
+        "what": "Fastest speed of the kicking ankle relative to the hips, in the model's reconstructed body. This is not ball speed."
+      },
+      "swingDuration": {
+        "title": "Swing time",
+        "what": "Time from the top of the backswing to the strike."
+      },
+      "followThroughHeight": {
+        "title": "Follow-through height",
+        "what": "Highest the kicking ankle rose after the strike, relative to the hip. Zero is hip height; negative is below it."
+      }
+    },
+    "unit": {
+      "deg": "°",
+      "m": "m",
+      "m/s": "m/s",
+      "s": "s"
+    },
+    "prompt": {
+      "plantBehind": "the standing foot was well behind the kicking foot at contact. Where does it land relative to the ball?",
+      "plantAhead": "the standing foot was well ahead of the kicking foot at contact. Is the player reaching back for the ball?",
+      "leanBack": "the trunk was leaning back at contact. Watch the upper body as the foot meets the ball.",
+      "smallBackswing": "the knee stayed fairly straight in the backswing. Look at how far the lower leg draws back.",
+      "shortFollowThrough": "the kicking foot stayed well below hip height after the strike. Watch whether the leg carries on through the ball."
+    },
+    "limits": {
+      "title": "What this can and cannot tell you",
+      "camera": "One phone camera sees the body from one side. The far leg is often partly hidden.",
+      "depth": "Depth is estimated by the model, not measured. Numbers marked \"Uses estimated depth\" are the least certain.",
+      "speed": "Speeds are of the foot relative to the hips in the model's reconstructed body, not of the ball.",
+      "ball": "The ball is not tracked. The strike is the moment the foot was fastest, which is usually just before contact.",
+      "verdict": "These are measurements to discuss with the player, not a verdict. Thresholds are simple starting points, not norms for any age."
+    },
+    "unsupported": {
+      "title": "This browser cannot run the body model",
+      "body": "Shot lab needs WebAssembly. Try an up-to-date Chrome, Safari, Firefox or Edge. The example still works here."
+    },
+    "error": {
+      "model": {
+        "title": "The body model could not be loaded",
+        "body": "Check the connection and try again. It is downloaded once, then reused."
+      },
+      "video": {
+        "title": "This video could not be read",
+        "body": "The browser could not play this file. Try an MP4 from the phone's own camera app, or film again."
+      },
+      "unknown": {
+        "title": "Something went wrong during the analysis",
+        "body": "Nothing was uploaded. Try again, or try a shorter clip."
+      }
+    },
+    "live": {
+      "title": "Live camera",
+      "cameraOn": "Camera is on",
+      "tracking": "Tracking",
+      "lost": "Lost",
+      "fps": "{{fps}} frames a second analysed",
+      "trackingHint": "Hold the phone steady. Side-on, with the whole body in the picture, works best.",
+      "lostHint": "No body is clearly in view. Step back so the whole body is in the picture, side-on, in good light.",
+      "videoLabel": "Live camera picture with the skeleton drawn over it",
+      "starting": "Waiting for the camera. Body model: {{loaded}} of {{total}} MB",
+      "stop": "Stop",
+      "startAgain": "Start the camera again",
+      "switch": "Switch camera",
+      "back": "Back to the start",
+      "backToCamera": "Back to the camera",
+      "hidden": "The camera was turned off because the page was hidden.",
+      "stopped": "The camera is off.",
+      "privacy": "The picture is analysed on this phone. Nothing is recorded, sent or saved; only the last three seconds of skeleton points are kept in memory, to catch a strike.",
+      "caught": {
+        "left": "Left-foot strike caught",
+        "right": "Right-foot strike caught",
+        "body": "The skeleton points of the three seconds around it are kept, not the video.",
+        "see": "See this strike"
+      },
+      "slow": {
+        "title": "This device is too slow for live analysis",
+        "body": "Fewer than five frames a second are being analysed, too few to follow a kick. Film a clip instead: it is read frame by frame.",
+        "film": "Film a clip instead"
+      },
+      "readout": {
+        "title": "Live readout",
+        "leftKnee": "Left knee angle",
+        "rightKnee": "Right knee angle",
+        "trunkLean": "Trunk lean from upright",
+        "fasterFoot": "Faster foot",
+        "left": "Left",
+        "right": "Right",
+        "neither": "Neither moving",
+        "note": "Estimates from one camera. They work best side-on, with the whole body in the picture."
+      },
+      "error": {
+        "denied": {
+          "title": "Camera permission was refused",
+          "body": "Allow the camera for this site in the browser's settings, then try again. Or film a clip instead."
+        },
+        "no-camera": {
+          "title": "No camera was found",
+          "body": "The browser cannot find a camera on this device. Choose a video or see the example instead."
+        },
+        "in-use": {
+          "title": "The camera is in use",
+          "body": "Another app or tab is using the camera. Close it and try again."
+        },
+        "model": {
+          "title": "The body model could not be loaded",
+          "body": "Check the connection and try again."
+        },
+        "unknown": {
+          "title": "The camera could not be started",
+          "body": "Try again, or film a clip instead."
+        }
+      }
+    }
+  }
+}

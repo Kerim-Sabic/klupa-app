@@ -1,0 +1,484 @@
+{
+  "cases": [
+    {
+      "x": 89.5,
+      "y": 50.0,
+      "header": true,
+      "freeKick": false,
+      "probability": 0.0969603989418661,
+      "units": 970
+    },
+    {
+      "x": 100.0,
+      "y": 50.0,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.9808253477795017,
+      "units": 9808
+    },
+    {
+      "x": 100.0,
+      "y": 0.0,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.008823100324471913,
+      "units": 88
+    },
+    {
+      "x": 100.0,
+      "y": 100.0,
+      "header": true,
+      "freeKick": true,
+      "probability": 0.00804203313893329,
+      "units": 80
+    },
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "header": false,
+      "freeKick": false,
+      "probability": 2.7916892702062294e-6,
+      "units": 0
+    },
+    {
+      "x": 0.0,
+      "y": 50.0,
+      "header": false,
+      "freeKick": false,
+      "probability": 5.009315534005222e-6,
+      "units": 0
+    },
+    {
+      "x": 99.9,
+      "y": 50.0,
+      "header": true,
+      "freeKick": false,
+      "probability": 0.9448160395318879,
+      "units": 9448
+    },
+    {
+      "x": 50.0,
+      "y": 50.0,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.0015347945471165267,
+      "units": 15
+    },
+    {
+      "x": 94.0,
+      "y": 35.0,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.13897356332441702,
+      "units": 1390
+    },
+    {
+      "x": 94.0,
+      "y": 65.0,
+      "header": true,
+      "freeKick": false,
+      "probability": 0.056495279982890174,
+      "units": 565
+    },
+    {
+      "x": 85.0,
+      "y": 10.0,
+      "header": false,
+      "freeKick": true,
+      "probability": 0.033554543118040334,
+      "units": 336
+    },
+    {
+      "x": 85.0,
+      "y": 90.0,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.013945203908385448,
+      "units": 139
+    },
+    {
+      "x": 70.0,
+      "y": 50.0,
+      "header": true,
+      "freeKick": false,
+      "probability": 0.006205600707018199,
+      "units": 62
+    },
+    {
+      "x": 60.0,
+      "y": 20.0,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.0028606512710681363,
+      "units": 29
+    },
+    {
+      "x": 97.0,
+      "y": 48.0,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.7631939471963753,
+      "units": 7632
+    },
+    {
+      "x": 72.068,
+      "y": 98.704,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.0035374745496345814,
+      "units": 35
+    },
+    {
+      "x": 48.46,
+      "y": 90.165,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.0006130951787587175,
+      "units": 6
+    },
+    {
+      "x": 59.782,
+      "y": 26.961,
+      "header": true,
+      "freeKick": false,
+      "probability": 0.0012911926558099825,
+      "units": 13
+    },
+    {
+      "x": 82.688,
+      "y": 89.131,
+      "header": false,
+      "freeKick": true,
+      "probability": 0.03145246857583351,
+      "units": 315
+    },
+    {
+      "x": 90.095,
+      "y": 95.998,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.011015522123909502,
+      "units": 110
+    },
+    {
+      "x": 69.074,
+      "y": 83.083,
+      "header": false,
+      "freeKick": true,
+      "probability": 0.015239939522928281,
+      "units": 152
+    },
+    {
+      "x": 78.071,
+      "y": 36.33,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.03538478917692501,
+      "units": 354
+    },
+    {
+      "x": 88.992,
+      "y": 52.958,
+      "header": true,
+      "freeKick": false,
+      "probability": 0.08500968002457664,
+      "units": 850
+    },
+    {
+      "x": 84.066,
+      "y": 70.797,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.04662564683562997,
+      "units": 466
+    },
+    {
+      "x": 53.132,
+      "y": 48.211,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.002208962956960856,
+      "units": 22
+    },
+    {
+      "x": 75.559,
+      "y": 75.953,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.01620026589536133,
+      "units": 162
+    },
+    {
+      "x": 81.906,
+      "y": 15.284,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.01658787140043212,
+      "units": 166
+    },
+    {
+      "x": 85.335,
+      "y": 20.588,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.029340353684838158,
+      "units": 293
+    },
+    {
+      "x": 83.801,
+      "y": 35.243,
+      "header": false,
+      "freeKick": true,
+      "probability": 0.14320706894535815,
+      "units": 1432
+    },
+    {
+      "x": 80.636,
+      "y": 96.787,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.006994564656750066,
+      "units": 70
+    },
+    {
+      "x": 70.761,
+      "y": 95.236,
+      "header": true,
+      "freeKick": false,
+      "probability": 0.0014505484653806902,
+      "units": 15
+    },
+    {
+      "x": 62.787,
+      "y": 13.448,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.0029443573383354884,
+      "units": 29
+    },
+    {
+      "x": 91.398,
+      "y": 85.478,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.0246431263013627,
+      "units": 246
+    },
+    {
+      "x": 71.646,
+      "y": 82.432,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.00821319729677458,
+      "units": 82
+    },
+    {
+      "x": 50.873,
+      "y": 40.352,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.001619755297708591,
+      "units": 16
+    },
+    {
+      "x": 76.334,
+      "y": 86.489,
+      "header": false,
+      "freeKick": true,
+      "probability": 0.023980317920356854,
+      "units": 240
+    },
+    {
+      "x": 71.166,
+      "y": 39.884,
+      "header": true,
+      "freeKick": false,
+      "probability": 0.006487852180699684,
+      "units": 65
+    },
+    {
+      "x": 65.436,
+      "y": 18.758,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.004759619236397461,
+      "units": 48
+    },
+    {
+      "x": 71.602,
+      "y": 69.415,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.014128164768831374,
+      "units": 141
+    },
+    {
+      "x": 91.564,
+      "y": 43.068,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.2428191899483087,
+      "units": 2428
+    },
+    {
+      "x": 75.884,
+      "y": 38.917,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.02964873576816688,
+      "units": 296
+    },
+    {
+      "x": 69.361,
+      "y": 11.804,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.005031850084809065,
+      "units": 50
+    },
+    {
+      "x": 73.962,
+      "y": 24.704,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.014299221317302609,
+      "units": 143
+    },
+    {
+      "x": 85.901,
+      "y": 67.869,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.06549697860164266,
+      "units": 655
+    },
+    {
+      "x": 85.16,
+      "y": 49.654,
+      "header": false,
+      "freeKick": true,
+      "probability": 0.24665576567196992,
+      "units": 2467
+    },
+    {
+      "x": 61.861,
+      "y": 87.485,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.002587846986625736,
+      "units": 26
+    },
+    {
+      "x": 71.197,
+      "y": 67.898,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.014208759935868013,
+      "units": 142
+    },
+    {
+      "x": 67.8,
+      "y": 14.601,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.004994990065738079,
+      "units": 50
+    },
+    {
+      "x": 89.668,
+      "y": 12.069,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.019579171559362663,
+      "units": 196
+    },
+    {
+      "x": 65.352,
+      "y": 14.8,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.003996528105005324,
+      "units": 40
+    },
+    {
+      "x": 74.702,
+      "y": 30.585,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.01974492196484664,
+      "units": 197
+    },
+    {
+      "x": 98.086,
+      "y": 57.449,
+      "header": true,
+      "freeKick": false,
+      "probability": 0.1844766774042593,
+      "units": 1845
+    },
+    {
+      "x": 55.455,
+      "y": 55.275,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.0028596454582654456,
+      "units": 29
+    },
+    {
+      "x": 55.155,
+      "y": 1.63,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.0008568887465608759,
+      "units": 9
+    },
+    {
+      "x": 50.731,
+      "y": 64.915,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.0014921229949984732,
+      "units": 15
+    },
+    {
+      "x": 85.629,
+      "y": 76.184,
+      "header": false,
+      "freeKick": false,
+      "probability": 0.037192375720935596,
+      "units": 372
+    },
+    {
+      "x": 99.977,
+      "y": 4.176,
+      "header": true,
+      "freeKick": false,
+      "probability": 0.004455717918215858,
+      "units": 45
+    },
+    {
+      "x": 83.739,
+      "y": 86.159,
+      "header": true,
+      "freeKick": false,
+      "probability": 0.00634587589461407,
+      "units": 63
+    },
+    {
+      "x": 59.52,
+      "y": 48.687,
+      "header": true,
+      "freeKick": false,
+      "probability": 0.0017448903396000998,
+      "units": 17
+    },
+    {
+      "x": 60.476,
+      "y": 71.296,
+      "header": true,
+      "freeKick": false,
+      "probability": 0.0014614029150711576,
+      "units": 15
+    }
+  ]
+}

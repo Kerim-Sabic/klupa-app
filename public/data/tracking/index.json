@@ -1,0 +1,79 @@
+[
+  {
+    "id": "J03WOH",
+    "date": "2022-08-26",
+    "competition": "2. Bundesliga 2022/2023",
+    "home": "Fortuna Düsseldorf",
+    "away": "SSV Jahn Regensburg",
+    "score": [4, 0],
+    "periods": [2778.5, 2711.0],
+    "bytes": 2898720,
+    "sha256": "943f2d16a1cb09cb59bb8041635cd0ff5ea4c5f6a43ca76227d064f7ff671830"
+  },
+  {
+    "id": "J03WOY",
+    "date": "2022-09-10",
+    "competition": "2. Bundesliga 2022/2023",
+    "home": "Fortuna Düsseldorf",
+    "away": "F.C. Hansa Rostock",
+    "score": [3, 1],
+    "periods": [2765.0, 2938.0],
+    "bytes": 3011448,
+    "sha256": "dbe21caf0e9f167f507e3533a757255825937ece4e63fe6cb38245e577bb0222"
+  },
+  {
+    "id": "J03WPY",
+    "date": "2022-10-15",
+    "competition": "2. Bundesliga 2022/2023",
+    "home": "1. FC Nürnberg",
+    "away": "Fortuna Düsseldorf",
+    "score": [1, 0],
+    "periods": [2766.0, 3084.0],
+    "bytes": 2995456,
+    "sha256": "396c5fa31470fd873fa028cf0c1b478d76af79ffccbf111e80410a1fa966278c"
+  },
+  {
+    "id": "J03WQQ",
+    "date": "2022-11-05",
+    "competition": "2. Bundesliga 2022/2023",
+    "home": "FC St. Pauli",
+    "away": "Fortuna Düsseldorf",
+    "score": [0, 1],
+    "periods": [2768.25, 2926.0],
+    "bytes": 2915712,
+    "sha256": "d151019a94154580f4466a794943e7f5b53b5399f5104e81e8306c9fc85faea8"
+  },
+  {
+    "id": "J03WR9",
+    "date": "2022-11-11",
+    "competition": "2. Bundesliga 2022/2023",
+    "home": "1. FC Kaiserslautern",
+    "away": "Fortuna Düsseldorf",
+    "score": [2, 1],
+    "periods": [2734.5, 3138.75],
+    "bytes": 3007360,
+    "sha256": "4b680ffd4d4c900c3aca5b87220a8f7c6c7b14fbc66d95357ef4547a21cbdd3a"
+  },
+  {
+    "id": "J03WMX",
+    "date": "2023-05-27",
+    "competition": "Bundesliga 2022/2023",
+    "home": "1. FC Köln",
+    "away": "FC Bayern München",
+    "score": [1, 2],
+    "periods": [2828.5, 3010.25],
+    "bytes": 3083124,
+    "sha256": "d5cac59823eceb5bd9a0824ca6843d684f9e5356d73844d1517e05cfc3926149"
+  },
+  {
+    "id": "J03WN1",
+    "date": "2023-05-27",
+    "competition": "Bundesliga 2022/2023",
+    "home": "Bayer 04 Leverkusen",
+    "away": "VfL Bochum 1848",
+    "score": [0, 3],
+    "periods": [2769.0, 2888.75],
+    "bytes": 2715960,
+    "sha256": "8585c0c4ed54ef6c8b5aad909ee94238eab209755b6d5a29728e170b79d22c06"
+  }
+]

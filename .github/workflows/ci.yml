@@ -1,0 +1,177 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: Typecheck, lint, test, build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install exactly what the lockfile says
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Lint (zero warnings allowed)
+        run: npm run lint
+
+      - name: Formatting
+        run: npm run format:check
+
+      - name: Tests with coverage gate (90% lines, 85% branches)
+        run: npm run test:coverage
+
+      - name: Production build
+        run: npm run build
+
+      - name: Bundle size against its budget (first load and the largest chunk)
+        run: npm run size
+
+      - name: Dependency audit (fails on any known advisory)
+        run: npm audit --audit-level=low
+
+      - name: Upload coverage report
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: coverage
+          path: coverage/
+          retention-days: 7
+
+  secrets:
+    name: Secret scan
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Scan the full history for credentials
+        env:
+          # Pinned by digest, so the tag cannot be moved to other contents. To move to a new
+          # version: docker buildx imagetools inspect ghcr.io/gitleaks/gitleaks:<tag>
+          GITLEAKS_IMAGE: ghcr.io/gitleaks/gitleaks@sha256:c00b6bd0aeb3071cbcb79009cb16a60dd9e0a7c60e2be9ab65d25e6bc8abbb7f # v8.30.1
+        run: >
+          docker run --rm --user "$(id -u):$(id -g)" -v "${{ github.workspace }}:/repo"
+          "$GITLEAKS_IMAGE"
+          git /repo --redact --no-banner --exit-code 1
+
+  database:
+    name: Database migrations and isolation tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+
+      - uses: supabase/setup-cli@1dedf2c611547ede7232d26866dd3c56ab903bbb # v1
+        with:
+          version: 3.1.0
+
+      - name: Start a local database and apply every migration from scratch
+        run: supabase db start
+
+      - name: Two-club isolation and integrity test (30 checks)
+        env:
+          # The local database the previous step started; it exists only for this job.
+          PGHOST: 127.0.0.1
+          PGPORT: '54322'
+          PGUSER: postgres
+          PGDATABASE: postgres
+          PGPASSWORD: postgres
+        run: psql -v ON_ERROR_STOP=1 -f supabase/tests/isolation.sql
+
+      - name: Multi-row writes are all-or-nothing and tenant-safe (30 checks)
+        env:
+          PGHOST: 127.0.0.1
+          PGPORT: '54322'
+          PGUSER: postgres
+          PGDATABASE: postgres
+          PGPASSWORD: postgres
+        run: psql -v ON_ERROR_STOP=1 -f supabase/tests/atomic_writes.sql
+
+      - name: Error reports, page-speed samples, demo status and retention are enforced by the database (18 checks)
+        env:
+          PGHOST: 127.0.0.1
+          PGPORT: '54322'
+          PGUSER: postgres
+          PGDATABASE: postgres
+          PGPASSWORD: postgres
+        run: psql -v ON_ERROR_STOP=1 -f supabase/tests/field_errors.sql
+
+  e2e:
+    name: Integration, browser end-to-end and accessibility tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    # The journey signs in as one shared test account and deletes its clubs, so two runs
+    # (a push and a pull request, say) must never overlap.
+    concurrency:
+      group: e2e-shared-test-account
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install exactly what the lockfile says
+        run: npm ci
+
+      - name: Data-access integration tests against the real project (19 scenarios)
+        run: npm run test:integration
+        env:
+          VITE_SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          VITE_SUPABASE_PUBLISHABLE_KEY: ${{ vars.SUPABASE_PUBLISHABLE_KEY }}
+          KLUPA_IT_EMAIL: ${{ secrets.KLUPA_IT_EMAIL }}
+          KLUPA_IT_PASSWORD: ${{ secrets.KLUPA_IT_PASSWORD }}
+
+      - name: Install Chromium and its system libraries
+        run: npx playwright install --with-deps chromium
+
+      - name: Run the browser tests (phone and desktop)
+        run: npm run e2e
+        env:
+          # This build talks to the production project, so its page-speed samples and error
+          # reports would be counted with real people's on /status and in the monitor. Both
+          # are switched off for it (the names are in src/lib/flags.ts).
+          VITE_DISABLED_FEATURES: pageSpeed,errorReports
+          VITE_SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          VITE_SUPABASE_PUBLISHABLE_KEY: ${{ vars.SUPABASE_PUBLISHABLE_KEY }}
+          KLUPA_IT_EMAIL: ${{ secrets.KLUPA_IT_EMAIL }}
+          KLUPA_IT_PASSWORD: ${{ secrets.KLUPA_IT_PASSWORD }}
+
+      - name: Upload the Playwright report
+        if: failure()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 7

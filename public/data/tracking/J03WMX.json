@@ -1,0 +1,312 @@
+{
+  "formatVersion": 1,
+  "match": "DFL-MAT-J03WMX",
+  "source": {
+    "dataset": "An integrated dataset of spatiotemporal and event data in elite soccer",
+    "authors": "Bassek, Manuel; Rein, Robert; Weber, Hendrik; Memmert, Daniel (2025)",
+    "paper": "https://doi.org/10.1038/s41597-025-04505-y",
+    "doi": "10.6084/m9.figshare.28196177.v1",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "notice": "Positions resampled and reduced to side and shirt number; no names or personal ids. Period 1: the first 2 samples (0 s to 0.25 s) repeat the first tracked frame, because tracking starts 0.37 s after the event kick-off.",
+    "sourceFiles": {
+      "DFL_02_01_matchinformation_DFL-COM-000001_DFL-MAT-J03WMX.xml": "a884728647a564cf8b20e5223a1d04a5da6f6725e1e506c8651505327c197ba9",
+      "DFL_03_02_events_raw_DFL-COM-000001_DFL-MAT-J03WMX.xml": "6f9741ea62e9dee35b604942e1dad2ac0a4dc3fce14ef2f3858aa12b74dafe00",
+      "DFL_04_03_positions_raw_observed_DFL-COM-000001_DFL-MAT-J03WMX.xml": "d3dd92e509421a6466acb0a083c009035f1751bc5fd9ef42ffa8f20d01cf7d49"
+    }
+  },
+  "pitch": {
+    "lengthMetres": 105.0,
+    "widthMetres": 68.0
+  },
+  "sampleRateHz": 4,
+  "coordinateUnit": "centimetre",
+  "sentinel": -32768,
+  "columns": 33,
+  "ballColumn": 32,
+  "roster": [
+    {
+      "slot": 0,
+      "side": "home",
+      "shirt": 2
+    },
+    {
+      "slot": 1,
+      "side": "home",
+      "shirt": 3
+    },
+    {
+      "slot": 2,
+      "side": "home",
+      "shirt": 4
+    },
+    {
+      "slot": 3,
+      "side": "home",
+      "shirt": 6
+    },
+    {
+      "slot": 4,
+      "side": "home",
+      "shirt": 7
+    },
+    {
+      "slot": 5,
+      "side": "home",
+      "shirt": 8
+    },
+    {
+      "slot": 6,
+      "side": "home",
+      "shirt": 11
+    },
+    {
+      "slot": 7,
+      "side": "home",
+      "shirt": 14
+    },
+    {
+      "slot": 8,
+      "side": "home",
+      "shirt": 17
+    },
+    {
+      "slot": 9,
+      "side": "home",
+      "shirt": 20
+    },
+    {
+      "slot": 10,
+      "side": "home",
+      "shirt": 24
+    },
+    {
+      "slot": 11,
+      "side": "home",
+      "shirt": 25
+    },
+    {
+      "slot": 12,
+      "side": "home",
+      "shirt": 27
+    },
+    {
+      "slot": 13,
+      "side": "home",
+      "shirt": 28
+    },
+    {
+      "slot": 14,
+      "side": "home",
+      "shirt": 29
+    },
+    {
+      "slot": 15,
+      "side": "home",
+      "shirt": 37
+    },
+    {
+      "slot": 16,
+      "side": "away",
+      "shirt": 2
+    },
+    {
+      "slot": 17,
+      "side": "away",
+      "shirt": 4
+    },
+    {
+      "slot": 18,
+      "side": "away",
+      "shirt": 5
+    },
+    {
+      "slot": 19,
+      "side": "away",
+      "shirt": 6
+    },
+    {
+      "slot": 20,
+      "side": "away",
+      "shirt": 7
+    },
+    {
+      "slot": 21,
+      "side": "away",
+      "shirt": 8
+    },
+    {
+      "slot": 22,
+      "side": "away",
+      "shirt": 10
+    },
+    {
+      "slot": 23,
+      "side": "away",
+      "shirt": 11
+    },
+    {
+      "slot": 24,
+      "side": "away",
+      "shirt": 13
+    },
+    {
+      "slot": 25,
+      "side": "away",
+      "shirt": 22
+    },
+    {
+      "slot": 26,
+      "side": "away",
+      "shirt": 25
+    },
+    {
+      "slot": 27,
+      "side": "away",
+      "shirt": 27
+    },
+    {
+      "slot": 28,
+      "side": "away",
+      "shirt": 38
+    },
+    {
+      "slot": 29,
+      "side": "away",
+      "shirt": 39
+    },
+    {
+      "slot": 30,
+      "side": "away",
+      "shirt": 40
+    },
+    {
+      "slot": 31,
+      "side": "away",
+      "shirt": 42
+    }
+  ],
+  "periods": [
+    {
+      "period": 1,
+      "startFrame": 0,
+      "frameCount": 11315,
+      "durationSeconds": 2828.5,
+      "ballAliveRuns": [
+        [0, 23],
+        [68, 409],
+        [461, 604],
+        [638, 944],
+        [998, 1054],
+        [1091, 1116],
+        [1161, 1172],
+        [1209, 1879],
+        [2084, 2161],
+        [2216, 2881],
+        [2914, 2940],
+        [3039, 3144],
+        [3206, 3243],
+        [3303, 3507],
+        [3622, 3646],
+        [3710, 3746],
+        [3768, 4024],
+        [4150, 4164],
+        [4184, 4744],
+        [4800, 4893],
+        [4958, 5187],
+        [5272, 5409],
+        [5535, 5661],
+        [5893, 5946],
+        [6090, 6422],
+        [6591, 6645],
+        [6691, 7106],
+        [7161, 7292],
+        [7351, 7584],
+        [7665, 7680],
+        [7722, 7819],
+        [7877, 8133],
+        [8324, 8648],
+        [8759, 9372],
+        [9380, 9467],
+        [9646, 9719],
+        [9770, 9809],
+        [9837, 9915],
+        [9975, 10419],
+        [10553, 10606],
+        [11202, 11302]
+      ]
+    },
+    {
+      "period": 2,
+      "startFrame": 11315,
+      "frameCount": 12042,
+      "durationSeconds": 3010.25,
+      "ballAliveRuns": [
+        [0, 64],
+        [100, 181],
+        [252, 283],
+        [365, 467],
+        [479, 1056],
+        [1092, 1210],
+        [1394, 1593],
+        [1768, 1811],
+        [1902, 2217],
+        [2320, 2417],
+        [2505, 2554],
+        [2610, 2802],
+        [2876, 2935],
+        [2954, 2998],
+        [3052, 3298],
+        [3446, 3460],
+        [3551, 3814],
+        [4064, 4223],
+        [4251, 4302],
+        [4322, 4407],
+        [4475, 4546],
+        [4558, 4701],
+        [4719, 4748],
+        [4946, 4959],
+        [4994, 5016],
+        [5111, 5163],
+        [5177, 5201],
+        [5262, 5282],
+        [5300, 5454],
+        [5597, 5802],
+        [6102, 6132],
+        [6220, 6456],
+        [6672, 6741],
+        [6861, 6876],
+        [6922, 6982],
+        [7020, 7107],
+        [7187, 7195],
+        [7223, 7407],
+        [7482, 7528],
+        [7630, 7863],
+        [7915, 7940],
+        [8416, 8419],
+        [8790, 8901],
+        [8916, 9053],
+        [9084, 9147],
+        [9167, 9273],
+        [9415, 9511],
+        [9551, 9623],
+        [9650, 9715],
+        [9814, 9878],
+        [10074, 10120],
+        [10166, 10381],
+        [10710, 10751],
+        [10907, 11174],
+        [11252, 11299],
+        [11339, 11356],
+        [11477, 11541],
+        [11634, 11695],
+        [11775, 11832],
+        [11897, 11909],
+        [11950, 11981],
+        [12006, 12021]
+      ]
+    }
+  ],
+  "bytes": 3083124,
+  "sha256": "d5cac59823eceb5bd9a0824ca6843d684f9e5356d73844d1517e05cfc3926149"
+}

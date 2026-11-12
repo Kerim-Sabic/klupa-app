@@ -1,0 +1,56 @@
+{
+  "tool": "k6",
+  "run": "https://github.com/Kerim-Sabic/klupa/actions/runs/43121661888",
+  "commit": "053f177",
+  "date": "2026-11-12",
+  "target": "live site and database (production), throwaway test account",
+  "raw": "docs/load/2026-11-12-run2-k6.json",
+  "duration_s": 119,
+  "requests": 3228,
+  "error_rate": 0,
+  "checks": {
+    "passes": 3220,
+    "fails": 0
+  },
+  "dropped_iterations": 0,
+  "vus_max": 30,
+  "scenarios": [
+    {
+      "name": "site",
+      "p95_ms": 62.28,
+      "avg_ms": 41.71,
+      "max_ms": 402.55,
+      "error_rate": 0,
+      "threshold": "p(95)<500",
+      "passed": true
+    },
+    {
+      "name": "read",
+      "p95_ms": 184.09,
+      "avg_ms": 166.97,
+      "max_ms": 479.87,
+      "error_rate": 0,
+      "threshold": "p(95)<800",
+      "passed": true
+    },
+    {
+      "name": "write",
+      "p95_ms": 193.57,
+      "avg_ms": 177.42,
+      "max_ms": 460.9,
+      "error_rate": 0,
+      "threshold": "p(95)<1000",
+      "passed": true
+    },
+    {
+      "name": "health",
+      "p95_ms": 343.56,
+      "avg_ms": 246.13,
+      "max_ms": 353.08,
+      "error_rate": 0,
+      "threshold": "p(95)<1500",
+      "passed": true
+    }
+  ],
+  "thresholds_passed": true
+}

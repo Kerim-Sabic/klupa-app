@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "close": "Close",
+    "dismiss": "Dismiss",
+    "loading": "Loading",
+    "retry": "Try again",
+    "notifications": "Notifications",
+    "toast": {
+      "success": "Done",
+      "error": "Problem",
+      "info": "Note"
+    },
+    "table": {
+      "empty": "Nothing to show yet."
+    }
+  }
+}

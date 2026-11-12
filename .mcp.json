@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "prodready": {
+      "type": "http",
+      "url": "https://mcp.prodready.si/mcp"
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "movement": {
+    "title": "3D prikaz utakmice",
+    "subtitle": "Sedam profesionalnih utakmica, ponovo prikazanih iz podataka o praćenju, da pokažu šta sistem može pročitati: gdje je bio svaki igrač, oblik svake ekipe i ko je najbliži kojem dijelu terena.",
+    "loading": {
+      "title": "Pripremamo utakmicu",
+      "detail": "{{loaded}} od {{total}} MB",
+      "once": "Preuzima se samo prvi put; poslije toga je preglednik ponovo koristi."
+    },
+    "error": {
+      "title": "Utakmicu nije bilo moguće učitati",
+      "body": "Provjerite vezu i pokušajte ponovo. Ništa drugo na ovoj stranici ne zavisi od nje."
+    },
+    "stage": {
+      "label3d": "Utakmica u 3D",
+      "label2d": "Utakmica odozgo",
+      "summary": "{{clock}}, {{half}}. Na terenu je {{players}} igrača.",
+      "loading": "Učitava se 3D prikaz",
+      "flat": "Ravan prikaz odozgo.",
+      "flatNoWebgl": "Ovaj preglednik ne može crtati 3D, pa je utakmica prikazana ravno, odozgo.",
+      "flatReduced": "Prikazano ravno dok uređaj traži smanjeno kretanje. Pritisnite Pokreni da otvorite 3D prikaz.",
+      "hint": "Dodirnite igrača da ga pratite. Kameru okrećete držeći Ctrl i povlačeći (Ctrl i točkić za zumiranje); na telefonu s dva prsta.",
+      "cameraLabel": "Kamera",
+      "camera": {
+        "broadcast": "Sa strane",
+        "tactical": "Odozgo",
+        "goal": "Iza gola",
+        "follow": "Prati loptu"
+      },
+      "playerLabel": "{{side}} {{shirt}}",
+      "cameraShort": {
+        "broadcast": "Bočno",
+        "tactical": "Odozgo",
+        "goal": "Gol",
+        "follow": "Lopta"
+      },
+      "chipSpeed": "{{value}} km/h",
+      "chipOff": "Nije na terenu",
+      "chipUnknown": "Brzina nije poznata",
+      "sprintHint": "Veća bijela podloga ispod igrača znači da trči sprinterskom brzinom, 25 km/h ili više, očitano iz četiri pozicije u sekundi."
+    },
+    "transport": {
+      "play": "Pokreni",
+      "pause": "Pauziraj",
+      "back": "Nazad 5 sekundi",
+      "forward": "Naprijed 5 sekundi",
+      "scrubLabel": "Vrijeme utakmice",
+      "scrubValue": "{{clock}}, {{half}}",
+      "periodLabel": "Poluvrijeme",
+      "period1": "1. poluvrijeme",
+      "period2": "2. poluvrijeme",
+      "speedLabel": "Brzina",
+      "speed": "{{speed}}×",
+      "chanceLabel": "Skoči na šansu",
+      "chancePick": "Izaberite udarac ({{count}} u ovom poluvremenu)",
+      "chanceOption": "{{clock}} · udarac: {{side}} · xG {{xg}}",
+      "previousChance": "Prethodna šansa",
+      "nextChance": "Sljedeća šansa",
+      "keys": "Tastatura: razmak pokreće ili pauzira, strelice pomjeraju 5 sekundi.",
+      "marksLegend": "Oznake iznad trake su udarci: {{home}}, oznake ispod: {{away}}.",
+      "previousShort": "Prethodna",
+      "nextShort": "Sljedeća"
+    },
+    "side": {
+      "home": "Domaći",
+      "away": "Gosti"
+    },
+    "layers": {
+      "title": "Slojevi",
+      "shape": "Oblik ekipe",
+      "shapeDetail": "Obris igrača u polju svake ekipe i njihovo središte.",
+      "space": "Kontrola prostora",
+      "spaceDetail": "Svaki dio terena obojen bojom ekipe najbližeg igrača.",
+      "trail": "Trag igrača",
+      "trailDetail": "Kuda se izabrani igrač kretao u posljednjih 10 sekundi.",
+      "on": "Uključeno",
+      "off": "Isključeno",
+      "playerLabel": "Igrač",
+      "noPlayer": "Niko nije izabran",
+      "playerOption": "{{side}} {{shirt}}",
+      "legendTitle": "Kako razlikovati ekipe",
+      "legendHome": "{{club}}: okrugle oznake, puni obris, puna nijansa.",
+      "legendAway": "{{club}}: kvadratne oznake, isprekidan obris, prugasta nijansa.",
+      "legendBall": "Lopta: mali okrugli disk bez broja, nacrtan na travi."
+    },
+    "readout": {
+      "title": "Upravo sada",
+      "clock": "Vrijeme utakmice",
+      "width": "Širina",
+      "depth": "Dubina",
+      "area": "Površina",
+      "metres": "{{value}} m",
+      "squareMetres": "{{value}} m²",
+      "outfield": "Igrača u polju: {{count}}",
+      "none": "Niko nije na terenu",
+      "space": "Dio terena najbliži svakoj ekipi",
+      "spaceNone": "Na terenu nema igrača",
+      "playerTitle": "Izabrani igrač",
+      "playerNone": "Dodirnite igrača na terenu ili ga izaberite pod Slojevi da vidite njegovu brzinu i pretrčani put.",
+      "playerName": "{{side}} {{shirt}}",
+      "speed": "Trenutna brzina",
+      "speedValue": "{{value}} m/s",
+      "speedNone": "Nije poznata",
+      "distance": "Pretrčano u ovom poluvremenu",
+      "distanceValue": "{{value}} km",
+      "offPitch": "U ovom trenutku nije na terenu.",
+      "approximate": "Približno: čita se iz 4 položaja u sekundi, pa se zavoji skraćuju i stvarni put je nešto duži.",
+      "spaceTeam": "{{club}} {{share}}%"
+    },
+    "live": {
+      "home": "{{clock}}, {{half}}. {{club}} kontroliše više prostora: {{share}}%.",
+      "away": "{{clock}}, {{half}}. {{club}} kontroliše više prostora: {{share}}%.",
+      "level": "{{clock}}, {{half}}. Prostor je podijeljen otprilike jednako."
+    },
+    "about": {
+      "title": "Šta gledate",
+      "match": "Sedam profesionalnih muških utakmica (Bundesliga i 2. Bundesliga, 2022/23) iz otvorenog DFL skupa podataka. Tu su da pokažu šta sistem može pročitati iz podataka o praćenju, ništa više.",
+      "grassroots": "Za vaše utakmice nema podataka o praćenju: za to trebaju kamere ili senzori koje klub u omladinskom fudbalu nema. Klupa ih nikada ne izmišlja.",
+      "space": "„Kontrola prostora“ ovdje znači samo koji je igrač najbliži kojem dijelu terena. To nije fizički model: ne uzima u obzir brzinu, smjer ni ko bi zaista prvi stigao.",
+      "sampling": "Položaji su zapisani 4 puta u sekundi i izglađeni između, pa je kretanje nacrtano, a ne snimljeno. Visina lopte nije u podacima, pa je lopta nacrtana na travi.",
+      "anonymous": "U prikazu su igrači samo klub i broj na dresu. Fizički izvještaj koristi kratka imena iz javnih informacija o utakmici.",
+      "sourceTitle": "Izvor i licenca",
+      "citation": "Bassek, M., Rein, R., Weber, H. i Memmert, D. (2025). An integrated dataset of spatiotemporal and event data in elite soccer. figshare, doi:10.6084/m9.figshare.28196177.v1. Rad: Scientific Data, doi:10.1038/s41597-025-04505-y.",
+      "licence": "Licenca CC BY 4.0. Klupa je izmijenila podatke: položaji su prerađeni na 4 u sekundi, zaokruženi na centimetre i svedeni na stranu i broj na dresu; fizičke mjere su izračunate iz punih 25 u sekundi.",
+      "doiLink": "Skup podataka na figshareu",
+      "licenceLink": "Licenca CC BY 4.0"
+    },
+    "picker": {
+      "label": "Utakmica",
+      "hint": "Klubovi su navedeni redom iz fajla s podacima, koji ne kaže ko je bio domaćin."
+    },
+    "notFound": {
+      "title": "Ove utakmice nema u prikazu",
+      "body": "Prikaz ima sedam praćenih utakmica. Izaberite jednu od njih.",
+      "back": "Otvori 3D prikaz"
+    },
+    "physical": {
+      "title": "Fizički izvještaj",
+      "intro": "Koliko je svaki igrač pretrčao na ovoj utakmici, izmjereno u Klupi iz punih 25 položaja u sekundi. Opisuje trčanje, a ne koliko je ko dobro igrao.",
+      "loading": "Učitava se fizički izvještaj",
+      "errorTitle": "Fizički izvještaj nije bilo moguće učitati",
+      "errorBody": "Prikaz iznad radi i bez njega. Pokušajte ponovo.",
+      "compareTitle": "Zbir po ekipi",
+      "metric": {
+        "distanceKm": "Pretrčano",
+        "highSpeedKm": "Pretrčano velikom brzinom",
+        "sprints": "Sprintovi",
+        "topSpeed": "Najveća brzina"
+      },
+      "km": "{{value}} km",
+      "kmh": "{{value}} km/h",
+      "topSpeedFull": "{{kmh}} km/h ({{mps}} m/s)",
+      "used": "Igrača: {{players}}, minuta na terenu: {{minutes}}",
+      "tableCaption": "{{club}}: svaki igrač koji je igrao, najduži put prvi",
+      "col": {
+        "shirt": "Br.",
+        "name": "Ime",
+        "minutes": "Minute",
+        "distance": "Pretrčano (km)",
+        "highSpeed": "Velika brzina (km)",
+        "sprints": "Sprintovi",
+        "topSpeed": "Najveća brzina (km/h)"
+      },
+      "definitionsTitle": "Kako se ovo mjeri",
+      "def": {
+        "speed": "Brzina: koliko se igrač pomjerio za 0,4 sekunde, iz {{hz}} položaja u sekundi.",
+        "minutes": "Minute: minute na satu provedene na terenu, od početka svakog poluvremena do posljednjeg praćenog trenutka, uključujući prekide.",
+        "distance": "Pretrčano: sve što je igrač prešao dok je bio na terenu.",
+        "highSpeed": "Pretrčano velikom brzinom: put pređen brže od {{mps}} m/s ({{kmh}} km/h).",
+        "sprints": "Sprintovi: trčanja od najmanje {{seconds}} s brzinom od {{mps}} m/s ({{kmh}} km/h) ili većom.",
+        "topSpeed": "Najveća brzina: najbrža brzina tokom 0,4 sekunde, u km/h (1 m/s je 3,6 km/h). Nije trenutna vrijednost koju prikazuje televizija."
+      },
+      "quality": "{{seconds}} sekundi igračkog vremena ({{share}}% ukupnog) nije uračunato u pretrčano, sprintove i najveću brzinu: tu je praćenje izgubilo igrača i vratilo ga brže od {{jump}} m/s, što nijedan fudbaler ne može trčati. Te sekunde se i dalje računaju u minute.",
+      "names": "Imena su kratka imena iz javnih informacija o utakmici.",
+      "clubLabel": "Klub"
+    },
+    "ownVideo": "Imate snimak svoje utakmice? Isprobajte igrače na snimku"
+  }
+}

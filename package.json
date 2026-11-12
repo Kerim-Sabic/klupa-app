@@ -1,0 +1,78 @@
+{
+  "name": "klupa",
+  "version": "0.4.1",
+  "private": true,
+  "type": "module",
+  "description": "Klupa — match evidence to fair practice for grassroots coaches (Project OMEGA).",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "size": "node scripts/bundle-size.mjs",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --max-warnings 0",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:integration": "vitest run --config vitest.integration.config.ts",
+    "test:coverage": "vitest run --coverage",
+    "e2e": "playwright test",
+    "e2e:report": "playwright show-report",
+    "verify": "npm run typecheck && npm run lint && npm run format:check && npm run test:coverage && npm run build && npm run size",
+    "postinstall": "node scripts/vision/copy-assets.mjs",
+    "db:types": "node scripts/db-types.mjs && prettier --write src/lib/database"
+  },
+  "dependencies": {
+    "@fontsource-variable/archivo": "^5.3.0",
+    "@mediapipe/tasks-vision": "^1.2.2",
+    "@react-three/fiber": "^9.8.2",
+    "@supabase/supabase-js": "^2.119.0",
+    "@tanstack/react-query": "^5.107.1",
+    "i18next": "^27.1.1",
+    "lucide-react": "^1.72.0",
+    "motion": "^14.12.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-i18next": "^18.0.1",
+    "react-router": "^7.18.5",
+    "three": "^0.187.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@eslint/js": "^9.39.5",
+    "@playwright/test": "^1.65.0",
+    "@tailwindcss/vite": "^4.3.5",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.9",
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.187.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "@vitest/coverage-v8": "^5.1.0",
+    "eslint": "^9.39.5",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "fast-check": "^4.10.2",
+    "globals": "^17.14.0",
+    "jsdom": "^29.1.1",
+    "prettier": "^3.10.0",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.72.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0"
+  },
+  "overrides": {
+    "@typescript-eslint/typescript-estree": {
+      "minimatch": "^11.0.8"
+    }
+  }
+}

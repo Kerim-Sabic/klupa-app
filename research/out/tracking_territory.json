@@ -1,0 +1,79 @@
+{
+  "match": "DFL-MAT-J03WN1",
+  "caveat": "One match. Home had 10 men from about minute 7 of the first half. Grid points share overlapping windows, so counts are not independent observations. Description only; no generalisation.",
+  "labelChecks": {
+    "shotsInFixture": 21,
+    "shotsRebuiltFromEventsWithTrackingLabels": 21,
+    "identical": true,
+    "shotsWithBallInShootersAttackingHalf": 21,
+    "shotsChecked": 21
+  },
+  "measure": "space control (nearest player), 32 x 21 grid, home share - 0.5",
+  "totalShots": 21,
+  "gridPoints": 1132,
+  "windows": [
+    {
+      "windowSeconds": 180,
+      "gridPoints": 1132,
+      "xgSignNonzero": 549,
+      "spaceControlSignNonzero": 1132,
+      "bothHaveASign": 549,
+      "agree": 441,
+      "agreeShare": 0.8033,
+      "agreeShareIfIndependentGivenMarginals": 0.4982,
+      "homeAheadShareAmongBoth": {
+        "xg": 0.49,
+        "spaceControl": 0.5883
+      },
+      "pearsonAllPoints": 0.3144,
+      "spearmanAllPoints": 0.4793,
+      "pearsonPointsWithAShotInWindow": 0.5289,
+      "nonOverlappingFullWindows": {
+        "bothHaveASign": 13,
+        "agree": 8
+      }
+    },
+    {
+      "windowSeconds": 300,
+      "gridPoints": 1132,
+      "xgSignNonzero": 723,
+      "spaceControlSignNonzero": 1132,
+      "bothHaveASign": 723,
+      "agree": 532,
+      "agreeShare": 0.7358,
+      "agreeShareIfIndependentGivenMarginals": 0.5049,
+      "homeAheadShareAmongBoth": {
+        "xg": 0.5214,
+        "spaceControl": 0.6141
+      },
+      "pearsonAllPoints": 0.3478,
+      "spearmanAllPoints": 0.4698,
+      "pearsonPointsWithAShotInWindow": 0.4896,
+      "nonOverlappingFullWindows": {
+        "bothHaveASign": 12,
+        "agree": 8
+      }
+    },
+    {
+      "windowSeconds": 600,
+      "gridPoints": 1132,
+      "xgSignNonzero": 931,
+      "spaceControlSignNonzero": 1132,
+      "bothHaveASign": 931,
+      "agree": 713,
+      "agreeShare": 0.7658,
+      "agreeShareIfIndependentGivenMarginals": 0.5008,
+      "homeAheadShareAmongBoth": {
+        "xg": 0.5156,
+        "spaceControl": 0.5242
+      },
+      "pearsonAllPoints": 0.4187,
+      "spearmanAllPoints": 0.5203,
+      "pearsonPointsWithAShotInWindow": 0.5265,
+      "nonOverlappingFullWindows": {
+        "bothHaveASign": 8,
+        "agree": 6
+      }
+    }
+  ]
+}

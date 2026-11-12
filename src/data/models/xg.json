@@ -1,0 +1,60 @@
+{
+  "name": "klupa-xg-logistic-v1",
+  "featureNames": ["distance", "angle", "isHeader", "isFreeKick"],
+  "intercept": -1.0849403426995312,
+  "coefficients": [
+    -0.10695821655786303, 1.597834632010153, -0.9916027874845399, 0.8981236880795306
+  ],
+  "pitch": {
+    "lengthM": 105.0,
+    "widthM": 68.0,
+    "goalWidthM": 7.32
+  },
+  "geometry": "x,y are Wyscout percentages; attacking goal at x = 100; dx=(100-x)*1.05, dy=(50-y)*0.68",
+  "training": {
+    "nShots": 45287,
+    "nGoals": 4629,
+    "nMatches": 1941,
+    "competitions": [
+      "England",
+      "European_Championship",
+      "France",
+      "Germany",
+      "Italy",
+      "Spain",
+      "World_Cup"
+    ],
+    "exclusions": "penalties, own goals, penalty shoot-outs",
+    "groupedCv5Fold": {
+      "model": {
+        "logLoss": 0.2803580720731012,
+        "brier": 0.07978418959671003,
+        "auc": 0.7748595790433372,
+        "ece": 0.005498938443116775
+      },
+      "baseline": {
+        "logLoss": 0.32999638151211386,
+        "brier": 0.09178056798889038,
+        "auc": 0.48560013655683726,
+        "ece": 0.005354146118073223
+      }
+    },
+    "leaveOneCompetitionOut": {
+      "model": {
+        "logLoss": 0.28037978970169447,
+        "brier": 0.07978462496183862,
+        "auc": 0.774871502156346,
+        "ece": 0.005370360923542355
+      },
+      "baseline": {
+        "logLoss": 0.32998445221789374,
+        "brier": 0.09177832587959003,
+        "auc": 0.4843557838431426,
+        "ece": 0.005376584914331397
+      }
+    }
+  },
+  "attribution": "Pappalardo, Luca; Massucco, Emanuele (2019). Soccer match event dataset. figshare. Collection. https://doi.org/10.6084/m9.figshare.c.4415000.v5 (Wyscout open data; companion paper: Pappalardo et al., Scientific Data, 2019).",
+  "licence": "CC BY 4.0 (data); model coefficients derived from it",
+  "caveat": "Trained on men's professional shots; no published study tests transfer to youth football; treat as a shot-quality index for youth teams, not a probability."
+}

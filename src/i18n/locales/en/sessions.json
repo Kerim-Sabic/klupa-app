@@ -1,0 +1,194 @@
+{
+  "sessions": {
+    "title": "Training",
+    "subtitle": "Plan a session that fits tonight, then log who came and how it went.",
+    "back": "Training",
+    "list": {
+      "plan": "Plan a session",
+      "emptyTitle": "No sessions yet",
+      "emptyBody": "Plan your first one: pick a focus and see what fits the players, pitch and time you have.",
+      "showEarlier": "Show earlier sessions"
+    },
+    "focus": {
+      "receiving_under_pressure": "Receiving under pressure",
+      "finishing": "Finishing",
+      "one_v_one_attacking": "1 v 1 attacking",
+      "one_v_one_defending": "1 v 1 defending",
+      "build_up": "Building out from the back",
+      "pressing": "Pressing",
+      "transition": "Transitions",
+      "passing_combinations": "Passing combinations"
+    },
+    "area": {
+      "quarter": "Quarter",
+      "half": "Half",
+      "full": "Full"
+    },
+    "areaFull": {
+      "quarter": "quarter pitch",
+      "half": "half pitch",
+      "full": "full pitch"
+    },
+    "equipment": {
+      "balls": "Balls",
+      "cones": "Cones",
+      "bibs": "Bibs",
+      "small_goals": "Small goals",
+      "full_goals": "Full-size goals"
+    },
+    "phase": {
+      "warmup": "Warm-up",
+      "main": "Main drill",
+      "game": "Game"
+    },
+    "status": {
+      "planned": "Planned",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "saved": {
+        "completed": "Session marked as completed.",
+        "cancelled": "Session cancelled."
+      }
+    },
+    "reason": {
+      "MATCHES_FOCUS": "Matches the focus",
+      "OTHER_FOCUS": "Borrowed from another focus",
+      "FITS_PLAYERS": "Fits the numbers",
+      "FITS_SPACE": "Fits the space",
+      "MOST_REPS": "Most attempts"
+    },
+    "rejection": {
+      "TOO_FEW_PLAYERS": "Needs at least {{players}} players",
+      "TOO_MANY_PLAYERS": "Works for {{players}} players at most",
+      "NOT_ENOUGH_SPACE": "Needs more space: at least a {{area}}",
+      "AGE_GROUP": "Not suited to this age group",
+      "MISSING_EQUIPMENT": "Needs {{items}}"
+    },
+    "formError": {
+      "UNKNOWN_FOCUS": "Choose one of the listed focus areas.",
+      "INVALID_DATE": "Enter a valid date.",
+      "INVALID_PLAYERS": "Choose between 4 and 30 players.",
+      "INVALID_MINUTES": "Choose 45, 60, 75 or 90 minutes.",
+      "UNKNOWN_AREA": "Choose a pitch space.",
+      "UNKNOWN_EQUIPMENT": "Choose equipment from the list."
+    },
+    "planner": {
+      "title": "Plan a session",
+      "subtitle": "Set the night up. The plan changes as you do.",
+      "setup": "Tonight",
+      "focus": "Focus",
+      "date": "Date",
+      "players": "Players expected",
+      "playersLess": "Fewer players expected",
+      "playersMore": "More players expected",
+      "duration": "Length",
+      "minutesShort": "{{minutes}} min",
+      "area": "Pitch space",
+      "equipment": "Equipment you have",
+      "floodlit": "Floodlit",
+      "planTitle": "Your session",
+      "total": "{{minutes}} minutes · about {{reps}} attempts per player (estimate)",
+      "range": "{{from}}–{{to}} min",
+      "attempts": "About {{reps}} attempts per player (estimate)",
+      "openBlock": "{{phase}}: {{name}}, {{minutes}} min. Open details",
+      "fromMatch": "Planned from your match against {{opponent}}."
+    },
+    "drill": {
+      "setup": "Set-up",
+      "coachingPoints": "Coaching points",
+      "easier": "Easier version",
+      "harder": "Harder version"
+    },
+    "fewer": {
+      "title": "If fewer players come",
+      "same": "The same main drill works down to {{players}} players.",
+      "change": "With {{players}} or fewer players, the main drill changes to {{drill}}.",
+      "none": "With {{players}} or fewer, no main drill fits.",
+      "appears": "With {{players}} or fewer players, a main drill fits: {{drill}}."
+    },
+    "noPlan": {
+      "title": "No main drill fits tonight",
+      "body": "For {{focus}}, the setup above rules out every drill we have. Here is why each one was turned away."
+    },
+    "rotation": {
+      "title": "Fair rotation",
+      "intro": "{{slots}} players take the key role in each round, and the turns are shared out evenly.",
+      "noSquad": "Add players to your squad to see who takes each turn.",
+      "caption": "Who takes the key role in each round",
+      "round": "Round",
+      "players": "Players",
+      "roundN": "Round {{round}}",
+      "turns": "Everyone gets {{low}} or {{high}} turns.",
+      "turnsEqual": "Everyone gets {{turns}} turns."
+    },
+    "save": {
+      "action": "Save session",
+      "ready": "Saves the session, its drills and your squad list.",
+      "saved": "Session saved.",
+      "blockedNoPlan": "No main drill fits tonight, so there is nothing to save. Change the setup above.",
+      "blockedDate": "Enter a valid date to save."
+    },
+    "card": {
+      "facts": "{{date}} · {{minutes}} min · {{area}} · {{players}} players",
+      "bring": "Bring:",
+      "drillMissing": "This drill is no longer in the library, so its details are not available."
+    },
+    "notFound": {
+      "title": "Session not found",
+      "body": "It may have been removed, or the link is wrong.",
+      "action": "Back to training"
+    },
+    "actions": {
+      "print": "Print",
+      "complete": "Mark completed",
+      "cancel": "Mark cancelled"
+    },
+    "cancelledNote": "This session was cancelled, so there is no attendance to record.",
+    "cancelSheet": {
+      "title": "Cancel this session?",
+      "body": "It stays in your list as cancelled. Attendance is not recorded for a cancelled session.",
+      "keep": "Keep it",
+      "confirm": "Cancel session"
+    },
+    "attendance": {
+      "title": "Attendance and observations",
+      "present": "Present",
+      "absent": "Absent",
+      "shirt": "Shirt",
+      "minutes": "Minutes played",
+      "minutesUnit": "min",
+      "minutesLess": "Five minutes less for {{player}}",
+      "minutesMore": "Five minutes more for {{player}}",
+      "noSquadTitle": "No players in the squad yet",
+      "noSquadBody": "Add your players first, then you can record who came.",
+      "noSquadAction": "Go to the club page"
+    },
+    "effort": {
+      "group": "Effort for {{player}}",
+      "label": "Effort (1 to 10)",
+      "rate": "Effort {{rating}} for {{player}}",
+      "easy": "1 · easy",
+      "maximal": "10 · maximal",
+      "helper": "How hard was it for them? Ask the player."
+    },
+    "counters": {
+      "attempts": "Attempts",
+      "successes": "Successes",
+      "attemptsLess": "Remove an attempt for {{player}}",
+      "attemptsMore": "Add an attempt for {{player}}",
+      "successesLess": "Remove a success for {{player}}",
+      "successesMore": "Add a success for {{player}}",
+      "rule": "Count what you see of this session's focus. Successes can never be more than attempts."
+    },
+    "summary": {
+      "title": "Session summary",
+      "present": "Present",
+      "ofExpected": "of {{expected}} expected",
+      "effort": "Average effort",
+      "rated": "ratings: {{rated}}",
+      "attempts": "Attempts seen",
+      "notObserved": "Not observed yet",
+      "notObservedHint": "Present, no attempts counted"
+    }
+  }
+}

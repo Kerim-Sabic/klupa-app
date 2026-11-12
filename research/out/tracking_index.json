@@ -1,0 +1,135 @@
+[
+  {
+    "match": "DFL-MAT-J03WMX",
+    "resultInMatchInformation": "1:2",
+    "dflHomeClub": "1. FC Köln",
+    "fileHomeClub": "1. FC Köln",
+    "fileHomeIsDflHome": true,
+    "goalsCountedInEvents": {
+      "home": 1,
+      "away": 2
+    },
+    "scoreByFileLabel": {
+      "home": 1,
+      "away": 2
+    },
+    "goalsMatchResult": true,
+    "shotsRebuilt": 21,
+    "shotsEqualFixture": true,
+    "binaryMatchesMetadata": true
+  },
+  {
+    "match": "DFL-MAT-J03WN1",
+    "resultInMatchInformation": "3:0",
+    "dflHomeClub": "VfL Bochum 1848",
+    "fileHomeClub": "Bayer 04 Leverkusen",
+    "fileHomeIsDflHome": false,
+    "goalsCountedInEvents": {
+      "home": 0,
+      "away": 3
+    },
+    "scoreByFileLabel": {
+      "away": 3,
+      "home": 0
+    },
+    "goalsMatchResult": true,
+    "shotsRebuilt": 21,
+    "shotsEqualFixture": true,
+    "binaryMatchesMetadata": true
+  },
+  {
+    "match": "DFL-MAT-J03WOH",
+    "resultInMatchInformation": "4:0",
+    "dflHomeClub": "Fortuna Düsseldorf",
+    "fileHomeClub": "Fortuna Düsseldorf",
+    "fileHomeIsDflHome": true,
+    "goalsCountedInEvents": {
+      "home": 4,
+      "away": 0
+    },
+    "scoreByFileLabel": {
+      "home": 4,
+      "away": 0
+    },
+    "goalsMatchResult": true,
+    "shotsRebuilt": 27,
+    "shotsEqualFixture": true,
+    "binaryMatchesMetadata": true
+  },
+  {
+    "match": "DFL-MAT-J03WOY",
+    "resultInMatchInformation": "3:1",
+    "dflHomeClub": "Fortuna Düsseldorf",
+    "fileHomeClub": "Fortuna Düsseldorf",
+    "fileHomeIsDflHome": true,
+    "goalsCountedInEvents": {
+      "home": 3,
+      "away": 1
+    },
+    "scoreByFileLabel": {
+      "home": 3,
+      "away": 1
+    },
+    "goalsMatchResult": true,
+    "shotsRebuilt": 22,
+    "shotsEqualFixture": true,
+    "binaryMatchesMetadata": true
+  },
+  {
+    "match": "DFL-MAT-J03WPY",
+    "resultInMatchInformation": "0:1",
+    "dflHomeClub": "Fortuna Düsseldorf",
+    "fileHomeClub": "1. FC Nürnberg",
+    "fileHomeIsDflHome": false,
+    "goalsCountedInEvents": {
+      "home": 1,
+      "away": 0
+    },
+    "scoreByFileLabel": {
+      "away": 0,
+      "home": 1
+    },
+    "goalsMatchResult": true,
+    "shotsRebuilt": 26,
+    "shotsEqualFixture": true,
+    "binaryMatchesMetadata": true
+  },
+  {
+    "match": "DFL-MAT-J03WQQ",
+    "resultInMatchInformation": "1:0",
+    "dflHomeClub": "Fortuna Düsseldorf",
+    "fileHomeClub": "FC St. Pauli",
+    "fileHomeIsDflHome": false,
+    "goalsCountedInEvents": {
+      "home": 0,
+      "away": 1
+    },
+    "scoreByFileLabel": {
+      "away": 1,
+      "home": 0
+    },
+    "goalsMatchResult": true,
+    "shotsRebuilt": 27,
+    "shotsEqualFixture": true,
+    "binaryMatchesMetadata": true
+  },
+  {
+    "match": "DFL-MAT-J03WR9",
+    "resultInMatchInformation": "1:2",
+    "dflHomeClub": "Fortuna Düsseldorf",
+    "fileHomeClub": "1. FC Kaiserslautern",
+    "fileHomeIsDflHome": false,
+    "goalsCountedInEvents": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreByFileLabel": {
+      "away": 1,
+      "home": 2
+    },
+    "goalsMatchResult": true,
+    "shotsRebuilt": 27,
+    "shotsEqualFixture": true,
+    "binaryMatchesMetadata": true
+  }
+]

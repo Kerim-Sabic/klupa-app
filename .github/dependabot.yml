@@ -1,0 +1,42 @@
+# Keeps dependencies and the pinned CI actions current. Each update arrives as a pull request
+# that has to pass the same CI as any other change; nothing is merged automatically.
+#
+# Major versions are left out on purpose: they change behaviour and are taken by hand, one at
+# a time, when there is time to read the release notes. Security updates still arrive whatever
+# the version, because they are a separate Dependabot setting.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    ignore:
+      - dependency-name: '*'
+        update-types: ['version-update:semver-major']
+    groups:
+      minor-and-patch:
+        update-types: [minor, patch]
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 3
+    ignore:
+      - dependency-name: '*'
+        update-types: ['version-update:semver-major']
+
+  # The research scripts' pinned Python packages (research/requirements.txt). CI does not run
+  # the research, so an update here is checked by re-running the studies by hand.
+  - package-ecosystem: pip
+    directory: /research
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 3
+    ignore:
+      - dependency-name: '*'
+        update-types: ['version-update:semver-major']
+    groups:
+      research-minor-and-patch:
+        update-types: [minor, patch]

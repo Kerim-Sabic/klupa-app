@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Klupa</title>
+  <rect width="512" height="512" fill="#0F6B46"/>
+  <g transform="translate(256 256) scale(11) translate(-16 -16.5)" fill="none" stroke="#F7F4EE" stroke-linecap="round">
+    <path d="M9.5 9H22.5M9.5 12.75H22.5" stroke-width="2.2"/>
+    <path d="M6.5 18H25.5" stroke-width="3"/>
+    <path d="M11.25 9V18M20.75 9V18" stroke-width="2"/>
+    <path d="M9.5 18L8.5 24M22.5 18L23.5 24" stroke-width="2.6"/>
+  </g>
+</svg>

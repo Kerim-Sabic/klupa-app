@@ -1,0 +1,55 @@
+{
+  "status": {
+    "title": "Stanje",
+    "subtitle": "Kako servis radi upravo sada, kako ga mjeri sam servis. Iste brojeve čita i nadzor koji diže uzbunu.",
+    "link": "Stanje servisa",
+    "loading": "Pitam servis",
+    "failed": {
+      "title": "Stanje nije bilo moguće pročitati",
+      "body": "Provjera rada servisa nije odgovorila."
+    },
+    "overall": {
+      "ok": "Sve radi",
+      "degraded": "Nešto ne radi"
+    },
+    "services": {
+      "title": "Servisi",
+      "database": "Baza podataka",
+      "auth": "Prijava",
+      "ok": "Radi",
+      "notOk": "Ne radi",
+      "up": "odgovor za {{ms}} ms",
+      "down": "{{reason}}",
+      "reason": {
+        "not_configured": "nije podešeno",
+        "timeout": "isteklo vrijeme",
+        "unreachable": "nedostupno",
+        "bad_answer": "neočekivan odgovor"
+      }
+    },
+    "errors": {
+      "title": "Greške na koje su ljudi naišli",
+      "hour": "Posljednji sat",
+      "day": "Posljednja 24 sata",
+      "kinds": "različitih grešaka: {{kinds}}",
+      "note": "Izvještaj sadrži grešku i vrstu ekrana, nikad ničije podatke."
+    },
+    "speed": {
+      "title": "Brzina stranica ove sedmice",
+      "lcp": "Pojavi se najveći dio ekrana",
+      "inp": "Odgovor na najsporiji dodir",
+      "cls": "Pomjeranje rasporeda",
+      "unmeasured": "još nije izmjereno",
+      "none": "Još nijedno učitavanje stranice nije izmjereno.",
+      "note": "Tri od četiri učitavanja bila su barem ovako dobra. Izmjerenih učitavanja: {{samples}}.",
+      "rating": {
+        "good": "Dobro",
+        "fair": "Treba popraviti",
+        "poor": "Loše"
+      }
+    },
+    "noPulse": "Brojevi o greškama i brzini trenutno nisu dostupni.",
+    "unknownRelease": "nepoznato",
+    "footer": "Izdanje {{commit}}, provjereno {{time}}. Odgovor može biti star do petnaest sekundi."
+  }
+}

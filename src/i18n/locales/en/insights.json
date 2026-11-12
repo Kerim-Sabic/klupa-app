@@ -1,0 +1,249 @@
+{
+  "insights": {
+    "title": "Fairness",
+    "subtitle": "Who gets to play, whose training load is changing, and how well the pitch is used. All of it comes from records you already keep.",
+    "views": {
+      "label": "Choose a view",
+      "fair": "Fair share",
+      "load": "Training load",
+      "pitch": "Pitch use"
+    },
+    "error": {
+      "title": "Could not load this view",
+      "body": "Check your connection and try again. Nothing was changed."
+    },
+    "units": {
+      "attempts_one": "{{count}} attempt",
+      "attempts_few": "{{count}} attempts",
+      "attempts_other": "{{count}} attempts",
+      "inSessions_one": "in {{count}} session",
+      "inSessions_few": "in {{count}} sessions",
+      "inSessions_other": "in {{count}} sessions"
+    },
+    "fair": {
+      "played": {
+        "label": "Players with match minutes",
+        "value": "{{played}} of {{squad}}",
+        "hint": "Counted from finished stints on the pitch"
+      },
+      "evenness": {
+        "label": "How evenly match minutes were shared",
+        "none": "No minutes yet",
+        "even": "Evenly shared",
+        "somewhat": "Somewhat uneven",
+        "uneven": "Very uneven",
+        "hint": "Gini coefficient {{value}}, where 0 is perfectly even",
+        "hintNone": "No finished match minutes to compare"
+      },
+      "observed": {
+        "label": "Not yet properly observed",
+        "hint": "Fewer than {{min}} attempts observed"
+      },
+      "noSquad": {
+        "title": "No players yet",
+        "body": "Add your squad first. Everything here is built from the players you list.",
+        "action": "Open the squad"
+      },
+      "noEvidence": {
+        "title": "Nothing recorded yet",
+        "body": "Minutes come from matches you record, and attempts from sessions where you note what you saw. Once there is something, it appears here.",
+        "action": "Go to matches"
+      },
+      "openStints_one": "{{count}} stint is still open (a player was never taken off), so it is not counted in the minutes.",
+      "openStints_few": "{{count}} stints are still open (a player was never taken off), so they are not counted in the minutes.",
+      "openStints_other": "{{count}} stints are still open (a player was never taken off), so they are not counted in the minutes.",
+      "missingMinutes_one": "{{count}} attendance mark has no minutes recorded, so it is left out of training minutes.",
+      "missingMinutes_few": "{{count}} attendance marks have no minutes recorded, so they are left out of training minutes.",
+      "missingMinutes_other": "{{count}} attendance marks have no minutes recorded, so they are left out of training minutes."
+    },
+    "second": {
+      "title": "Second look",
+      "note": "This is a list of who has not had a fair look yet. It is not a ranking.",
+      "none": "Everyone has at least {{min}} attempts observed.",
+      "noAttempts": "No attempts observed yet",
+      "observed": "{{attempts}} observed {{sessions}}",
+      "noMinutes": "No match minutes yet"
+    },
+    "ledger": {
+      "title": "The ledger",
+      "caption": "Match minutes, training minutes and what was observed, for each player",
+      "col": {
+        "player": "Player",
+        "minutes": "Match minutes",
+        "share": "Share of minutes",
+        "versus": "Minutes vs an equal share",
+        "training": "Training minutes",
+        "attempts": "Attempts",
+        "observed": "Success rate as observed",
+        "adjusted": "Adjusted rate"
+      },
+      "noAttempts": "None observed",
+      "ofAttempts": "({{successes}} of {{attempts}})",
+      "noAdjusted": "Nothing observed in the squad yet",
+      "range": "{{low}}–{{high}}",
+      "barLabel": "Adjusted rate {{point}}, likely between {{range}} ({{level}}% range)",
+      "barLabelNoRange": "Adjusted rate {{point}}, no range can be drawn",
+      "shrinkage": "Small samples are pulled towards the squad average, because two from two is a player we have barely watched, not a 100% player.",
+      "barKey": "The bar is the range ({{level}}%) the true rate is likely to sit in, and the mark is the adjusted rate: a wide bar means little has been observed. Players with fewer than {{min}} attempts are in the second look. Rates pool every skill recorded, so they describe what was observed, not how good a player is."
+    },
+    "age": {
+      "title": "Relative age",
+      "intro": "Children born early in the year are older than their year-group peers, and that can quietly shape who is picked and who plays.",
+      "needsMore": {
+        "title": "Add birth quarters to see this",
+        "body": "This check needs the birth quarter of at least {{needed}} players, and {{known}} have one so far. Only the quarter is stored, never a birth date.",
+        "action": "Open the squad"
+      },
+      "squadChart": "Players by birth quarter",
+      "minutesChart": "Share of match minutes by birth quarter",
+      "quarterShort": "Q{{quarter}}",
+      "chartItem": "{{quarter}}: {{share}} (an even spread would be {{expected}})",
+      "chartLabel": "{{title}}. {{items}}.",
+      "noMinutes": "No match minutes yet, so there is nothing to compare by quarter.",
+      "legend": "Q1 is January to March, Q2 April to June, Q3 July to September, Q4 October to December. Dashed marks show the share an even spread across the year would give.",
+      "basis": "Based on {{known}} players with a birth quarter.",
+      "unknown_one": "{{count}} player without one is left out.",
+      "unknown_few": "{{count}} players without one are left out.",
+      "unknown_other": "{{count}} players without one are left out.",
+      "caveat": "With 14 to 20 players this check has low power: it can only see a large imbalance. So “consistent with an even spread” means this squad cannot tell, not that selection is fair.",
+      "details": "January to March share {{q1}}, against {{expected}} for an even spread. Probability that the true share is above even: {{probability}}.",
+      "pValue": "Exact test: p = {{p}}.",
+      "pSkipped": "Exact test not run: the squad is too large for it.",
+      "verdict": {
+        "too_few": {
+          "title": "Too few players",
+          "body": "Fewer than 8 players have a birth quarter, so nothing is said."
+        },
+        "consistent_with_even": {
+          "title": "Consistent with an even spread",
+          "body": "Nothing here stands out from an even spread of birth dates across the year."
+        },
+        "leans_older": {
+          "title": "Leans towards older players",
+          "body": "More players were born in January to March than an even spread would give, which means a lean towards the oldest children in the year group. Treat it as a reason to look, not a finding."
+        },
+        "strongly_older": {
+          "title": "Strongly towards older players",
+          "body": "Clearly more players were born in January to March than an even spread would give. It is worth checking how minutes and selection are decided."
+        }
+      }
+    },
+    "load": {
+      "callout": "Load is minutes times how hard the player said it was. It shows change, not risk. It cannot predict injury.",
+      "tableTitle": "This week by player",
+      "caption": "Training load this week, compared with each player's recent weeks",
+      "none": "–",
+      "col": {
+        "player": "Player",
+        "load": "This week's load",
+        "change": "Compared with recent weeks",
+        "sessions": "Sessions this week",
+        "status": "Status",
+        "match": "Match minutes this week"
+      },
+      "status": {
+        "no_data": {
+          "label": "No data this week",
+          "explain": "Nothing recorded for this player this week."
+        },
+        "incomplete": {
+          "label": "Ratings incomplete",
+          "explain": "Too many of this week's minutes have no effort rating, so no comparison is made."
+        },
+        "no_baseline": {
+          "label": "Not enough history",
+          "explain": "Not enough earlier weeks recorded to compare with yet."
+        },
+        "steady": {
+          "label": "Steady",
+          "explain": "In line with their recent weeks."
+        },
+        "sharp_increase": {
+          "label": "Sharp increase",
+          "explain": "Well above their recent weeks: worth a conversation with the player."
+        }
+      },
+      "matchNote": "Match minutes are shown for context only. No effort rating is collected for matches, so they are not part of the load.",
+      "chartTitle": "Squad load, last six weeks",
+      "chartNote": "Adds up minutes times effort rating for sessions that have a rating, so a week with missing ratings looks lower than it was. The last bar is this week so far.",
+      "chartItem": "week of {{week}}: {{load}}, players with a session: {{players}}",
+      "chartLabel": "Squad load by week. {{items}}.",
+      "empty": {
+        "title": "No training load recorded yet",
+        "body": "Load needs who was present, for how long, and how hard it felt to them. Mark attendance with effort ratings after a session.",
+        "action": "Go to training"
+      },
+      "missingMinutes_one": "{{count}} attendance mark has no minutes recorded, so it is left out of the load.",
+      "missingMinutes_few": "{{count}} attendance marks have no minutes recorded, so they are left out of the load.",
+      "missingMinutes_other": "{{count}} attendance marks have no minutes recorded, so they are left out of the load."
+    },
+    "pitch": {
+      "booked": {
+        "label": "Pitch-hours booked",
+        "hint_one": "From {{count}} completed session with attendance",
+        "hint_few": "From {{count}} completed sessions with attendance",
+        "hint_other": "From {{count}} completed sessions with attendance"
+      },
+      "perHour": {
+        "label": "Players per pitch-hour",
+        "hint": "Children attending, for each hour of a full pitch"
+      },
+      "floodlit": {
+        "label": "Floodlit hours",
+        "hint": "Hours of sessions held under the lights"
+      },
+      "estimates": {
+        "title": "Estimates",
+        "badge": "Estimate",
+        "energy": {
+          "label": "Energy",
+          "value": "{{value}} kWh",
+          "hint": "Floodlight power times floodlit hours"
+        },
+        "cost": {
+          "label": "Cost",
+          "value": "{{value}} KM",
+          "hint": "Energy times your electricity price"
+        },
+        "emissions": {
+          "label": "Emissions",
+          "value": "{{value}} kg CO₂",
+          "hint": "Energy times your grid emissions factor"
+        },
+        "prompt": "Some estimates need numbers from your club settings: floodlight power, electricity price or the grid emissions factor.",
+        "action": "Open club settings",
+        "note": "These are estimates from the numbers you typed in, not meter readings. Floodlights are assumed to light the whole pitch whatever share was booked."
+      },
+      "area": {
+        "quarter": "quarter pitch",
+        "half": "half pitch",
+        "full": "full pitch"
+      },
+      "right": {
+        "title": "Right-sizing",
+        "intro": "Sessions that booked more pitch than the number of children needed, with the smaller area that would have fitted. This is a prompt about booking habits, not a verdict on any session. It assumes about 22 players fit comfortably on a full pitch.",
+        "caption": "Sessions that booked more pitch than needed",
+        "col": {
+          "date": "Date",
+          "booked": "Booked",
+          "fits": "Would have fitted",
+          "attended": "Attended",
+          "freed": "Pitch-hours freed"
+        },
+        "total": "In total, {{hours}} pitch-hours could have been freed.",
+        "none": {
+          "title": "No over-booked sessions",
+          "body": "Every completed session booked about as much pitch as the children needed."
+        }
+      },
+      "empty": {
+        "title": "No completed sessions to look at yet",
+        "body": "Pitch use is worked out from completed sessions with attendance marked.",
+        "action": "Go to training"
+      },
+      "withoutAttendance_one": "{{count}} completed session has no attendance recorded and is left out of these figures.",
+      "withoutAttendance_few": "{{count}} completed sessions have no attendance recorded and are left out of these figures.",
+      "withoutAttendance_other": "{{count}} completed sessions have no attendance recorded and are left out of these figures."
+    }
+  }
+}

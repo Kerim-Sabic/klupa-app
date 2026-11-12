@@ -1,0 +1,179 @@
+{
+  "movement": {
+    "title": "Match replay",
+    "subtitle": "Seven professional matches, replayed from tracking data to show what the engine can read: where every player was, the shape of each team and who is nearest to each part of the pitch.",
+    "loading": {
+      "title": "Getting the match ready",
+      "detail": "{{loaded}} of {{total}} MB",
+      "once": "Downloaded the first time only; after that your browser reuses it."
+    },
+    "error": {
+      "title": "The match could not be loaded",
+      "body": "Check the connection and try again. Nothing else on this page needs it."
+    },
+    "stage": {
+      "label3d": "The match in 3D",
+      "label2d": "The match from above",
+      "summary": "{{clock}} in the {{half}}. {{players}} players on the pitch.",
+      "loading": "Loading the 3D view",
+      "flat": "Flat view from above.",
+      "flatNoWebgl": "This browser cannot draw 3D, so the match is shown flat from above.",
+      "flatReduced": "Shown flat while your device asks for reduced motion. Press Play to open the 3D view.",
+      "hint": "Tap a player to follow them. To turn the camera, hold Ctrl and drag (or Ctrl and scroll to zoom); on a phone, use two fingers.",
+      "cameraLabel": "Camera",
+      "camera": {
+        "broadcast": "Side-on",
+        "tactical": "From above",
+        "goal": "Behind a goal",
+        "follow": "Follow the ball"
+      },
+      "playerLabel": "{{side}} {{shirt}}",
+      "cameraShort": {
+        "broadcast": "Side",
+        "tactical": "Above",
+        "goal": "Goal",
+        "follow": "Ball"
+      },
+      "chipSpeed": "{{value}} km/h",
+      "chipOff": "Off the pitch",
+      "chipUnknown": "Speed not known",
+      "sprintHint": "A larger white plate under a player means they are at sprint speed, 25 km/h or more, read from four positions a second."
+    },
+    "transport": {
+      "play": "Play",
+      "pause": "Pause",
+      "back": "Back 5 seconds",
+      "forward": "Forward 5 seconds",
+      "scrubLabel": "Match time",
+      "scrubValue": "{{clock}}, {{half}}",
+      "periodLabel": "Half",
+      "period1": "1st half",
+      "period2": "2nd half",
+      "speedLabel": "Speed",
+      "speed": "{{speed}}×",
+      "chanceLabel": "Jump to a chance",
+      "chancePick": "Choose a shot ({{count}} this half)",
+      "chanceOption": "{{clock}} · shot by {{side}} · xG {{xg}}",
+      "previousChance": "Previous chance",
+      "nextChance": "Next chance",
+      "keys": "Keyboard: Space plays or pauses, the arrow keys step 5 seconds.",
+      "marksLegend": "Marks above the bar are shots by {{home}}, marks below are shots by {{away}}.",
+      "previousShort": "Previous",
+      "nextShort": "Next"
+    },
+    "side": {
+      "home": "Home",
+      "away": "Away"
+    },
+    "layers": {
+      "title": "Layers",
+      "shape": "Team shape",
+      "shapeDetail": "Outline of each team's outfield players and their centre.",
+      "space": "Space control",
+      "spaceDetail": "Each part of the pitch coloured by the team of the nearest player.",
+      "trail": "Player trail",
+      "trailDetail": "Where the chosen player went in the last 10 seconds.",
+      "on": "On",
+      "off": "Off",
+      "playerLabel": "Player",
+      "noPlayer": "Nobody chosen",
+      "playerOption": "{{side}} {{shirt}}",
+      "legendTitle": "How to tell the teams apart",
+      "legendHome": "{{club}}: round markers, solid outline, solid tint.",
+      "legendAway": "{{club}}: square markers, dashed outline, striped tint.",
+      "legendBall": "Ball: the small round disc with no number, drawn on the grass."
+    },
+    "readout": {
+      "title": "Right now",
+      "clock": "Match clock",
+      "width": "Width",
+      "depth": "Depth",
+      "area": "Area",
+      "metres": "{{value}} m",
+      "squareMetres": "{{value}} m²",
+      "outfield": "{{count}} outfield players",
+      "none": "Nobody on the pitch",
+      "space": "Share of the pitch nearest to each team",
+      "spaceNone": "No players on the pitch",
+      "playerTitle": "Chosen player",
+      "playerNone": "Tap a player on the pitch, or pick one under Layers, to see their speed and distance.",
+      "playerName": "{{side}} {{shirt}}",
+      "speed": "Speed now",
+      "speedValue": "{{value}} m/s",
+      "speedNone": "Not known",
+      "distance": "Distance this half",
+      "distanceValue": "{{value}} km",
+      "offPitch": "Not on the pitch at this moment.",
+      "approximate": "Approximate: read from 4 positions a second, so corners are cut and the true distance is a little longer.",
+      "spaceTeam": "{{club}} {{share}}%"
+    },
+    "live": {
+      "home": "{{clock}}, {{half}}. {{club}} controls more space: {{share}}%.",
+      "away": "{{clock}}, {{half}}. {{club}} controls more space: {{share}}%.",
+      "level": "{{clock}}, {{half}}. Space is shared about evenly."
+    },
+    "about": {
+      "title": "What you are looking at",
+      "match": "Seven professional men's matches (Bundesliga and 2. Bundesliga, 2022/23) from the DFL open dataset. They are here to show what the engine can read from tracking data, nothing more.",
+      "grassroots": "Your own matches have no tracking data: that needs cameras or sensors a grassroots club does not have. Klupa never invents it.",
+      "space": "\"Space control\" here simply means which player is nearest to each part of the pitch. It is not a physical model: it ignores speed, direction and who would really get there first.",
+      "sampling": "Positions are stored 4 times a second and smoothed in between, so motion is drawn, not filmed. The ball's height is not in the data, so it is drawn on the grass.",
+      "anonymous": "In the replay, players are only a club and a shirt number. The physical report uses the short names from the public match information.",
+      "sourceTitle": "Source and licence",
+      "citation": "Bassek, M., Rein, R., Weber, H. and Memmert, D. (2025). An integrated dataset of spatiotemporal and event data in elite soccer. figshare, doi:10.6084/m9.figshare.28196177.v1. Paper: Scientific Data, doi:10.1038/s41597-025-04505-y.",
+      "licence": "Licensed under CC BY 4.0. Changed by Klupa: positions resampled to 4 a second, rounded to centimetres and reduced to side and shirt number; physical measures computed from the full 25 a second.",
+      "doiLink": "Dataset on figshare",
+      "licenceLink": "CC BY 4.0 licence"
+    },
+    "picker": {
+      "label": "Match",
+      "hint": "Clubs are listed in the order of the data file, which does not say who played at home."
+    },
+    "notFound": {
+      "title": "This match is not in the replay",
+      "body": "The replay has seven tracked matches. Pick one of them.",
+      "back": "Open the replay"
+    },
+    "physical": {
+      "title": "Physical report",
+      "intro": "How much each player ran in this match, measured by Klupa from the full 25 positions a second. It describes running, not how well anyone played.",
+      "loading": "Loading the physical report",
+      "errorTitle": "The physical report could not be loaded",
+      "errorBody": "The replay above does not need it. Try again.",
+      "compareTitle": "Team totals",
+      "metric": {
+        "distanceKm": "Distance",
+        "highSpeedKm": "High-speed distance",
+        "sprints": "Sprints",
+        "topSpeed": "Top speed"
+      },
+      "km": "{{value}} km",
+      "kmh": "{{value}} km/h",
+      "topSpeedFull": "{{kmh}} km/h ({{mps}} m/s)",
+      "used": "{{players}} players, {{minutes}} minutes on the pitch",
+      "tableCaption": "{{club}}: every player who played, longest distance first",
+      "col": {
+        "shirt": "No.",
+        "name": "Name",
+        "minutes": "Minutes",
+        "distance": "Distance (km)",
+        "highSpeed": "High speed (km)",
+        "sprints": "Sprints",
+        "topSpeed": "Top speed (km/h)"
+      },
+      "definitionsTitle": "How these are measured",
+      "def": {
+        "speed": "Speed: how far a player moved over 0.4 seconds, from {{hz}} positions a second.",
+        "minutes": "Minutes: clock minutes on the pitch, from the kick-off of each half to the last tracked moment, dead-ball time included.",
+        "distance": "Distance: everything a player covered while on the pitch.",
+        "highSpeed": "High-speed distance: distance covered faster than {{mps}} m/s ({{kmh}} km/h).",
+        "sprints": "Sprints: runs of at least {{seconds}} s at {{mps}} m/s ({{kmh}} km/h) or faster.",
+        "topSpeed": "Top speed: the fastest 0.4-second speed, shown in km/h (1 m/s is 3.6 km/h). It is not the instant value a broadcaster shows."
+      },
+      "quality": "{{seconds}} seconds of player time ({{share}}% of it) are left out of distance, sprints and top speed: there the tracking lost a player and snapped back faster than {{jump}} m/s, which no footballer can run. Those seconds still count as minutes.",
+      "names": "Names are the short names from the public match information.",
+      "clubLabel": "Club"
+    },
+    "ownVideo": "Have a video of your own match? Try the player overlay"
+  }
+}

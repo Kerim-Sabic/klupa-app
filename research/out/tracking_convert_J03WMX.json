@@ -1,0 +1,74 @@
+{
+  "rateHz": 4,
+  "bytesByRate": {
+    "5": 3853872,
+    "4": 3083124
+  },
+  "chosenReason": "5 Hz would be 3853872 bytes (> 3 MB aim)",
+  "binaryBytes": 3083124,
+  "binarySha256": "d5cac59823eceb5bd9a0824ca6843d684f9e5356d73844d1517e05cfc3926149",
+  "roster": 32,
+  "periods": [
+    {
+      "period": 1,
+      "startFrame": 0,
+      "frameCount": 11315,
+      "durationSeconds": 2828.5
+    },
+    {
+      "period": 2,
+      "startFrame": 11315,
+      "frameCount": 12042,
+      "durationSeconds": 3010.25
+    }
+  ],
+  "ballAliveRunCounts": [41, 62],
+  "heldSamplesAtStart": [2, 0],
+  "trackingStartsAfterKickoffMs": [370, 0],
+  "checks": {
+    "coordinatesOutsidePitchPlus5m": 0,
+    "ballAlwaysPresent": true,
+    "inPlayFrames": 13666,
+    "objectsInPlayMin": 23,
+    "objectsInPlayMax": 23,
+    "objectsInPlayHistogram": {
+      "23": 13666
+    },
+    "objectsInPlayBetween20And23": true,
+    "medianPlayerSpeedMps": 1.414,
+    "maxResampledSpeedMps": 10.029,
+    "resampledSpeedsAbove12": 0,
+    "resampledSpeedsAbove12WithoutRawJump": 0,
+    "rawOutliers": {
+      "playerFrameSteps": 3211220,
+      "rawOneFrameSpeedAbove12": 16,
+      "rawMaxOneFrameSpeed": 37.27
+    },
+    "periodMinutes": {
+      "1": 47.14,
+      "2": 50.17
+    },
+    "keepers": {
+      "1": {
+        "home": 20,
+        "away": 27
+      },
+      "2": {
+        "home": 20,
+        "away": 27
+      }
+    },
+    "attackDirection": {
+      "1": {
+        "home": "-x",
+        "away": "+x"
+      },
+      "2": {
+        "away": "-x",
+        "home": "+x"
+      }
+    },
+    "directionsFlip": true,
+    "passes": true
+  }
+}

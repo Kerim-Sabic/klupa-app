@@ -1,0 +1,164 @@
+{
+  "review": {
+    "pageTitle": "Match review",
+    "back": "All matches",
+    "loading": "Loading the match",
+    "loadFailed": "The match could not be loaded.",
+    "notFound": {
+      "title": "This match was not found",
+      "body": "It may have been deleted, or it belongs to another club."
+    },
+    "title": "Against {{opponent}}",
+    "subtitle": "{{date}} · {{status}}",
+    "status": {
+      "scheduled": "Scheduled",
+      "live": "In progress",
+      "finished": "Finished"
+    },
+    "openTagger": "Open the tagger",
+    "planTraining": "Plan training from this match",
+    "scoreText": "Score: {{home}} {{homeGoals}}, {{away}} {{awayGoals}}",
+    "empty": {
+      "title": "No events were recorded in this match",
+      "body": "Tag chances, box entries and recoveries during the match, and the review fills in here."
+    },
+    "evidenceItem": "{{time}} · {{actor}} · {{kind}} · {{value}}",
+    "kind": {
+      "goal": "Goal",
+      "shot_on_target": "Shot on target",
+      "shot_off_target": "Shot off target",
+      "big_chance": "Big chance",
+      "box_entry": "Box entry",
+      "corner": "Corner",
+      "high_recovery": "High recovery",
+      "lost_ball_own_half": "Ball lost in own half"
+    },
+    "top": {
+      "title": "Who was on top",
+      "intro": "The balance of chances through the match, and how far you can trust it. Drag across the chart to read any moment.",
+      "period": "Period",
+      "periodOption": "Period {{number}}"
+    },
+    "shots": {
+      "title": "Where the chances came from",
+      "mapLabel": "Shot map of the attacking half, goal at the top. Shots by {{home}}: {{homeShots}}, drawn as circles. Shots by {{away}}: {{awayShots}}, drawn as diamonds. Bigger marks are better chances; goals are ringed. Totals follow below.",
+      "goalKey": "Goal",
+      "sizeKey": "Bigger mark = better chance",
+      "notDrawn": "Not drawn: {{unplaced}} without a tapped location, {{ownHalf}} from the own half.",
+      "totals": "Shots {{shots}} · goals {{goals}} · chance quality {{quality}}",
+      "estimateNote": "Chance quality is a pro-calibrated estimate: our model was trained on men's professional shots, so for a youth team it ranks chances rather than giving a probability of scoring."
+    },
+    "focus": {
+      "title": "What to work on",
+      "disclaimer": "A prompt from the counts, not a diagnosis. Check it against what you saw.",
+      "countsTitle": "The counts",
+      "limitTitle": "What the counts cannot tell you",
+      "plan": "Plan a session: {{focus}}",
+      "insufficient": "Not enough tags for a suggestion yet: {{events}} recorded, at least {{minimum}} needed.",
+      "none": "Nothing in the counts stands out for this match.",
+      "build_up": {
+        "name": "Build-up play",
+        "limit": "Whether the losses came from risky passes, a poor first touch or simply a strong press."
+      },
+      "finishing": {
+        "name": "Finishing",
+        "limit": "Whether the entries were real chances, or wide and crowded positions where a shot was not on."
+      },
+      "receiving_under_pressure": {
+        "name": "Receiving under pressure",
+        "limit": "Which players were caught on the ball, or whether the passes into them were too slow."
+      },
+      "pressing": {
+        "name": "Pressing",
+        "limit": "Whether the team chose to defend deep on purpose, or recoveries simply went untagged."
+      },
+      "one_v_one_defending": {
+        "name": "One-v-one defending",
+        "limit": "Whether the chances came from duels lost, from set pieces, or from mistakes elsewhere."
+      }
+    },
+    "reason": {
+      "lostOwnHalf": "Ball lost in our own half: {{lost}}",
+      "entriesWithoutShots": "Box entries: {{entries}}, shots: {{shots}}",
+      "opponentHighRecoveries": "Opponent won the ball high up the pitch: {{recoveries}}",
+      "fewHighRecoveries": "Our high recoveries: {{ours}} (opponent: {{theirs}})",
+      "chanceQualityGap": "Chance quality: us {{ours}}, opponent {{theirs}}"
+    },
+    "live": {
+      "connecting": {
+        "label": "Connecting.",
+        "body": "This match is still open; the page will follow it as events are recorded."
+      },
+      "live": {
+        "label": "Live.",
+        "body": "This page updates by itself as events are recorded, on any phone."
+      },
+      "offline": {
+        "label": "Live updates paused.",
+        "body": "Showing the last events received. They resume when the connection is back."
+      }
+    },
+    "origins": {
+      "title": "How the chances came about",
+      "intro": "What was tagged in the 30 seconds before each shot, for you and for the opponent. A pattern shows only where the lead-up was tagged.",
+      "caption": "{{team}} · chances: {{chances}}",
+      "col": {
+        "origin": "Lead-up",
+        "chances": "Chances",
+        "goals": "Goals",
+        "quality": "Chance quality"
+      },
+      "origin": {
+        "pressing": "After winning the ball high up the pitch",
+        "turnover": "After the other side lost the ball in its own half",
+        "corner": "After a corner",
+        "other": "Nothing tagged before it"
+      },
+      "pattern": "Most common lead-up: {{origin}} ({{count}} of {{total}} chances).",
+      "noPattern": "No single lead-up stands out.",
+      "none": "No chances recorded."
+    },
+    "centre": {
+      "title": "Live match centre",
+      "badge": {
+        "live": "Live",
+        "connecting": "Connecting",
+        "offline": "Updates paused",
+        "open": "In progress"
+      },
+      "half": "Half {{number}}",
+      "part": "Period {{number}}",
+      "asOf": "{{period}} · newest event {{clock}}",
+      "noEvents": "Nothing recorded yet",
+      "now": {
+        "title": "As of the newest event",
+        "favoured": "{{side}} on top",
+        "level": "Level",
+        "unclear": "Too close to call",
+        "insufficient": "Too early to say",
+        "detail": {
+          "stable": "Every window agrees, and no single chance would change it.",
+          "event-sensitive": "It rests on one chance. Take it as a hint, not a verdict.",
+          "window-sensitive": "It depends on how far back you look.",
+          "level": "Chances for both, and no window favours either team.",
+          "insufficient": "No chances were recorded in the ten minutes before it."
+        }
+      },
+      "numbers": {
+        "title": "So far",
+        "measure": "Measure",
+        "shots": "Shots",
+        "onTarget": "On target",
+        "units": "Chance quality",
+        "bigChances": "Big chances",
+        "boxEntries": "Into the box",
+        "corners": "Corners",
+        "highRecoveries": "Won the ball high"
+      },
+      "latest": {
+        "title": "Latest",
+        "empty": "Nothing recorded yet."
+      }
+    }
+  }
+}

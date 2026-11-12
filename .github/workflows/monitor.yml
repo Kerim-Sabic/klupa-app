@@ -1,0 +1,112 @@
+name: Monitor
+
+# Asks the live site, once an hour, whether the database and the sign-in service answer,
+# and how many error reports the app filed in the last hour. A failed run e-mails the
+# repository's owners (GitHub's own alert) and opens or updates one issue, so there is a
+# record of when an outage or a bad hour started. The run history of this workflow is the
+# availability record the objectives in docs/RUNBOOK.md are measured from, and each run's
+# summary keeps the error count and page-speed percentiles of that moment.
+#
+# Hourly, not more often, because of what it costs: every run is billed as a whole runner
+# minute, so every thirty minutes was about 1,440 of the 2,000 minutes a month the free plan
+# gives a private repository, and hourly is about 720. The price is that an outage is
+# noticed within the hour, not within half of one. The minute is off the top of the hour,
+# when scheduled runs start late.
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
+jobs:
+  health:
+    name: Live health check
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      SITE_URL: ${{ vars.SITE_URL }}
+      # More error reports than this in one hour is a bad hour worth a human look. A coach's
+      # phone sends at most five distinct errors per page load, so from real use this is
+      # several people.
+      #
+      # It is below the sixty an hour that all signed-out pages share, on purpose. The price:
+      # one signed-out caller in a loop can raise this alarm alone. What it buys: above sixty,
+      # a crash on the public pages alone could never raise it, and a shared allowance that
+      # is being used up (after which real reports are dropped) is itself worth a look. The
+      # pulse does not count signed-in and signed-out reports apart; telling a flood from a
+      # real spike is the query in docs/RUNBOOK.md under 'How we know'.
+      ERROR_REPORTS_PER_HOUR: '30'
+    steps:
+      - name: Ask /api/health, three times before calling it down
+        id: probe
+        run: |
+          code=000
+          for attempt in 1 2 3; do
+            answer=$(curl -sS --max-time 15 -w '\n%{http_code}' "$SITE_URL/api/health" || true)
+            code=$(echo "$answer" | tail -n 1)
+            json=$(echo "$answer" | sed '$d')
+            echo "Attempt $attempt: HTTP $code $json"
+            if [ "$code" = "200" ]; then
+              echo "$json" \
+                | jq -r '"Healthy: database \(.checks.database.ms) ms, sign-in \(.checks.auth.ms) ms, commit \(.commit)"' \
+                >> "$GITHUB_STEP_SUMMARY"
+              echo "$json" \
+                | jq -r 'if .field == null then "Field pulse: not available" else "Field pulse: \(.field.errors1h) error reports in the last hour, \(.field.errors24h) in the last day (\(.field.errorKinds24h) kinds); pages this week: \(.field.pages7d.samples) samples, LCP p75 \(.field.pages7d.lcpP75Ms // "n/a") ms, INP p75 \(.field.pages7d.inpP75Ms // "n/a") ms, CLS p75 \(.field.pages7d.clsP75 // "n/a")" end' \
+                >> "$GITHUB_STEP_SUMMARY"
+              echo "errors=$(echo "$json" | jq -r '.field.errors1h // 0')" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            sleep 20
+          done
+          echo "detail=HTTP $code" >> "$GITHUB_OUTPUT"
+          exit 1
+
+      - name: Call a bad hour when error reports spike
+        id: errors
+        env:
+          ERRORS: ${{ steps.probe.outputs.errors }}
+        run: |
+          if [ "${ERRORS:-0}" -ge "$ERROR_REPORTS_PER_HOUR" ]; then
+            echo "detail=$ERRORS error reports in the last hour (alert at $ERROR_REPORTS_PER_HOUR)" >> "$GITHUB_OUTPUT"
+            exit 1
+          fi
+
+      - name: Record the bad hour in one issue
+        if: failure() && steps.errors.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DETAIL: ${{ steps.errors.outputs.detail }}
+        run: |
+          title="Error reports are spiking"
+          body="The app filed $DETAIL. The site itself answered healthy. Run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID. What to do: docs/RUNBOOK.md, the query under 'How we know' groups the reports by error and route."
+          number=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open \
+            --search "in:title \"$title\"" --json number --jq '.[0].number // empty')
+          if [ -n "$number" ]; then
+            gh issue comment "$number" --repo "$GITHUB_REPOSITORY" --body "$body"
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body "$body"
+          fi
+
+      - name: Record the outage in one issue
+        if: failure() && steps.probe.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DETAIL: ${{ steps.probe.outputs.detail }}
+        run: |
+          title="Live health check is failing"
+          body="The monitor got no healthy answer from /api/health three times in a row ($DETAIL). Run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID. What to do: docs/RUNBOOK.md, the section on incidents."
+          number=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open \
+            --search "in:title \"$title\"" --json number --jq '.[0].number // empty')
+          if [ -n "$number" ]; then
+            gh issue comment "$number" --repo "$GITHUB_REPOSITORY" --body "$body"
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body "$body"
+          fi

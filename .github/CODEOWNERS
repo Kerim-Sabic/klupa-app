@@ -1,0 +1,8 @@
+# Who must review a change before it reaches main.
+# The database and the deploy pipeline are where a mistake costs most, so they are named.
+
+*                      @Kerim-Sabic
+/supabase/             @Kerim-Sabic
+/.github/workflows/    @Kerim-Sabic
+/vercel.json           @Kerim-Sabic
+/api/                  @Kerim-Sabic

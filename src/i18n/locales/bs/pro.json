@@ -1,0 +1,251 @@
+{
+  "pro": {
+    "title": "Profesionalne utakmice",
+    "subtitle": "Isti motor koji čita trenerove unose, ovdje čita svaku utakmicu Svjetskog prvenstva 2018. i Eura 2016. iz otvorenih podataka o događajima. Tu je da pokaže šta motor može; trenerove utakmice čita na isti način.",
+    "competition": {
+      "wc2018": "Svjetsko prvenstvo 2018",
+      "euro2016": "Euro 2016"
+    },
+    "stage": {
+      "final": "Finale",
+      "thirdPlace": "Utakmica za treće mjesto",
+      "semi": "Polufinale",
+      "quarter": "Četvrtfinale",
+      "r16": "Osmina finala",
+      "group": "Grupa {{letter}}"
+    },
+    "result": {
+      "penalties": "{{home}}–{{away}} nakon penala",
+      "extraTime": "Nakon produžetaka"
+    },
+    "list": {
+      "finals": "Dva finala",
+      "all": "Sve utakmice",
+      "tournament": "Turnir",
+      "search": "Pronađi tim",
+      "searchPlaceholder": "Francuska, Hrvatska…",
+      "count": "Prikazano utakmica: {{count}}",
+      "empty": "Nema tima s tim imenom",
+      "emptyBody": "Pokušajte drugačije napisati ili pogledajte drugi turnir.",
+      "loading": "Učitavanje utakmica",
+      "error": {
+        "title": "Popis utakmica se nije učitao",
+        "body": "Provjerite vezu i pokušajte ponovo."
+      }
+    },
+    "evidenceLink": {
+      "label": "Profesionalne utakmice",
+      "title": "Profesionalne utakmice, isti motor",
+      "body": "Svaka utakmica Svjetskog prvenstva 2018. i Eura 2016: kvalitet šansi, ko je bio bolji, dodavanja i golovi, iz otvorenih podataka o događajima."
+    },
+    "goal": {
+      "pen": "(pen.)",
+      "og": "(ag)",
+      "unknown": "igrač bez imena",
+      "penalty": "penal",
+      "ownGoal": "autogol",
+      "announce": "{{minute}}' Gol, {{team}}: {{scorer}}{{detail}}",
+      "flash": "Gol"
+    },
+    "score": {
+      "title": "Rezultat",
+      "text": "{{home}} {{homeGoals}}, {{away}} {{awayGoals}}"
+    },
+    "live": {
+      "label": "Gledaj kao uživo",
+      "status": {
+        "live": "Kao uživo",
+        "paused": "Pauzirano",
+        "fullTime": "Kraj"
+      },
+      "speed": "Brzina: {{speed}} puta brže od stvarnog vremena. Promijeni brzinu",
+      "play": "Pokreni",
+      "pause": "Pauziraj",
+      "watch": "Gledaj kao uživo",
+      "fromKickOff": "Od početka",
+      "full": "Cijela utakmica",
+      "scrub": "Vrijeme utakmice",
+      "at": "Minuta {{minute}}"
+    },
+    "match": {
+      "title": "{{home}} – {{away}}",
+      "back": "Profesionalne utakmice",
+      "loading": "Učitavanje utakmice",
+      "notFound": {
+        "title": "Utakmica nije pronađena",
+        "body": "U podacima Svjetskog prvenstva 2018. i Eura 2016. nema utakmice s tim brojem.",
+        "action": "Pogledaj sve utakmice"
+      },
+      "error": {
+        "heading": "Utakmica",
+        "title": "Utakmica se nije učitala",
+        "body": "Provjerite vezu i pokušajte ponovo."
+      }
+    },
+    "numbers": {
+      "title": "Utakmica u brojkama",
+      "caption": "Poređenje: {{home}} i {{away}}",
+      "measure": "Mjera",
+      "note": "Udio dodavanja je dio svih dodavanja koji pripada timu, ne vrijeme s loptom: podaci imaju događaje, ne posjed.",
+      "row": {
+        "chanceQuality": "Kvalitet šansi",
+        "shots": "Udarci",
+        "onTarget": "U okvir",
+        "passShare": "Udio dodavanja",
+        "passAccuracy": "Tačnost dodavanja",
+        "corners": "Korneri",
+        "crosses": "Centaršutevi",
+        "duelsWon": "Dobijeni dueli",
+        "fouls": "Prekršaji",
+        "offsides": "Ofsajdi"
+      }
+    },
+    "race": {
+      "title": "Kvalitet šansi kroz utakmicu",
+      "intro": "Svaka stepenica je jedan udarac, velika koliko je šansa bila dobra. Tačke su golovi.",
+      "label": "Kvalitet šansi do {{minute}}. minute: {{home}} {{homeValue}}, {{away}} {{awayValue}}.",
+      "cursor": "Očitaj u trenutku",
+      "cursorValue": "Minuta {{minute}}: {{home}} {{homeValue}}, {{away}} {{awayValue}}",
+      "table": "Svi udarci u tabeli",
+      "col": {
+        "minute": "Minuta",
+        "team": "Tim",
+        "chance": "Šansa"
+      }
+    },
+    "top": {
+      "title": "Ko je bio bolji",
+      "intro": "Isto očitanje koje trener dobije nakon utakmice, iz udaraca, kornera, ulazaka u šesnaesterac te osvojenih i izgubljenih lopti, s istom trakom iskrenosti.",
+      "period": "Dio igre",
+      "periodName": {
+        "1": "Prvo poluvrijeme",
+        "2": "Drugo poluvrijeme",
+        "3": "Produžetak 1",
+        "4": "Produžetak 2"
+      }
+    },
+    "shots": {
+      "title": "Odakle su dolazile šanse",
+      "intro": "Oba tima napadaju gol na vrhu. Penal je ucrtan na bijeloj tački.",
+      "note": "Kvalitet šansi je procjena našeg modela, istreniranog na udarcima iz profesionalnog muškog fudbala kao što su ovi. Rangira šanse; ne govori šta je koji udarac zaslužio."
+    },
+    "players": {
+      "title": "Igrači",
+      "intro": "Ključna dodavanja, duele i presječene lopte označio je sam dobavljač podataka.",
+      "caption": "Igrači: {{team}}",
+      "sub": "zamjena",
+      "minutes": "{{minutes}}'",
+      "compact": "dodavanja {{passes}} · {{accuracy}} · udarci {{shots}} · kvalitet šansi {{chance}} · dueli {{duels}} · presječene lopte {{interceptions}}",
+      "col": {
+        "name": "Igrač",
+        "minutes": "Minute",
+        "passes": "Dodavanja",
+        "accuracy": "Tačnost",
+        "keyPasses": "Ključna dodavanja",
+        "shots": "Udarci",
+        "chance": "Kvalitet šansi",
+        "duels": "Dobijeni dueli",
+        "interceptions": "Presječene lopte"
+      }
+    },
+    "source": {
+      "title": "Izvor i ograničenja",
+      "data": "Podaci: {{name}}, prikupio Wyscout, licenca {{licence}}.",
+      "changes": "Klupa je događaje svela na sažet oblik i sama izračunala svaki broj na ovoj stranici.",
+      "limitPositions": "Podaci o događajima bilježe gdje je lopta odigrana, a ne gdje je stajao svaki igrač, pa ovdje ništa ne može pokazati kretanje bez lopte ni oblik presinga.",
+      "limitModel": "Kvalitet šansi dolazi iz modela naučenog na profesionalnim udarcima; procjenjuje koliko je šansa bila dobra, ne koliko je dobar bio udarac."
+    },
+    "network": {
+      "title": "Mreža dodavanja",
+      "intro": "Igrači iz prve postave na prosječnom mjestu svojih dodavanja, veličine prema broju dodavanja; linije prema tome koliko je često lopta išla između dvojice. Dodirnite igrača da vidite samo njegove veze.",
+      "team": "Tim",
+      "label": "Mreža dodavanja, {{team}}: {{players}} igrača iz prve postave, napad slijeva nadesno.",
+      "player": "{{name}}, {{passes}} dodavanja. Prikaži samo veze ovog igrača",
+      "note": "Podaci ne bilježe primaoca: dodavanje se čita kao primljeno od sljedećeg igrača istog tima koji dodirne loptu u roku od deset sekundi.",
+      "table": "Parovi s tri ili više dodavanja, u tabeli",
+      "caption": "{{team}}: dodavanja između parova igrača",
+      "col": {
+        "from": "Dodaje",
+        "to": "Prima",
+        "passes": "Dodavanja"
+      }
+    },
+    "territory": {
+      "title": "Teritorija",
+      "intro": "Svaki dodir s položajem, na jednom terenu. Polje dobija boju tima koji je tu imao više dodira, jaču što ih je bilo više.",
+      "label": "Dodiri po zonama, {{home}} napada slijeva nadesno, a {{away}} zdesna nalijevo.",
+      "finalThird": "Dodavanja u posljednju trećinu",
+      "third": {
+        "defensive": "Svoja trećina",
+        "middle": "Sredina",
+        "attacking": "Posljednja trećina"
+      },
+      "table": "Dodiri po zonama, u tabeli",
+      "caption": "Dodiri po zonama",
+      "col": {
+        "zone": "Zona"
+      },
+      "zone": "Kolona {{column}} od 6, red {{row}} od 4"
+    },
+    "replay": {
+      "title": "Kako su pali golovi",
+      "intro": "Akcije tima koji je zabio prije svakog gola, kao putanja lopte: unazad do trenutka kad je protivnik posljednji put imao loptu, najviše deset akcija ili četrdeset sekundi.",
+      "label": "Akcija od {{steps}} poteza: {{chain}}",
+      "play": "Pokreni akciju pred gol u {{minute}}'",
+      "pause": "Pauziraj akciju pred gol u {{minute}}'",
+      "again": "Ponovi akciju pred gol u {{minute}}'",
+      "noChain": "Prije ovog gola nije zabilježena akcija.",
+      "none": "U ovoj utakmici nije bilo golova.",
+      "noneYet": "Još nema golova.",
+      "view": "Prikaz",
+      "flat": "Odozgo",
+      "threeD": "3D"
+    },
+    "team": {
+      "Albania": "Albanija",
+      "Argentina": "Argentina",
+      "Australia": "Australija",
+      "Austria": "Austrija",
+      "Belgium": "Belgija",
+      "Brazil": "Brazil",
+      "Colombia": "Kolumbija",
+      "Costa Rica": "Kostarika",
+      "Croatia": "Hrvatska",
+      "Czech Republic": "Češka",
+      "Denmark": "Danska",
+      "Egypt": "Egipat",
+      "England": "Engleska",
+      "France": "Francuska",
+      "Germany": "Njemačka",
+      "Hungary": "Mađarska",
+      "Iceland": "Island",
+      "Iran": "Iran",
+      "Italy": "Italija",
+      "Japan": "Japan",
+      "Korea Republic": "Južna Koreja",
+      "Mexico": "Meksiko",
+      "Morocco": "Maroko",
+      "Nigeria": "Nigerija",
+      "Northern Ireland": "Sjeverna Irska",
+      "Panama": "Panama",
+      "Peru": "Peru",
+      "Poland": "Poljska",
+      "Portugal": "Portugal",
+      "Republic of Ireland": "Irska",
+      "Romania": "Rumunija",
+      "Russia": "Rusija",
+      "Saudi Arabia": "Saudijska Arabija",
+      "Senegal": "Senegal",
+      "Serbia": "Srbija",
+      "Slovakia": "Slovačka",
+      "Spain": "Španija",
+      "Sweden": "Švedska",
+      "Switzerland": "Švicarska",
+      "Tunisia": "Tunis",
+      "Turkey": "Turska",
+      "Ukraine": "Ukrajina",
+      "Uruguay": "Urugvaj",
+      "Wales": "Vels"
+    }
+  }
+}

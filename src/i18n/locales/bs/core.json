@@ -1,0 +1,138 @@
+{
+  "app": {
+    "name": "Klupa",
+    "language": "Jezik",
+    "skip": "Preskoči na sadržaj"
+  },
+  "lang": {
+    "bs": "Bosanski",
+    "en": "English"
+  },
+  "side": {
+    "home": "Tim A",
+    "away": "Tim B"
+  },
+  "lab": {
+    "title": "Ko ima inicijativu i možete li tome vjerovati?",
+    "intro": "Svaki grafikon inicijative krije jedan izbor: koliko daleko unazad gledamo. Klupa prikazuje tri perioda istovremeno i kaže vam kada odgovor zavisi od tog izbora ili od jedne jedine šanse.",
+    "match": "Utakmica",
+    "matchOption": "Demo utakmica {{number}} ({{id}})",
+    "period": "Poluvrijeme",
+    "periodOption": "{{number}}. poluvrijeme",
+    "window": "Period na grafikonu",
+    "windowOption": "{{minutes}} min",
+    "cursor": "Trenutak u poluvremenu",
+    "cursorValue": "{{time}}, {{state}}",
+    "chartLabel": "Odnos šansi u posljednjih {{minutes}} minuta, {{period}}. poluvrijeme. Iznad linije je u prednosti {{home}}, ispod linije {{away}}. Udarci su označeni iznad linije za {{home}} i ispod za {{away}}, a veličina oznake prati kvalitet šanse. Traka ispod pokazuje šta trener smije zaključiti u svakom trenutku; tabela nakon grafikona navodi koliko je vremena otpalo na svaki zaključak.",
+    "stripLabel": "Traka ispod grafikona: šta trener smije zaključiti u svakom trenutku. Povucite prstom preko grafikona da pročitate bilo koji trenutak.",
+    "summaryTitle": "Poluvrijeme ukratko",
+    "tableCaption": "Vrijeme po zaključku u ovom poluvremenu",
+    "tableState": "Zaključak",
+    "tableTime": "Vrijeme (min:s)",
+    "tableShare": "Udio poluvremena",
+    "explorerTitle": "Isprobajte na profesionalnoj utakmici",
+    "explorerIntro": "Povucite prstom preko grafikona ili koristite klizač. Za svaki trenutak vidite sva tri perioda, šanse iza njih i onu jednu šansu koja nosi rezultat.",
+    "dataNote": "Demo utakmice: otvoreni DFL podaci s xG vrijednostima izvora (CC BY 4.0). Ovo su profesionalne utakmice za provjeru sistema, a ne rezultati iz omladinskog fudbala.",
+    "competition": {
+      "England": "Engleska",
+      "European_Championship": "Evropsko prvenstvo",
+      "France": "Francuska",
+      "Germany": "Njemačka",
+      "Italy": "Italija",
+      "Spain": "Španija",
+      "World_Cup": "Svjetsko prvenstvo"
+    },
+    "research": {
+      "title": "Šta je istraživanje pokazalo",
+      "intro": "Prije nego što povjerujete grafikonu inicijative, pogledajte koliko se često njegovi periodi ne slažu. Svaki broj u ovom dijelu čita se direktno iz fajlova s rezultatima istraživanja.",
+      "matchesLabel": "Analiziranih utakmica",
+      "matchesHint": "Trenutaka: {{moments}}, očitanih svakih {{step}} sekundi",
+      "opposedLabel": "Periodi od 3 i 10 minuta pokazuju na suprotne timove",
+      "opposedHint": "od {{moments}} trenutaka u kojima su oba perioda nekome davala prednost",
+      "robustLabel": "Svi periodi se slažu i jedna šansa to ne mijenja",
+      "robustHint": "svih trenutaka. Svi periodi su se slagali u {{agreed}} trenutaka, ali većina tih slaganja visi o jednoj šansi.",
+      "byCompetitionTitle": "Suprotni periodi po takmičenju",
+      "byCompetitionNote": "Udio trenutaka u kojima periodi od 3 i 10 minuta oba nekome daju prednost, ali suprotnim timovima.",
+      "byCompetitionLabel": "Horizontalni stubičasti grafikon: udio trenutaka u kojima periodi od 3 i 10 minuta pokazuju na suprotne timove, po takmičenju. Sve utakmice zajedno: {{pooled}}. Raniji pilot: {{pilot}}. Tabela koja slijedi navodi svako takmičenje.",
+      "pooledMark": "Sve utakmice {{value}}",
+      "pilotMark": "Pilot {{value}}",
+      "matchCount": "utakmica: {{matches}}",
+      "competitionHeader": "Takmičenje",
+      "matchesHeader": "Utakmice",
+      "opposedHeader": "Suprotni periodi",
+      "pilotNote": "Naš prvi pilot, na {{matches}} utakmica, dao je {{pilot}}: više od {{pooled}} na svim utakmicama. Mali broj utakmica jako varira. U {{draws}} nasumičnih izbora po {{matches}} utakmica iz velikog skupa, zbirni udio bio je između {{low}} i {{high}} u 95 % izbora, a vrijednost pilota ili više dostigao je u {{tail}} izbora. Pilot je uz to koristio xG izvora podataka umjesto našeg modela, a ta dva uzroka nismo razdvojili.",
+      "xgTitle": "Naš model očekivanih golova (xG)",
+      "xgIntro": "Logistička regresija na udaljenosti udarca, uglu prema golu, udarcu glavom i slobodnom udarcu, istrenirana na {{shots}} udaraca bez penala ({{goals}} golova) iz {{matches}} profesionalnih muških utakmica. Rezultati ispod dolaze iz unakrsne validacije u {{folds}} dijelova, grupisane po utakmici, tako da nijedna utakmica nije istovremeno u treningu i u testu.",
+      "metricsCaption": "Naš xG model naspram osnovne stope, unakrsna validacija po utakmici",
+      "modelHeader": "Model",
+      "logLoss": "Log loss",
+      "brier": "Brier",
+      "auc": "ROC AUC",
+      "model": "Naš model",
+      "baseline": "Osnovna stopa",
+      "metricsNote": "Log loss i Brier: manje je bolje. AUC: 0,5 je nagađanje, 1 je savršeno. Osnovna stopa svakom udarcu daje istu šansu.",
+      "reliabilityTitle": "Predviđeno naspram opaženog",
+      "reliabilityLabel": "Grafikon pouzdanosti: prosječna predviđena šansa naspram opažene stope golova u {{bins}} grupa s jednakim brojem udaraca. Tačke na isprekidanoj dijagonali su savršeno kalibrirane. Očekivana greška kalibracije {{ece}}. Tabela koja slijedi navodi svaku grupu.",
+      "diagonal": "savršena kalibracija",
+      "predicted": "Predviđeno",
+      "observed": "Opaženo",
+      "binHeader": "Grupa",
+      "shotsHeader": "Udarci",
+      "limits": "Ograničenja. Model je istreniran na udarcima iz profesionalnog muškog fudbala. Nijedna objavljena studija ne provjerava da li se takav model može prenijeti na omladinski fudbal, a nismo to provjerili ni mi: teren, golovi, lopta i golmani su drugačiji. Za omladinske ekipe čitajte ga kao indeks kvaliteta šanse koji rangira šanse, a ne kao vjerovatnoću gola.",
+      "rejectedTitle": "Šta smo testirali i odbacili",
+      "rejected": "Prognozu inicijative: pomaže li znanje o tome ko vodi po kvalitetu šansi da se predvidi sljedeći udarac? Ne pomaže. U testu u kojem je svaka utakmica jednom izostavljena, jednostavna osnovna linija zasnovana na nedavnim udarcima imala je log loss {{recency}}; kada smo dodali vodećeg po kvalitetu šansi, rezultat je bio lošiji, {{withLeader}} (manje je bolje). Nismo je uključili, i Klupa ne daje prognoze.",
+      "sourcesTitle": "Podaci i izvori",
+      "source": {
+        "dfl": "Otvoreni DFL podaci: Bassek i saradnici 2025, CC BY 4.0 (demo utakmice)",
+        "wyscout": "Otvoreni Wyscout podaci: Pappalardo i saradnici 2019, CC BY 4.0 (veliko istraživanje i treniranje xG modela)"
+      }
+    }
+  },
+  "state": {
+    "insufficient": {
+      "label": "Nema dovoljno dokaza",
+      "explain": "U posljednjih 10 minuta nije zabilježena nijedna šansa. Nema se šta zaključiti."
+    },
+    "level": {
+      "label": "Ravnopravno",
+      "explain": "Šanse su zabilježene, ali nijedan period ne daje prednost nijednom timu."
+    },
+    "window-sensitive": {
+      "label": "Zavisi od perioda",
+      "explain": "Ne vidi svaki period prednost. Da li iko ima inicijativu zavisi od toga koliko daleko unazad gledate.",
+      "explainOpposed": "Periodi daju prednost suprotnim timovima. Ko ima inicijativu zavisi od toga koliko daleko unazad gledate."
+    },
+    "event-sensitive": {
+      "label": "Zavisi od jedne šanse",
+      "explain": "Sva tri perioda daju prednost ekipi {{side}}, ali bez jedne jedine šanse to se mijenja."
+    },
+    "stable": {
+      "label": "Stabilno",
+      "explain": "Sva tri perioda daju prednost ekipi {{side}} i nijedna pojedinačna šansa to ne može promijeniti."
+    }
+  },
+  "reading": {
+    "title": "U {{time}}",
+    "windowTitle": "Posljednjih {{minutes}} min",
+    "favours": "Prednost: {{side}}, {{value}} xG",
+    "noLean": "Bez prednosti",
+    "noEvents": "Nema šansi u ovom periodu",
+    "robust": "Vrijedi i ako se ukloni bilo koja šansa",
+    "canTie": "Jedna šansa manje i ravnopravno je",
+    "canReverse": "Jedna šansa manje i prednost prelazi na drugu stranu",
+    "evidenceTitle": "Dokazi u posljednjih 10 minuta",
+    "evidenceEmpty": "Nema zabilježenih šansi.",
+    "evidenceItem": "{{time}} · {{side}} · {{value}} xG",
+    "decisive": "nosi rezultat"
+  },
+  "crash": {
+    "title": "Ovaj ekran je prestao raditi",
+    "body": "Ništa što ste zabilježili nije izgubljeno: događaji čekaju na ovom telefonu dok se ne pošalju. Problem nam je prijavljen bez ijednog vašeg podatka.",
+    "reload": "Učitaj ponovo",
+    "home": "Nazad na Danas",
+    "updated": {
+      "title": "Klupa je ažurirana",
+      "body": "Nova verzija je spremna. Učitajte ponovo da je dobijete."
+    }
+  }
+}

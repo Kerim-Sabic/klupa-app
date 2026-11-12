@@ -1,0 +1,254 @@
+{
+  "shotlab": {
+    "title": "Laboratorij udarca",
+    "subtitle": "Snimite jedan udarac lopte. Pogledajte pokrete igrača kao kostur, pronađite trenutak udarca i porazgovarajte o nekoliko poštenih mjerenja.",
+    "again": "Novi snimak",
+    "start": {
+      "title": "Počnite jednim udarcem",
+      "film": "Snimi udarac",
+      "choose": "Odaberi video",
+      "example": "Pogledaj primjer",
+      "tips": "Snimajte sa strane, cijelo tijelo u kadru, jedan igrač, dobro svjetlo.",
+      "privacy": "Video se analizira na ovom uređaju. Nikada se ne šalje niti sprema.",
+      "live": "Koristi kameru uživo",
+      "liveNote": "Slika s kamere ostaje na ovom telefonu: ništa se ne snima niti šalje."
+    },
+    "how": {
+      "title": "Kako radi",
+      "film": {
+        "title": "Snimite jedan udarac",
+        "body": "Dovoljno je nekoliko sekundi: zalet, udarac i iznošenje noge. Čita se samo prvih 6 sekundi."
+      },
+      "device": {
+        "title": "Analiza ovdje, na ovom uređaju",
+        "body": "Model tijela radi u vašem pregledniku i na svakom kadru pronalazi 33 tačke na igraču. Ništa se nikamo ne šalje."
+      },
+      "talk": {
+        "title": "Pogledajte zajedno",
+        "body": "Dođite do udarca, okrenite kostur u 3D-u i pročitajte brojke. To su stvari za pogledati, a ne presuda."
+      }
+    },
+    "progress": {
+      "modelTitle": "Pripremamo model tijela",
+      "modelDetail": "{{loaded}} od {{total}} MB",
+      "modelOnce": "Preuzima se samo prvi put; nakon toga ga preglednik ponovo koristi.",
+      "framesTitle": "Čitamo pokret",
+      "framesDetail": "Kadar {{done}} od {{total}} (najviše prvih {{seconds}} sekundi)",
+      "cancel": "Otkaži"
+    },
+    "stage": {
+      "videoLabel": "Vaš snimak, analiziran na ovom uređaju",
+      "overlayLabel": "Kostur nacrtan preko trenutnog kadra. Noga koja udara je zelena, putanja stopala narandžasta.",
+      "exampleLabel": "Bočni prikaz kostura u trenutnom kadru, bez videa. Noga koja udara je zelena, putanja stopala narandžasta.",
+      "titles": {
+        "video": "Snimak",
+        "example": "Primjer udarca",
+        "live": "Uhvaćeni udarac"
+      }
+    },
+    "scrub": {
+      "label": "Kadar",
+      "valueText": "Kadar {{frame}} od {{total}}, {{time}} s",
+      "position": "Kadar {{frame}} / {{total}} · {{time}} s",
+      "previous": "Prethodni kadar",
+      "next": "Sljedeći kadar",
+      "play": "Pusti usporeno",
+      "pause": "Pauza",
+      "jumpLabel": "Skoči na trenutak",
+      "backswing": "Zamah",
+      "strike": "Udarac",
+      "follow": "Iznošenje"
+    },
+    "view3d": {
+      "title": "U 3D-u",
+      "turnLeft": "Okreni ulijevo",
+      "turnRight": "Okreni udesno",
+      "label": "Kostur u 3D-u. Povucite za okretanje, raširite prste ili držite Ctrl i skrolajte za zumiranje, ili koristite dugmad ispod.",
+      "loading": "Učitavamo 3D prikaz",
+      "unavailable": "Za 3D prikaz potreban je WebGL, koji ovaj preglednik ne nudi. Sve ostalo na ovoj stranici i dalje radi.",
+      "reset": "Vrati prikaz",
+      "zoomIn": "Približi",
+      "zoomOut": "Udalji",
+      "hint": "Povucite za okretanje. Za zumiranje raširite prste ili držite Ctrl i skrolajte.",
+      "summary": "U trenutku udarca: udara {{foot}} noga, koljeno noge koja udara pod uglom od {{knee}}°, trup nagnut {{lean}}° naprijed (negativno je unazad), stajna noga {{plantBack}} m duž udarca od noge koja udara (negativno je iza) i {{plantSide}} m u stranu.",
+      "noStrikeSummary": "Kostur za svaki kadar snimka. Udarac nije pronađen, pa nijedan trenutak nije izdvojen."
+    },
+    "foot": {
+      "left": "lijeva",
+      "right": "desna"
+    },
+    "verdict": {
+      "example": "Primjer: generisan udarac, ne stvarni igrač",
+      "truncated": "Pročitano je samo prvih 6 sekundi",
+      "foundLeft": "Udarac lijevom nogom u {{time}} s",
+      "foundRight": "Udarac desnom nogom u {{time}} s",
+      "nothingStandsOut": "Ništa ne odskače u odnosu na naše jednostavne pragove. Brojke su ispod.",
+      "prompts": "Stvari vrijedne pogleda: {{count}}. Svaka stoji uz svoje mjerenje ispod.",
+      "live": "S kamere uživo: samo kostur, video nije zadržan"
+    },
+    "notSeen": {
+      "title": "Tijelo se nije vidjelo dovoljno dobro za mjerenje",
+      "too-few-frames": "Snimak je prekratak. Snimite barem jednu sekundu oko udarca.",
+      "body-not-found": "Na mnogo kadrova tijelo nije pronađeno. Igrač je možda predaleko, odsječen ili u mraku.",
+      "legs-not-visible": "Noge su se slabo vidjele: vjerovatno su odsječene na dnu kadra ili zaklonjene.",
+      "more-than-one-person": "U kadru je dobar dio snimka bilo više od jedne osobe.",
+      "low-visibility": "Model nije bio siguran gdje je tijelo: predaleko, premračno ili djelimično zaklonjeno."
+    },
+    "noStrike": {
+      "title": "Nije pronađen jasan udarac",
+      "too-slow": "Nijedno stopalo se nije kretalo dovoljno brzo da bi to bio udarac. Je li udarac bio u prvih 6 sekundi?",
+      "no-clear-peak": "Nije bilo jednog najbržeg zamaha: dva trenutka su izgledala slično ili je zamah odsječen na rubu snimka.",
+      "no-backswing": "Prije najbržeg zamaha nije bilo jasnog zamaha unazad, pa se ne čita kao udarac."
+    },
+    "m": {
+      "title": "Mjerenja oko udarca",
+      "intro": "Očitano s kostura koji je model vidio ({{confidence}} % prosječne vidljivosti kukova, koljena, članaka i ramena). Dugme na kartici pokazuje kadar iz kojeg je mjerenje.",
+      "depth": "Koristi procijenjenu dubinu",
+      "lookAt": "Vrijedi pogledati:",
+      "showFrame": "Prikaži kadar {{frame}}",
+      "showFrameLabel": "Prikaži kadar {{frame}} za {{name}}",
+      "kneeAtBackswing": {
+        "title": "Koljeno noge koja udara na vrhu zamaha",
+        "what": "Ugao u koljenu kada je bilo najviše savijeno prije udarca. 180° je ispružena noga."
+      },
+      "kneeAtStrike": {
+        "title": "Koljeno noge koja udara u trenutku udarca",
+        "what": "Ugao u koljenu kada je stopalo bilo najbrže. 180° je ispružena noga."
+      },
+      "hipShoulderSeparation": {
+        "title": "Zakret ramena prema kukovima",
+        "what": "Najveći ugao između linije kukova i linije ramena tokom zamaha, gledano odozgo."
+      },
+      "trunkLeanForward": {
+        "title": "Nagib trupa naprijed ili nazad",
+        "what": "Nagib linije od kukova do ramena u trenutku udarca, u smjeru udarca. Pozitivno je naprijed preko lopte, negativno je zabacivanje unazad."
+      },
+      "trunkLeanSideways": {
+        "title": "Nagib trupa u stranu",
+        "what": "Nagib u trenutku udarca, poprijeko na smjer udarca. Pozitivno je prema strani stajne noge."
+      },
+      "plantFrontBack": {
+        "title": "Stajna noga, ispred ili iza",
+        "what": "Udaljenost od članka noge koja udara do članka stajne noge u trenutku udarca, duž udarca. Negativno znači da je stajna noga iza."
+      },
+      "plantSideways": {
+        "title": "Stajna noga, u stranu",
+        "what": "Bočna udaljenost između dva članka u trenutku udarca."
+      },
+      "peakFootSpeed": {
+        "title": "Najveća brzina stopala",
+        "what": "Najveća brzina članka noge koja udara u odnosu na kukove, u tijelu koje je model rekonstruisao. Ovo nije brzina lopte."
+      },
+      "swingDuration": {
+        "title": "Trajanje zamaha",
+        "what": "Vrijeme od vrha zamaha do udarca."
+      },
+      "followThroughHeight": {
+        "title": "Visina iznošenja noge",
+        "what": "Najviša tačka do koje se članak noge koja udara podigao nakon udarca, u odnosu na kuk. Nula je visina kuka; negativno je ispod nje."
+      }
+    },
+    "unit": {
+      "deg": "°",
+      "m": "m",
+      "m/s": "m/s",
+      "s": "s"
+    },
+    "prompt": {
+      "plantBehind": "stajna noga je pri kontaktu bila dosta iza noge koja udara. Gdje ona dolazi u odnosu na loptu?",
+      "plantAhead": "stajna noga je pri kontaktu bila dosta ispred noge koja udara. Poseže li igrač unazad za loptom?",
+      "leanBack": "trup je pri kontaktu bio zabačen unazad. Pratite gornji dio tijela dok stopalo dolazi na loptu.",
+      "smallBackswing": "koljeno je u zamahu ostalo prilično ispruženo. Pogledajte koliko daleko se potkoljenica povlači unazad.",
+      "shortFollowThrough": "stopalo je nakon udarca ostalo dosta ispod visine kuka. Pratite nastavlja li noga kretanje kroz loptu."
+    },
+    "limits": {
+      "title": "Šta ovo može, a šta ne može reći",
+      "camera": "Jedna kamera telefona vidi tijelo s jedne strane. Dalja noga je često djelimično zaklonjena.",
+      "depth": "Dubinu procjenjuje model, ona se ne mjeri. Brojke označene s \"Koristi procijenjenu dubinu\" su najmanje sigurne.",
+      "speed": "Brzine su brzine stopala u odnosu na kukove u tijelu koje je model rekonstruisao, a ne brzine lopte.",
+      "ball": "Lopta se ne prati. Udarac je trenutak kada je stopalo bilo najbrže, što je obično tik prije kontakta.",
+      "verdict": "Ovo su mjerenja za razgovor s igračem, a ne presuda. Pragovi su jednostavne polazne tačke, ne norme za bilo koji uzrast."
+    },
+    "unsupported": {
+      "title": "Ovaj preglednik ne može pokrenuti model tijela",
+      "body": "Laboratoriju udarca potreban je WebAssembly. Probajte ažuran Chrome, Safari, Firefox ili Edge. Primjer i ovdje radi."
+    },
+    "error": {
+      "model": {
+        "title": "Model tijela nije se mogao učitati",
+        "body": "Provjerite vezu i pokušajte ponovo. Preuzima se jednom, a zatim se ponovo koristi."
+      },
+      "video": {
+        "title": "Ovaj video se nije mogao pročitati",
+        "body": "Preglednik nije mogao pustiti ovu datoteku. Probajte MP4 iz aplikacije kamere na telefonu ili snimite ponovo."
+      },
+      "unknown": {
+        "title": "Nešto je pošlo po zlu tokom analize",
+        "body": "Ništa nije poslano. Pokušajte ponovo ili probajte kraći snimak."
+      }
+    },
+    "live": {
+      "title": "Kamera uživo",
+      "cameraOn": "Kamera je uključena",
+      "tracking": "Prati",
+      "lost": "Izgubljeno",
+      "fps": "Analizirano {{fps}} kadrova u sekundi",
+      "trackingHint": "Držite telefon mirno. Najbolje je sa strane, s cijelim tijelom u slici.",
+      "lostHint": "Tijelo se ne vidi jasno. Odmaknite se tako da je cijelo tijelo u slici, sa strane, uz dobro svjetlo.",
+      "videoLabel": "Slika s kamere uživo s kosturom nacrtanim preko nje",
+      "starting": "Čekamo kameru. Model tijela: {{loaded}} od {{total}} MB",
+      "stop": "Zaustavi",
+      "startAgain": "Ponovo uključi kameru",
+      "switch": "Promijeni kameru",
+      "back": "Nazad na početak",
+      "backToCamera": "Nazad na kameru",
+      "hidden": "Kamera je isključena jer je stranica bila skrivena.",
+      "stopped": "Kamera je isključena.",
+      "privacy": "Slika se analizira na ovom telefonu. Ništa se ne snima, ne šalje niti sprema; u memoriji se čuvaju samo tačke kostura iz posljednje tri sekunde, da bi se uhvatio udarac.",
+      "caught": {
+        "left": "Uhvaćen udarac lijevom nogom",
+        "right": "Uhvaćen udarac desnom nogom",
+        "body": "Čuvaju se tačke kostura iz tri sekunde oko udarca, ne video.",
+        "see": "Pogledaj ovaj udarac"
+      },
+      "slow": {
+        "title": "Ovaj uređaj je prespor za analizu uživo",
+        "body": "Analizira se manje od pet kadrova u sekundi, premalo da se prati udarac. Radije snimite snimak: on se čita kadar po kadar.",
+        "film": "Radije snimi snimak"
+      },
+      "readout": {
+        "title": "Očitanja uživo",
+        "leftKnee": "Ugao lijevog koljena",
+        "rightKnee": "Ugao desnog koljena",
+        "trunkLean": "Nagib trupa od uspravnog",
+        "fasterFoot": "Brže stopalo",
+        "left": "Lijevo",
+        "right": "Desno",
+        "neither": "Nijedno se ne kreće",
+        "note": "Procjene s jedne kamere. Najbolje rade sa strane, kad je cijelo tijelo u slici."
+      },
+      "error": {
+        "denied": {
+          "title": "Dozvola za kameru je odbijena",
+          "body": "Dozvolite kameru za ovu stranicu u postavkama preglednika i pokušajte ponovo. Ili radije snimite snimak."
+        },
+        "no-camera": {
+          "title": "Kamera nije pronađena",
+          "body": "Preglednik ne nalazi kameru na ovom uređaju. Radije odaberite video ili pogledajte primjer."
+        },
+        "in-use": {
+          "title": "Kamera je zauzeta",
+          "body": "Druga aplikacija ili kartica koristi kameru. Zatvorite je i pokušajte ponovo."
+        },
+        "model": {
+          "title": "Model tijela nije se mogao učitati",
+          "body": "Provjerite vezu i pokušajte ponovo."
+        },
+        "unknown": {
+          "title": "Kamera se nije mogla pokrenuti",
+          "body": "Pokušajte ponovo ili radije snimite snimak."
+        }
+      }
+    }
+  }
+}

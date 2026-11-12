@@ -1,0 +1,37 @@
+[
+ {
+  "match": "DFL-MAT-J03WMX",
+  "file": "DFL-MAT-J03WMX.json",
+  "shots": 21
+ },
+ {
+  "match": "DFL-MAT-J03WN1",
+  "file": "DFL-MAT-J03WN1.json",
+  "shots": 21
+ },
+ {
+  "match": "DFL-MAT-J03WOH",
+  "file": "DFL-MAT-J03WOH.json",
+  "shots": 27
+ },
+ {
+  "match": "DFL-MAT-J03WOY",
+  "file": "DFL-MAT-J03WOY.json",
+  "shots": 22
+ },
+ {
+  "match": "DFL-MAT-J03WPY",
+  "file": "DFL-MAT-J03WPY.json",
+  "shots": 26
+ },
+ {
+  "match": "DFL-MAT-J03WQQ",
+  "file": "DFL-MAT-J03WQQ.json",
+  "shots": 27
+ },
+ {
+  "match": "DFL-MAT-J03WR9",
+  "file": "DFL-MAT-J03WR9.json",
+  "shots": 27
+ }
+]

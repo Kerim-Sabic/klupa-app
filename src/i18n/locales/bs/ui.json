@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "close": "Zatvori",
+    "dismiss": "Skloni",
+    "loading": "Učitava se",
+    "retry": "Pokušajte ponovo",
+    "notifications": "Obavještenja",
+    "toast": {
+      "success": "Gotovo",
+      "error": "Problem",
+      "info": "Napomena"
+    },
+    "table": {
+      "empty": "Još nema ničega za prikaz."
+    }
+  }
+}

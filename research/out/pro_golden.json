@@ -1,0 +1,4473 @@
+{
+ "matches": 115,
+ "events": 179365,
+ "perMatch": {
+  "2058017": {
+   "events": 1457,
+   "passes": [
+    241,
+    518
+   ],
+   "accuratePasses": [
+    186,
+    429
+   ],
+   "shots": [
+    8,
+    14
+   ],
+   "shotsOnTarget": [
+    6,
+    3
+   ],
+   "goals": [
+    3,
+    2
+   ],
+   "ownGoalsFor": [
+    1,
+    0
+   ],
+   "corners": [
+    2,
+    6
+   ],
+   "xgUnits": [
+    11842,
+    13242
+   ]
+  },
+  "2058016": {
+   "events": 1640,
+   "passes": [
+    485,
+    654
+   ],
+   "accuratePasses": [
+    427,
+    593
+   ],
+   "shots": [
+    11,
+    14
+   ],
+   "shotsOnTarget": [
+    4,
+    5
+   ],
+   "goals": [
+    2,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    4,
+    5
+   ],
+   "xgUnits": [
+    12363,
+    7675
+   ]
+  },
+  "2058015": {
+   "events": 1953,
+   "passes": [
+    595,
+    448
+   ],
+   "accuratePasses": [
+    470,
+    370
+   ],
+   "shots": [
+    22,
+    11
+   ],
+   "shotsOnTarget": [
+    7,
+    2
+   ],
+   "goals": [
+    2,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    8,
+    4
+   ],
+   "xgUnits": [
+    20414,
+    6577
+   ]
+  },
+  "2058014": {
+   "events": 1588,
+   "passes": [
+    317,
+    591
+   ],
+   "accuratePasses": [
+    282,
+    535
+   ],
+   "shots": [
+    18,
+    9
+   ],
+   "shotsOnTarget": [
+    5,
+    2
+   ],
+   "goals": [
+    1,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    4,
+    5
+   ],
+   "xgUnits": [
+    12774,
+    6608
+   ]
+  },
+  "2058012": {
+   "events": 2032,
+   "passes": [
+    363,
+    715
+   ],
+   "accuratePasses": [
+    274,
+    594
+   ],
+   "shots": [
+    11,
+    17
+   ],
+   "shotsOnTarget": [
+    6,
+    3
+   ],
+   "goals": [
+    2,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    6,
+    8
+   ],
+   "xgUnits": [
+    8866,
+    19087
+   ]
+  },
+  "2058013": {
+   "events": 1524,
+   "passes": [
+    345,
+    485
+   ],
+   "accuratePasses": [
+    280,
+    402
+   ],
+   "shots": [
+    7,
+    11
+   ],
+   "shotsOnTarget": [
+    3,
+    2
+   ],
+   "goals": [
+    0,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    1,
+    6
+   ],
+   "xgUnits": [
+    8074,
+    9020
+   ]
+  },
+  "2058011": {
+   "events": 1573,
+   "passes": [
+    498,
+    348
+   ],
+   "accuratePasses": [
+    437,
+    304
+   ],
+   "shots": [
+    25,
+    8
+   ],
+   "shotsOnTarget": [
+    9,
+    3
+   ],
+   "goals": [
+    1,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    1
+   ],
+   "corners": [
+    8,
+    4
+   ],
+   "xgUnits": [
+    38546,
+    7160
+   ]
+  },
+  "2058010": {
+   "events": 1604,
+   "passes": [
+    304,
+    510
+   ],
+   "accuratePasses": [
+    227,
+    417
+   ],
+   "shots": [
+    9,
+    9
+   ],
+   "shotsOnTarget": [
+    3,
+    2
+   ],
+   "goals": [
+    0,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    4,
+    3
+   ],
+   "xgUnits": [
+    8375,
+    5280
+   ]
+  },
+  "2058009": {
+   "events": 1888,
+   "passes": [
+    497,
+    529
+   ],
+   "accuratePasses": [
+    406,
+    457
+   ],
+   "shots": [
+    13,
+    15
+   ],
+   "shotsOnTarget": [
+    4,
+    2
+   ],
+   "goals": [
+    1,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    2,
+    7
+   ],
+   "xgUnits": [
+    7775,
+    21513
+   ]
+  },
+  "2058008": {
+   "events": 1421,
+   "passes": [
+    247,
+    558
+   ],
+   "accuratePasses": [
+    192,
+    476
+   ],
+   "shots": [
+    12,
+    17
+   ],
+   "shotsOnTarget": [
+    3,
+    4
+   ],
+   "goals": [
+    1,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    3,
+    11
+   ],
+   "xgUnits": [
+    11801,
+    10341
+   ]
+  },
+  "2058007": {
+   "events": 1677,
+   "passes": [
+    572,
+    432
+   ],
+   "accuratePasses": [
+    501,
+    377
+   ],
+   "shots": [
+    24,
+    9
+   ],
+   "shotsOnTarget": [
+    7,
+    4
+   ],
+   "goals": [
+    3,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    9,
+    6
+   ],
+   "xgUnits": [
+    26280,
+    6141
+   ]
+  },
+  "2058006": {
+   "events": 1541,
+   "passes": [
+    355,
+    400
+   ],
+   "accuratePasses": [
+    302,
+    348
+   ],
+   "shots": [
+    18,
+    12
+   ],
+   "shotsOnTarget": [
+    10,
+    1
+   ],
+   "goals": [
+    2,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    8,
+    7
+   ],
+   "xgUnits": [
+    24600,
+    7094
+   ]
+  },
+  "2058005": {
+   "events": 2035,
+   "passes": [
+    597,
+    506
+   ],
+   "accuratePasses": [
+    499,
+    424
+   ],
+   "shots": [
+    21,
+    15
+   ],
+   "shotsOnTarget": [
+    6,
+    3
+   ],
+   "goals": [
+    1,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    5,
+    4
+   ],
+   "xgUnits": [
+    23064,
+    11453
+   ]
+  },
+  "2058004": {
+   "events": 2197,
+   "passes": [
+    1078,
+    261
+   ],
+   "accuratePasses": [
+    994,
+    197
+   ],
+   "shots": [
+    22,
+    6
+   ],
+   "shotsOnTarget": [
+    9,
+    1
+   ],
+   "goals": [
+    0,
+    1
+   ],
+   "ownGoalsFor": [
+    1,
+    0
+   ],
+   "corners": [
+    6,
+    5
+   ],
+   "xgUnits": [
+    19452,
+    8314
+   ]
+  },
+  "2058002": {
+   "events": 1599,
+   "passes": [
+    238,
+    538
+   ],
+   "accuratePasses": [
+    185,
+    455
+   ],
+   "shots": [
+    7,
+    19
+   ],
+   "shotsOnTarget": [
+    3,
+    4
+   ],
+   "goals": [
+    2,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    2,
+    10
+   ],
+   "xgUnits": [
+    6001,
+    8914
+   ]
+  },
+  "2058003": {
+   "events": 1426,
+   "passes": [
+    335,
+    486
+   ],
+   "accuratePasses": [
+    290,
+    420
+   ],
+   "shots": [
+    8,
+    10
+   ],
+   "shotsOnTarget": [
+    4,
+    4
+   ],
+   "goals": [
+    4,
+    3
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    0,
+    4
+   ],
+   "xgUnits": [
+    16603,
+    11245
+   ]
+  },
+  "2057994": {
+   "events": 1563,
+   "passes": [
+    452,
+    522
+   ],
+   "accuratePasses": [
+    393,
+    469
+   ],
+   "shots": [
+    10,
+    13
+   ],
+   "shotsOnTarget": [
+    1,
+    3
+   ],
+   "goals": [
+    0,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    7,
+    2
+   ],
+   "xgUnits": [
+    6593,
+    7836
+   ]
+  },
+  "2057995": {
+   "events": 1481,
+   "passes": [
+    254,
+    580
+   ],
+   "accuratePasses": [
+    200,
+    514
+   ],
+   "shots": [
+    8,
+    15
+   ],
+   "shotsOnTarget": [
+    4,
+    7
+   ],
+   "goals": [
+    0,
+    2
+   ],
+   "ownGoalsFor": [
+    1,
+    0
+   ],
+   "corners": [
+    0,
+    6
+   ],
+   "xgUnits": [
+    5113,
+    22669
+   ]
+  },
+  "2058000": {
+   "events": 1558,
+   "passes": [
+    529,
+    439
+   ],
+   "accuratePasses": [
+    474,
+    375
+   ],
+   "shots": [
+    8,
+    10
+   ],
+   "shotsOnTarget": [
+    3,
+    2
+   ],
+   "goals": [
+    0,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    5,
+    7
+   ],
+   "xgUnits": [
+    7142,
+    12390
+   ]
+  },
+  "2058001": {
+   "events": 1386,
+   "passes": [
+    268,
+    414
+   ],
+   "accuratePasses": [
+    219,
+    350
+   ],
+   "shots": [
+    7,
+    4
+   ],
+   "shotsOnTarget": [
+    3,
+    2
+   ],
+   "goals": [
+    0,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    1,
+    3
+   ],
+   "xgUnits": [
+    4582,
+    5056
+   ]
+  },
+  "2057982": {
+   "events": 1770,
+   "passes": [
+    424,
+    613
+   ],
+   "accuratePasses": [
+    356,
+    537
+   ],
+   "shots": [
+    10,
+    14
+   ],
+   "shotsOnTarget": [
+    2,
+    6
+   ],
+   "goals": [
+    0,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    5,
+    9
+   ],
+   "xgUnits": [
+    10650,
+    15416
+   ]
+  },
+  "2057983": {
+   "events": 1586,
+   "passes": [
+    542,
+    329
+   ],
+   "accuratePasses": [
+    481,
+    272
+   ],
+   "shots": [
+    11,
+    14
+   ],
+   "shotsOnTarget": [
+    3,
+    6
+   ],
+   "goals": [
+    2,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    1
+   ],
+   "corners": [
+    6,
+    5
+   ],
+   "xgUnits": [
+    11162,
+    17227
+   ]
+  },
+  "2057989": {
+   "events": 1350,
+   "passes": [
+    449,
+    207
+   ],
+   "accuratePasses": [
+    382,
+    149
+   ],
+   "shots": [
+    19,
+    14
+   ],
+   "shotsOnTarget": [
+    3,
+    5
+   ],
+   "goals": [
+    0,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    1
+   ],
+   "corners": [
+    7,
+    3
+   ],
+   "xgUnits": [
+    13373,
+    30248
+   ]
+  },
+  "2057988": {
+   "events": 1650,
+   "passes": [
+    224,
+    685
+   ],
+   "accuratePasses": [
+    181,
+    605
+   ],
+   "shots": [
+    11,
+    25
+   ],
+   "shotsOnTarget": [
+    5,
+    6
+   ],
+   "goals": [
+    2,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    3,
+    9
+   ],
+   "xgUnits": [
+    10769,
+    25312
+   ]
+  },
+  "2057976": {
+   "events": 1604,
+   "passes": [
+    242,
+    545
+   ],
+   "accuratePasses": [
+    191,
+    458
+   ],
+   "shots": [
+    9,
+    7
+   ],
+   "shotsOnTarget": [
+    3,
+    4
+   ],
+   "goals": [
+    1,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    3,
+    5
+   ],
+   "xgUnits": [
+    12456,
+    9836
+   ]
+  },
+  "2057977": {
+   "events": 1432,
+   "passes": [
+    281,
+    497
+   ],
+   "accuratePasses": [
+    222,
+    441
+   ],
+   "shots": [
+    17,
+    12
+   ],
+   "shotsOnTarget": [
+    6,
+    2
+   ],
+   "goals": [
+    1,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    10,
+    5
+   ],
+   "xgUnits": [
+    20190,
+    7975
+   ]
+  },
+  "2057971": {
+   "events": 1634,
+   "passes": [
+    512,
+    390
+   ],
+   "accuratePasses": [
+    446,
+    330
+   ],
+   "shots": [
+    13,
+    4
+   ],
+   "shotsOnTarget": [
+    2,
+    3
+   ],
+   "goals": [
+    0,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    8,
+    3
+   ],
+   "xgUnits": [
+    10014,
+    5041
+   ]
+  },
+  "2057970": {
+   "events": 1579,
+   "passes": [
+    292,
+    655
+   ],
+   "accuratePasses": [
+    231,
+    577
+   ],
+   "shots": [
+    4,
+    11
+   ],
+   "shotsOnTarget": [
+    1,
+    4
+   ],
+   "goals": [
+    0,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    4,
+    2
+   ],
+   "xgUnits": [
+    1656,
+    6264
+   ]
+  },
+  "2057965": {
+   "events": 1518,
+   "passes": [
+    718,
+    227
+   ],
+   "accuratePasses": [
+    661,
+    193
+   ],
+   "shots": [
+    15,
+    6
+   ],
+   "shotsOnTarget": [
+    4,
+    3
+   ],
+   "goals": [
+    2,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    7,
+    1
+   ],
+   "xgUnits": [
+    26595,
+    5802
+   ]
+  },
+  "2057964": {
+   "events": 1419,
+   "passes": [
+    192,
+    580
+   ],
+   "accuratePasses": [
+    154,
+    520
+   ],
+   "shots": [
+    7,
+    12
+   ],
+   "shotsOnTarget": [
+    2,
+    3
+   ],
+   "goals": [
+    1,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    1,
+    5
+   ],
+   "xgUnits": [
+    14024,
+    13077
+   ]
+  },
+  "2057959": {
+   "events": 1581,
+   "passes": [
+    632,
+    343
+   ],
+   "accuratePasses": [
+    559,
+    277
+   ],
+   "shots": [
+    22,
+    7
+   ],
+   "shotsOnTarget": [
+    6,
+    1
+   ],
+   "goals": [
+    2,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    7,
+    2
+   ],
+   "xgUnits": [
+    28253,
+    4845
+   ]
+  },
+  "2057958": {
+   "events": 1415,
+   "passes": [
+    466,
+    327
+   ],
+   "accuratePasses": [
+    405,
+    271
+   ],
+   "shots": [
+    14,
+    3
+   ],
+   "shotsOnTarget": [
+    6,
+    1
+   ],
+   "goals": [
+    2,
+    0
+   ],
+   "ownGoalsFor": [
+    1,
+    0
+   ],
+   "corners": [
+    4,
+    2
+   ],
+   "xgUnits": [
+    22206,
+    1816
+   ]
+  },
+  "2057998": {
+   "events": 1662,
+   "passes": [
+    403,
+    499
+   ],
+   "accuratePasses": [
+    330,
+    416
+   ],
+   "shots": [
+    7,
+    13
+   ],
+   "shotsOnTarget": [
+    2,
+    4
+   ],
+   "goals": [
+    0,
+    3
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    7,
+    5
+   ],
+   "xgUnits": [
+    8065,
+    12808
+   ]
+  },
+  "2057999": {
+   "events": 1423,
+   "passes": [
+    425,
+    320
+   ],
+   "accuratePasses": [
+    364,
+    257
+   ],
+   "shots": [
+    7,
+    12
+   ],
+   "shotsOnTarget": [
+    3,
+    7
+   ],
+   "goals": [
+    2,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    2,
+    5
+   ],
+   "xgUnits": [
+    7361,
+    13488
+   ]
+  },
+  "2057993": {
+   "events": 1430,
+   "passes": [
+    559,
+    374
+   ],
+   "accuratePasses": [
+    527,
+    334
+   ],
+   "shots": [
+    12,
+    7
+   ],
+   "shotsOnTarget": [
+    7,
+    1
+   ],
+   "goals": [
+    6,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    3,
+    2
+   ],
+   "xgUnits": [
+    31818,
+    8444
+   ]
+  },
+  "2057986": {
+   "events": 1485,
+   "passes": [
+    678,
+    203
+   ],
+   "accuratePasses": [
+    602,
+    153
+   ],
+   "shots": [
+    17,
+    6
+   ],
+   "shotsOnTarget": [
+    5,
+    5
+   ],
+   "goals": [
+    2,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    8,
+    3
+   ],
+   "xgUnits": [
+    17573,
+    7652
+   ]
+  },
+  "2057987": {
+   "events": 1453,
+   "passes": [
+    328,
+    449
+   ],
+   "accuratePasses": [
+    267,
+    401
+   ],
+   "shots": [
+    17,
+    12
+   ],
+   "shotsOnTarget": [
+    6,
+    4
+   ],
+   "goals": [
+    1,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    7,
+    5
+   ],
+   "xgUnits": [
+    9532,
+    14216
+   ]
+  },
+  "2057992": {
+   "events": 1471,
+   "passes": [
+    427,
+    429
+   ],
+   "accuratePasses": [
+    358,
+    350
+   ],
+   "shots": [
+    23,
+    12
+   ],
+   "shotsOnTarget": [
+    12,
+    5
+   ],
+   "goals": [
+    5,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    5,
+    2
+   ],
+   "xgUnits": [
+    33907,
+    6467
+   ]
+  },
+  "2057981": {
+   "events": 1598,
+   "passes": [
+    278,
+    494
+   ],
+   "accuratePasses": [
+    228,
+    429
+   ],
+   "shots": [
+    11,
+    19
+   ],
+   "shotsOnTarget": [
+    3,
+    5
+   ],
+   "goals": [
+    1,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    3,
+    7
+   ],
+   "xgUnits": [
+    10167,
+    14516
+   ]
+  },
+  "2057975": {
+   "events": 1448,
+   "passes": [
+    460,
+    290
+   ],
+   "accuratePasses": [
+    394,
+    225
+   ],
+   "shots": [
+    16,
+    9
+   ],
+   "shotsOnTarget": [
+    4,
+    3
+   ],
+   "goals": [
+    2,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    6,
+    5
+   ],
+   "xgUnits": [
+    12845,
+    21856
+   ]
+  },
+  "2057980": {
+   "events": 1685,
+   "passes": [
+    692,
+    268
+   ],
+   "accuratePasses": [
+    635,
+    202
+   ],
+   "shots": [
+    21,
+    3
+   ],
+   "shotsOnTarget": [
+    9,
+    0
+   ],
+   "goals": [
+    2,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    10,
+    1
+   ],
+   "xgUnits": [
+    25187,
+    3382
+   ]
+  },
+  "2057974": {
+   "events": 1517,
+   "passes": [
+    476,
+    334
+   ],
+   "accuratePasses": [
+    393,
+    261
+   ],
+   "shots": [
+    10,
+    14
+   ],
+   "shotsOnTarget": [
+    3,
+    5
+   ],
+   "goals": [
+    0,
+    3
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    5,
+    2
+   ],
+   "xgUnits": [
+    11648,
+    14152
+   ]
+  },
+  "2057968": {
+   "events": 1667,
+   "passes": [
+    371,
+    499
+   ],
+   "accuratePasses": [
+    304,
+    420
+   ],
+   "shots": [
+    12,
+    10
+   ],
+   "shotsOnTarget": [
+    4,
+    2
+   ],
+   "goals": [
+    1,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    5,
+    3
+   ],
+   "xgUnits": [
+    17227,
+    4298
+   ]
+  },
+  "2057969": {
+   "events": 1563,
+   "passes": [
+    433,
+    483
+   ],
+   "accuratePasses": [
+    387,
+    417
+   ],
+   "shots": [
+    10,
+    13
+   ],
+   "shotsOnTarget": [
+    5,
+    4
+   ],
+   "goals": [
+    1,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    3,
+    5
+   ],
+   "xgUnits": [
+    9407,
+    15789
+   ]
+  },
+  "2057963": {
+   "events": 1602,
+   "passes": [
+    201,
+    760
+   ],
+   "accuratePasses": [
+    145,
+    683
+   ],
+   "shots": [
+    5,
+    15
+   ],
+   "shotsOnTarget": [
+    0,
+    3
+   ],
+   "goals": [
+    0,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    2,
+    6
+   ],
+   "xgUnits": [
+    4916,
+    22087
+   ]
+  },
+  "2057957": {
+   "events": 1635,
+   "passes": [
+    473,
+    553
+   ],
+   "accuratePasses": [
+    410,
+    482
+   ],
+   "shots": [
+    14,
+    8
+   ],
+   "shotsOnTarget": [
+    4,
+    3
+   ],
+   "goals": [
+    1,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    3,
+    4
+   ],
+   "xgUnits": [
+    15464,
+    5043
+   ]
+  },
+  "2057962": {
+   "events": 1662,
+   "passes": [
+    361,
+    444
+   ],
+   "accuratePasses": [
+    286,
+    365
+   ],
+   "shots": [
+    10,
+    16
+   ],
+   "shotsOnTarget": [
+    2,
+    4
+   ],
+   "goals": [
+    1,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    5,
+    7
+   ],
+   "xgUnits": [
+    6632,
+    15191
+   ]
+  },
+  "2057956": {
+   "events": 1613,
+   "passes": [
+    385,
+    420
+   ],
+   "accuratePasses": [
+    311,
+    348
+   ],
+   "shots": [
+    12,
+    13
+   ],
+   "shotsOnTarget": [
+    4,
+    1
+   ],
+   "goals": [
+    2,
+    1
+   ],
+   "ownGoalsFor": [
+    1,
+    0
+   ],
+   "corners": [
+    7,
+    4
+   ],
+   "xgUnits": [
+    8196,
+    16458
+   ]
+  },
+  "2057996": {
+   "events": 1490,
+   "passes": [
+    531,
+    349
+   ],
+   "accuratePasses": [
+    455,
+    283
+   ],
+   "shots": [
+    10,
+    8
+   ],
+   "shotsOnTarget": [
+    4,
+    2
+   ],
+   "goals": [
+    1,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    1
+   ],
+   "corners": [
+    3,
+    3
+   ],
+   "xgUnits": [
+    11546,
+    10219
+   ]
+  },
+  "2057997": {
+   "events": 1635,
+   "passes": [
+    362,
+    572
+   ],
+   "accuratePasses": [
+    294,
+    508
+   ],
+   "shots": [
+    8,
+    14
+   ],
+   "shotsOnTarget": [
+    3,
+    5
+   ],
+   "goals": [
+    1,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    3,
+    6
+   ],
+   "xgUnits": [
+    7772,
+    20873
+   ]
+  },
+  "2057991": {
+   "events": 1447,
+   "passes": [
+    331,
+    504
+   ],
+   "accuratePasses": [
+    272,
+    443
+   ],
+   "shots": [
+    6,
+    14
+   ],
+   "shotsOnTarget": [
+    1,
+    8
+   ],
+   "goals": [
+    1,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    2,
+    7
+   ],
+   "xgUnits": [
+    9722,
+    20674
+   ]
+  },
+  "2057990": {
+   "events": 1451,
+   "passes": [
+    547,
+    326
+   ],
+   "accuratePasses": [
+    478,
+    269
+   ],
+   "shots": [
+    16,
+    7
+   ],
+   "shotsOnTarget": [
+    6,
+    3
+   ],
+   "goals": [
+    3,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    9,
+    3
+   ],
+   "xgUnits": [
+    13891,
+    4811
+   ]
+  },
+  "2057985": {
+   "events": 1511,
+   "passes": [
+    416,
+    334
+   ],
+   "accuratePasses": [
+    356,
+    268
+   ],
+   "shots": [
+    15,
+    5
+   ],
+   "shotsOnTarget": [
+    4,
+    0
+   ],
+   "goals": [
+    1,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    6,
+    5
+   ],
+   "xgUnits": [
+    20207,
+    2179
+   ]
+  },
+  "2057978": {
+   "events": 1611,
+   "passes": [
+    519,
+    425
+   ],
+   "accuratePasses": [
+    452,
+    352
+   ],
+   "shots": [
+    19,
+    6
+   ],
+   "shotsOnTarget": [
+    4,
+    2
+   ],
+   "goals": [
+    1,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    7,
+    2
+   ],
+   "xgUnits": [
+    16722,
+    8603
+   ]
+  },
+  "2057984": {
+   "events": 1609,
+   "passes": [
+    573,
+    277
+   ],
+   "accuratePasses": [
+    498,
+    227
+   ],
+   "shots": [
+    25,
+    12
+   ],
+   "shotsOnTarget": [
+    9,
+    4
+   ],
+   "goals": [
+    0,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    8,
+    1
+   ],
+   "xgUnits": [
+    26530,
+    8065
+   ]
+  },
+  "2057979": {
+   "events": 1584,
+   "passes": [
+    427,
+    379
+   ],
+   "accuratePasses": [
+    363,
+    313
+   ],
+   "shots": [
+    10,
+    10
+   ],
+   "shotsOnTarget": [
+    3,
+    2
+   ],
+   "goals": [
+    0,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    5,
+    4
+   ],
+   "xgUnits": [
+    6187,
+    7963
+   ]
+  },
+  "2057973": {
+   "events": 1520,
+   "passes": [
+    452,
+    377
+   ],
+   "accuratePasses": [
+    372,
+    322
+   ],
+   "shots": [
+    10,
+    12
+   ],
+   "shotsOnTarget": [
+    2,
+    2
+   ],
+   "goals": [
+    1,
+    0
+   ],
+   "ownGoalsFor": [
+    1,
+    0
+   ],
+   "corners": [
+    6,
+    5
+   ],
+   "xgUnits": [
+    14838,
+    8340
+   ]
+  },
+  "2057967": {
+   "events": 1459,
+   "passes": [
+    389,
+    337
+   ],
+   "accuratePasses": [
+    330,
+    283
+   ],
+   "shots": [
+    15,
+    11
+   ],
+   "shotsOnTarget": [
+    6,
+    3
+   ],
+   "goals": [
+    0,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    3,
+    7
+   ],
+   "xgUnits": [
+    22670,
+    9218
+   ]
+  },
+  "2057972": {
+   "events": 1726,
+   "passes": [
+    744,
+    183
+   ],
+   "accuratePasses": [
+    675,
+    141
+   ],
+   "shots": [
+    26,
+    8
+   ],
+   "shotsOnTarget": [
+    6,
+    2
+   ],
+   "goals": [
+    1,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    10,
+    2
+   ],
+   "xgUnits": [
+    19792,
+    8739
+   ]
+  },
+  "2057966": {
+   "events": 1511,
+   "passes": [
+    502,
+    415
+   ],
+   "accuratePasses": [
+    427,
+    334
+   ],
+   "shots": [
+    11,
+    3
+   ],
+   "shotsOnTarget": [
+    4,
+    1
+   ],
+   "goals": [
+    1,
+    1
+   ],
+   "ownGoalsFor": [
+    1,
+    0
+   ],
+   "corners": [
+    5,
+    1
+   ],
+   "xgUnits": [
+    14436,
+    8391
+   ]
+  },
+  "2057960": {
+   "events": 1683,
+   "passes": [
+    349,
+    735
+   ],
+   "accuratePasses": [
+    300,
+    689
+   ],
+   "shots": [
+    8,
+    12
+   ],
+   "shotsOnTarget": [
+    3,
+    5
+   ],
+   "goals": [
+    3,
+    3
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    4,
+    5
+   ],
+   "xgUnits": [
+    11396,
+    18049
+   ]
+  },
+  "2057961": {
+   "events": 1316,
+   "passes": [
+    436,
+    194
+   ],
+   "accuratePasses": [
+    378,
+    135
+   ],
+   "shots": [
+    13,
+    7
+   ],
+   "shotsOnTarget": [
+    3,
+    2
+   ],
+   "goals": [
+    0,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    1
+   ],
+   "corners": [
+    5,
+    2
+   ],
+   "xgUnits": [
+    12151,
+    7569
+   ]
+  },
+  "2057955": {
+   "events": 1734,
+   "passes": [
+    421,
+    579
+   ],
+   "accuratePasses": [
+    345,
+    499
+   ],
+   "shots": [
+    7,
+    13
+   ],
+   "shotsOnTarget": [
+    3,
+    4
+   ],
+   "goals": [
+    0,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    0,
+    5
+   ],
+   "xgUnits": [
+    4871,
+    12317
+   ]
+  },
+  "2057954": {
+   "events": 1589,
+   "passes": [
+    311,
+    516
+   ],
+   "accuratePasses": [
+    243,
+    455
+   ],
+   "shots": [
+    12,
+    7
+   ],
+   "shotsOnTarget": [
+    7,
+    0
+   ],
+   "goals": [
+    5,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    6,
+    2
+   ],
+   "xgUnits": [
+    10709,
+    5040
+   ]
+  },
+  "1694440": {
+   "events": 2072,
+   "passes": [
+    557,
+    712
+   ],
+   "accuratePasses": [
+    486,
+    628
+   ],
+   "shots": [
+    10,
+    18
+   ],
+   "shotsOnTarget": [
+    3,
+    7
+   ],
+   "goals": [
+    1,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    5,
+    9
+   ],
+   "xgUnits": [
+    7401,
+    13470
+   ]
+  },
+  "1694439": {
+   "events": 1506,
+   "passes": [
+    644,
+    270
+   ],
+   "accuratePasses": [
+    566,
+    219
+   ],
+   "shots": [
+    16,
+    14
+   ],
+   "shotsOnTarget": [
+    6,
+    8
+   ],
+   "goals": [
+    0,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    6,
+    5
+   ],
+   "xgUnits": [
+    11739,
+    17552
+   ]
+  },
+  "1694438": {
+   "events": 1404,
+   "passes": [
+    386,
+    496
+   ],
+   "accuratePasses": [
+    332,
+    435
+   ],
+   "shots": [
+    17,
+    9
+   ],
+   "shotsOnTarget": [
+    5,
+    3
+   ],
+   "goals": [
+    2,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    6,
+    2
+   ],
+   "xgUnits": [
+    12204,
+    6660
+   ]
+  },
+  "1694437": {
+   "events": 1577,
+   "passes": [
+    627,
+    379
+   ],
+   "accuratePasses": [
+    579,
+    331
+   ],
+   "shots": [
+    15,
+    12
+   ],
+   "shotsOnTarget": [
+    8,
+    5
+   ],
+   "goals": [
+    5,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    4,
+    4
+   ],
+   "xgUnits": [
+    11086,
+    23525
+   ]
+  },
+  "1694436": {
+   "events": 1940,
+   "passes": [
+    799,
+    492
+   ],
+   "accuratePasses": [
+    705,
+    413
+   ],
+   "shots": [
+    13,
+    12
+   ],
+   "shotsOnTarget": [
+    4,
+    3
+   ],
+   "goals": [
+    1,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    7,
+    5
+   ],
+   "xgUnits": [
+    14130,
+    15545
+   ]
+  },
+  "1694435": {
+   "events": 1462,
+   "passes": [
+    390,
+    470
+   ],
+   "accuratePasses": [
+    345,
+    412
+   ],
+   "shots": [
+    15,
+    14
+   ],
+   "shotsOnTarget": [
+    7,
+    4
+   ],
+   "goals": [
+    3,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    7,
+    8
+   ],
+   "xgUnits": [
+    17874,
+    8632
+   ]
+  },
+  "1694434": {
+   "events": 2027,
+   "passes": [
+    630,
+    564
+   ],
+   "accuratePasses": [
+    539,
+    471
+   ],
+   "shots": [
+    13,
+    19
+   ],
+   "shotsOnTarget": [
+    5,
+    5
+   ],
+   "goals": [
+    1,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    2,
+    7
+   ],
+   "xgUnits": [
+    8573,
+    11063
+   ]
+  },
+  "1694433": {
+   "events": 1469,
+   "passes": [
+    514,
+    231
+   ],
+   "accuratePasses": [
+    453,
+    173
+   ],
+   "shots": [
+    18,
+    8
+   ],
+   "shotsOnTarget": [
+    5,
+    5
+   ],
+   "goals": [
+    1,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    7,
+    2
+   ],
+   "xgUnits": [
+    18907,
+    11005
+   ]
+  },
+  "1694432": {
+   "events": 1510,
+   "passes": [
+    349,
+    536
+   ],
+   "accuratePasses": [
+    287,
+    462
+   ],
+   "shots": [
+    11,
+    13
+   ],
+   "shotsOnTarget": [
+    7,
+    5
+   ],
+   "goals": [
+    2,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    5,
+    8
+   ],
+   "xgUnits": [
+    20003,
+    10597
+   ]
+  },
+  "1694431": {
+   "events": 1431,
+   "passes": [
+    462,
+    398
+   ],
+   "accuratePasses": [
+    402,
+    341
+   ],
+   "shots": [
+    16,
+    26
+   ],
+   "shotsOnTarget": [
+    5,
+    14
+   ],
+   "goals": [
+    0,
+    4
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    6,
+    8
+   ],
+   "xgUnits": [
+    10089,
+    33127
+   ]
+  },
+  "1694430": {
+   "events": 1519,
+   "passes": [
+    570,
+    348
+   ],
+   "accuratePasses": [
+    494,
+    297
+   ],
+   "shots": [
+    18,
+    7
+   ],
+   "shotsOnTarget": [
+    6,
+    2
+   ],
+   "goals": [
+    3,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    7,
+    1
+   ],
+   "xgUnits": [
+    22470,
+    3353
+   ]
+  },
+  "1694429": {
+   "events": 1422,
+   "passes": [
+    521,
+    227
+   ],
+   "accuratePasses": [
+    450,
+    172
+   ],
+   "shots": [
+    24,
+    6
+   ],
+   "shotsOnTarget": [
+    10,
+    1
+   ],
+   "goals": [
+    2,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    9,
+    1
+   ],
+   "xgUnits": [
+    30527,
+    12175
+   ]
+  },
+  "1694428": {
+   "events": 2033,
+   "passes": [
+    679,
+    453
+   ],
+   "accuratePasses": [
+    561,
+    368
+   ],
+   "shots": [
+    15,
+    4
+   ],
+   "shotsOnTarget": [
+    0,
+    2
+   ],
+   "goals": [
+    0,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    6,
+    2
+   ],
+   "xgUnits": [
+    23365,
+    4844
+   ]
+  },
+  "1694427": {
+   "events": 1434,
+   "passes": [
+    395,
+    274
+   ],
+   "accuratePasses": [
+    318,
+    220
+   ],
+   "shots": [
+    6,
+    5
+   ],
+   "shotsOnTarget": [
+    1,
+    3
+   ],
+   "goals": [
+    0,
+    0
+   ],
+   "ownGoalsFor": [
+    1,
+    0
+   ],
+   "corners": [
+    0,
+    6
+   ],
+   "xgUnits": [
+    2293,
+    2063
+   ]
+  },
+  "1694426": {
+   "events": 1848,
+   "passes": [
+    602,
+    463
+   ],
+   "accuratePasses": [
+    510,
+    382
+   ],
+   "shots": [
+    24,
+    19
+   ],
+   "shotsOnTarget": [
+    7,
+    4
+   ],
+   "goals": [
+    1,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    13,
+    4
+   ],
+   "xgUnits": [
+    11939,
+    13623
+   ]
+  },
+  "1694419": {
+   "events": 1382,
+   "passes": [
+    364,
+    365
+   ],
+   "accuratePasses": [
+    299,
+    288
+   ],
+   "shots": [
+    10,
+    21
+   ],
+   "shotsOnTarget": [
+    4,
+    8
+   ],
+   "goals": [
+    0,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    4,
+    12
+   ],
+   "xgUnits": [
+    9202,
+    14380
+   ]
+  },
+  "1694418": {
+   "events": 1338,
+   "passes": [
+    323,
+    286
+   ],
+   "accuratePasses": [
+    272,
+    235
+   ],
+   "shots": [
+    5,
+    12
+   ],
+   "shotsOnTarget": [
+    1,
+    4
+   ],
+   "goals": [
+    0,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    4,
+    4
+   ],
+   "xgUnits": [
+    2859,
+    8314
+   ]
+  },
+  "1694424": {
+   "events": 1350,
+   "passes": [
+    276,
+    511
+   ],
+   "accuratePasses": [
+    218,
+    451
+   ],
+   "shots": [
+    9,
+    18
+   ],
+   "shotsOnTarget": [
+    5,
+    6
+   ],
+   "goals": [
+    3,
+    3
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    3,
+    9
+   ],
+   "xgUnits": [
+    6514,
+    14334
+   ]
+  },
+  "1694425": {
+   "events": 1573,
+   "passes": [
+    243,
+    637
+   ],
+   "accuratePasses": [
+    182,
+    548
+   ],
+   "shots": [
+    10,
+    22
+   ],
+   "shotsOnTarget": [
+    3,
+    6
+   ],
+   "goals": [
+    2,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    3,
+    7
+   ],
+   "xgUnits": [
+    11197,
+    21428
+   ]
+  },
+  "1694413": {
+   "events": 1359,
+   "passes": [
+    369,
+    321
+   ],
+   "accuratePasses": [
+    290,
+    259
+   ],
+   "shots": [
+    13,
+    9
+   ],
+   "shotsOnTarget": [
+    5,
+    2
+   ],
+   "goals": [
+    0,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    7,
+    3
+   ],
+   "xgUnits": [
+    10319,
+    11858
+   ]
+  },
+  "1694412": {
+   "events": 1579,
+   "passes": [
+    294,
+    654
+   ],
+   "accuratePasses": [
+    246,
+    601
+   ],
+   "shots": [
+    13,
+    15
+   ],
+   "shotsOnTarget": [
+    4,
+    2
+   ],
+   "goals": [
+    2,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    3,
+    7
+   ],
+   "xgUnits": [
+    11499,
+    28008
+   ]
+  },
+  "1694406": {
+   "events": 1501,
+   "passes": [
+    568,
+    248
+   ],
+   "accuratePasses": [
+    488,
+    183
+   ],
+   "shots": [
+    19,
+    9
+   ],
+   "shotsOnTarget": [
+    4,
+    2
+   ],
+   "goals": [
+    0,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    3,
+    2
+   ],
+   "xgUnits": [
+    17734,
+    9369
+   ]
+  },
+  "1694407": {
+   "events": 1461,
+   "passes": [
+    150,
+    720
+   ],
+   "accuratePasses": [
+    110,
+    644
+   ],
+   "shots": [
+    2,
+    26
+   ],
+   "shotsOnTarget": [
+    1,
+    9
+   ],
+   "goals": [
+    0,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    3,
+    6
+   ],
+   "xgUnits": [
+    1919,
+    35273
+   ]
+  },
+  "1694400": {
+   "events": 1438,
+   "passes": [
+    337,
+    577
+   ],
+   "accuratePasses": [
+    283,
+    513
+   ],
+   "shots": [
+    3,
+    24
+   ],
+   "shotsOnTarget": [
+    1,
+    3
+   ],
+   "goals": [
+    0,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    0,
+    11
+   ],
+   "xgUnits": [
+    1067,
+    17615
+   ]
+  },
+  "1694401": {
+   "events": 1507,
+   "passes": [
+    448,
+    475
+   ],
+   "accuratePasses": [
+    374,
+    409
+   ],
+   "shots": [
+    12,
+    20
+   ],
+   "shotsOnTarget": [
+    2,
+    12
+   ],
+   "goals": [
+    0,
+    3
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    4,
+    5
+   ],
+   "xgUnits": [
+    11033,
+    19752
+   ]
+  },
+  "1694394": {
+   "events": 1509,
+   "passes": [
+    492,
+    330
+   ],
+   "accuratePasses": [
+    442,
+    274
+   ],
+   "shots": [
+    5,
+    13
+   ],
+   "shotsOnTarget": [
+    0,
+    4
+   ],
+   "goals": [
+    0,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    5,
+    10
+   ],
+   "xgUnits": [
+    1631,
+    8439
+   ]
+  },
+  "1694395": {
+   "events": 1482,
+   "passes": [
+    501,
+    265
+   ],
+   "accuratePasses": [
+    422,
+    204
+   ],
+   "shots": [
+    15,
+    12
+   ],
+   "shotsOnTarget": [
+    3,
+    5
+   ],
+   "goals": [
+    0,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    2,
+    6
+   ],
+   "xgUnits": [
+    5572,
+    9542
+   ]
+  },
+  "1694423": {
+   "events": 1551,
+   "passes": [
+    518,
+    338
+   ],
+   "accuratePasses": [
+    441,
+    270
+   ],
+   "shots": [
+    23,
+    3
+   ],
+   "shotsOnTarget": [
+    6,
+    1
+   ],
+   "goals": [
+    0,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    10,
+    0
+   ],
+   "xgUnits": [
+    22925,
+    1869
+   ]
+  },
+  "1694422": {
+   "events": 1512,
+   "passes": [
+    207,
+    625
+   ],
+   "accuratePasses": [
+    145,
+    546
+   ],
+   "shots": [
+    8,
+    12
+   ],
+   "shotsOnTarget": [
+    2,
+    4
+   ],
+   "goals": [
+    1,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    1
+   ],
+   "corners": [
+    3,
+    5
+   ],
+   "xgUnits": [
+    16284,
+    5185
+   ]
+  },
+  "1694417": {
+   "events": 1422,
+   "passes": [
+    465,
+    326
+   ],
+   "accuratePasses": [
+    415,
+    269
+   ],
+   "shots": [
+    17,
+    10
+   ],
+   "shotsOnTarget": [
+    7,
+    1
+   ],
+   "goals": [
+    3,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    5,
+    4
+   ],
+   "xgUnits": [
+    13070,
+    5326
+   ]
+  },
+  "1694411": {
+   "events": 1714,
+   "passes": [
+    679,
+    413
+   ],
+   "accuratePasses": [
+    619,
+    354
+   ],
+   "shots": [
+    18,
+    8
+   ],
+   "shotsOnTarget": [
+    6,
+    0
+   ],
+   "goals": [
+    3,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    7,
+    3
+   ],
+   "xgUnits": [
+    25924,
+    5257
+   ]
+  },
+  "1694410": {
+   "events": 1407,
+   "passes": [
+    331,
+    390
+   ],
+   "accuratePasses": [
+    264,
+    325
+   ],
+   "shots": [
+    7,
+    17
+   ],
+   "shotsOnTarget": [
+    4,
+    6
+   ],
+   "goals": [
+    2,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    2,
+    11
+   ],
+   "xgUnits": [
+    12610,
+    13636
+   ]
+  },
+  "1694416": {
+   "events": 1466,
+   "passes": [
+    418,
+    441
+   ],
+   "accuratePasses": [
+    349,
+    370
+   ],
+   "shots": [
+    7,
+    3
+   ],
+   "shotsOnTarget": [
+    3,
+    0
+   ],
+   "goals": [
+    1,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    6,
+    4
+   ],
+   "xgUnits": [
+    4898,
+    574
+   ]
+  },
+  "1694405": {
+   "events": 1631,
+   "passes": [
+    596,
+    246
+   ],
+   "accuratePasses": [
+    520,
+    183
+   ],
+   "shots": [
+    14,
+    7
+   ],
+   "shotsOnTarget": [
+    3,
+    0
+   ],
+   "goals": [
+    0,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    8,
+    2
+   ],
+   "xgUnits": [
+    11002,
+    9467
+   ]
+  },
+  "1694404": {
+   "events": 1383,
+   "passes": [
+    506,
+    198
+   ],
+   "accuratePasses": [
+    426,
+    142
+   ],
+   "shots": [
+    16,
+    12
+   ],
+   "shotsOnTarget": [
+    4,
+    7
+   ],
+   "goals": [
+    0,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    2,
+    3
+   ],
+   "xgUnits": [
+    7589,
+    13016
+   ]
+  },
+  "1694399": {
+   "events": 1431,
+   "passes": [
+    516,
+    195
+   ],
+   "accuratePasses": [
+    441,
+    138
+   ],
+   "shots": [
+    19,
+    7
+   ],
+   "shotsOnTarget": [
+    4,
+    3
+   ],
+   "goals": [
+    2,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    9,
+    3
+   ],
+   "xgUnits": [
+    34110,
+    3418
+   ]
+  },
+  "1694393": {
+   "events": 1571,
+   "passes": [
+    495,
+    320
+   ],
+   "accuratePasses": [
+    440,
+    259
+   ],
+   "shots": [
+    19,
+    6
+   ],
+   "shotsOnTarget": [
+    2,
+    0
+   ],
+   "goals": [
+    2,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    6,
+    4
+   ],
+   "xgUnits": [
+    13870,
+    4396
+   ]
+  },
+  "1694392": {
+   "events": 1516,
+   "passes": [
+    245,
+    520
+   ],
+   "accuratePasses": [
+    192,
+    449
+   ],
+   "shots": [
+    14,
+    17
+   ],
+   "shotsOnTarget": [
+    3,
+    6
+   ],
+   "goals": [
+    1,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    4,
+    7
+   ],
+   "xgUnits": [
+    15782,
+    14165
+   ]
+  },
+  "1694398": {
+   "events": 1456,
+   "passes": [
+    532,
+    268
+   ],
+   "accuratePasses": [
+    469,
+    219
+   ],
+   "shots": [
+    14,
+    10
+   ],
+   "shotsOnTarget": [
+    2,
+    4
+   ],
+   "goals": [
+    1,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    6,
+    5
+   ],
+   "xgUnits": [
+    10266,
+    6645
+   ]
+  },
+  "1694421": {
+   "events": 1504,
+   "passes": [
+    629,
+    193
+   ],
+   "accuratePasses": [
+    553,
+    133
+   ],
+   "shots": [
+    23,
+    4
+   ],
+   "shotsOnTarget": [
+    7,
+    4
+   ],
+   "goals": [
+    1,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    10,
+    2
+   ],
+   "xgUnits": [
+    13915,
+    7907
+   ]
+  },
+  "1694420": {
+   "events": 1410,
+   "passes": [
+    389,
+    381
+   ],
+   "accuratePasses": [
+    302,
+    297
+   ],
+   "shots": [
+    13,
+    15
+   ],
+   "shotsOnTarget": [
+    3,
+    7
+   ],
+   "goals": [
+    0,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    4,
+    4
+   ],
+   "xgUnits": [
+    9813,
+    9944
+   ]
+  },
+  "1694415": {
+   "events": 1557,
+   "passes": [
+    522,
+    392
+   ],
+   "accuratePasses": [
+    444,
+    313
+   ],
+   "shots": [
+    18,
+    11
+   ],
+   "shotsOnTarget": [
+    3,
+    5
+   ],
+   "goals": [
+    0,
+    2
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    8,
+    6
+   ],
+   "xgUnits": [
+    9279,
+    12326
+   ]
+  },
+  "1694414": {
+   "events": 1267,
+   "passes": [
+    219,
+    391
+   ],
+   "accuratePasses": [
+    163,
+    323
+   ],
+   "shots": [
+    8,
+    5
+   ],
+   "shotsOnTarget": [
+    4,
+    0
+   ],
+   "goals": [
+    1,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    1
+   ],
+   "corners": [
+    5,
+    5
+   ],
+   "xgUnits": [
+    4532,
+    5822
+   ]
+  },
+  "1694409": {
+   "events": 1515,
+   "passes": [
+    687,
+    227
+   ],
+   "accuratePasses": [
+    613,
+    157
+   ],
+   "shots": [
+    15,
+    5
+   ],
+   "shotsOnTarget": [
+    5,
+    3
+   ],
+   "goals": [
+    1,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    14,
+    3
+   ],
+   "xgUnits": [
+    20966,
+    5809
+   ]
+  },
+  "1694403": {
+   "events": 1492,
+   "passes": [
+    657,
+    279
+   ],
+   "accuratePasses": [
+    594,
+    209
+   ],
+   "shots": [
+    18,
+    6
+   ],
+   "shotsOnTarget": [
+    9,
+    4
+   ],
+   "goals": [
+    2,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    6,
+    12
+   ],
+   "xgUnits": [
+    13438,
+    4485
+   ]
+  },
+  "1694402": {
+   "events": 1345,
+   "passes": [
+    467,
+    252
+   ],
+   "accuratePasses": [
+    416,
+    203
+   ],
+   "shots": [
+    17,
+    1
+   ],
+   "shotsOnTarget": [
+    4,
+    0
+   ],
+   "goals": [
+    1,
+    0
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    8,
+    1
+   ],
+   "xgUnits": [
+    12143,
+    195
+   ]
+  },
+  "1694408": {
+   "events": 1414,
+   "passes": [
+    366,
+    346
+   ],
+   "accuratePasses": [
+    311,
+    274
+   ],
+   "shots": [
+    9,
+    17
+   ],
+   "shotsOnTarget": [
+    2,
+    6
+   ],
+   "goals": [
+    0,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    3,
+    5
+   ],
+   "xgUnits": [
+    4473,
+    15048
+   ]
+  },
+  "1694397": {
+   "events": 1503,
+   "passes": [
+    426,
+    387
+   ],
+   "accuratePasses": [
+    360,
+    316
+   ],
+   "shots": [
+    14,
+    6
+   ],
+   "shotsOnTarget": [
+    5,
+    2
+   ],
+   "goals": [
+    1,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    6,
+    4
+   ],
+   "xgUnits": [
+    12284,
+    4220
+   ]
+  },
+  "1694396": {
+   "events": 1539,
+   "passes": [
+    340,
+    465
+   ],
+   "accuratePasses": [
+    281,
+    402
+   ],
+   "shots": [
+    9,
+    13
+   ],
+   "shotsOnTarget": [
+    7,
+    3
+   ],
+   "goals": [
+    2,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    2,
+    3
+   ],
+   "xgUnits": [
+    7924,
+    8336
+   ]
+  },
+  "1694391": {
+   "events": 1518,
+   "passes": [
+    388,
+    532
+   ],
+   "accuratePasses": [
+    331,
+    473
+   ],
+   "shots": [
+    7,
+    16
+   ],
+   "shotsOnTarget": [
+    2,
+    7
+   ],
+   "goals": [
+    0,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    4,
+    4
+   ],
+   "xgUnits": [
+    7443,
+    11319
+   ]
+  },
+  "1694390": {
+   "events": 1637,
+   "passes": [
+    501,
+    279
+   ],
+   "accuratePasses": [
+    419,
+    207
+   ],
+   "shots": [
+    14,
+    9
+   ],
+   "shotsOnTarget": [
+    6,
+    2
+   ],
+   "goals": [
+    2,
+    1
+   ],
+   "ownGoalsFor": [
+    0,
+    0
+   ],
+   "corners": [
+    5,
+    4
+   ],
+   "xgUnits": [
+    13385,
+    15498
+   ]
+  }
+ },
+ "passNetwork": {
+  "2058017": {
+   "team": 0,
+   "edges": [
+    [
+     "P. Pogba",
+     "K. Mbappé",
+     8
+    ],
+    [
+     "O. Giroud",
+     "A. Griezmann",
+     5
+    ],
+    [
+     "P. Pogba",
+     "B. Pavard",
+     5
+    ],
+    [
+     "A. Griezmann",
+     "B. Matuidi",
+     4
+    ],
+    [
+     "S. N'Zonzi",
+     "A. Griezmann",
+     4
+    ],
+    [
+     "S. Umtiti",
+     "P. Pogba",
+     4
+    ],
+    [
+     "A. Griezmann",
+     "P. Pogba",
+     3
+    ],
+    [
+     "B. Matuidi",
+     "L. Hernández",
+     3
+    ],
+    [
+     "B. Matuidi",
+     "N. Kanté",
+     3
+    ],
+    [
+     "B. Matuidi",
+     "P. Pogba",
+     3
+    ],
+    [
+     "B. Matuidi",
+     "S. Umtiti",
+     3
+    ],
+    [
+     "B. Pavard",
+     "K. Mbappé",
+     3
+    ],
+    [
+     "B. Pavard",
+     "R. Varane",
+     3
+    ],
+    [
+     "H. Lloris",
+     "O. Giroud",
+     3
+    ],
+    [
+     "L. Hernández",
+     "B. Matuidi",
+     3
+    ],
+    [
+     "L. Hernández",
+     "N. Kanté",
+     3
+    ],
+    [
+     "N. Kanté",
+     "B. Matuidi",
+     3
+    ],
+    [
+     "P. Pogba",
+     "B. Matuidi",
+     3
+    ],
+    [
+     "P. Pogba",
+     "S. N'Zonzi",
+     3
+    ],
+    [
+     "R. Varane",
+     "B. Pavard",
+     3
+    ],
+    [
+     "R. Varane",
+     "H. Lloris",
+     3
+    ],
+    [
+     "S. N'Zonzi",
+     "P. Pogba",
+     3
+    ],
+    [
+     "S. Umtiti",
+     "O. Giroud",
+     3
+    ]
+   ]
+  },
+  "1694440": {
+   "team": 0,
+   "edges": [
+    [
+     "José Fonte",
+     "Raphaël Guerreiro",
+     15
+    ],
+    [
+     "Raphaël Guerreiro",
+     "João Mário",
+     14
+    ],
+    [
+     "José Fonte",
+     "William Carvalho",
+     13
+    ],
+    [
+     "Raphaël Guerreiro",
+     "José Fonte",
+     11
+    ],
+    [
+     "João Mário",
+     "Raphaël Guerreiro",
+     10
+    ],
+    [
+     "Rui Patrício",
+     "José Fonte",
+     10
+    ],
+    [
+     "William Carvalho",
+     "Cédric Soares",
+     10
+    ],
+    [
+     "José Fonte",
+     "Rui Patrício",
+     9
+    ],
+    [
+     "William Carvalho",
+     "José Fonte",
+     9
+    ],
+    [
+     "Cédric Soares",
+     "Ricardo Quaresma",
+     8
+    ],
+    [
+     "Pepe",
+     "Cédric Soares",
+     8
+    ],
+    [
+     "William Carvalho",
+     "João Mário",
+     8
+    ],
+    [
+     "Adrien Silva",
+     "José Fonte",
+     7
+    ],
+    [
+     "João Moutinho",
+     "Nani",
+     7
+    ],
+    [
+     "Pepe",
+     "José Fonte",
+     7
+    ],
+    [
+     "Pepe",
+     "William Carvalho",
+     7
+    ],
+    [
+     "Renato Sanches",
+     "William Carvalho",
+     7
+    ],
+    [
+     "Rui Patrício",
+     "Pepe",
+     7
+    ],
+    [
+     "William Carvalho",
+     "Raphaël Guerreiro",
+     7
+    ],
+    [
+     "Adrien Silva",
+     "Raphaël Guerreiro",
+     6
+    ],
+    [
+     "Cédric Soares",
+     "Pepe",
+     6
+    ],
+    [
+     "José Fonte",
+     "Pepe",
+     6
+    ],
+    [
+     "João Mário",
+     "Renato Sanches",
+     6
+    ],
+    [
+     "Raphaël Guerreiro",
+     "Adrien Silva",
+     6
+    ],
+    [
+     "Raphaël Guerreiro",
+     "Renato Sanches",
+     6
+    ],
+    [
+     "William Carvalho",
+     "Pepe",
+     6
+    ],
+    [
+     "William Carvalho",
+     "Renato Sanches",
+     6
+    ],
+    [
+     "Cédric Soares",
+     "Nani",
+     5
+    ],
+    [
+     "José Fonte",
+     "Adrien Silva",
+     5
+    ],
+    [
+     "João Mário",
+     "Ricardo Quaresma",
+     5
+    ],
+    [
+     "Pepe",
+     "Rui Patrício",
+     5
+    ],
+    [
+     "William Carvalho",
+     "Adrien Silva",
+     5
+    ],
+    [
+     "Adrien Silva",
+     "William Carvalho",
+     4
+    ],
+    [
+     "José Fonte",
+     "Renato Sanches",
+     4
+    ],
+    [
+     "João Mário",
+     "José Fonte",
+     4
+    ],
+    [
+     "João Mário",
+     "João Moutinho",
+     4
+    ],
+    [
+     "Nani",
+     "Cédric Soares",
+     4
+    ],
+    [
+     "Raphaël Guerreiro",
+     "William Carvalho",
+     4
+    ],
+    [
+     "Renato Sanches",
+     "Adrien Silva",
+     4
+    ],
+    [
+     "Renato Sanches",
+     "José Fonte",
+     4
+    ],
+    [
+     "Renato Sanches",
+     "Raphaël Guerreiro",
+     4
+    ],
+    [
+     "Éder",
+     "Nani",
+     4
+    ],
+    [
+     "Adrien Silva",
+     "Renato Sanches",
+     3
+    ],
+    [
+     "João Moutinho",
+     "João Mário",
+     3
+    ],
+    [
+     "João Moutinho",
+     "Pepe",
+     3
+    ],
+    [
+     "João Mário",
+     "Cédric Soares",
+     3
+    ],
+    [
+     "João Mário",
+     "Nani",
+     3
+    ],
+    [
+     "João Mário",
+     "William Carvalho",
+     3
+    ],
+    [
+     "Nani",
+     "João Moutinho",
+     3
+    ],
+    [
+     "Nani",
+     "João Mário",
+     3
+    ],
+    [
+     "Nani",
+     "Éder",
+     3
+    ],
+    [
+     "Raphaël Guerreiro",
+     "Ricardo Quaresma",
+     3
+    ],
+    [
+     "Renato Sanches",
+     "Cédric Soares",
+     3
+    ],
+    [
+     "Renato Sanches",
+     "João Mário",
+     3
+    ],
+    [
+     "Ricardo Quaresma",
+     "Cédric Soares",
+     3
+    ],
+    [
+     "Ricardo Quaresma",
+     "João Moutinho",
+     3
+    ],
+    [
+     "Ricardo Quaresma",
+     "Renato Sanches",
+     3
+    ],
+    [
+     "Ricardo Quaresma",
+     "William Carvalho",
+     3
+    ],
+    [
+     "Rui Patrício",
+     "Nani",
+     3
+    ],
+    [
+     "Rui Patrício",
+     "William Carvalho",
+     3
+    ],
+    [
+     "William Carvalho",
+     "João Moutinho",
+     3
+    ],
+    [
+     "William Carvalho",
+     "Nani",
+     3
+    ],
+    [
+     "Éder",
+     "João Moutinho",
+     3
+    ]
+   ]
+  }
+ }
+}

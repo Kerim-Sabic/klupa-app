@@ -1,0 +1,252 @@
+{
+  "nav": {
+    "label": "Glavna navigacija",
+    "home": "Početna",
+    "matches": "Utakmice",
+    "training": "Trening",
+    "fairness": "Pravednost",
+    "club": "Klub",
+    "public": {
+      "label": "Razgledaj",
+      "pro": "Profesionalne utakmice",
+      "replay": "3D snimak",
+      "shot": "Laboratorij udarca",
+      "overlay": "Igrači na snimku",
+      "research": "Istraživanje"
+    }
+  },
+  "auth": {
+    "title": "Prijava u Klupu",
+    "intro": "Poslat ćemo vam šestocifreni kod na e-mail. Nema lozinke koju treba pamtiti, niti je čuvamo.",
+    "email": "E-mail",
+    "sendCode": "Pošalji mi kod",
+    "codeLabel": "Šestocifreni kod",
+    "codeHint": "Poslano na {{email}}",
+    "verify": "Prijavi se",
+    "changeEmail": "Koristi drugi e-mail",
+    "or": "ili",
+    "demo": "Isprobaj demo klub",
+    "demoHint": "Bez naloga. Primjer selekcije U13, briše se nakon sedam dana.",
+    "evidenceLink": "Pogledaj istraživanje iza svega",
+    "signOut": "Odjava",
+    "emailInvalid": "Unesite ispravnu e-mail adresu.",
+    "codeInvalid": "Unesite šest cifara iz e-maila."
+  },
+  "welcome": {
+    "title": "Otvorite svoj klub",
+    "intro": "Dva podatka i na terenu ste. Oba možete kasnije promijeniti.",
+    "clubName": "Naziv kluba",
+    "teamName": "Naziv tima",
+    "ageGroup": "Uzrast",
+    "create": "Kreiraj klub",
+    "demoClub": "Demo klub",
+    "demoTeam": "Selekcija U13",
+    "nameInvalid": "Unesite između 2 i 60 znakova.",
+    "demoNote": "Dolazi s izmišljenom sezonom, da svaki ekran ima šta pokazati."
+  },
+  "ageGroup": {
+    "u7": "U7",
+    "u9": "U9",
+    "u11": "U11",
+    "u13": "U13",
+    "u15": "U15",
+    "u17": "U17",
+    "u19": "U19",
+    "senior": "Seniori"
+  },
+  "home": {
+    "title": "Danas",
+    "subtitle": "{{team}} · {{club}}",
+    "actions": {
+      "record": "Zabilježi utakmicu",
+      "plan": "Isplaniraj trening"
+    },
+    "loading": "Učitavam današnji pregled",
+    "loadFailed": "Današnji pregled se nije mogao učitati.",
+    "rings": {
+      "title": "Kako ekipa stoji",
+      "detail": "Od početka sezone. Dodirnite mjeru da vidite kako se računa.",
+      "figure": "Tri prstena, od vanjskog prema unutrašnjem",
+      "notYet": "Još ne",
+      "fair": {
+        "label": "Pravedne minute",
+        "detail": "Igralo {{part}} od {{of}} igrača",
+        "empty": "Još nema zabilježenih minuta s utakmica"
+      },
+      "observed": {
+        "label": "Viđeni",
+        "detail": "{{part}} od {{of}} viđeno {{min}}+ puta",
+        "empty": "Na treninzima još ništa nije zabilježeno"
+      },
+      "effort": {
+        "label": "Zabilježen napor",
+        "detail": "Ocijenjeno {{part}} od {{of}} minuta",
+        "empty": "Još nema zabilježenih minuta treninga"
+      }
+    },
+    "needs": {
+      "title": "Šta traži vašu pažnju",
+      "none": "Trenutno ništa ne traži vašu pažnju. Prstenovi iznad pokazuju kako stojite.",
+      "kicker": {
+        "load": "Dobrobit",
+        "secondLook": "Pravedne prilike",
+        "focus": "Sljedeći trening",
+        "pitch": "Korištenje terena"
+      },
+      "load_one": "Opterećenje na treningu ove sedmice naglo je poraslo kod {{count}} igrača, do {{ratio}}× uobičajenog.",
+      "load_few": "Opterećenje na treningu ove sedmice naglo je poraslo kod {{count}} igrača, do {{ratio}}× uobičajenog.",
+      "load_other": "Opterećenje na treningu ove sedmice naglo je poraslo kod {{count}} igrača, do {{ratio}}× uobičajenog.",
+      "loadAction": "Pregledaj opterećenje",
+      "secondLook_one": "{{count}} igrač zaslužuje još jedan pogled: viđeno manje od {{min}} pokušaja.",
+      "secondLook_few": "{{count}} igrača zaslužuju još jedan pogled: svakom viđeno manje od {{min}} pokušaja.",
+      "secondLook_other": "{{count}} igrača zaslužuje još jedan pogled: svakom viđeno manje od {{min}} pokušaja.",
+      "secondLookAction": "Pogledaj koji",
+      "focus": {
+        "lostOwnHalf": "Prošla utakmica: {{lost}} izgubljenih lopti na vlastitoj polovini. Prijedlog fokusa: {{focus}}.",
+        "entriesWithoutShots": "Prošla utakmica: {{entries}} ulazaka u šesnaesterac, a udaraca samo {{shots}}. Prijedlog fokusa: {{focus}}.",
+        "opponentHighRecoveries": "Prošla utakmica: protivnik je visoko oteo loptu {{recoveries}} puta. Prijedlog fokusa: {{focus}}.",
+        "fewHighRecoveries": "Prošla utakmica: visoko ste oteli loptu {{ours}} puta, protivnik {{theirs}}. Prijedlog fokusa: {{focus}}.",
+        "chanceQualityGap": "Prošla utakmica: njihove šanse vrijede {{theirs}} xG, vaše {{ours}}. Prijedlog fokusa: {{focus}}."
+      },
+      "focusAction": "Isplaniraj ovaj trening",
+      "pitch_one": "{{count}} trening stao bi na manji teren, što oslobađa {{hours}} h terena.",
+      "pitch_few": "{{count}} treninga stala bi na manji teren, što oslobađa {{hours}} h terena.",
+      "pitch_other": "{{count}} treninga stalo bi na manji teren, što oslobađa {{hours}} h terena.",
+      "pitchAction": "Pogledaj treninge"
+    },
+    "match": {
+      "title": "Posljednja utakmica",
+      "liveTitle": "Upravo se igra",
+      "none": "Još nema završene utakmice. Zabilježite jednu i ovdje ćete vidjeti kako je prošla.",
+      "against": "Protivnik: {{opponent}}",
+      "scoreLabel": "Rezultat: mi {{home}}, oni {{away}}",
+      "strip": "Ko je imao inicijativu kroz utakmicu: {{summary}}.",
+      "share": "{{state}} {{percent}}",
+      "lead": "{{state}}: {{percent}} utakmice",
+      "noEvents": "U ovoj utakmici nije zabilježen nijedan događaj.",
+      "eventsFailed": "Događaji utakmice se nisu mogli učitati.",
+      "open": "Otvori analizu",
+      "openLabel": "Otvori analizu utakmice, protivnik: {{opponent}}",
+      "live": {
+        "badge": "Uživo",
+        "body": "Ova utakmica se upravo bilježi.",
+        "open": "Otvori bilježenje",
+        "watch": "Prati uživo"
+      }
+    },
+    "setup": {
+      "title": "Za početak",
+      "progress": "Završeno {{done}} od {{total}}",
+      "done": "Gotovo",
+      "next": "Sljedeći korak",
+      "squad": {
+        "title": "Dodajte ekipu",
+        "body": "Oznaka i broj dresa za svakog igrača. Imena nisu potrebna."
+      },
+      "match": {
+        "title": "Zabilježite utakmicu",
+        "body": "Dva dodira po događaju, uz aut-liniju."
+      },
+      "training": {
+        "title": "Isplanirajte trening",
+        "body": "Trening po mjeri igrača, terena i vremena koje imate."
+      }
+    },
+    "demo": {
+      "title": "Vaš demo klub je prazan",
+      "body": "Učitajte izmišljenu sezonu utakmica i treninga da vidite svaki ekran sa stvarnim brojkama. Ništa u njoj se ne odnosi na stvarnu djecu."
+    },
+    "more": {
+      "title": "Dublje",
+      "evidence": {
+        "title": "Dokazi",
+        "body": "Zašto jedan grafikon inicijative nije dovoljan: naši testovi na profesionalnim utakmicama."
+      },
+      "labs": "Laboratorij",
+      "labsNote": "Eksperimenti koje isprobavamo. Mogu se mijenjati.",
+      "movement": {
+        "title": "Snimak utakmice",
+        "body": "Profesionalna utakmica u 3D: svaki igrač, oblik ekipe i ko kontroliše koji prostor."
+      },
+      "shot": {
+        "title": "Laboratorij udarca",
+        "body": "Udarac analiziran na vašem telefonu iz kratkog snimka: kontakt, koljeno, trup i stajna noga."
+      },
+      "pro": {
+        "title": "Profesionalne utakmice",
+        "body": "Isti motor čita svih 115 utakmica Svjetskog prvenstva 2018. i Eura 2016; vaše utakmice čita na isti način."
+      }
+    }
+  },
+  "errors": {
+    "offline": "Nema internet veze. Provjerite signal i pokušajte ponovo.",
+    "forbidden": "Nemate dozvolu za to.",
+    "rateLimited": "Previše pokušaja. Sačekajte minutu i pokušajte ponovo.",
+    "duplicate": "To već postoji.",
+    "invalid": "Nešto nije u redu. Provjerite podatke i pokušajte ponovo.",
+    "unknown": "Nešto je pošlo po zlu. Pokušajte ponovo.",
+    "loadFailed": "Ovo se nije moglo učitati."
+  },
+  "notFound": {
+    "title": "Stranica nije pronađena",
+    "body": "Ta adresa ne vodi nikuda u Klupi.",
+    "back": "Nazad na početnu"
+  },
+  "landing": {
+    "title": "Utakmica, pošteno pročitana.",
+    "lead": "Dodirom bilježite šta se dešava na terenu. Klupa pokazuje ko je imao inicijativu, koliko tome možete vjerovati, šta trenirati u ponedjeljak i ko još čeka svoje minute.",
+    "signIn": "Prijava",
+    "signInDetail": "Za trenere koji već koriste Klupu ili otvaraju pravi klub.",
+    "replay": {
+      "title": "Cijela utakmica, u tri dimenzije.",
+      "body": "Stvarno praćenje igrača sa sedam profesionalnih utakmica. Okrenite teren, pratite jednog igrača, pročitajte fizički izvještaj.",
+      "link": "Otvori snimak",
+      "label": "Igrači se kreću po terenu nacrtanom u 3D, prema podacima praćenja s profesionalne utakmice.",
+      "pause": "Zaustavi video",
+      "play": "Pusti video"
+    },
+    "tiles": {
+      "reading": {
+        "title": "Ko je imao inicijativu. I koliko tome vjerovati.",
+        "body": "Tri vremenska perioda čitaju se odjednom. Kad se ne slažu, Klupa to kaže umjesto da nacrta jednu samouvjerenu liniju.",
+        "label": "Primjer: tri linije za posljednje 3, 5 i 10 minuta. Tamo gdje pokazuju na različite ekipe, zaključak je da zavisi od perioda.",
+        "w3": "3 min",
+        "w5": "5 min",
+        "w10": "10 min"
+      },
+      "fair": {
+        "title": "Svako dijete dobija minute.",
+        "body": "Minute u igri, pažnja i trud, izbrojani kroz cijelu sezonu.",
+        "label": "Primjer tri sezonska prstena"
+      },
+      "final": {
+        "title": "Finale, baš kako se odvijalo.",
+        "body": "115 profesionalnih utakmica možete pustiti minutu po minutu: rezultat, šanse, mreža dodavanja, teritorija.",
+        "home": "Francuska",
+        "away": "Hrvatska",
+        "meta": "Moskva, 15. juli 2018.",
+        "score": "Francuska 4, Hrvatska 2",
+        "link": "Gledaj kao uživo"
+      },
+      "shot": {
+        "title": "Udarac, izmjeren na telefonu.",
+        "body": "Usmjerite kameru na udarac i pročitajte pokret kao kostur, zglob po zglob.",
+        "link": "Otvori laboratorij udarca",
+        "figure": "slika napušta telefon. Analiza se radi na uređaju.",
+        "overlay": "Pratite igrače na snimku"
+      },
+      "research": {
+        "title": "Provjereno na stvarnim utakmicama.",
+        "body": "Koliko često trominutni i desetominutni pogled na istu utakmicu pokazuju na različite ekipe.",
+        "figure": "{{share}} trenutaka u kojima oba pogleda naginju na jednu stranu, na {{matches}} utakmica."
+      }
+    },
+    "matchday": {
+      "title": "Jedan dodir kraj terena. Vidi ga cijela klupa.",
+      "body": "Trener dodirom bilježi šta se dešava, i kad nema signala. Svako iz kluba ko gleda na drugom telefonu vidi rezultat, ko ima inicijativu i koliko se tome može vjerovati.",
+      "label": "Primjer prikaza utakmice uživo: U13 vodi protiv gostiju 2 prema 1 i ima inicijativu.",
+      "home": "U13",
+      "away": "Gosti"
+    }
+  }
+}

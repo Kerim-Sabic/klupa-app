@@ -1,0 +1,68 @@
+name: Backup
+
+# A weekly dump of the whole database, encrypted before it leaves the runner and kept as a
+# workflow artifact for thirty days. The free database plan has no backups of its own.
+#
+# It needs two repository secrets: SUPABASE_DB_URL (the project's connection string) and
+# BACKUP_PASSPHRASE. Until both are set it reports that and does nothing.
+
+on:
+  schedule:
+    - cron: '30 2 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: backup
+  cancel-in-progress: false
+
+jobs:
+  dump:
+    name: Encrypted database dump
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+      BACKUP_PASSPHRASE: ${{ secrets.BACKUP_PASSPHRASE }}
+      # Where pg_dump comes from, pinned by digest so the tag cannot be moved to other contents.
+      # It must stay on the server's major version (17). To move to a newer build of the tag:
+      # docker buildx imagetools inspect postgres:17-alpine
+      POSTGRES_IMAGE: postgres@sha256:e5d2edd28b1f8d40a0a6c0c9cdc545b19b56a0d5d88f94bc11a97d970d4700d0 # 17-alpine (17.11)
+    steps:
+      # A run without the secrets ends green, so it says on the run's own page that it did
+      # nothing: a green tick alone must not read as "a backup exists".
+      - name: Say so when the secrets are missing
+        if: env.SUPABASE_DB_URL == '' || env.BACKUP_PASSPHRASE == ''
+        run: |
+          echo "::warning::SUPABASE_DB_URL or BACKUP_PASSPHRASE is not set, so no backup was taken."
+          echo "skipped: secret not set (SUPABASE_DB_URL or BACKUP_PASSPHRASE). No backup was taken." >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Dump the accounts, then the app's schemas, with the server's own version of pg_dump
+        if: env.SUPABASE_DB_URL != '' && env.BACKUP_PASSPHRASE != ''
+        run: |
+          # Accounts first: memberships point at them, so a restore loads the file top to bottom.
+          docker run --rm -e PGCONNECT_TIMEOUT=20 "$POSTGRES_IMAGE" \
+            pg_dump "$SUPABASE_DB_URL" --data-only --table=auth.users --table=auth.identities \
+            > klupa.sql
+          test -s klupa.sql
+          docker run --rm -e PGCONNECT_TIMEOUT=20 "$POSTGRES_IMAGE" \
+            pg_dump "$SUPABASE_DB_URL" --schema=public --schema=app --no-owner --no-privileges \
+            >> klupa.sql
+
+      - name: Encrypt it, and remove the plain file
+        if: env.SUPABASE_DB_URL != '' && env.BACKUP_PASSPHRASE != ''
+        run: |
+          gpg --batch --yes --symmetric --cipher-algo AES256 \
+            --passphrase "$BACKUP_PASSPHRASE" --output klupa.sql.gpg klupa.sql
+          rm klupa.sql
+
+      - name: Keep the encrypted dump for thirty days
+        if: env.SUPABASE_DB_URL != '' && env.BACKUP_PASSPHRASE != ''
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: klupa-backup-${{ github.run_id }}
+          path: klupa.sql.gpg
+          retention-days: 30
+          if-no-files-found: error

@@ -1,0 +1,55 @@
+{
+  "status": {
+    "title": "Status",
+    "subtitle": "How the live service is doing right now, measured by the service itself. The monitor that raises the alarm reads the same numbers.",
+    "link": "Service status",
+    "loading": "Asking the service",
+    "failed": {
+      "title": "The status could not be read",
+      "body": "The health endpoint did not answer. That may itself be the problem."
+    },
+    "overall": {
+      "ok": "Everything is answering",
+      "degraded": "Something is not answering"
+    },
+    "services": {
+      "title": "Services",
+      "database": "Database",
+      "auth": "Sign-in",
+      "ok": "Up",
+      "notOk": "Down",
+      "up": "answered in {{ms}} ms",
+      "down": "{{reason}}",
+      "reason": {
+        "not_configured": "not configured",
+        "timeout": "timed out",
+        "unreachable": "unreachable",
+        "bad_answer": "unexpected answer"
+      }
+    },
+    "errors": {
+      "title": "Errors people hit",
+      "hour": "Last hour",
+      "day": "Last 24 hours",
+      "kinds": "different errors: {{kinds}}",
+      "note": "A report carries the error and the kind of screen, never anyone's data."
+    },
+    "speed": {
+      "title": "Page speed this week",
+      "lcp": "Largest thing on screen appears",
+      "inp": "Slowest tap answers",
+      "cls": "Layout movement",
+      "unmeasured": "not measured yet",
+      "none": "No page loads have been measured yet.",
+      "note": "Three in four page loads were at least this good. Measured page loads: {{samples}}.",
+      "rating": {
+        "good": "Good",
+        "fair": "Needs work",
+        "poor": "Poor"
+      }
+    },
+    "noPulse": "The error and page-speed numbers are not available right now.",
+    "unknownRelease": "unknown",
+    "footer": "Release {{commit}}, checked {{time}}. The answer can be up to fifteen seconds old."
+  }
+}

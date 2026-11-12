@@ -1,0 +1,252 @@
+{
+  "nav": {
+    "label": "Main",
+    "home": "Home",
+    "matches": "Matches",
+    "training": "Training",
+    "fairness": "Fairness",
+    "club": "Club",
+    "public": {
+      "label": "Explore",
+      "pro": "Pro matches",
+      "replay": "3D replay",
+      "shot": "Shot lab",
+      "overlay": "Player overlay",
+      "research": "Research"
+    }
+  },
+  "auth": {
+    "title": "Sign in to Klupa",
+    "intro": "We email you a 6-digit code. No password to remember, and none stored.",
+    "email": "Email",
+    "sendCode": "Email me a code",
+    "codeLabel": "6-digit code",
+    "codeHint": "Sent to {{email}}",
+    "verify": "Sign in",
+    "changeEmail": "Use a different email",
+    "or": "or",
+    "demo": "Try the demo club",
+    "demoHint": "No account needed. A sample under-13 squad, deleted after a week.",
+    "evidenceLink": "See the research behind it",
+    "signOut": "Sign out",
+    "emailInvalid": "Enter a valid email address.",
+    "codeInvalid": "Enter the 6 digits from the email."
+  },
+  "welcome": {
+    "title": "Set up your club",
+    "intro": "Two details and you are on the pitch. You can change both later.",
+    "clubName": "Club name",
+    "teamName": "Team name",
+    "ageGroup": "Age group",
+    "create": "Create club",
+    "demoClub": "Demo club",
+    "demoTeam": "Under-13s",
+    "nameInvalid": "Use between 2 and 60 characters.",
+    "demoNote": "It comes with an invented season, so every screen has something in it."
+  },
+  "ageGroup": {
+    "u7": "U7",
+    "u9": "U9",
+    "u11": "U11",
+    "u13": "U13",
+    "u15": "U15",
+    "u17": "U17",
+    "u19": "U19",
+    "senior": "Seniors"
+  },
+  "home": {
+    "title": "Today",
+    "subtitle": "{{team}} · {{club}}",
+    "actions": {
+      "record": "Record a match",
+      "plan": "Plan training"
+    },
+    "loading": "Loading today's overview",
+    "loadFailed": "Today's overview could not be loaded.",
+    "rings": {
+      "title": "Where the team stands",
+      "detail": "Across the season so far. Tap a measure to see how it is worked out.",
+      "figure": "Three rings, outermost first",
+      "notYet": "Not yet",
+      "fair": {
+        "label": "Fair minutes",
+        "detail": "{{part}} of {{of}} players have played",
+        "empty": "No match minutes recorded yet"
+      },
+      "observed": {
+        "label": "Observed",
+        "detail": "{{part}} of {{of}} seen {{min}}+ times",
+        "empty": "Nothing observed in training yet"
+      },
+      "effort": {
+        "label": "Effort recorded",
+        "detail": "{{part}} of {{of}} minutes rated",
+        "empty": "No training minutes recorded yet"
+      }
+    },
+    "needs": {
+      "title": "What needs you",
+      "none": "Nothing needs you right now. The rings above are where things stand.",
+      "kicker": {
+        "load": "Wellbeing",
+        "secondLook": "Fair chances",
+        "focus": "Next session",
+        "pitch": "Pitch time"
+      },
+      "load_one": "Training load rose sharply this week for {{count}} player, up to {{ratio}}× their usual.",
+      "load_few": "Training load rose sharply this week for {{count}} players, up to {{ratio}}× their usual.",
+      "load_other": "Training load rose sharply this week for {{count}} players, up to {{ratio}}× their usual.",
+      "loadAction": "Review the load",
+      "secondLook_one": "{{count}} player is owed a second look: fewer than {{min}} attempts observed.",
+      "secondLook_few": "{{count}} players are owed a second look: fewer than {{min}} attempts observed each.",
+      "secondLook_other": "{{count}} players are owed a second look: fewer than {{min}} attempts observed each.",
+      "secondLookAction": "See who",
+      "focus": {
+        "lostOwnHalf": "Last match: {{lost}} balls lost in your own half. Suggested focus: {{focus}}.",
+        "entriesWithoutShots": "Last match: {{entries}} box entries but only {{shots}} shots. Suggested focus: {{focus}}.",
+        "opponentHighRecoveries": "Last match: the opponent won the ball high {{recoveries}} times. Suggested focus: {{focus}}.",
+        "fewHighRecoveries": "Last match: you won the ball high {{ours}} times, the opponent {{theirs}}. Suggested focus: {{focus}}.",
+        "chanceQualityGap": "Last match: their chances added up to {{theirs}} xG, yours to {{ours}}. Suggested focus: {{focus}}."
+      },
+      "focusAction": "Plan this session",
+      "pitch_one": "{{count}} session would have fitted a smaller pitch, freeing {{hours}} pitch-hours.",
+      "pitch_few": "{{count}} sessions would have fitted a smaller pitch, freeing {{hours}} pitch-hours.",
+      "pitch_other": "{{count}} sessions would have fitted a smaller pitch, freeing {{hours}} pitch-hours.",
+      "pitchAction": "See the sessions"
+    },
+    "match": {
+      "title": "Last match",
+      "liveTitle": "Happening now",
+      "none": "No finished match yet. Record one and how it went appears here.",
+      "against": "Against {{opponent}}",
+      "scoreLabel": "Score: us {{home}}, them {{away}}",
+      "strip": "Who was on top, through the match: {{summary}}.",
+      "share": "{{state}} {{percent}}",
+      "lead": "{{state}} for {{percent}} of the match",
+      "noEvents": "No events were tagged in this match.",
+      "eventsFailed": "The match's events could not be loaded.",
+      "open": "Open the review",
+      "openLabel": "Open the review of the match against {{opponent}}",
+      "live": {
+        "badge": "Live now",
+        "body": "This match is being recorded.",
+        "open": "Open the tagger",
+        "watch": "Watch live"
+      }
+    },
+    "setup": {
+      "title": "Get started",
+      "progress": "{{done}} of {{total}} done",
+      "done": "Done",
+      "next": "Next step",
+      "squad": {
+        "title": "Add your squad",
+        "body": "A label and a shirt number for each player. No names needed."
+      },
+      "match": {
+        "title": "Record a match",
+        "body": "Two taps per event, at the touchline."
+      },
+      "training": {
+        "title": "Plan training",
+        "body": "A session that fits the players, pitch and time you have."
+      }
+    },
+    "demo": {
+      "title": "Your demo club is empty",
+      "body": "Load an invented season of matches and training to see every screen with real numbers. None of it is about real children."
+    },
+    "more": {
+      "title": "Go deeper",
+      "evidence": {
+        "title": "The evidence",
+        "body": "Why one momentum chart is not enough: our tests on professional matches."
+      },
+      "labs": "Labs",
+      "labsNote": "Experiments we are trying out. They may change.",
+      "movement": {
+        "title": "Match replay",
+        "body": "A professional match in 3D: every player, team shape and who controls which space."
+      },
+      "shot": {
+        "title": "Shot lab",
+        "body": "A kick analysed on your phone from a short clip: strike, knee, trunk and standing foot."
+      },
+      "pro": {
+        "title": "Pro matches",
+        "body": "The same engine reading all 115 matches of the 2018 World Cup and Euro 2016; your own matches are read the same way."
+      }
+    }
+  },
+  "errors": {
+    "offline": "No connection. Check your signal and try again.",
+    "forbidden": "You do not have permission to do that.",
+    "rateLimited": "Too many attempts. Wait a minute and try again.",
+    "duplicate": "That already exists.",
+    "invalid": "That did not look right. Check the details and try again.",
+    "unknown": "Something went wrong. Try again.",
+    "loadFailed": "This could not be loaded."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "That address does not lead anywhere in Klupa.",
+    "back": "Back to home"
+  },
+  "landing": {
+    "title": "The match, read honestly.",
+    "lead": "Tap what happens from the touchline. Klupa shows who was on top, how far to trust it, what to train on Monday and who is still owed minutes.",
+    "signIn": "Sign in",
+    "signInDetail": "For coaches already using Klupa, or starting a real club.",
+    "replay": {
+      "title": "A whole match, in three dimensions.",
+      "body": "Real player tracking from seven professional matches. Turn the pitch, follow one player, read the physical report.",
+      "link": "Open the replay",
+      "label": "Players moving on a pitch drawn in 3D, from the tracking data of a professional match.",
+      "pause": "Pause the video",
+      "play": "Play the video"
+    },
+    "tiles": {
+      "reading": {
+        "title": "Who was on top. And how far to trust it.",
+        "body": "Three time windows are read at once. When they disagree, Klupa says so instead of drawing one confident line.",
+        "label": "An example: three lines for the last 3, 5 and 10 minutes. Where they point at different teams, the verdict is that it depends on the window.",
+        "w3": "3 min",
+        "w5": "5 min",
+        "w10": "10 min"
+      },
+      "fair": {
+        "title": "Every child gets minutes.",
+        "body": "Playing time, attention and effort, counted across the season.",
+        "label": "An example of the three season rings"
+      },
+      "final": {
+        "title": "A final, as it happened.",
+        "body": "115 professional matches play back minute by minute: the score, the chances, the passing network, the territory.",
+        "home": "France",
+        "away": "Croatia",
+        "meta": "Moscow, 15 July 2018",
+        "score": "France 4, Croatia 2",
+        "link": "Watch it as live"
+      },
+      "shot": {
+        "title": "A strike, measured on the phone.",
+        "body": "Point the camera at a kick and read the movement as a skeleton, joint by joint.",
+        "link": "Open the shot lab",
+        "figure": "pictures leave the phone. The analysis runs on the device.",
+        "overlay": "Follow the players in a video"
+      },
+      "research": {
+        "title": "Checked against real matches.",
+        "body": "How often a 3-minute and a 10-minute view of the same match point at opposite teams.",
+        "figure": "{{share}} of the moments where both views lean, across {{matches}} matches."
+      }
+    },
+    "matchday": {
+      "title": "One tap on the touchline. The whole bench sees it.",
+      "body": "The coach taps what happens, even with no signal. Anyone in the club watching on another phone sees the score, who is on top and how far to trust it.",
+      "label": "An example of the live match centre during a match: the under-13s lead the visitors 2 to 1 and are on top.",
+      "home": "U13",
+      "away": "Visitors"
+    }
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "insights": {
+    "title": "Pravednost",
+    "subtitle": "Ko igra, kome se mijenja opterećenje na treningu i koliko dobro se koristi teren. Sve se računa iz evidencije koju već vodite.",
+    "views": {
+      "label": "Odaberite prikaz",
+      "fair": "Podjela",
+      "load": "Opterećenje",
+      "pitch": "Teren"
+    },
+    "error": {
+      "title": "Prikaz se nije mogao učitati",
+      "body": "Provjerite vezu i pokušajte ponovo. Ništa nije promijenjeno."
+    },
+    "units": {
+      "attempts_one": "{{count}} pokušaj",
+      "attempts_few": "{{count}} pokušaja",
+      "attempts_other": "{{count}} pokušaja",
+      "inSessions_one": "na {{count}} treningu",
+      "inSessions_few": "na {{count}} treninga",
+      "inSessions_other": "na {{count}} treninga"
+    },
+    "fair": {
+      "played": {
+        "label": "Igrači s minutama na utakmicama",
+        "value": "{{played}} od {{squad}}",
+        "hint": "Računa se samo iz završenih nastupa na terenu"
+      },
+      "evenness": {
+        "label": "Koliko su ravnomjerno podijeljene minute",
+        "none": "Još nema minuta",
+        "even": "Ravnomjerno podijeljeno",
+        "somewhat": "Donekle neravnomjerno",
+        "uneven": "Veoma neravnomjerno",
+        "hint": "Ginijev koeficijent {{value}}, gdje je 0 savršeno ravnomjerno",
+        "hintNone": "Nema završenih minuta za poređenje"
+      },
+      "observed": {
+        "label": "Još nisu dovoljno posmatrani",
+        "hint": "Posmatrano je manje od {{min}} pokušaja"
+      },
+      "noSquad": {
+        "title": "Još nema igrača",
+        "body": "Prvo dodajte ekipu. Sve ovdje pravi se od igrača koje upišete.",
+        "action": "Otvori ekipu"
+      },
+      "noEvidence": {
+        "title": "Još ništa nije zabilježeno",
+        "body": "Minute dolaze iz utakmica koje zabilježite, a pokušaji s treninga na kojima upišete šta ste vidjeli. Čim bude podataka, pojavit će se ovdje.",
+        "action": "Idi na utakmice"
+      },
+      "openStints_one": "Otvorenih nastupa: {{count}} (igrač nikad nije izašao s terena). Ne računaju se u minute.",
+      "openStints_few": "Otvorenih nastupa: {{count}} (igrač nikad nije izašao s terena). Ne računaju se u minute.",
+      "openStints_other": "Otvorenih nastupa: {{count}} (igrač nikad nije izašao s terena). Ne računaju se u minute.",
+      "missingMinutes_one": "Oznaka prisustva bez upisanih minuta: {{count}}. Izostavljena je iz minuta na treningu.",
+      "missingMinutes_few": "Oznaka prisustva bez upisanih minuta: {{count}}. Izostavljene su iz minuta na treningu.",
+      "missingMinutes_other": "Oznaka prisustva bez upisanih minuta: {{count}}. Izostavljene su iz minuta na treningu."
+    },
+    "second": {
+      "title": "Drugi pogled",
+      "note": "Ovo je spisak onih koje još nismo pravedno pogledali. Nije rang-lista.",
+      "none": "Za svakog je posmatrano najmanje {{min}} pokušaja.",
+      "noAttempts": "Još nijedan pokušaj nije posmatran",
+      "observed": "{{attempts}} zabilježeno {{sessions}}",
+      "noMinutes": "Još nema minuta na utakmicama"
+    },
+    "ledger": {
+      "title": "Evidencija",
+      "caption": "Minute na utakmicama i treninzima te šta je posmatrano, za svakog igrača",
+      "col": {
+        "player": "Igrač",
+        "minutes": "Minute na utakmicama",
+        "share": "Udio minuta",
+        "versus": "Minute u odnosu na jednak udio",
+        "training": "Minute na treningu",
+        "attempts": "Pokušaji",
+        "observed": "Uspješnost kako je posmatrana",
+        "adjusted": "Prilagođena stopa"
+      },
+      "noAttempts": "Ništa posmatrano",
+      "ofAttempts": "({{successes}} od {{attempts}})",
+      "noAdjusted": "U ekipi još ništa nije posmatrano",
+      "range": "{{low}}–{{high}}",
+      "barLabel": "Prilagođena stopa {{point}}, vjerovatno između {{range}} (raspon {{level}}%)",
+      "barLabelNoRange": "Prilagođena stopa {{point}}, raspon se ne može nacrtati",
+      "shrinkage": "Mali uzorci se povlače prema prosjeku ekipe, jer dva od dva znači igrača kojeg smo jedva posmatrali, a ne igrača sa 100%.",
+      "barKey": "Traka je raspon ({{level}}%) u kojem se prava stopa vjerovatno nalazi, a oznaka je prilagođena stopa: široka traka znači da je malo posmatrano. Igrači s manje od {{min}} pokušaja nalaze se u drugom pogledu. Stope spajaju sve zabilježene vještine, pa opisuju šta je posmatrano, a ne koliko je igrač dobar."
+    },
+    "age": {
+      "title": "Relativna dob",
+      "intro": "Djeca rođena početkom godine starija su od vršnjaka iz iste generacije, a to može neprimjetno uticati na to ko se bira i ko igra.",
+      "needsMore": {
+        "title": "Dodajte kvartale rođenja da biste ovo vidjeli",
+        "body": "Za ovu provjeru treba kvartal rođenja najmanje {{needed}} igrača, a do sada ga ima {{known}}. Čuva se samo kvartal, nikad datum rođenja.",
+        "action": "Otvori ekipu"
+      },
+      "squadChart": "Igrači po kvartalu rođenja",
+      "minutesChart": "Udio minuta na utakmicama po kvartalu rođenja",
+      "quarterShort": "K{{quarter}}",
+      "chartItem": "{{quarter}}: {{share}} (ravnomjerna raspodjela bi bila {{expected}})",
+      "chartLabel": "{{title}}. {{items}}.",
+      "noMinutes": "Još nema minuta na utakmicama, pa nema šta da se poredi po kvartalima.",
+      "legend": "K1 je januar do mart, K2 april do juni, K3 juli do septembar, K4 oktobar do decembar. Isprekidane oznake pokazuju udio koji bi dala ravnomjerna raspodjela kroz godinu.",
+      "basis": "Na osnovu {{known}} igrača s upisanim kvartalom rođenja.",
+      "unknown_one": "Izostavljen je {{count}} igrač bez kvartala rođenja.",
+      "unknown_few": "Izostavljena su {{count}} igrača bez kvartala rođenja.",
+      "unknown_other": "Izostavljeno je {{count}} igrača bez kvartala rođenja.",
+      "caveat": "S 14 do 20 igrača ova provjera ima malu snagu: vidi samo veliku neravnotežu. Zato „u skladu s ravnomjernom raspodjelom“ znači da ova ekipa ne može reći ništa, a ne da je izbor pravedan.",
+      "details": "Udio rođenih od januara do marta: {{q1}}, naspram {{expected}} za ravnomjernu raspodjelu. Vjerovatnoća da je pravi udio iznad ravnomjernog: {{probability}}.",
+      "pValue": "Tačan test: p = {{p}}.",
+      "pSkipped": "Tačan test nije rađen: ekipa je prevelika za njega.",
+      "verdict": {
+        "too_few": {
+          "title": "Premalo igrača",
+          "body": "Manje od 8 igrača ima upisan kvartal rođenja, pa se ništa ne zaključuje."
+        },
+        "consistent_with_even": {
+          "title": "U skladu s ravnomjernom raspodjelom",
+          "body": "Ništa se ne izdvaja iz ravnomjerne raspodjele rođenja kroz godinu."
+        },
+        "leans_older": {
+          "title": "Naginje starijim igračima",
+          "body": "Više igrača je rođeno od januara do marta nego što bi dala ravnomjerna raspodjela, što znači nagib prema najstarijoj djeci u generaciji. Shvatite to kao razlog da pogledate, a ne kao zaključak."
+        },
+        "strongly_older": {
+          "title": "Snažno naginje starijim igračima",
+          "body": "Jasno više igrača je rođeno od januara do marta nego što bi dala ravnomjerna raspodjela. Vrijedi provjeriti kako se odlučuje o minutama i izboru."
+        }
+      }
+    },
+    "load": {
+      "callout": "Opterećenje je broj minuta pomnožen s ocjenom koliko je igraču bilo teško. Pokazuje promjenu, a ne rizik. Ne može predvidjeti povredu.",
+      "tableTitle": "Ova sedmica po igraču",
+      "caption": "Opterećenje na treningu ove sedmice u odnosu na posljednje sedmice svakog igrača",
+      "none": "–",
+      "col": {
+        "player": "Igrač",
+        "load": "Opterećenje ove sedmice",
+        "change": "U odnosu na posljednje sedmice",
+        "sessions": "Treninzi ove sedmice",
+        "status": "Status",
+        "match": "Minute na utakmicama ove sedmice"
+      },
+      "status": {
+        "no_data": {
+          "label": "Nema podataka ove sedmice",
+          "explain": "Za ovog igrača ove sedmice ništa nije upisano."
+        },
+        "incomplete": {
+          "label": "Ocjene nepotpune",
+          "explain": "Za previše minuta ove sedmice nema ocjene napora, pa se poređenje ne radi."
+        },
+        "no_baseline": {
+          "label": "Premalo historije",
+          "explain": "Još nema dovoljno ranijih sedmica za poređenje."
+        },
+        "steady": {
+          "label": "Ujednačeno",
+          "explain": "U skladu s posljednjim sedmicama."
+        },
+        "sharp_increase": {
+          "label": "Nagli porast",
+          "explain": "Znatno iznad posljednjih sedmica: vrijedi porazgovarati s igračem."
+        }
+      },
+      "matchNote": "Minute na utakmicama prikazane su samo radi konteksta. Za utakmice se ne prikuplja ocjena napora, pa nisu dio opterećenja.",
+      "chartTitle": "Opterećenje ekipe, posljednjih šest sedmica",
+      "chartNote": "Zbraja minute puta ocjenu napora za treninge koji imaju ocjenu, pa sedmica s nedostajućim ocjenama izgleda niža nego što je bila. Posljednji stupac je ova sedmica do sada.",
+      "chartItem": "sedmica od {{week}}: {{load}}, igrača s treningom: {{players}}",
+      "chartLabel": "Opterećenje ekipe po sedmicama. {{items}}.",
+      "empty": {
+        "title": "Opterećenje još nije zabilježeno",
+        "body": "Za opterećenje treba znati ko je bio prisutan, koliko dugo i koliko mu je bilo teško. Nakon treninga upišite prisustvo s ocjenama napora.",
+        "action": "Idi na treninge"
+      },
+      "missingMinutes_one": "Oznaka prisustva bez upisanih minuta: {{count}}. Izostavljena je iz opterećenja.",
+      "missingMinutes_few": "Oznaka prisustva bez upisanih minuta: {{count}}. Izostavljene su iz opterećenja.",
+      "missingMinutes_other": "Oznaka prisustva bez upisanih minuta: {{count}}. Izostavljene su iz opterećenja."
+    },
+    "pitch": {
+      "booked": {
+        "label": "Sati zauzetog terena",
+        "hint_one": "Iz {{count}} završenog treninga s prisustvom",
+        "hint_few": "Iz {{count}} završena treninga s prisustvom",
+        "hint_other": "Iz {{count}} završenih treninga s prisustvom"
+      },
+      "perHour": {
+        "label": "Igrača po satu terena",
+        "hint": "Djeca na treningu, po satu cijelog terena"
+      },
+      "floodlit": {
+        "label": "Sati pod reflektorima",
+        "hint": "Sati treninga održanih uz rasvjetu"
+      },
+      "estimates": {
+        "title": "Procjene",
+        "badge": "Procjena",
+        "energy": {
+          "label": "Energija",
+          "value": "{{value}} kWh",
+          "hint": "Snaga reflektora puta sati pod reflektorima"
+        },
+        "cost": {
+          "label": "Trošak",
+          "value": "{{value}} KM",
+          "hint": "Energija puta vaša cijena struje"
+        },
+        "emissions": {
+          "label": "Emisije",
+          "value": "{{value}} kg CO₂",
+          "hint": "Energija puta faktor emisije mreže"
+        },
+        "prompt": "Za neke procjene trebaju podaci iz postavki kluba: snaga reflektora, cijena struje ili faktor emisije mreže.",
+        "action": "Otvori postavke kluba",
+        "note": "Ovo su procjene iz brojeva koje ste upisali, a ne očitanja brojila. Pretpostavlja se da reflektori osvjetljavaju cijeli teren bez obzira na to koliki je dio rezervisan."
+      },
+      "area": {
+        "quarter": "četvrtina terena",
+        "half": "pola terena",
+        "full": "cijeli teren"
+      },
+      "right": {
+        "title": "Prilagodba veličine terena",
+        "intro": "Treninzi koji su rezervisali više terena nego što je djeci trebalo, uz manju površinu koja bi bila dovoljna. Ovo je podsjetnik o navikama rezervisanja, a ne ocjena nijednog treninga. Pretpostavlja se da na cijelom terenu ugodno stane oko 22 igrača.",
+        "caption": "Treninzi koji su rezervisali više terena nego što je trebalo",
+        "col": {
+          "date": "Datum",
+          "booked": "Rezervisano",
+          "fits": "Bilo bi dovoljno",
+          "attended": "Prisutno",
+          "freed": "Oslobođeni sati terena"
+        },
+        "total": "Ukupno bi se moglo osloboditi {{hours}} h terena.",
+        "none": {
+          "title": "Nema prevelikih rezervacija",
+          "body": "Svaki završeni trening rezervisao je otprilike onoliko terena koliko je djeci trebalo."
+        }
+      },
+      "empty": {
+        "title": "Još nema završenih treninga za pregled",
+        "body": "Korištenje terena računa se iz završenih treninga s evidentiranim prisustvom.",
+        "action": "Idi na treninge"
+      },
+      "withoutAttendance_one": "Završenih treninga bez evidentiranog prisustva: {{count}}. Izostavljen je iz ovih brojki.",
+      "withoutAttendance_few": "Završenih treninga bez evidentiranog prisustva: {{count}}. Izostavljeni su iz ovih brojki.",
+      "withoutAttendance_other": "Završenih treninga bez evidentiranog prisustva: {{count}}. Izostavljeni su iz ovih brojki."
+    }
+  }
+}

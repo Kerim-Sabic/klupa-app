@@ -1,0 +1,372 @@
+{
+  "formatVersion": 1,
+  "match": "DFL-MAT-J03WMX",
+  "source": {
+    "dataset": "An integrated dataset of spatiotemporal and event data in elite soccer",
+    "authors": "Bassek, Manuel; Rein, Robert; Weber, Hendrik; Memmert, Daniel (2025)",
+    "doi": "10.6084/m9.figshare.28196177.v1",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "notice": "Measures computed by Klupa from the 25 Hz optical tracking. Names are the short names of the public match information."
+  },
+  "definitions": {
+    "sampleRateHz": 25,
+    "window": "From the event-clock kick-off of each half to the last tracking frame; minutes are clock minutes on the pitch, dead-ball time included.",
+    "speed": "Displacement over a centred 0.4 s window (10 frames at 25 Hz) divided by 0.4 s; the window shrinks at the ends of a player's time on the pitch.",
+    "distanceKm": "Sum over frames of speed / 25, in kilometres.",
+    "highSpeedMps": 5.5,
+    "highSpeedKm": "Distance covered while the smoothed speed is above 5.5 m/s, in kilometres.",
+    "sprintMps": 7.0,
+    "sprintSeconds": 1.0,
+    "sprints": "Number of runs of at least 1.0 s with smoothed speed of 7.0 m/s or more.",
+    "jumpMps": 12.0,
+    "trackingJumps": "A step between two consecutive frames faster than 12.0 m/s (more than 0.48 m in 0.04 s, faster than any footballer) is a tracking jump: a lost track freezes and then snaps to the real position. Every frame whose 0.4 s speed window contains a jump counts as minutes on the pitch but not in distance, high-speed distance, sprints (it ends a sprint run) or top speed.",
+    "topSpeed": "Maximum smoothed (0.4 s) speed in metres per second, not the provider's instantaneous value.",
+    "totals": "Per side, summed from unrounded player values and then rounded; topSpeed is the maximum of the side's players.",
+    "sides": "home / away are the event fixture's labels: the lexicographically smaller club id is home, which is not necessarily the DFL home team."
+  },
+  "quality": {
+    "excludedPlayerSeconds": 6.0,
+    "shareOfPlayerTime": 5e-5
+  },
+  "players": [
+    {
+      "side": "home",
+      "shirt": 2,
+      "name": "B. Schmitz",
+      "minutes": 63.6,
+      "distanceKm": 7.44,
+      "highSpeedKm": 0.39,
+      "sprints": 4,
+      "topSpeed": 8.44
+    },
+    {
+      "side": "home",
+      "shirt": 3,
+      "name": "Kristian Pedersen",
+      "minutes": 13.8,
+      "distanceKm": 1.53,
+      "highSpeedKm": 0.19,
+      "sprints": 2,
+      "topSpeed": 8.37
+    },
+    {
+      "side": "home",
+      "shirt": 4,
+      "name": "Timo Hübers",
+      "minutes": 97.3,
+      "distanceKm": 10.19,
+      "highSpeedKm": 0.49,
+      "sprints": 7,
+      "topSpeed": 8.37
+    },
+    {
+      "side": "home",
+      "shirt": 6,
+      "name": "E. Martel",
+      "minutes": 97.3,
+      "distanceKm": 12.7,
+      "highSpeedKm": 0.97,
+      "sprints": 9,
+      "topSpeed": 7.97
+    },
+    {
+      "side": "home",
+      "shirt": 7,
+      "name": "D. Ljubicic",
+      "minutes": 83.5,
+      "distanceKm": 10.55,
+      "highSpeedKm": 1.44,
+      "sprints": 16,
+      "topSpeed": 9.11
+    },
+    {
+      "side": "home",
+      "shirt": 8,
+      "name": "D. Huseinbašić",
+      "minutes": 33.7,
+      "distanceKm": 3.99,
+      "highSpeedKm": 0.49,
+      "sprints": 5,
+      "topSpeed": 8.73
+    },
+    {
+      "side": "home",
+      "shirt": 11,
+      "name": "F. Kainz",
+      "minutes": 63.5,
+      "distanceKm": 8.12,
+      "highSpeedKm": 0.46,
+      "sprints": 4,
+      "topSpeed": 7.39
+    },
+    {
+      "side": "home",
+      "shirt": 14,
+      "name": "Jonas Hector",
+      "minutes": 97.3,
+      "distanceKm": 10.14,
+      "highSpeedKm": 0.78,
+      "sprints": 6,
+      "topSpeed": 7.99
+    },
+    {
+      "side": "home",
+      "shirt": 17,
+      "name": "K. Schindler",
+      "minutes": 33.8,
+      "distanceKm": 3.28,
+      "highSpeedKm": 0.3,
+      "sprints": 7,
+      "topSpeed": 8.47
+    },
+    {
+      "side": "home",
+      "shirt": 20,
+      "name": "M. Schwäbe",
+      "minutes": 97.3,
+      "distanceKm": 5.57,
+      "highSpeedKm": 0.03,
+      "sprints": 0,
+      "topSpeed": 6.5
+    },
+    {
+      "side": "home",
+      "shirt": 24,
+      "name": "Jeff Chabot",
+      "minutes": 97.3,
+      "distanceKm": 9.92,
+      "highSpeedKm": 0.61,
+      "sprints": 6,
+      "topSpeed": 7.76
+    },
+    {
+      "side": "home",
+      "shirt": 25,
+      "name": "T. Lemperle",
+      "minutes": 13.7,
+      "distanceKm": 1.69,
+      "highSpeedKm": 0.18,
+      "sprints": 1,
+      "topSpeed": 9.92
+    },
+    {
+      "side": "home",
+      "shirt": 27,
+      "name": "D. Selke",
+      "minutes": 63.5,
+      "distanceKm": 7.16,
+      "highSpeedKm": 0.58,
+      "sprints": 5,
+      "topSpeed": 8.65
+    },
+    {
+      "side": "home",
+      "shirt": 28,
+      "name": "Ellyes Skhiri",
+      "minutes": 97.3,
+      "distanceKm": 12.32,
+      "highSpeedKm": 0.69,
+      "sprints": 6,
+      "topSpeed": 8.2
+    },
+    {
+      "side": "home",
+      "shirt": 29,
+      "name": "Jan Thielmann",
+      "minutes": 33.8,
+      "distanceKm": 3.69,
+      "highSpeedKm": 0.39,
+      "sprints": 6,
+      "topSpeed": 9.2
+    },
+    {
+      "side": "home",
+      "shirt": 37,
+      "name": "L. Maina",
+      "minutes": 83.6,
+      "distanceKm": 9.58,
+      "highSpeedKm": 0.89,
+      "sprints": 10,
+      "topSpeed": 9.14
+    },
+    {
+      "side": "away",
+      "shirt": 2,
+      "name": "Dayot Upamecano",
+      "minutes": 97.3,
+      "distanceKm": 10.66,
+      "highSpeedKm": 0.63,
+      "sprints": 10,
+      "topSpeed": 9.23
+    },
+    {
+      "side": "away",
+      "shirt": 4,
+      "name": "M. de Ligt",
+      "minutes": 97.3,
+      "distanceKm": 10.44,
+      "highSpeedKm": 0.41,
+      "sprints": 3,
+      "topSpeed": 8.08
+    },
+    {
+      "side": "away",
+      "shirt": 5,
+      "name": "Benjamin Pavard",
+      "minutes": 97.3,
+      "distanceKm": 10.29,
+      "highSpeedKm": 0.53,
+      "sprints": 4,
+      "topSpeed": 8.46
+    },
+    {
+      "side": "away",
+      "shirt": 6,
+      "name": "Joshua Kimmich",
+      "minutes": 97.3,
+      "distanceKm": 12.66,
+      "highSpeedKm": 0.64,
+      "sprints": 7,
+      "topSpeed": 8.35
+    },
+    {
+      "side": "away",
+      "shirt": 7,
+      "name": "Serge Gnabry",
+      "minutes": 97.3,
+      "distanceKm": 11.65,
+      "highSpeedKm": 1.11,
+      "sprints": 9,
+      "topSpeed": 8.15
+    },
+    {
+      "side": "away",
+      "shirt": 8,
+      "name": "Leon Goretzka",
+      "minutes": 13.9,
+      "distanceKm": 1.57,
+      "highSpeedKm": 0.14,
+      "sprints": 0,
+      "topSpeed": 7.23
+    },
+    {
+      "side": "away",
+      "shirt": 10,
+      "name": "Leroy Sané",
+      "minutes": 97.3,
+      "distanceKm": 9.7,
+      "highSpeedKm": 1.34,
+      "sprints": 28,
+      "topSpeed": 10.04
+    },
+    {
+      "side": "away",
+      "shirt": 11,
+      "name": "Kingsley Coman",
+      "minutes": 72.3,
+      "distanceKm": 8.55,
+      "highSpeedKm": 0.91,
+      "sprints": 15,
+      "topSpeed": 8.63
+    },
+    {
+      "side": "away",
+      "shirt": 13,
+      "name": "E. Choupo-Moting",
+      "minutes": 25.0,
+      "distanceKm": 2.44,
+      "highSpeedKm": 0.12,
+      "sprints": 0,
+      "topSpeed": 6.73
+    },
+    {
+      "side": "away",
+      "shirt": 22,
+      "name": "Joao Cancelo",
+      "minutes": 33.6,
+      "distanceKm": 3.28,
+      "highSpeedKm": 0.28,
+      "sprints": 5,
+      "topSpeed": 8.1
+    },
+    {
+      "side": "away",
+      "shirt": 25,
+      "name": "T. Müller",
+      "minutes": 63.7,
+      "distanceKm": 8.07,
+      "highSpeedKm": 0.77,
+      "sprints": 12,
+      "topSpeed": 8.41
+    },
+    {
+      "side": "away",
+      "shirt": 27,
+      "name": "Y. Sommer",
+      "minutes": 97.3,
+      "distanceKm": 5.21,
+      "highSpeedKm": 0.01,
+      "sprints": 0,
+      "topSpeed": 6.15
+    },
+    {
+      "side": "away",
+      "shirt": 38,
+      "name": "Ryan Gravenberch",
+      "minutes": 72.3,
+      "distanceKm": 8.85,
+      "highSpeedKm": 0.62,
+      "sprints": 7,
+      "topSpeed": 8.96
+    },
+    {
+      "side": "away",
+      "shirt": 39,
+      "name": "Mathys Tel",
+      "minutes": 11.1,
+      "distanceKm": 1.21,
+      "highSpeedKm": 0.09,
+      "sprints": 2,
+      "topSpeed": 8.79
+    },
+    {
+      "side": "away",
+      "shirt": 40,
+      "name": "N. Mazraoui",
+      "minutes": 86.2,
+      "distanceKm": 9.6,
+      "highSpeedKm": 0.78,
+      "sprints": 13,
+      "topSpeed": 8.74
+    },
+    {
+      "side": "away",
+      "shirt": 42,
+      "name": "J. Musiala",
+      "minutes": 11.1,
+      "distanceKm": 1.36,
+      "highSpeedKm": 0.15,
+      "sprints": 3,
+      "topSpeed": 7.69
+    }
+  ],
+  "totals": {
+    "home": {
+      "players": 16,
+      "minutes": 1070.4,
+      "distanceKm": 117.85,
+      "highSpeedKm": 8.87,
+      "sprints": 94,
+      "topSpeed": 9.92
+    },
+    "away": {
+      "players": 16,
+      "minutes": 1070.4,
+      "distanceKm": 115.53,
+      "highSpeedKm": 8.52,
+      "sprints": 118,
+      "topSpeed": 10.04
+    }
+  }
+}

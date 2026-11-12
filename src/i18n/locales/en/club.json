@@ -1,0 +1,281 @@
+{
+  "club": {
+    "back": "Club",
+    "overview": {
+      "title": "Club",
+      "subtitle": "{{team}} · {{club}}",
+      "roleLine": "Your role: {{role}}",
+      "role": {
+        "owner": "Owner",
+        "coach": "Coach",
+        "assistant": "Assistant",
+        "viewer": "Viewer"
+      },
+      "squad": {
+        "title": "Squad",
+        "body": "Your players: shirt numbers, guardian consent and birth quarter."
+      },
+      "settings": {
+        "title": "Club settings",
+        "body": "The club name and the floodlight figures behind facility estimates."
+      },
+      "privacy": {
+        "title": "Privacy and data",
+        "body": "What Klupa stores, a copy of all of it, and deleting the club."
+      },
+      "activity": {
+        "title": "Activity log",
+        "body": "Which records changed, and when. Never the values."
+      },
+      "evidence": {
+        "title": "The evidence",
+        "body": "The research behind the numbers in Klupa."
+      },
+      "account": {
+        "title": "Your account",
+        "signOut": "Sign out",
+        "demoNote": "This is a demo account. Once you sign out you cannot come back to this demo club."
+      }
+    },
+    "sample": {
+      "title": "Load the sample season",
+      "body": "Fill this demo club with an invented under-13 season: 14 players with nicknames, 3 matches and 5 training sessions. Every screen then has something to show. It is deleted with the demo club after a week.",
+      "button": "Load the sample season",
+      "failed": "The sample season could not be loaded, so nothing was added. Try again.",
+      "notEmpty": "The squad already has players, so nothing was added.",
+      "done": "Sample season loaded. Players: {{players}}, matches: {{matches}}, sessions: {{sessions}}.",
+      "writing": "Adding the squad, three matches and five training sessions…"
+    },
+    "squad": {
+      "title": "Squad",
+      "subtitle": "A player is only a nickname and a shirt number.",
+      "caption": "Squad of {{team}}",
+      "add": "Add a player",
+      "edit": "Edit",
+      "editFor": "Edit {{label}}",
+      "archiveFor": "Archive {{label}}",
+      "eraseFor": "Erase {{label}} permanently",
+      "readOnly": "Only the club's owner and coaches can change the squad. You can see it here.",
+      "quarterShort": "Q{{n}}",
+      "columns": {
+        "shirt": "No.",
+        "label": "Player",
+        "consent": "Guardian consent",
+        "quarter": "Birth quarter",
+        "actions": "Actions"
+      },
+      "consent": {
+        "not_recorded": "Not recorded",
+        "granted": "Granted",
+        "withdrawn": "Withdrawn"
+      },
+      "quarter": {
+        "none": "Not given",
+        "q1": "Q1 (Jan–Mar)",
+        "q2": "Q2 (Apr–Jun)",
+        "q3": "Q3 (Jul–Sep)",
+        "q4": "Q4 (Oct–Dec)"
+      },
+      "empty": {
+        "title": "No players yet",
+        "body": "Add your first player. A nickname and a shirt number are enough.",
+        "bodyReadOnly": "No players have been added yet. The club's owner or a coach can add them."
+      },
+      "form": {
+        "addTitle": "Add a player",
+        "editTitle": "Edit player",
+        "label": "Label",
+        "labelHint": "A nickname or initials. Please do not enter a full name.",
+        "shirt": "Shirt number",
+        "shirtHint": "From 1 to 99. Each active player needs a different number.",
+        "consent": "Guardian consent",
+        "consentHint": "Record whether a parent or guardian agreed to the child being in Klupa. No document is stored, only the status and the date you set it.",
+        "quarter": "Birth quarter (optional)",
+        "quarterHint": "Only the quarter is stored, never a birth date. It is used to check whether younger-born players get a fair share.",
+        "cancel": "Cancel",
+        "add": "Add player",
+        "save": "Save"
+      },
+      "errors": {
+        "labelLength": "Use between 1 and 40 characters.",
+        "shirtInvalid": "Enter a whole number from 1 to 99.",
+        "shirtTaken": "Shirt {{number}} is already worn by {{label}}.",
+        "shirtConflict": "That shirt number was just taken. Pick another."
+      },
+      "toast": {
+        "added": "Player added: {{label}}.",
+        "saved": "Saved: {{label}}.",
+        "archived": "Archived: {{label}}.",
+        "erased": "Erased: {{label}}."
+      },
+      "archive": {
+        "action": "Archive",
+        "title": "Archive {{label}}?",
+        "body": "{{label}} leaves the squad list and shirt number {{number}} becomes free again. Their minutes, events, attendance and observations stay in the history.",
+        "confirm": "Archive"
+      },
+      "erase": {
+        "action": "Erase",
+        "title": "Erase {{label}} permanently?",
+        "intro": "This removes {{label}} from Klupa for good.",
+        "removedTitle": "What is deleted",
+        "removed": {
+          "identity": "The label, shirt number, consent status and birth quarter",
+          "minutes": "Minutes played in matches",
+          "attendance": "Training attendance and effort ratings",
+          "observations": "Observation counts"
+        },
+        "keptTitle": "What stays",
+        "kept": "Match events (shots, chances, recoveries). They lose the link to this player, so team results and charts do not change.",
+        "final": "This cannot be undone.",
+        "confirm": "Erase permanently"
+      }
+    },
+    "settings": {
+      "title": "Club settings",
+      "subtitle": "The name of your club and the figures behind facility estimates.",
+      "ownerOnly": "Only the club's owner can change these settings. You can see them here.",
+      "nameTitle": "Name",
+      "name": "Club name",
+      "facilityTitle": "Facility figures",
+      "facilityIntro": "Optional. Every cost and carbon figure for the facility in Klupa is an estimate built from these three numbers. It is not a measurement.",
+      "useReference": "Use Bosnia and Herzegovina reference values",
+      "referenceNote": "Fills in the price and the carbon intensity. Floodlight power depends on your lights, so enter it yourself.",
+      "floodlightKw": "Floodlight power (kW)",
+      "floodlightKwHint": "The total power of the lights you switch on for training.",
+      "tariff": "Electricity price (KM per kWh)",
+      "sourcePrice": "Reference source: BHAS, electricity prices for small non-household users, second half of 2025",
+      "carbon": "Grid carbon intensity (kg CO₂ per kWh)",
+      "sourceCarbon": "Reference source: Ember via Our World in Data, 2025",
+      "save": "Save settings",
+      "saved": "Settings saved.",
+      "errors": {
+        "nameLength": "Use between 2 and 80 characters.",
+        "decimalInvalid": "Enter a number of 0 or more, for example 0.30.",
+        "decimalTooLarge": "Use a value of {{max}} or less.",
+        "decimalTooPrecise": "Use at most {{places}} decimal places."
+      }
+    },
+    "privacy": {
+      "title": "Privacy and data",
+      "subtitle": "Klupa is built to hold as little about children as possible.",
+      "stored": {
+        "title": "What Klupa stores",
+        "players": "For each player: a label you choose and a shirt number.",
+        "quarter": "Optionally, the quarter of the year a player was born in.",
+        "consent": "Whether a guardian has given consent, and the date you set it.",
+        "activity": "What happens in matches and training: match events, minutes on the pitch, attendance, effort ratings and observation counts.",
+        "never": "Klupa does not store names, birth dates, photos, contact details or health records."
+      },
+      "where": {
+        "title": "Where it is kept",
+        "body": "The data is hosted in the European Union, in Frankfurt. Database rules let only members of this club read or change its data."
+      },
+      "kept": {
+        "title": "How long it is kept",
+        "events": "Match events you undo are deleted for good after 30 days.",
+        "log": "The activity log is deleted after one year.",
+        "demo": "Demo clubs are deleted after one week."
+      },
+      "ownerOnly": "Only the club's owner can download or delete the club's data.",
+      "export": {
+        "title": "Download a copy",
+        "body": "Everything this club holds, as one JSON file you can keep or move elsewhere. Each download is recorded below.",
+        "button": "Download export",
+        "done": "Export downloaded: {{file}}"
+      },
+      "delete": {
+        "title": "Delete this club",
+        "body": "This deletes the club and everything in it: players, matches, sessions and the activity log. It cannot be undone. Download a copy first if you may need it.",
+        "button": "Delete this club",
+        "sheetTitle": "Delete {{club}}?",
+        "sheetBody": "Everything in this club will be deleted for good: players, matches, events, sessions, attendance, observations and the activity log. This cannot be undone.",
+        "typeLabel": "Type the club name to confirm",
+        "typeHint": "Type {{club}} exactly as it is written.",
+        "mismatch": "That does not match the club name.",
+        "confirm": "Delete club permanently",
+        "done": "The club was deleted."
+      },
+      "requests": {
+        "title": "Past requests",
+        "caption": "Data requests",
+        "kind": "Request",
+        "date": "Date",
+        "status": "Status",
+        "kinds": {
+          "export": "Export",
+          "erasure": "Erasure"
+        },
+        "statuses": {
+          "open": "Open",
+          "completed": "Completed",
+          "rejected": "Rejected"
+        },
+        "empty": "No requests yet."
+      }
+    },
+    "activity": {
+      "title": "Activity log",
+      "subtitle": "The newest 100 changes in this club.",
+      "note": "The log records which fields changed and never their values, so it holds no personal data.",
+      "caption": "Changes, newest first",
+      "columns": {
+        "when": "When",
+        "what": "What happened",
+        "where": "Where",
+        "fields": "Fields changed"
+      },
+      "actions": {
+        "insert": "Added",
+        "update": "Changed",
+        "delete": "Deleted"
+      },
+      "tables": {
+        "clubs": "Club",
+        "club_members": "Club member",
+        "teams": "Team",
+        "players": "Player",
+        "matches": "Match",
+        "match_events": "Match event",
+        "stints": "Time on the pitch",
+        "sessions": "Training session",
+        "session_drills": "Session drill",
+        "session_attendance": "Attendance",
+        "observations": "Observation",
+        "data_requests": "Data request"
+      },
+      "fields": {
+        "name": "name",
+        "label": "label",
+        "shirt_number": "shirt number",
+        "consent": "consent",
+        "consent_recorded_at": "consent date",
+        "birth_quarter": "birth quarter",
+        "archived_at": "archived",
+        "floodlight_kw": "floodlight power",
+        "tariff_per_kwh": "electricity price",
+        "grid_kg_co2_per_kwh": "carbon intensity",
+        "status": "status",
+        "deleted_at": "undone",
+        "role": "role",
+        "off_seconds": "time off the pitch",
+        "resolved_at": "resolved",
+        "opponent": "opponent",
+        "played_on": "match date",
+        "held_on": "session date",
+        "focus": "focus",
+        "area": "pitch area",
+        "minutes": "minutes",
+        "rpe": "effort rating",
+        "attempts": "attempts",
+        "successes": "successes"
+      },
+      "wholeRecord": "Whole record",
+      "restricted": "Only the club's owner and coaches can see the activity log.",
+      "empty": {
+        "title": "Nothing logged yet",
+        "body": "Changes to the squad, matches and sessions will appear here."
+      }
+    }
+  }
+}

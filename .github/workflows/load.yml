@@ -1,0 +1,43 @@
+name: Load test
+
+# Run by hand before a release. It uses the shared test account against the
+# live site and database, so it never runs alongside the end-to-end tests.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: e2e-shared-test-account
+  cancel-in-progress: false
+
+jobs:
+  k6:
+    name: k6 against the live site and database
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+
+      - uses: grafana/setup-k6-action@c47136d33d365efbeb9ae7266908b5dcf98cdece # v1
+
+      - name: Run the load test (thresholds fail the job)
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_PUBLISHABLE_KEY: ${{ vars.SUPABASE_PUBLISHABLE_KEY }}
+          KLUPA_IT_EMAIL: ${{ secrets.KLUPA_IT_EMAIL }}
+          KLUPA_IT_PASSWORD: ${{ secrets.KLUPA_IT_PASSWORD }}
+        run: k6 run scripts/load/k6.js
+
+      - name: Keep the summary
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: load-summary
+          path: load-summary.json
+          retention-days: 30

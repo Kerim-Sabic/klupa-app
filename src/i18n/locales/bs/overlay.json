@@ -1,0 +1,109 @@
+{
+  "overlay": {
+    "title": "Igrači na snimku",
+    "subtitle": "Odaberite video utakmice ili usmjerite kameru na teren. Klupa pronalazi igrače na slici, prati svakog od njih i razlikuje dvije ekipe po dresovima, sve na ovom uređaju.",
+    "start": {
+      "title": "Počnite videom ili kamerom",
+      "choose": "Odaberi video",
+      "camera": "Koristi kameru",
+      "tips": "Najbolje radi s visine i sa strane, kada je dobar dio terena u kadru.",
+      "privacy": "Ništa se ne šalje. Slika ide iz vašeg fajla ili kamere do modela koji radi u ovom pregledniku. Nijedan kadar, snimak ni broj očitan iz slike ne napušta uređaj.",
+      "model": "Prvi put se s ove stranice preuzima model od 7 MB, koji zatim ostaje na uređaju.",
+      "sample": "Isprobaj na primjeru",
+      "sampleCredit": "Primjer snimka: \"Group of elderly men playing a game of soccer\", autor Pressmaster, Pexels, korišten pod licencom Pexels i skraćen na devet sekundi."
+    },
+    "how": {
+      "title": "Šta radi",
+      "find": {
+        "title": "Pronalazi ljude",
+        "body": "Mali otvoreni model, EfficientDet-Lite0, pregleda svaki kadar i označava svaku osobu koju vidi."
+      },
+      "follow": {
+        "title": "Prati svakog",
+        "body": "Okviri koji se preklapaju iz kadra u kadar pripadaju istom igraču, pa svako zadržava jedan broj dok je u kadru."
+      },
+      "teams": {
+        "title": "Razlikuje ekipe",
+        "body": "Mjeri se boja gornjeg dijela tijela svakog igrača, a boje se dijele u dvije grupe. Ko je daleko od obje, na primjer sudija, crta se bijelom."
+      }
+    },
+    "limits": {
+      "title": "Šta ne može",
+      "position": "Bez kalibracije terena pokazuje gdje su igrači na slici, a ne gdje su na terenu. Ne mjeri ni udaljenost ni brzinu.",
+      "small": "Igrači koji su mali na slici, na primjer oni na daljoj strani velikog terena, često ostanu nepronađeni. Što je kamera bliže i više, to ih više pronalazi.",
+      "numbers": "Brojevi se dodjeljuju redom kojim su igrači pronađeni. To nisu brojevi s dresova, a igrač koji izađe iz kadra vraća se s novim brojem.",
+      "crowd": "Igrači koji stoje jedan iza drugog mogu se spojiti ili zamijeniti. Rezerve, treneri i gledaoci u kadru također su ljudi i broje se.",
+      "kits": "Dresovi slične boje ne mogu se razdvojiti. Ekran to tada kaže i sve crta bijelom, umjesto da nagađa. Kada je u kadru samo jedna ekipa, sudija ili golman mogu biti uzeti za drugu ekipu.",
+      "tested": "Provjereno u testovima na generisanim primjerima, s testnom kamerom i na primjeru snimka, ali još ne na pravoj utakmici snimljenoj telefonom s aut-linije."
+    },
+    "live": {
+      "title": "Slika s oznakama",
+      "cameraOn": "Kamera je uključena",
+      "playing": "Video se prikazuje",
+      "paused": "Pauzirano",
+      "fps_one": "Analiziran {{count}} kadar u sekundi",
+      "fps_few": "Analizirana {{count}} kadra u sekundi",
+      "fps_other": "Analizirano {{count}} kadrova u sekundi",
+      "starting": "Učitava se model: {{loaded}} od {{total}} MB",
+      "stopped": "Ništa se ne analizira.",
+      "hidden": "Kamera je isključena jer je stranica bila skrivena.",
+      "videoLabel": "Slika koja se analizira",
+      "stop": "Zaustavi",
+      "pause": "Pauziraj",
+      "play": "Pokreni",
+      "startAgain": "Ponovo uključi kameru",
+      "back": "Nazad na početak",
+      "privacy": "I dalje se ništa ne šalje: model, slika i crtež ostaju u ovom pregledniku. Između kadrova pamte se samo okviri i boje, a Zaustavi ih briše."
+    },
+    "readout": {
+      "title": "Sada u kadru",
+      "teamA": "Ekipa 1",
+      "teamB": "Ekipa 2",
+      "other": "Nijedna ekipa",
+      "everyone": "Pronađeno ljudi",
+      "ringA": "pun prsten",
+      "ringB": "isprekidan prsten",
+      "ringOther": "tačkast bijeli prsten",
+      "waiting": "Još niko nije pronađen. Igrač dobija prsten kada je viđen u tri kadra.",
+      "cannotSplit": "Boje dresova su previše slične da bi se ekipe razlikovale, pa se svi crtaju bijelom."
+    },
+    "layers": {
+      "title": "Slojevi",
+      "rings": "Prstenovi",
+      "ringsDetail": "Prsten kod stopala svakog igrača, u boji dresova njegove ekipe.",
+      "numbers": "Brojevi",
+      "numbersDetail": "Broj koji igrač zadržava dok je u kadru.",
+      "trails": "Tragovi",
+      "trailsDetail": "Gdje su stopala svakog igrača bila u posljednjih nekoliko kadrova.",
+      "on": "Uključeno",
+      "off": "Isključeno"
+    },
+    "error": {
+      "denied": {
+        "title": "Dozvola za kameru je odbijena",
+        "body": "Dozvolite kameru za ovu stranicu u postavkama preglednika i pokušajte ponovo, ili radije odaberite video."
+      },
+      "no-camera": {
+        "title": "Kamera nije pronađena",
+        "body": "Preglednik ne nalazi kameru na ovom uređaju. Radije odaberite video."
+      },
+      "in-use": {
+        "title": "Kamera je zauzeta",
+        "body": "Druga aplikacija ili kartica koristi kameru. Zatvorite je i pokušajte ponovo."
+      },
+      "model": {
+        "title": "Model se nije mogao učitati",
+        "body": "Provjerite vezu i pokušajte ponovo."
+      },
+      "video": {
+        "title": "Ovaj video se nije mogao prikazati",
+        "body": "Preglednik ne može pročitati ovaj fajl. Pokušajte sa snimkom s telefona (MP4 ili MOV)."
+      },
+      "unknown": {
+        "title": "Kamera se nije mogla pokrenuti",
+        "body": "Pokušajte ponovo ili radije odaberite video."
+      }
+    },
+    "related": "Pogledajte cijelu utakmicu iz podataka o praćenju u 3D prikazu"
+  }
+}
